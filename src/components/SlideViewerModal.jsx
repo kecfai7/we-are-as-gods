@@ -133,10 +133,19 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     }
   };
 
+  // Body scroll lock when modal is open
+  useEffect(() => {
+    const originalOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = originalOverflow;
+    };
+  }, []);
+
   return (
-    <div className="fixed inset-0 z-50 bg-[#060913]/95 backdrop-blur-2xl flex flex-col overflow-hidden animate-in fade-in duration-200">
+    <div className="fixed inset-0 z-[100] bg-[#070A14] flex flex-col overflow-hidden animate-in fade-in duration-150">
       {/* Top Modal Bar */}
-      <div className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-slate-950/60">
+      <div className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-[#0B1120] shrink-0">
         <div className="flex items-center gap-3">
           <span className="badge badge-cyan text-xs">
             WEEK {session.weekNumber < 10 ? `0${session.weekNumber}` : session.weekNumber}
@@ -180,7 +189,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="p-1.5 rounded-lg bg-white/5 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 border border-slate-800 transition-all"
+          className="p-1.5 rounded-lg bg-slate-900 hover:bg-rose-900/50 text-slate-400 hover:text-rose-400 border border-slate-800 transition-all"
           title="Close Viewer (Esc)"
         >
           <X className="w-5 h-5" />
@@ -190,7 +199,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
       {/* Main Slide Stage Area */}
       <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-0 overflow-hidden">
         {/* Left 7 Cols: Slide Presentation Canvas */}
-        <div className="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-gradient-to-b from-[#0A0F1E] to-[#060913] border-r border-slate-800/80">
+        <div className="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-[#0A0F1E] border-r border-slate-800/80">
           <div>
             {/* Module Badge & Slide Tag */}
             <div className="flex items-center justify-between mb-4">
@@ -211,7 +220,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             {currentSlide.bullets && currentSlide.bullets.length > 0 && (
               <div className="space-y-3 mb-6">
                 {currentSlide.bullets.map((bullet, idx) => (
-                  <div key={idx} className="flex items-start gap-2.5 text-sm text-slate-300 leading-relaxed bg-white/[0.02] p-3 rounded-xl border border-slate-800/50">
+                  <div key={idx} className="flex items-start gap-2.5 text-sm text-slate-300 leading-relaxed bg-slate-900/80 p-3 rounded-xl border border-slate-800/50">
                     <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 mt-2 shrink-0 shadow-[0_0_6px_#00F0FF]" />
                     <span dangerouslySetInnerHTML={{ __html: bullet.replace(/\*\*(.*?)\*\*/g, '<strong class="text-white font-bold">$1</strong>') }} />
                   </div>
@@ -221,7 +230,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
 
             {/* Formula Block */}
             {currentSlide.formula && (
-              <div className="bg-cyan-950/30 border border-cyan-500/30 p-4 rounded-xl mb-6 shadow-[0_0_20px_rgba(0,240,255,0.1)]">
+              <div className="bg-cyan-950/40 border border-cyan-500/30 p-4 rounded-xl mb-6 shadow-[0_0_20px_rgba(0,240,255,0.1)]">
                 <div className="text-[10px] font-mono uppercase text-cyan-400 font-bold mb-1 tracking-wider">MATHEMATICAL MODEL</div>
                 <div className="font-mono text-cyan-200 text-sm sm:text-base font-bold overflow-x-auto">
                   {currentSlide.formula}
@@ -245,14 +254,14 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           </div>
 
           {/* Quick Slide Slider Bar */}
-          <div className="pt-4 border-t border-slate-800/80 flex items-center gap-4">
+          <div className="pt-4 border-t border-slate-800/80 flex items-center gap-4 bg-[#0A0F1E]">
             <span className="text-xs text-slate-400 font-medium whitespace-nowrap">
               {lang === 'en' ? 'Slide' : '슬라이드'} {currentSlideIndex + 1} / 45
             </span>
             <input
               type="range"
               min="0"
-              max="44"
+              max={slides.length - 1}
               value={currentSlideIndex}
               onChange={(e) => setCurrentSlideIndex(parseInt(e.target.value, 10))}
               className="w-full h-1.5 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
@@ -263,7 +272,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
         {/* Right 5 Cols: 3-Presenter Tiki-Taka Script & Discussion Studio */}
         <div className="lg:col-span-5 flex flex-col justify-between bg-[#080D1A] overflow-hidden">
           {/* Header Tab in Studio */}
-          <div className="p-4 border-b border-slate-800 flex items-center justify-between bg-slate-950/40">
+          <div className="p-4 border-b border-slate-800 flex items-center justify-between bg-[#0B1120]">
             <div className="flex items-center gap-2">
               <MessageSquare className="w-4 h-4 text-cyan-400" />
               <span className="text-xs font-bold font-['Syne'] uppercase tracking-wider text-white">
@@ -305,7 +314,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           </div>
 
           {/* Reading Anchor Note */}
-          <div className="p-4 border-t border-slate-800 bg-slate-950/70 flex items-center justify-between text-xs text-slate-400">
+          <div className="p-4 border-t border-slate-800 bg-[#0B1120] flex items-center justify-between text-xs text-slate-400">
             <span className="truncate max-w-[280px]">
               📖 {session.reading}
             </span>
