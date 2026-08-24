@@ -94,8 +94,13 @@ body {
 .fixed { position: fixed; }
 .sticky { position: sticky; }
 .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
-.top-0 { top: 0; }
 .z-50 { z-index: 50; }
+.z-100 { z-index: 100; }
+.z-9999 { z-index: 9999; }
+.bg-modal-solid { background-color: #060913 !important; }
+.bg-modal-canvas { background-color: #0A0F1E !important; }
+.bg-modal-panel { background-color: #080D1A !important; }
+.bg-modal-bar { background-color: #0B1120 !important; }
 .overflow-hidden { overflow: hidden; }
 .overflow-y-auto { overflow-y: auto; }
 .overflow-x-auto { overflow-x: auto; }

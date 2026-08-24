@@ -143,9 +143,15 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
   }, []);
 
   return (
-    <div className="fixed inset-0 z-[100] bg-[#070A14] flex flex-col overflow-hidden animate-in fade-in duration-150">
+    <div 
+      className="fixed inset-0 z-9999 bg-modal-solid flex flex-col overflow-hidden animate-in fade-in duration-150"
+      style={{ backgroundColor: '#060913', zIndex: 9999 }}
+    >
       {/* Top Modal Bar */}
-      <div className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-[#0B1120] shrink-0">
+      <div 
+        className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-modal-bar shrink-0"
+        style={{ backgroundColor: '#0B1120' }}
+      >
         <div className="flex items-center gap-3">
           <span className="badge badge-cyan text-xs">
             WEEK {session.weekNumber < 10 ? `0${session.weekNumber}` : session.weekNumber}
@@ -199,7 +205,10 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
       {/* Main Slide Stage Area */}
       <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-0 overflow-hidden">
         {/* Left 7 Cols: Slide Presentation Canvas */}
-        <div className="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-[#0A0F1E] border-r border-slate-800/80">
+        <div 
+          className="lg:col-span-7 p-6 sm:p-8 flex flex-col justify-between overflow-y-auto bg-modal-canvas border-r border-slate-800/80"
+          style={{ backgroundColor: '#0A0F1E' }}
+        >
           <div>
             {/* Module Badge & Slide Tag */}
             <div className="flex items-center justify-between mb-4">
@@ -270,9 +279,15 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
         </div>
 
         {/* Right 5 Cols: 3-Presenter Tiki-Taka Script & Discussion Studio */}
-        <div className="lg:col-span-5 flex flex-col justify-between bg-[#080D1A] overflow-hidden">
+        <div 
+          className="lg:col-span-5 flex flex-col justify-between bg-modal-panel overflow-hidden"
+          style={{ backgroundColor: '#080D1A' }}
+        >
           {/* Header Tab in Studio */}
-          <div className="p-4 border-b border-slate-800 flex items-center justify-between bg-[#0B1120]">
+          <div 
+            className="p-4 border-b border-slate-800 flex items-center justify-between bg-modal-bar"
+            style={{ backgroundColor: '#0B1120' }}
+          >
             <div className="flex items-center gap-2">
               <MessageSquare className="w-4 h-4 text-cyan-400" />
               <span className="text-xs font-bold font-['Syne'] uppercase tracking-wider text-white">
