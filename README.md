@@ -12,6 +12,9 @@
 
 ## 🌟 Overview & Architecture
 
+- 🌐 **Live Web Portal:** [https://we-are-as-gods.vercel.app](https://we-are-as-gods.vercel.app)
+- 🐙 **GitHub Repository:** [https://github.com/kecfai7/we-are-as-gods](https://github.com/kecfai7/we-are-as-gods)
+
 **EXPO-701: We Are as Gods** is a comprehensive, interactive graduate-level academic web portal designed for global students. Built upon the visionary foundation of Peter Diamandis & Steven Kotler (2026), this application delivers 15 weeks of rigorous curriculum, 675 interactive slides, real-time physics and demographic simulation engines, and an auditable $100B Giga-XPRIZE capstone evaluation studio.
 
 ---
