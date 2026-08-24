@@ -10,7 +10,7 @@ import { localizeSlideTitle, localizeBullet, localizeScriptContent } from '../ut
 export default function SlideViewerModal({ session, initialSlide = 1, onClose, lang }) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialSlide - 1);
   const [mermaidSvg, setMermaidSvg] = useState('');
-  const [showScript, setShowScript] = useState(false); // Default: hidden as requested
+  const [showScript, setShowScript] = useState(false); // Default: hidden
 
   const slides = session?.slides || [];
   const currentSlide = slides[currentSlideIndex] || null;
@@ -156,7 +156,6 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
 
   return createPortal(
     <div 
-      className="fixed inset-0 flex flex-col overflow-hidden animate-in fade-in duration-150"
       style={{ 
         position: 'fixed',
         top: 0, 
@@ -166,34 +165,55 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
         width: '100vw', 
         height: '100vh', 
         zIndex: 999999, 
-        backgroundColor: '#060913' 
+        backgroundColor: '#060913',
+        display: 'flex',
+        flexDirection: 'column',
+        overflow: 'hidden'
       }}
     >
-      {/* Top Modal Bar */}
+      {/* Top Modal Navigation Bar */}
       <div 
-        className="px-6 py-3 border-b border-slate-800 flex items-center justify-between shrink-0"
-        style={{ backgroundColor: '#0B1120', minHeight: '56px' }}
+        style={{ 
+          backgroundColor: '#0B1120', 
+          minHeight: '56px',
+          height: '56px',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          padding: '0 24px',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          flexShrink: 0
+        }}
       >
-        <div className="flex items-center gap-3">
-          <span className="badge badge-cyan text-xs">
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <span className="badge badge-cyan text-xs font-bold">
             WEEK {session.weekNumber < 10 ? `0${session.weekNumber}` : session.weekNumber}
           </span>
-          <span className="text-xs font-bold text-slate-400 hidden sm:inline">|</span>
-          <h2 className="text-xs sm:text-sm font-bold text-white truncate max-w-md lg:max-w-xl">
+          <span style={{ color: '#475569', fontWeight: 'bold' }}>|</span>
+          <h2 style={{ fontSize: '13px', fontWeight: '700', color: '#FFFFFF', maxWidth: '600px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
             {lang === 'en' ? session.titleEn : session.titleKo}
           </h2>
         </div>
 
-        {/* Center Progress & Presenter Script Toggle */}
-        <div className="flex items-center gap-3">
-          {/* Presenter Script Collapsible Toggle Button */}
+        {/* Center Controls: Script Toggle & Slide Nav */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          {/* Presenter Script Toggle Button */}
           <button
             onClick={() => setShowScript(!showScript)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold transition-all border ${
-              showScript
-                ? 'bg-purple-600/30 text-purple-300 border-purple-500/50 shadow-[0_0_12px_rgba(139,92,246,0.3)]'
-                : 'bg-slate-900 text-slate-400 border-slate-800 hover:text-white hover:border-slate-700'
-            }`}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '6px 14px',
+              borderRadius: '9999px',
+              fontSize: '12px',
+              fontWeight: '700',
+              cursor: 'pointer',
+              transition: 'all 0.2s',
+              backgroundColor: showScript ? 'rgba(139, 92, 246, 0.25)' : 'rgba(255, 255, 255, 0.05)',
+              color: showScript ? '#C4B5FD' : '#94A3B8',
+              border: showScript ? '1px solid rgba(139, 92, 246, 0.6)' : '1px solid rgba(255, 255, 255, 0.1)'
+            }}
             title="Toggle Presenter Dialogue Script"
           >
             <MessageSquare className="w-3.5 h-3.5" />
@@ -204,18 +224,20 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             </span>
           </button>
 
-          <div className="flex items-center gap-1 bg-slate-900 border border-slate-800 px-3 py-1.5 rounded-full text-xs font-mono text-cyan-300">
+          {/* Slide Progress Badge */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', backgroundColor: '#0F172A', border: '1px solid #1E293B', padding: '5px 12px', borderRadius: '9999px', fontSize: '12px', fontFamily: 'monospace', color: '#00F0FF' }}>
             <span>{lang === 'en' ? 'Slide' : '슬라이드'}</span>
-            <span className="font-bold text-white">{currentSlide.slideNumber}</span>
-            <span className="text-slate-500">/</span>
+            <span style={{ fontWeight: 'bold', color: '#FFFFFF' }}>{currentSlide.slideNumber}</span>
+            <span style={{ color: '#64748B' }}>/</span>
             <span>45</span>
           </div>
 
-          <div className="flex items-center gap-1">
+          {/* Prev / Next Buttons */}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
             <button
               onClick={() => setCurrentSlideIndex((prev) => Math.max(prev - 1, 0))}
               disabled={currentSlideIndex === 0}
-              className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-400 text-slate-300 disabled:opacity-30 transition-all"
+              style={{ padding: '6px', borderRadius: '8px', backgroundColor: '#0F172A', border: '1px solid #1E293B', color: '#CBD5E1', cursor: currentSlideIndex === 0 ? 'not-allowed' : 'pointer', opacity: currentSlideIndex === 0 ? 0.3 : 1 }}
               title="Previous Slide (←)"
             >
               <ChevronLeft className="w-4 h-4" />
@@ -224,7 +246,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             <button
               onClick={() => setCurrentSlideIndex((prev) => Math.min(prev + 1, slides.length - 1))}
               disabled={currentSlideIndex === slides.length - 1}
-              className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-400 text-slate-300 disabled:opacity-30 transition-all"
+              style={{ padding: '6px', borderRadius: '8px', backgroundColor: '#0F172A', border: '1px solid #1E293B', color: '#CBD5E1', cursor: currentSlideIndex === slides.length - 1 ? 'not-allowed' : 'pointer', opacity: currentSlideIndex === slides.length - 1 ? 0.3 : 1 }}
               title="Next Slide (→)"
             >
               <ChevronRight className="w-4 h-4" />
@@ -232,46 +254,55 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           </div>
         </div>
 
-        {/* Close Button */}
+        {/* Close Modal Button */}
         <button
           onClick={onClose}
-          className="p-1.5 rounded-lg bg-slate-900 hover:bg-rose-900/50 text-slate-400 hover:text-rose-400 border border-slate-800 transition-all"
+          style={{ padding: '6px 8px', borderRadius: '8px', backgroundColor: 'rgba(255, 255, 255, 0.05)', border: '1px solid rgba(255, 255, 255, 0.1)', color: '#94A3B8', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center' }}
           title="Close Viewer (Esc)"
         >
           <X className="w-5 h-5" />
         </button>
       </div>
 
-      {/* Main Slide Stage Area */}
-      <div className="flex-1 grid grid-cols-1 lg:grid-cols-12 gap-0 overflow-hidden">
-        {/* Slide Presentation Canvas (Full width when script is hidden) */}
+      {/* Main Slide Presentation Stage (Flex Container) */}
+      <div style={{ flex: 1, display: 'flex', overflow: 'hidden', width: '100%', position: 'relative' }}>
+        
+        {/* Center/Left: Slide Presentation Canvas */}
         <div 
-          className={`${showScript ? 'lg:col-span-7' : 'lg:col-span-12 max-w-6xl mx-auto w-full'} p-6 sm:p-10 flex flex-col justify-between overflow-y-auto border-r border-slate-800/80 transition-all duration-300`}
-          style={{ backgroundColor: '#0A0F1E' }}
+          style={{ 
+            flex: 1, 
+            display: 'flex', 
+            flexDirection: 'column', 
+            justifyContent: 'space-between', 
+            overflowY: 'auto', 
+            padding: '32px 40px',
+            backgroundColor: '#0A0F1E',
+            width: '100%'
+          }}
         >
-          <div>
-            {/* Module Badge & Slide Tag */}
-            <div className="flex items-center justify-between mb-4">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-purple-400 bg-purple-950/40 border border-purple-800/40 px-3 py-1 rounded-full">
+          <div style={{ maxWidth: '960px', margin: '0 auto', width: '100%' }}>
+            {/* Module Badge & Slide ID */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+              <span className="badge badge-purple text-xs font-bold uppercase tracking-wider px-3 py-1">
                 {getModuleLabel(currentSlide.moduleNumber)}
               </span>
-              <span className="text-xs text-slate-500 font-mono">
+              <span style={{ fontSize: '12px', color: '#64748B', fontFamily: 'monospace' }}>
                 Slide ID: W{session.weekNumber}-S{currentSlide.slideNumber < 10 ? `0${currentSlide.slideNumber}` : currentSlide.slideNumber}
               </span>
             </div>
 
             {/* Slide Title */}
-            <h1 className="font-['Outfit'] font-extrabold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight leading-snug mb-6">
+            <h1 className="font-['Outfit']" style={{ fontSize: '28px', fontWeight: '800', color: '#FFFFFF', lineHeight: 1.3, marginBottom: '24px', letterSpacing: '-0.02em' }}>
               {displayTitle}
             </h1>
 
             {/* Bullets Content */}
             {currentSlide.bullets && currentSlide.bullets.length > 0 && (
-              <div className="space-y-3.5 mb-8">
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '28px' }}>
                 {currentSlide.bullets.map((bullet, idx) => (
-                  <div key={idx} className="flex items-start gap-3 text-sm sm:text-base text-slate-300 leading-relaxed bg-slate-900/90 p-4 rounded-xl border border-slate-800/60 shadow-sm">
-                    <span className="w-2 h-2 rounded-full bg-cyan-400 mt-2 shrink-0 shadow-[0_0_8px_#00F0FF]" />
-                    <span dangerouslySetInnerHTML={{ __html: localizeBullet(bullet, lang).replace(/\*\*(.*?)\*\*/g, '<strong class="text-white font-bold">$1</strong>') }} />
+                  <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', fontSize: '15px', color: '#CBD5E1', lineHeight: 1.6, backgroundColor: 'rgba(15, 23, 42, 0.8)', padding: '16px 20px', borderRadius: '14px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
+                    <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#00F0FF', marginTop: '8px', flexShrink: 0, boxShadow: '0 0 8px #00F0FF' }} />
+                    <span dangerouslySetInnerHTML={{ __html: localizeBullet(bullet, lang).replace(/\*\*(.*?)\*\*/g, '<strong style="color: #FFFFFF; font-weight: 700;">$1</strong>') }} />
                   </div>
                 ))}
               </div>
@@ -279,9 +310,11 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
 
             {/* Formula Block */}
             {currentSlide.formula && (
-              <div className="bg-cyan-950/40 border border-cyan-500/40 p-5 rounded-2xl mb-8 shadow-[0_0_25px_rgba(0,240,255,0.15)]">
-                <div className="text-[11px] font-mono uppercase text-cyan-400 font-bold mb-1.5 tracking-wider">MATHEMATICAL MODEL</div>
-                <div className="font-mono text-cyan-200 text-sm sm:text-lg font-bold overflow-x-auto">
+              <div style={{ backgroundColor: 'rgba(8, 47, 73, 0.4)', border: '1px solid rgba(0, 240, 255, 0.4)', padding: '20px', borderRadius: '16px', marginBottom: '28px', boxShadow: '0 0 25px rgba(0, 240, 255, 0.12)' }}>
+                <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: '700', marginBottom: '6px', letterSpacing: '0.05em' }}>
+                  MATHEMATICAL MODEL
+                </div>
+                <div style={{ fontFamily: 'monospace', color: '#BAE6FD', fontSize: '16px', fontWeight: '700', overflowX: 'auto' }}>
                   {currentSlide.formula}
                 </div>
               </div>
@@ -289,22 +322,22 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
 
             {/* Mermaid Render Area */}
             {mermaidSvg ? (
-              <div className="bg-[#0D1322] border border-cyan-500/30 p-6 rounded-2xl mb-8 shadow-[0_0_30px_rgba(0,240,255,0.15)] overflow-x-auto flex items-center justify-center">
+              <div style={{ backgroundColor: '#0D1322', border: '1px solid rgba(0, 240, 255, 0.3)', padding: '24px', borderRadius: '16px', marginBottom: '28px', boxShadow: '0 0 30px rgba(0, 240, 255, 0.15)', overflowX: 'auto', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <div 
-                  className="w-full flex justify-center"
+                  style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
                   dangerouslySetInnerHTML={{ __html: mermaidSvg }} 
                 />
               </div>
             ) : currentSlide.mermaid ? (
-              <div className="bg-slate-900 border border-slate-800 p-5 rounded-2xl mb-8 font-mono text-xs text-slate-300 overflow-x-auto">
+              <div style={{ backgroundColor: '#0F172A', border: '1px solid rgba(255, 255, 255, 0.1)', padding: '20px', borderRadius: '16px', marginBottom: '28px', fontFamily: 'monospace', fontSize: '12px', color: '#CBD5E1', overflowX: 'auto' }}>
                 <pre>{currentSlide.mermaid}</pre>
               </div>
             ) : null}
           </div>
 
           {/* Quick Slide Slider Bar */}
-          <div className="pt-6 border-t border-slate-800/80 flex items-center gap-4 bg-[#0A0F1E]">
-            <span className="text-xs text-slate-400 font-medium whitespace-nowrap font-mono">
+          <div style={{ maxWidth: '960px', margin: '0 auto', width: '100%', paddingTop: '20px', borderTop: '1px solid rgba(255, 255, 255, 0.08)', display: 'flex', alignItems: 'center', gap: '16px' }}>
+            <span style={{ fontSize: '12px', color: '#94A3B8', fontFamily: 'monospace', whiteSpace: 'nowrap' }}>
               {lang === 'en' ? 'Slide' : '슬라이드'} {currentSlideIndex + 1} / 45
             </span>
             <input
@@ -313,26 +346,40 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
               max={slides.length - 1}
               value={currentSlideIndex}
               onChange={(e) => setCurrentSlideIndex(parseInt(e.target.value, 10))}
-              className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-cyan-400"
+              style={{ width: '100%', height: '6px', accentColor: '#00F0FF', cursor: 'pointer' }}
             />
           </div>
         </div>
 
-        {/* Right 5 Cols: 3-Presenter Tiki-Taka Script & Discussion Studio (Collapsible Drawer) */}
+        {/* Right: 3-Presenter Authentic Dialogue Script Drawer (Collapsible) */}
         {showScript && (
           <div 
-            className="lg:col-span-5 flex flex-col justify-between overflow-hidden border-l border-slate-800/80 animate-in slide-in-from-right duration-200"
-            style={{ backgroundColor: '#080D1A' }}
+            style={{ 
+              width: '420px', 
+              flexShrink: 0, 
+              display: 'flex', 
+              flexDirection: 'column', 
+              justifyContent: 'space-between', 
+              backgroundColor: '#080D1A', 
+              borderLeft: '1px solid rgba(255, 255, 255, 0.1)',
+              overflow: 'hidden' 
+            }}
           >
             {/* Header Tab in Studio */}
             <div 
-              className="p-4 border-b border-slate-800 flex items-center justify-between"
-              style={{ backgroundColor: '#0B1120' }}
+              style={{ 
+                padding: '16px', 
+                borderBottom: '1px solid rgba(255, 255, 255, 0.1)', 
+                backgroundColor: '#0B1120', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'space-between' 
+              }}
             >
-              <div className="flex items-center gap-2">
+              <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <MessageSquare className="w-4 h-4 text-cyan-400" />
-                <span className="text-xs font-bold font-['Syne'] uppercase tracking-wider text-white">
-                  {lang === 'en' ? '3-Presenter Authentic Dialogue Script' : '3인 교수진 티키타카 대화 스크립트'}
+                <span className="font-['Syne']" style={{ fontSize: '12px', fontWeight: '800', textTransform: 'uppercase', letterSpacing: '0.05em', color: '#FFFFFF' }}>
+                  {lang === 'en' ? '3-Presenter Authentic Script' : '3인 교수진 스크립트'}
                 </span>
               </div>
               <span className="badge badge-purple text-[10px]">
@@ -341,14 +388,14 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             </div>
 
             {/* Script Dialogue Stream */}
-            <div className="flex-1 p-6 overflow-y-auto space-y-4">
+            <div style={{ flex: 1, padding: '20px', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '16px' }}>
               {scriptItems.length > 0 ? (
                 scriptItems.map((item) => (
-                  <div key={item.id} className="glass-panel p-4 border border-slate-800/80 hover:border-slate-700 transition-all">
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center gap-2">
-                        <span className="text-base">{item.avatar}</span>
-                        <span className="font-['Outfit'] font-bold text-xs text-white">
+                  <div key={item.id} style={{ backgroundColor: 'rgba(15, 23, 42, 0.6)', border: '1px solid rgba(255, 255, 255, 0.08)', borderRadius: '12px', padding: '14px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <span style={{ fontSize: '16px' }}>{item.avatar}</span>
+                        <span className="font-['Outfit']" style={{ fontSize: '12px', fontWeight: '700', color: '#FFFFFF' }}>
                           {item.speaker}
                         </span>
                       </div>
@@ -357,24 +404,24 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                       </span>
                     </div>
 
-                    <p className="text-xs sm:text-sm text-slate-300 leading-relaxed font-medium">
+                    <p style={{ fontSize: '13px', color: '#CBD5E1', lineHeight: 1.6, fontWeight: '500' }}>
                       {item.content}
                     </p>
                   </div>
                 ))
               ) : (
-                <div className="text-center py-12 text-slate-500 text-xs">
+                <div style={{ textAlign: 'center', padding: '48px 0', color: '#64748B', fontSize: '12px' }}>
                   {lang === 'en' ? 'No presenter dialogue recorded for this slide.' : '이 슬라이드에 등록된 교수진 스크립트가 없습니다.'}
                 </div>
               )}
             </div>
 
             {/* Reading Anchor Note */}
-            <div className="p-4 border-t border-slate-800 bg-[#0B1120] flex items-center justify-between text-xs text-slate-400">
-              <span className="truncate max-w-[280px]">
+            <div style={{ padding: '14px 16px', borderTop: '1px solid rgba(255, 255, 255, 0.1)', backgroundColor: '#0B1120', display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: '11px', color: '#94A3B8' }}>
+              <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: '300px' }}>
                 📖 {session.reading}
               </span>
-              <span className="text-slate-500 font-mono text-[11px]">EXPO-701</span>
+              <span style={{ color: '#64748B', fontFamily: 'monospace' }}>EXPO-701</span>
             </div>
           </div>
         )}
