@@ -121,12 +121,10 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
         avatar,
         roleLabel,
         badgeClass,
-        content: localizeScriptContent(content.trim(), speaker, lang)
+        content: content.trim()
       };
     }).filter(item => item.content.length > 0);
   };
-
-  const scriptItems = parseScriptLines(currentSlide.script);
 
   const getModuleLabel = (modNum) => {
     if (lang === 'en') {
@@ -152,7 +150,10 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     }
   };
 
-  const displayTitle = localizeSlideTitle(currentSlide.title, lang);
+  const rawScript = lang === 'en' ? (currentSlide.scriptEn || currentSlide.scriptKo) : (currentSlide.scriptKo || currentSlide.scriptEn);
+  const scriptItems = parseScriptLines(rawScript);
+  const displayTitle = lang === 'en' ? (currentSlide.titleEn || currentSlide.titleKo) : (currentSlide.titleKo || currentSlide.titleEn);
+  const displayBullets = lang === 'en' ? (currentSlide.bulletsEn || currentSlide.bulletsKo || []) : (currentSlide.bulletsKo || currentSlide.bulletsEn || []);
 
   return createPortal(
     <div 
@@ -297,12 +298,12 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             </h1>
 
             {/* Bullets Content */}
-            {currentSlide.bullets && currentSlide.bullets.length > 0 && (
+            {displayBullets && displayBullets.length > 0 && (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '28px' }}>
-                {currentSlide.bullets.map((bullet, idx) => (
+                {displayBullets.map((bullet, idx) => (
                   <div key={idx} style={{ display: 'flex', alignItems: 'flex-start', gap: '12px', fontSize: '15px', color: '#CBD5E1', lineHeight: 1.6, backgroundColor: 'rgba(15, 23, 42, 0.8)', padding: '16px 20px', borderRadius: '14px', border: '1px solid rgba(255, 255, 255, 0.08)' }}>
                     <span style={{ width: '8px', height: '8px', borderRadius: '50%', backgroundColor: '#00F0FF', marginTop: '8px', flexShrink: 0, boxShadow: '0 0 8px #00F0FF' }} />
-                    <span dangerouslySetInnerHTML={{ __html: localizeBullet(bullet, lang).replace(/\*\*(.*?)\*\*/g, '<strong style="color: #FFFFFF; font-weight: 700;">$1</strong>') }} />
+                    <span dangerouslySetInnerHTML={{ __html: bullet.replace(/\*\*(.*?)\*\*/g, '<strong style="color: #FFFFFF; font-weight: 700;">$1</strong>') }} />
                   </div>
                 ))}
               </div>
