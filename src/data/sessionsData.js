@@ -25,7 +25,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"1968: Stewart Brand 선언<br/>'We are as gods and might as well get good at it'\"] --> B[\"2026: 기하급수 기술의 수렴<br/>(AI • CRISPR • BCI • 드론 • 나노)\"]\n    B --> C[\"THEURGICON (신의 학교)<br/>권능에 걸맞은 도덕적 근육과 거버넌스 훈련\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "THEURGICON: Welcome to the School of the Gods"
       },
       {
         "slideNumber": 2,
@@ -45,7 +46,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1968: Stewart Brand's Declaration — We Are as Gods"
       },
       {
         "slideNumber": 3,
@@ -67,7 +69,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    Sub1[\"1. Biological Ape<br/>(생물학적 한계)\"] --> Sub2[\"2. Exponential Tech<br/>(6D 수렴 & 기적의 일상화)\"]\n    Sub2 --> Sub3[\"3. Modern Theogony<br/>(인류의 신격화)\"]\n    Sub3 --> Sub4[\"4. Theurgicon<br/>(거룩한 거버넌스 훈련)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "From Theogony (Birth of Gods) to Theurgicon (School of Ethics)"
       },
       {
         "slideNumber": 4,
@@ -83,7 +86,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Core Weekly Inquiry: Are We Prepared to Wield Godlike Power?"
       },
       {
         "slideNumber": 5,
@@ -107,7 +111,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Week 01: Learning Objectives & Intellectual Trajectory"
       },
       {
         "slideNumber": 6,
@@ -131,7 +136,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 원전의 핵심 테제 해체"
       },
       {
         "slideNumber": 7,
@@ -149,12 +155,13 @@ export const sessionsList = [
         "mermaid": "pie title 83대 기적의 10대 도메인 분포\n    \"치유 및 신체 회복 (Healing)\" : 24\n    \"공급 및 자원 증폭 (Sustenance)\" : 14\n    \"자연 현상 통제 (Nature)\" : 12\n    \"창조 및 형상화 (Creation)\" : 8\n    \"소통 및 텔레파시 (Communication)\" : 7\n    \"부활 및 생명 연장 (Resurrection)\" : 5\n    \"예언 및 미래 예측 (Prophecy)\" : 5\n    \"보호 및 면역 (Protection)\" : 4\n    \"심판 및 파괴 (Judgment)\" : 2\n    \"전쟁 승리 (Victory)\" : 2",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "성서적 83가지 기적의 통계학적 분류학"
       },
       {
         "slideNumber": 8,
         "titleKo": "10대 기적 카테고리 1: 창조(Creation)와 공급(Sustenance)",
-        "titleEn": "10대 기적 카테고리 1: 창조(Creation)와 공급(Sustenance)",
+        "titleEn": "10 Miracle Categories 1: 창조(Creation)와 공급(Sustenance)",
         "moduleNumber": 1,
         "bulletsKo": [
           "**Category 1: 창조 (Creation ex nihilo)**",
@@ -166,21 +173,22 @@ export const sessionsList = [
         ],
         "bulletsEn": [
           "**Category 1: 창조 (Creation ex nihilo)**",
-          "*Biblical Prototype:* 말씀으로 빛과 천지만물을 창조하심.",
-          "*Tech Equivalent:* 생성형 AI (LLM, Diffusion, Sora), 3D 분자 프린팅, Synthetic Biology.",
+          "****Biblical Prototype:**** 말씀으로 빛과 천지만물을 창조하심.",
+          "****Tech Equivalent:**** 생성형 AI (LLM, Diffusion, Sora), 3D 분자 프린팅, Synthetic Biology.",
           "**Category 2: 공급 (Sustenance & Multiplication)**",
-          "*Biblical Prototype:* 광야의 만나와 메추라기, 오병이어의 기적.",
-          "*Tech Equivalent:* 배양육(Cultured Meat), 수직 농경(AeroFarms 390배 생산성), 정밀 발효 단백질."
+          "****Biblical Prototype:**** 광야의 만나와 메추라기, 오병이어의 기적.",
+          "****Tech Equivalent:**** 배양육(Cultured Meat), 수직 농경(AeroFarms 390배 생산성), 정밀 발효 단백질."
         ],
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10 Miracle Categories 1: 창조(Creation)와 공급(Sustenance)"
       },
       {
         "slideNumber": 9,
         "titleKo": "10대 기적 카테고리 2: 자연 지배(Nature)와 치유(Healing)",
-        "titleEn": "10대 기적 카테고리 2: 자연 지배(Nature)와 치유(Healing)",
+        "titleEn": "10 Miracle Categories 2: 자연 지배(Nature)와 치유(Healing)",
         "moduleNumber": 2,
         "bulletsKo": [
           "**Category 3: 자연 통제 (Command over Nature)**",
@@ -192,21 +200,22 @@ export const sessionsList = [
         ],
         "bulletsEn": [
           "**Category 3: 자연 통제 (Command over Nature)**",
-          "*Biblical Prototype:* 홍해의 갈라짐, 풍랑을 잠재우심, 반석에서 물이 솟음.",
-          "*Tech Equivalent:* 기상 조절(Cloud Seeding), 역삼투압 해수 담수화, 지열/핵융합 에너지.",
+          "****Biblical Prototype:**** 홍해의 갈라짐, 풍랑을 잠재우심, 반석에서 물이 솟음.",
+          "****Tech Equivalent:**** 기상 조절(Cloud Seeding), 역삼투압 해수 담수화, 지열/핵융합 에너지.",
           "**Category 4: 치유 (Healing the Sick & Blind)**",
-          "*Biblical Prototype:* 나병 환자의 정결케 됨, 나면서 시각장애인을 눈뜨게 하심.",
-          "*Tech Equivalent:* mRNA 맞춤형 암 백신, CRISPR 유전자 가위 치료제(카스게비), Science Corp PRIMA 인공망막."
+          "****Biblical Prototype:**** 나병 환자의 정결케 됨, 나면서 시각장애인을 눈뜨게 하심.",
+          "****Tech Equivalent:**** mRNA 맞춤형 암 백신, CRISPR 유전자 가위 치료제(카스게비), Science Corp PRIMA 인공망막."
         ],
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10 Miracle Categories 2: 자연 지배(Nature)와 치유(Healing)"
       },
       {
         "slideNumber": 10,
         "titleKo": "10대 기적 카테고리 3: 부활(Resurrection)과 보호(Protection)",
-        "titleEn": "10대 기적 카테고리 3: 부활(Resurrection)과 보호(Protection)",
+        "titleEn": "10 Miracle Categories 3: Resurrection & Divine Protection",
         "moduleNumber": 2,
         "bulletsKo": [
           "**Category 5: 부활 및 생명 연장 (Resurrection & Life Extension)**",
@@ -217,22 +226,23 @@ export const sessionsList = [
           "*Tech Equivalent:* 아이언 돔(Iron Dome) 요격 미사일, 바이오 디펜스 조기 경보망, 팬데믹 실시간 AI 감시."
         ],
         "bulletsEn": [
-          "**Category 5: 부활 및 생명 연장 (Resurrection & Life Extension)**",
-          "*Biblical Prototype:* 나사로의 부활, 야이로의 딸을 살리심.",
-          "*Tech Equivalent:* 세포 역분화(Yamanaka Factors), ReGen Valley 생물학적 나이 역전, 동결 보존(Cryonics).",
-          "**Category 6: 초자연적 보호 (Divine Protection)**",
-          "*Biblical Prototype:* 다니엘의 사자 굴 보호, 불기둥과 구름기둥.",
-          "*Tech Equivalent:* 아이언 돔(Iron Dome) 요격 미사일, 바이오 디펜스 조기 경보망, 팬데믹 실시간 AI 감시."
+          "**Category 5: Resurrection & Life Extension**",
+          "****Biblical Prototype:**** Resurrection of Lazarus, Raising of Jairus' Daughter.",
+          "****Tech Equivalent:**** Cellular Reprogramming (Yamanaka Factors), ReGen Valley Biological Age Reversal, Cryonics & Suspended Animation.",
+          "**Category 6: Divine Protection & Defense**",
+          "****Biblical Prototype:**** Daniel in the Lions' Den, Pillar of Cloud and Fire.",
+          "****Tech Equivalent:**** Iron Dome / Laser Defense, Biodefense Early Warning Grids, Real-Time Planetary AI Pandemic Surveillance."
         ],
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10 Miracle Categories 3: Resurrection & Divine Protection"
       },
       {
         "slideNumber": 11,
         "titleKo": "10대 기적 카테고리 4: 예언(Prophecy)과 소통(Communication)",
-        "titleEn": "10대 기적 카테고리 4: 예언(Prophecy)과 소통(Communication)",
+        "titleEn": "10 Miracle Categories 4: 예언(Prophecy)과 소통(Communication)",
         "moduleNumber": 2,
         "bulletsKo": [
           "**Category 7: 예언과 통찰 (Prophecy & Foreknowledge)**",
@@ -244,21 +254,22 @@ export const sessionsList = [
         ],
         "bulletsEn": [
           "**Category 7: 예언과 통찰 (Prophecy & Foreknowledge)**",
-          "*Biblical Prototype:* 선지자들의 미래 사건 예언, 꿈의 해몽(요셉).",
-          "*Tech Equivalent:* 기후 복합계 시뮬레이션, 금융 리스크 예측 신경망, 단백질 접힘 구조 예측(AlphaFold 3).",
+          "****Biblical Prototype:**** 선지자들의 미래 사건 예언, 꿈의 해몽(요셉).",
+          "****Tech Equivalent:**** 기후 복합계 시뮬레이션, 금융 리스크 예측 신경망, 단백질 접힘 구조 예측(AlphaFold 3).",
           "**Category 8: 언어 초월 소통 (Tongues & Omnipresent Speech)**",
-          "*Biblical Prototype:* 오순절 방언의 역사(모든 민족이 자기 언어로 알아들음).",
-          "*Tech Equivalent:* 실시간 음성-음성 동시통역(SeamlessM4T), LLM 기반 다국어 번역, 무음성 뇌파 디코더."
+          "****Biblical Prototype:**** 오순절 방언의 역사(모든 민족이 자기 언어로 알아들음).",
+          "****Tech Equivalent:**** 실시간 음성-음성 동시통역(SeamlessM4T), LLM 기반 다국어 번역, 무음성 뇌파 디코더."
         ],
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10 Miracle Categories 4: 예언(Prophecy)과 소통(Communication)"
       },
       {
         "slideNumber": 12,
         "titleKo": "10대 기적 카테고리 5: 심판(Judgment)과 전쟁 승리(Victory)",
-        "titleEn": "10대 기적 카테고리 5: 심판(Judgment)과 전쟁 승리(Victory)",
+        "titleEn": "10 Miracle Categories 5: 심판(Judgment)과 전쟁 승리(Victory)",
         "moduleNumber": 2,
         "bulletsKo": [
           "**Category 9: 심판과 정밀 타격 (Judgment & Absolute Power)**",
@@ -270,16 +281,17 @@ export const sessionsList = [
         ],
         "bulletsEn": [
           "**Category 9: 심판과 정밀 타격 (Judgment & Absolute Power)**",
-          "*Biblical Prototype:* 소돔과 고모라의 유황불, 여리고 성의 무너짐.",
-          "*Tech Equivalent:* 극초음속 미사일, AI 자율 킬러 드론 스웜, 사이버 전자기파(EMP) 공격.",
+          "****Biblical Prototype:**** 소돔과 고모라의 유황불, 여리고 성의 무너짐.",
+          "****Tech Equivalent:**** 극초음속 미사일, AI 자율 킬러 드론 스웜, 사이버 전자기파(EMP) 공격.",
           "**Category 10: 전쟁의 승리 (Divine Victory)**",
-          "*Biblical Prototype:* 기드온의 300 용사 승리, 다윗과 골리앗.",
-          "*Tech Equivalent:* 비대칭 드론 전쟁(우크라이나 전장의 FPV 드론), 위성 지능 기반 전장 가시화(Palantir AIP)."
+          "****Biblical Prototype:**** 기드온의 300 용사 승리, 다윗과 골리앗.",
+          "****Tech Equivalent:**** 비대칭 드론 전쟁(우크라이나 전장의 FPV 드론), 위성 지능 기반 전장 가시화(Palantir AIP)."
         ],
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10 Miracle Categories 5: 심판(Judgment)과 전쟁 승리(Victory)"
       },
       {
         "slideNumber": 13,
@@ -301,7 +313,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 기하급수적 렌즈 (The Exponential Lens)"
       },
       {
         "slideNumber": 14,
@@ -323,7 +336,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지신경학적 경고 (The Neurological Warning)"
       },
       {
         "slideNumber": 15,
@@ -339,7 +353,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기적의 기술화 매트릭스 총괄 요약표"
       },
       {
         "slideNumber": 16,
@@ -359,7 +374,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "\\mathcal{L}_{\\text{Diffusion}}(\\theta) = \\mathbb{E}_{t, x_0, \\epsilon} \\left[ \\| \\epsilon - \\epsilon_\\theta(x_t, t) \\|^2 \\right]",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무에서 유의 창조 (Creatio Ex Nihilo)와 생성형 AI"
       },
       {
         "slideNumber": 17,
@@ -381,7 +397,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "전지(Omniscience): 전 지구적 지식 인프라와 검색의 종말"
       },
       {
         "slideNumber": 18,
@@ -405,7 +422,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"로컬 공간의 구속<br/>(물리적 신체의 한계)\"] --> B[\"Starlink & 저궤도 통신<br/>(지구 전역 지연시간 < 25ms)\"]\n    B --> C[\"공간 컴퓨팅 & 홀로그램<br/>(원격 수술, 아바타 텔레프레즌스)\"]\n    C --> D[\"Omnipresence 달성<br/>(지구 전역 동시 실재)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무소부재(Omnipresence): 양방향 초연결과 공간의 탈물질화"
       },
       {
         "slideNumber": 19,
@@ -425,7 +443,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "\\text{Acceleration} = f(\\text{Compute}) \\times g(\\text{Algorithms}) \\times h(\\text{Data}) \\times k(\\text{Capital})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기하급수 수렴의 법칙 (The Law of Exponential Convergence)"
       },
       {
         "slideNumber": 20,
@@ -445,7 +464,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "\\text{Mismatch Ratio} = \\frac{181 \\times 10^{21} \\text{ bytes/year}}{120 \\text{ bits/second} \\times 3.15 \\times 10^7 \\text{ seconds/year}} \\approx 3.83 \\times 10^{14}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "181 제타바이트 정보 폭풍의 도래"
       },
       {
         "slideNumber": 21,
@@ -463,7 +483,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Base Domain: 고대 성서적 기적\n        B1[\"절대자 / 메시아\"] -->|치유/공급| B2[\"고통받는 백성\"]\n        B1 -->|자연 법칙 초월| B3[\"물리적 한계 극복\"]\n    end\n    \n    subgraph Target Domain: 2026 기하급수 기술\n        T1[\"엔지니어 / AGI 시스템\"] -->|PRIMA 칩 / Zipline| T2[\"희소성에 갇힌 인류\"]\n        T1 -->|6D 프레임워크| T3[\"물리적 결핍 해체\"]\n    end\n    \n    Base Domain ==>|심층 관계 구조 매핑 (Structure Mapping)| Target Domain",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Dedre Gentner의 구조 매핑(Structure Mapping) 기본 원리"
       },
       {
         "slideNumber": 22,
@@ -483,7 +504,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "표면적 유사성 vs. 심층적 관계 구조의 대조"
       },
       {
         "slideNumber": 23,
@@ -505,7 +527,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 가속 페달: 신화적 원형(Archetype)의 재소환"
       },
       {
         "slideNumber": 24,
@@ -527,7 +550,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "\\mathcal{D}_{\\text{index}} = \\frac{\\text{Historical Cost of Elite Service}}{\\text{Marginal Cost of Digital Access}} \\rightarrow \\infty",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술의 민주화와 진입 장벽의 붕괴 공식"
       },
       {
         "slideNumber": 25,
@@ -549,7 +573,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "제1원리 사고(First Principles)와 도구적 신성(Instrumental Divinity)"
       },
       {
         "slideNumber": 26,
@@ -569,7 +594,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"카메라 내장 특수 안경<br/>(장면 캡처 & 근적외선 변환)\"] -->|무선 근적외선 레이저 투사| B[\"2mm x 2mm 망막 하 이식 칩<br/>(378개 태양광 픽셀 광발전)\"]\n    B -->|전기 펄스 직접 방출| C[\"망막 잔존 양극세포(Bipolar Cells)<br/>자극\"]\n    C -->|시신경 전달| D[\"대뇌 시각 피질<br/>(글자 및 사물 형태 인지)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: PRIMA 인공망막 — 맹인을 눈뜨게 하는 공학"
       },
       {
         "slideNumber": 27,
@@ -589,7 +615,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Max Hodak과 Science Corporation의 바이오하이브리드 비전"
       },
       {
         "slideNumber": 28,
@@ -613,7 +640,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "PRIMA 시스템 기술 사양: 2mm 광발전 마이크로칩"
       },
       {
         "slideNumber": 29,
@@ -629,7 +657,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "근적외선 안경 투사 및 시신경 직접 자극 메커니즘"
       },
       {
         "slideNumber": 30,
@@ -657,7 +686,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1억 7천만 황반변성(AMD) 환자 시장과 임상 데이터"
       },
       {
         "slideNumber": 31,
@@ -677,7 +707,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"오지 보건소 의사의 스마트폰 문자 발주<br/>'O형 혈액 2팩 긴급 필요'\"] --> B[\"Zipline 물류 허브<br/>(자율 드론 Zip에 혈액 팩 장착)\"]\n    B -->|전기 캐터펄트 발사 (100km/h 가속)| C[\"GPS 자율 항법 고속 비행<br/>(최대 시속 120km)\"]\n    C -->|목적지 상공 도착 후 낙하산 투하| D[\"보건소 앞마당 정밀 투하 (15분 이내)<br/>즉각적인 수혈로 산모 소생\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: Zipline — 생명을 구하는 하늘의 공급선"
       },
       {
         "slideNumber": 32,
@@ -701,7 +732,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "르완다와 가나의 100만 회 비행 및 혈액 배송 실증치"
       },
       {
         "slideNumber": 33,
@@ -721,7 +753,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: CRISPR 유전자 가위와 멸종 위기종 복원"
       },
       {
         "slideNumber": 34,
@@ -743,7 +776,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: 스마트폰 속 $7.1M Value Density 응축 실증"
       },
       {
         "slideNumber": 35,
@@ -763,7 +797,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: AlphaFold와 2억 개 단백질 구조의 완전 해독"
       },
       {
         "slideNumber": 36,
@@ -781,7 +816,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기적의 일상화: 왜 인류는 스스로를 신으로 느끼지 못하는가?"
       },
       {
         "slideNumber": 37,
@@ -801,7 +837,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "쾌락 적응(Hedonic Treadmill)과 신기술 불감증"
       },
       {
         "slideNumber": 38,
@@ -821,7 +858,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    A[\"기하급수 기술의 수렴 (Exponential Tech)<br/>초지능 • 유전자편집 • 초연결\"] -->|100x 가속| B[\"물리적 권능의 폭발 (God-like Power)\"]\n    C[\"인간의 도덕적·철학적 성숙 (Moral Muscle)<br/>윤리 • 공감 • 자기절제\"] -->|1x 선형 진화| D[\"도덕적 지체 (Moral Lag & Void)\"]\n    B --> E[\"실존적 파국 위기 (Existential Catastrophe)\"]\n    D --> E",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "거룩한 책임감(Sacred Responsibility)의 부재와 도덕적 지체"
       },
       {
         "slideNumber": 39,
@@ -843,7 +881,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신의 능력을 가진 유인원: 인류 진화적 불일치 (Evolutionary Mismatch)"
       },
       {
         "slideNumber": 40,
@@ -865,7 +904,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술 독점과 디지털 신정체제(Digital Theocracy)의 위험"
       },
       {
         "slideNumber": 41,
@@ -887,7 +927,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Theurgicon의 존재 이유: 도덕적 근육(Moral Muscle)의 단련"
       },
       {
         "slideNumber": 42,
@@ -909,7 +950,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"기하급수 도구<br/>(AI • BCI • CRISPR)\"] + B[\"원시적 의식<br/>(탐욕 • 부족주의 • 나태)\"] --> C[\"자멸적 디스토피아<br/>(Universe 25 멸종)\"]\n    A + D[\"업그레이드된 의식 (Mind 2.0)<br/>(Theurgicon • Flow • 거룩한 책임)\"] --> E[\"인류의 번영 (Flourishing)<br/>(풍요의 문명 완성)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 권능에 걸맞은 인간 의식의 업그레이드"
       },
       {
         "slideNumber": 43,
@@ -935,7 +977,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -955,7 +998,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기말 $100B Engineering the $100B Giga-XPRIZE 과제 가이드라인"
       },
       {
         "slideNumber": 45,
@@ -981,7 +1025,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"Week 1: Theogony & Theurgicon<br/>(83가지 기적의 기술화 완성)\"] --> B[\"Week 2: Cognitive Vertigo<br/>(인지적 현기증과 구조 매핑)\"]\n    B --> C[\"Week 3: The 6Ds & Deception<br/>(기만적 성장의 수학적 모델)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "2주차 예고: 인지적 현기증과 구조 매핑 & 종강"
       }
     ]
   },
@@ -1011,7 +1056,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"선형적 생물학적 진화<br/>(10만 년 전 사바나 초원)\"] --> C{\"거대한 충돌<br/>(COGNITIVE VERTIGO)\"}\n    B[\"기하급수적 기술 가속<br/>(AI • 바이오 • 양자 수렴)\"] --> C\n    C --> D[\"증상: 만성 불안, 종말론, 지적 마비\"]\n    C --> E[\"해법: Dedre Gentner의 구조 매핑(Structure Mapping)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 2 개요: 인지적 현기증(Cognitive Vertigo)의 시대"
       },
       {
         "slideNumber": 2,
@@ -1031,7 +1077,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "181 제타바이트(ZB)의 정보 해일과 주의력의 물리적 한계"
       },
       {
         "slideNumber": 3,
@@ -1051,7 +1098,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Pleistocene[\"구석기 사바나 초원 (로컬-선형)\"]\n        A1[\"지리적 반경: 도보 30km 이내\"]\n        A2[\"변화 속도: 세대 간 거의 불변 (선형)\"]\n        A3[\"위협 신호: 수풀 속 바스락거림 (생존 직결)\"]\n    end\n    subgraph Singularity[\"2026 기하급수 문명 (글로벌-기하급수)\"]\n        B1[\"지리적 반경: 지구 전역 80억 명 초연결\"]\n        B2[\"변화 속도: 3~6개월마다 패러다임 전환 (기하급수)\"]\n        B3[\"위협 신호: 181 ZB 뉴스피드 (24시간 인공 폭격)\"]\n    end\n    Pleistocene -.->|진화적 하드웨어 고착| Mismatch[\"EVOLUTIONARY MISMATCH<br/>만성 코르티솔 분비 • 파멸 예측 • 인지 붕괴\"]\n    Singularity --> Mismatch",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "사바나 초원의 뇌 vs 특이점의 문명: 진화적 불일치 (Evolutionary Mismatch)"
       },
       {
         "slideNumber": 4,
@@ -1069,7 +1117,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Q[\"2주차 핵심 질문 (Key Question)\"] --> A[\"1. 선형적 착시: 기하급수 곡선의 초기 기만적 단계를 이해하지 못함\"]\n    Q --> B[\"2. 신경학적 방어: 예측 불가능성을 '물리적 죽음'과 동일시함\"]\n    Q --> C[\"3. 미디어 공모: 부정 편향을 자극하는 알고리즘에 도파민 중독됨\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 왜 뇌는 기하급수적 진보를 공포와 파멸로 오독하는가?"
       },
       {
         "slideNumber": 5,
@@ -1087,7 +1136,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & 신경과학<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 구조 매핑 이론<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 실증 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 실존적 역설 & 성찰<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 실습<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "2주차 학습 로드맵: 피질 예측 엔진에서 구조 매핑까지"
       },
       {
         "slideNumber": 6,
@@ -1107,7 +1157,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"We Are as Gods (Chapter 1)\"] --> B[\"현상 진단: 전례 없는 풍요 속 집단 패닉\"]\n    A --> C[\"신경생리학적 원인: 20W 뇌의 예측 모델 파탄\"]\n    A --> D[\"해법 제시: '마인드 2.0'과 구조적 유추 모델링\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제1장: 인지적 현기증의 징후와 정의"
       },
       {
         "slideNumber": 7,
@@ -1127,7 +1178,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌의 칼로리 보존 법칙(Caloric Conservation)과 20와트의 제약"
       },
       {
         "slideNumber": 8,
@@ -1147,7 +1199,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Top[\"대뇌 신피질 (Neocortex)<br/>기존 경험 기반 '선형' 예측 모델 생성\"] -->|하향식 예측 신호 (Top-down Prediction)| Comparator{\"비교기 (Error Comparator)\"}\n    Sensory[\"감각 입력 (Sensory Input)<br/>기하급수적 변화 및 181 ZB 데이터\"] -->|상향식 감각 신호 (Bottom-up Input)| Comparator\n    Comparator -->|예측 일치| Suppress[\"의식 억제 (에너지 보존, '정상 상태')\"]\n    Comparator -->|예측 오차 폭발 (Mismatch)| Vertigo[\"PREDICTION ERROR SPIKE<br/>스트레스 호르몬 분비 • 불안 • 인지적 현기증\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대뇌 피질의 예측 엔진(Cortical Prediction Engine) 작동 메커니즘"
       },
       {
         "slideNumber": 9,
@@ -1169,7 +1222,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    FEP[\"자유 에너지 최소화 원리<br/>(Minimizing Free Energy)\"] --> Act1[\"행동 수정 (Active Inference):<br/>환경을 모델에 맞춤\"]\n    FEP --> Act2[\"모델 업데이트 (Learning):<br/>내부 모델을 환경에 맞춤\"]\n    Act2 -.->|기하급수 속도를 못 따라감| Failure[\"인지적 과부하 & 파멸 예측<br/>(불확실성 = 생존 위협)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Karl Friston의 자유 에너지 원리(Free Energy Principle)와 예측 오차"
       },
       {
         "slideNumber": 10,
@@ -1189,7 +1243,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Threat[\"원시 위협 (호랑이)\"] -->|생존 확률 0% 위기| Amygdala[\"편도체 (Amygdala)<br/>즉각적 공포 • 투쟁-도피 반응\"]\n    Good[\"원시 기회 (달콤한 열매)\"] -->|놓쳐도 다음 기회 있음| Cortex[\"전두엽 (Slow Processing)<br/>완만한 만족감\"]\n    style Amygdala fill:#ff6666,stroke:#333,stroke-width:2px",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "진화적 부정 편향(Negativity Bias): 편도체(Amygdala)의 생존 알고리즘"
       },
       {
         "slideNumber": 11,
@@ -1209,7 +1264,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "확증 편향과 도파민 피드백 루프: 분노 유발 미디어 경제학"
       },
       {
         "slideNumber": 12,
@@ -1229,7 +1285,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Chaos[\"181 ZB 무질서한 데이터<br/>(인지적 현기증 유발)\"] --> Match{\"패턴 인식<br/>(Pattern Recognition)\"}\n    Match -->|실패| Anxiety[\"불안 및 인지 마비\"]\n    Match -->|성공: 구조 매핑 적용| Flow[\"FLOW STATE (몰입)<br/>도파민 • 노르에피네프린 분비<br/>학습 속도 및 창의성 500% 폭발\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 플로우(Flow)와 패턴 인식의 인지 신경학"
       },
       {
         "slideNumber": 13,
@@ -1247,7 +1304,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 기하급수 사고(Exponential Mindset) 대조표"
       },
       {
         "slideNumber": 14,
@@ -1267,7 +1325,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Data[\"정보 및 선택지 폭증 (181 ZB)\"] --> Overload[\"작업 기억 용량(Working Memory) 초과\"]\n    Overload --> Fatigue[\"의사결정 피로 (Decision Fatigue)\"]\n    Fatigue --> Paralysis[\"ANALYSIS PARALYSIS (인지적 마비)<br/>현상 유지 편향 • 변화 회피 • 회의주의로 도피\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "정보 과부하가 부르는 '인지적 마비(Analysis Paralysis)' 현상"
       },
       {
         "slideNumber": 15,
@@ -1283,7 +1342,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Inflow[\"감각 기관 유입량 (Unconscious Input)\"]\n        S1[\"시각: 약 10,000,000 bits/sec\"]\n        S2[\"촉각: 약 1,000,000 bits/sec\"]\n        S3[\"청각: 약 100,000 bits/sec\"]\n    end\n    subgraph Conscious[\"의식적 병목 (Conscious Bottleneck)\"]\n        C1[\"작업 기억 대역폭: 단 50 ~ 120 bits/sec\"]\n    end\n    subgraph Digital[\"2026 디지털 정보 환경\"]\n        D1[\"글로벌 생성 데이터: 초당 5.74 Petabits/sec\"]\n    end\n    Inflow -->|99.999% 무의식적 삭제| Conscious\n    Digital -.->|필터 없는 직격탄| Conscious",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인간 주의력 대역폭(50~120 bits/s)과 정보 유입량 비교 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -1301,7 +1361,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    subgraph Base[\"Base Domain (친숙한 영역 / 신화 / 역사)\"]\n        B1[\"개체: 태양 (Sun), 행성 (Planet)\"]\n        B2[\"관계: 질량이 크다(태양), 회전한다(행성, 태양)\"]\n        B3[\"심층 구조: 태양이 더 무겁기 때문에 행성이 태양 주위를 돈다\"]\n    end\n    subgraph Target[\"Target Domain (새로운 영역 / 양자역학 / 기하급수 기술)\"]\n        T1[\"개체: 원자핵 (Nucleus), 전자 (Electron)\"]\n        T2[\"관계: 전하가 크다(원자핵), 회전한다(전자, 원자핵)\"]\n        T3[\"심층 구조: 원자핵이 전자를 끌어당기므로 전자가 핵 주위를 돈다\"]\n    end\n    Base ==>|Structure Mapping (심층 인과 구조 매핑)| Target",
         "formula": "\\text{Mapping}: M: B \\rightarrow T \\quad \\text{where} \\quad R(x, y) \\implies R(M(x), M(y))",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Dedre Gentner의 구조 매핑 이론(Structure-Mapping Theory) 핵심 공리"
       },
       {
         "slideNumber": 17,
@@ -1321,7 +1382,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "표면 유사성(Surface Similarity) vs 심층 관계 구조(Relational Structure)"
       },
       {
         "slideNumber": 18,
@@ -1339,7 +1401,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Isolated[\"고립된 1차 관계 (낮은 체계성)\"]\n        I1[\"A는 B보다 빠르다\"]\n        I2[\"C는 D보다 비싸다\"]\n    end\n    subgraph HigherOrder[\"고차 인과 관계 체계 (높은 체계성 - Gentner Rule)\"]\n        H1[\"기술이 디지털화(A)되면\"] -->|원인(CAUSE)| H2[\"비용이 0에 수렴(B)하고\"]\n        H2 -->|결과(IMPLIES)| H3[\"사용자가 기하급수적으로 폭증(C)하여 산업이 붕괴한다(D)\"]\n    end",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "체계성 원리(Systematicity Principle): 고차 관계(Higher-Order Relations)의 위력"
       },
       {
         "slideNumber": 19,
@@ -1357,7 +1420,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Problem[\"해결 난제: 정상 세포를 파괴하지 않고 심부 종양 제거하기\"]\n    Analogy[\"기존 지식: 사방에서 약한 군대를 동시 진격시켜 중앙 요새 함락\"]\n    Problem <==>|구조 매핑: 분산 투하 & 중심 수렴| Analogy\n    Solution[\"솔루션 도출: 여러 각도에서 저강도 방사선을 집중 조사 (감마나이프)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "유추적 전이(Analogical Transfer)를 통한 학습 속도 10배 가속 기전"
       },
       {
         "slideNumber": 20,
@@ -1373,7 +1437,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Step1[\"STEP 1. 신화적 원형 분해 (Deconstruction)<br/>표면적 신비주의 제거 → 본질적 인과 구조(욕망/결핍/해결책) 추출\"]\n    Step2[\"STEP 2. 관계망 추출 및 정규화 (Relational Abstraction)<br/>주어/목적어를 변수(X, Y)로 치환하고 입력-변환-출력 메커니즘 수식화\"]\n    Step3[\"STEP 3. 기하급수 기술 매핑 및 역공학 (Reverse Mapping)<br/>현대 컴퓨팅/바이오/나노 기술 스택 중 동일 기능을 수행할 하드웨어/알고리즘 1:1 결합\"]\n    Step1 --> Step2 --> Step3",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신화적 원형(Archetype)을 기술적 등가물로 매핑하는 3단계 알고리즘"
       },
       {
         "slideNumber": 21,
@@ -1393,7 +1458,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Linear[\"선형 사고 (Linear Thinking)\"] --> Step1[\"Step 1 = 1\"]\n    Step1 --> Step2[\"Step 10 = 10\"]\n    Step2 --> Step20[\"Step 20 = 20\"]\n    Step20 --> Step30[\"Step 30 = 30\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "로컬-선형(Local-Linear) 사고의 수학적 한계: $y = ax$"
       },
       {
         "slideNumber": 22,
@@ -1413,7 +1479,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Expo[\"기하급수 사고 (Exponential Thinking)\"] --> E1[\"Step 1 = 1\"]\n    E1 --> E10[\"Step 10 = 512\"]\n    E10 --> E20[\"Step 20 = 524,288\"]\n    E20 --> E30[\"Step 30 = 1,073,741,824 (10억!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "글로벌-기하급수(Global-Exponential) 사고의 수학적 도약: $y = a(1+r)^t$"
       },
       {
         "slideNumber": 23,
@@ -1435,7 +1502,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    Start[\"출발점 (Step 0)\"] --> L[\"선형 30걸음: 30미터 (강의실 밖 복도)\"]\n    Start --> E[\"기하급수 30걸음: 10억 7천만 미터<br/>(지구 26바퀴 / 달 왕복 거리 초과!)\"]\n    style L fill:#e6f2ff,stroke:#0066cc\n    style E fill:#ffe6e6,stroke:#cc0000,stroke-width:2px",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "30걸음의 비유: 30미터 vs 지구 26바퀴(10억 미터)의 직관적 간극"
       },
       {
         "slideNumber": 24,
@@ -1453,7 +1521,8 @@ export const sessionsList = [
         "mermaid": "flowchart BT\n    L1[\"Level 1: 181 ZB 로우 데이터 (혼돈과 현기증)\"] --> L2[\"Level 2: 6D 프레임워크 & 추세선 (패턴화)\"]\n    L2 --> L3[\"Level 3: Dedre Gentner 구조 매핑 (심층 유추)\"]\n    L3 --> L4[\"Level 4: 제1원리 & 열역학적 최적화 (신의 시야)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 사다리(Cognitive Ladder): 복잡계를 단순화하는 멘탈 모델"
       },
       {
         "slideNumber": 25,
@@ -1471,7 +1540,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"문제: 로켓 발사 비용 60M USD은 너무 비싸다\"] --> B[\"제1원리 분해: 로켓의 알루미늄, 티타늄, 연료 원자재값은 전체의 2%에 불과\"]\n    C[\"구조 매핑: 항공기는 왜 1회용이 아닌가? (재사용 구조 이식)\"] --> D[\"융합 솔루션: SpaceX 팰컨9 로켓 1단 수직 착륙 및 재사용 (1 USD/10 비용 혁신)\"]\n    B --> D",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "제1원리 사고(First Principles)와 구조 매핑의 융합"
       },
       {
         "slideNumber": 26,
@@ -1491,7 +1561,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 생성 데이터량 vs 인간 인지 처리 대역폭 추이 (2010~2026)\"\n    x-axis [2010, 2012, 2014, 2016, 2018, 2020, 2022, 2024, 2026]\n    y-axis \"데이터량 (Zettabytes)\" 0 --> 200\n    line [2, 6.5, 12.5, 16.1, 33, 64.2, 97, 147, 181]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 181 ZB 글로벌 데이터 증가 곡선과 인간 수용 능력 격차"
       },
       {
         "slideNumber": 27,
@@ -1509,7 +1580,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"주요 글로벌 언론사 헤드라인 부정 정서 어휘 비율 추이 (1970~2026)\"\n    x-axis [1970, 1980, 1990, 2000, 2010, 2020, 2026]\n    y-axis \"부정 정서 어휘 비중 (%)\" 10 --> 60\n    line [18, 20, 22, 25, 38, 52, 58]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 미디어 헤드라인의 부정적 감정 어휘 증가율 (1970~2026 빅데이터)"
       },
       {
         "slideNumber": 28,
@@ -1529,7 +1601,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: COVID-19 확산 초기 선형적 방역 예측과 기하급수적 실제 감염의 충돌"
       },
       {
         "slideNumber": 29,
@@ -1553,7 +1626,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"프론티어 AI 학습 연산량 성장 추이 (FLOPs, Log Scale 2012~2026)\"\n    x-axis [2012, 2014, 2016, 2018, 2020, 2022, 2024, 2026]\n    y-axis \"Compute (FLOPs in Log10)\" 17 --> 27\n    line [17.5, 18.8, 20.2, 22.1, 23.5, 25.0, 26.2, 27.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: AI 모델 연산량 증가 곡선 (Compute Doubling: 3.4개월 주기)"
       },
       {
         "slideNumber": 30,
@@ -1573,7 +1647,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"IEA의 연도별 태양광 발전 예측치 vs 실제 설치량 (2006~2026)\"\n    x-axis [2006, 2010, 2014, 2018, 2022, 2026]\n    y-axis \"연간 설치량 (GW)\" 0 --> 600\n    line [10, 30, 80, 160, 320, 580]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 태양광 및 배터리 비용 하락의 역사적 예측 실패 (IEA 예측 vs 실제)"
       },
       {
         "slideNumber": 31,
@@ -1597,7 +1672,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1명 게놈 시퀀싱 비용 하락 곡선 ( Log Scale vs 무어의 법칙)\"\n    x-axis [2001, 2004, 2007, 2010, 2013, 2016, 2019, 2022, 2026]\n    y-axis \"Cost ( Log10)\" 2 --> 9\n    line [8.5, 7.3, 6.0, 4.0, 3.7, 3.1, 2.9, 2.3, 1.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 유전자 시퀀싱 비용의 칼슨 곡선(Carlson Curve) vs 무어의 법칙"
       },
       {
         "slideNumber": 32,
@@ -1619,7 +1695,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Biological[\"생물학적 음성/타이핑 대역폭<br/>(초당 50~120 bits)\"] -->|1,000배 확장| BCI[\"차세대 BCI 직접 인터페이스<br/>(초당 Megabits 단위 확장)\"]\n    BCI --> Cloud[\"AI 클라우드 & 지식 엔진 직접 동기화<br/>(인지적 현기증의 근본적 해소)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 뉴럴링크(Neuralink) 및 BCI를 통한 인지 대역폭 확장 실험치"
       },
       {
         "slideNumber": 33,
@@ -1637,7 +1714,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 원격 의료 및 자동화 진단 알고리즘의 선형적 불신 vs 기하급수적 정확도"
       },
       {
         "slideNumber": 34,
@@ -1661,7 +1739,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Zipline 자율 배송 누적 비행 건수 성장 추이 (2018~2026)\"\n    x-axis [2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026]\n    y-axis \"누적 배송 건수 (만 건)\" 0 --> 250\n    line [1, 3, 8, 20, 45, 80, 130, 190, 260]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 드론 배송 물류망(Zipline 등)의 스케일업 변곡점 분석"
       },
       {
         "slideNumber": 35,
@@ -1677,7 +1756,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "글로벌 실증 데이터 총괄 대조 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -1697,7 +1777,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Numinosum[\"NUMINOSUM (신적 권능과의 조우)\"] --> Fascination[\"Fascinans (매혹):<br/>불로불사, 무한한 지능, 풍요에 대한 열망\"]\n    Numinosum --> Tremendum[\"Tremendum (공포/전율):<br/>인간의 왜소화, 통제 상실, 멸종에 대한 공포\"]\n    Fascination & Tremendum --> HolyTerror[\"HOLY TERROR (거룩한 공포)<br/>집단적 히스테리 및 러다이트 저항 운동 발현\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "홀리 테러(Holy Terror): 압도적 기술 권능 앞에서의 영적·실존적 공포"
       },
       {
         "slideNumber": 37,
@@ -1715,7 +1796,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"개인의 부정 편향 (뇌)\"] -->|클릭| B[\"알고리즘 추천 증폭 (AI)\"]\n    B -->|공유| C[\"집단적 가용성 폭포 (사회)\"]\n    C -->|압박| D[\"비합리적 기술 규제 & 공황 (정치)\"]\n    D -->|진보 저해| A",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "편향의 캐스케이드(Bias Cascade): 알고리즘에 의해 증폭된 확증 편향"
       },
       {
         "slideNumber": 38,
@@ -1733,7 +1815,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"불안감 발생 (코르티솔 분비)\"] --> D2[\"위협 정보 탐색 갈망 (스마트폰 켬)\"]\n    D2 --> D3[\"자극적인 부정적 뉴스 발견 (도파민 보상)\"]\n    D3 --> D4[\"실존적 공포 심화 (코르티솔 재분비)\"]\n    D4 --> D1",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "둠스크롤링(Doomscrolling)의 신경생리학: 도파민과 코르티솔의 중독 고리"
       },
       {
         "slideNumber": 39,
@@ -1757,7 +1840,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    subgraph Law[\"선형적 법률 시스템 (Linear Policy)\"]\n        L1[\"법안 발의\"] --> L2[\"공청회 & 로비\"] --> L3[\"의회 통과 (3~5년 소요)\"]\n    end\n    subgraph Tech[\"기하급수 기술 혁신 (Exponential Tech)\"]\n        T1[\"GPT-4 출시\"] --> T2[\"Gemini Ultra 도달\"] --> T3[\"AGI 자율 에이전트 등장 (1~2년 내)\"]\n    end\n    Law -.->|규제 격차 (Pacing Gap) 폭증| Crisis[\"민주주의 거버넌스 붕괴 및 무력화\"]\n    Tech --> Crisis",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "민주주의의 인지적 위기: 선형적 규제 vs 기하급수적 기술 격차 (Pacing Problem)"
       },
       {
         "slideNumber": 40,
@@ -1777,7 +1861,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Abundance[\"물질적·기술적 절대 풍요 도달\"] --> NoLabor[\"생존을 위한 노동의 소멸\"]\n    NoLabor --> NoStruggle[\"극복해야 할 고난과 도전의 상실\"]\n    NoStruggle --> Nihilism[\"EXISTENTIAL NIHILISM (실존적 허무주의)<br/>우울증 급증 • 목적의식 상실 • 문명적 번아웃\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "문명적 번아웃: 기술 유토피아 속 우울증과 허무주의의 역설"
       },
       {
         "slideNumber": 41,
@@ -1795,7 +1880,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    In[\"181 ZB 오염된 정보 쓰나미\"] --> Filter{\"무자비한 분별력 필터<br/>(Ruthless Discernment)\"}\n    Filter -->|95% 소음 제거| Trash[\"분노 유발 클릭베이트, 정치적 혐오, 종말론\"]\n    Filter -->|5% 정수 추출| Core[\"제1원리 데이터, 기하급수 기술 스택, 구조적 통찰\"]\n    Core --> Mind[\"마인드 2.0 (초지능적 실행력)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무자비한 분별력(Ruthless Discernment): 21세기 생존을 위한 인지 필터링"
       },
       {
         "slideNumber": 42,
@@ -1813,7 +1899,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현상: 인지적 현기증 (Cognitive Vertigo)\"] --> B[\"신경학적 진단: 20W 선형 뇌와 181 ZB 기하급수 환경의 불일치\"]\n    B --> C[\"인지적 처방: Dedre Gentner의 구조 매핑 & 무자비한 분별력\"]\n    C --> D[\"최종 도달점: THEURGIC MINDSET (신의 시야)<br/>풍요의 메커니즘을 통제하고 인류 문샷을 견인하는 리더\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 구조 매핑으로 인지적 현기증을 극복하고 신의 시야를 확보하라"
       },
       {
         "slideNumber": 43,
@@ -1829,7 +1916,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 뇌의 물리적 대역폭 한계(50~120 bits)를 극복하기 위해 생물학적 뇌에 대한 침습적 BCI 결합은 윤리적 의무인가, 포스트휴먼의 자살인가?\"]\n    D2[\"논제 2: Dedre Gentner의 구조 매핑 유추는 혁신적 직관을 제공하지만, '표면적 오류(False Analogy)'로 인한 파멸적 정책 실패를 어떻게 검증하고 방어할 것인가?\"]\n    D3[\"논제 3: 민주주의 의사결정의 선형적 속도가 기하급수 기술을 통제할 수 없다면, 우리는 'AI 지원 알고리즘 거버넌스'에 입법권의 일부를 양도해야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -1847,7 +1935,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 신기술-신화 구조 매핑(Structure-Mapping) 워크시트"
       },
       {
         "slideNumber": 45,
@@ -1867,7 +1956,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W2[\"Week 2: Cognitive Vertigo & Structure Mapping<br/>(인지적 현기증 극복과 렌즈 장착)\"] --> W3[\"Week 3: The 6Ds & The Deception Trap<br/>(기만적 단계와 파괴적 변곡점의 수학)\"]\n    W3 --> W4[\"Week 4: Value Density & The Liberation Ladder<br/>(7.1M USD 스마트폰 & 인류 해방의 사다리)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "3주차 예고: 6D 프레임워크와 Deception Phase의 함정 (The 6Ds & Deception Trap) & 종강"
       }
     ]
   },
@@ -1897,7 +1987,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    D1[\"1. Digitization<br/>(디지털화)\"] --> D2[\"2. Deception<br/>(기만적 성장)\"]\n    D2 --> D3[\"3. Disruption<br/>(파괴적 혁신)\"]\n    D3 --> D4[\"4. Dematerialization<br/>(탈물질화)\"]\n    D4 --> D5[\"5. Demonetization<br/>(탈화폐화)\"]\n    D5 --> D6[\"6. Democratization<br/>(민주화)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 3 개요: 6D 프레임워크와 기하급수적 파괴의 본질"
       },
       {
         "slideNumber": 2,
@@ -1915,7 +2006,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Moore[\"무어의 법칙 (단일 실리콘 반도체 칩)\"] --> Convergence[\"기술 초융합 (Technological Convergence)\"]\n    Convergence --> More[\"THE LAW OF MORE (더 많은 것의 법칙)<br/>• 3.4개월 AI 연산 배가<br/>• 7개월 유전자 해독 비용 배가<br/>• 12개월 자율비행 배송 확장\"]\n    More --> Abundance[\"전 지구적 풍요의 물리적 현실화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무어의 법칙을 넘어선 '더 많은 것의 법칙(The Law of More)'"
       },
       {
         "slideNumber": 3,
@@ -1933,7 +2025,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "정보 기반 기술(Information-Based Technology)로의 대전환"
       },
       {
         "slideNumber": 4,
@@ -1951,7 +2044,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Q[\"3주차 핵심 질문 (Key Question)\"] --> A[\"1. 기만적 위장: 0.01%와 0.02%는 인간 눈에 똑같이 '0'으로 보임\"]\n    Q --> B[\"2. 비즈니스 맹점: 기존 캐시카우 사업부의 마진을 깎아먹는 혁신을 기피함\"]\n    Q --> C[\"3. 규제 및 거버넌스 마비: 파괴가 시작되는 순간엔 이미 대응 시간이 0에 수렴\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 왜 기하급수적 파괴는 눈앞에 닥칠 때까지 보이지 않는가?"
       },
       {
         "slideNumber": 5,
@@ -1967,7 +2061,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 6D 프레임워크 해체<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 기만적 수학 & 메커니즘<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 실증 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 거버넌스 & 실존적 역설<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "3주차 학습 로드맵: 6D 정밀 분해에서 변곡점 예측까지"
       },
       {
         "slideNumber": 6,
@@ -1987,7 +2082,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 2)\"] --> B[\"핵심 통찰: 6D는 멈출 수 없는 연쇄 반응이다\"]\n    Text --> C[\"경고: 기만 단계에서의 안일함은 문명적 파산을 부른다\"]\n    Text --> D[\"기회: 6D의 끝에는 80억 인류의 민주화된 풍요가 기다린다\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제2장: 6D 프레임워크의 귀환 (The Return of the 6Ds)"
       },
       {
         "slideNumber": 7,
@@ -2005,7 +2101,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Physical[\"물리적 아날로그 세계<br/>(무게, 부피, 부패, 지리적 한계)\"] -->|센서 & 시퀀싱 인코딩| Digital[\"01010011 01101111...<br/>(디지털 데이터화)\"]\n    Digital --> Acceleration[\"기하급수 연산 엔진 탑승<br/>(광속 전송 • 무한 복제 • AI 분석)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1단계: 디지털화(Digitization) — 물리적 세계의 0과 1 변환"
       },
       {
         "slideNumber": 8,
@@ -2023,7 +2120,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"기만적 단계(Deception) vs 선형 예측의 겉보기 착시\"\n    x-axis [1, 2, 3, 4, 5, 6, 7, 8]\n    y-axis \"성장 수치\" 0 --> 10\n    line [1, 2, 3, 4, 5, 6, 7, 8]\n    line [0.01, 0.02, 0.04, 0.08, 0.16, 0.32, 0.64, 1.28]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "2단계: Deception Phase(Deception) — 레이더 아래에서의 조용한 복리 증식"
       },
       {
         "slideNumber": 9,
@@ -2041,7 +2139,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Inflection[\"변곡점 돌파 (Cross-over Point T^*)\"] --> CostDrop[\"비용 1 USD/10 폭락 & 성능 10 USD\\times 폭증\"]\n    CostDrop --> Disruption[\"DISRUPTION (파괴적 혁신)\"]\n    Disruption --> LegacyFall[\"기존 레거시 산업 붕괴 (Kodak, Blockbuster, Nokia)\"]\n    Disruption --> NewEcosystem[\"새로운 기하급수 독점 생태계 탄생 (Smartphones, Streaming)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "3단계: 파괴적 혁신(Disruption) — 기존 시장과 플레이어의 급속 붕괴"
       },
       {
         "slideNumber": 10,
@@ -2059,7 +2158,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    subgraph HeavyPhysical[\"1980~1990년대 무거운 물리 장비들\"]\n        P1[\"캠코더 (1,000 USD)\"]\n        P2[\"GPS 수신기 (500 USD)\"]\n        P3[\"브리태니커 백과사전 32권 (1,400 USD)\"]\n        P4[\"음악 CD 플레이어 (200 USD)\"]\n    end\n    subgraph Dematerialized[\"2026 탈물질화의 현실\"]\n        S1[\"스마트폰 단 1대 속의 무료 앱 아이콘들<br/>(무게 0g • 물리적 공간 0% • 자원 소비 0)\"]\n    end\n    HeavyPhysical ==>|탈물질화 (Dematerialization)| Dematerialized",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "4단계: 탈물질화(Dematerialization) — 물리적 하드웨어의 소프트웨어 앱 응축"
       },
       {
         "slideNumber": 11,
@@ -2077,7 +2177,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "5단계: 탈화폐화(Demonetization) — 한계 비용 제로화와 가격의 소멸"
       },
       {
         "slideNumber": 12,
@@ -2095,7 +2196,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Privilege[\"1970년대: 소수 정부·재벌의 독점 권력<br/>(수백만 달러 메인프레임 컴퓨터)\"] --> Democ[\"6D 진화 완료: 민주화 (Democratization)\"]\n    Democ --> Universal[\"2026년: 80억 인류의 보편적 기본 권능<br/>(전 세계 스마트폰 사용자 누구나 프론티어 AI 무상 접근)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6단계: 민주화(Democratization) — 소수 특권에서 80억 인류의 보편 인프라로"
       },
       {
         "slideNumber": 13,
@@ -2111,7 +2213,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    D1[\"Digitization (디지털화)\"] -->|기하급수 곡선 진입| D2[\"Deception (기만적 성장)\"]\n    D2 -->|선형 곡선 교차 추월| D3[\"Disruption (파괴적 혁신)\"]\n    D3 -->|하드웨어의 소프트웨어화| D4[\"Dematerialization (탈물질화)\"]\n    D4 -->|한계 비용 제로화| D5[\"Demonetization (탈화폐화)\"]\n    D5 -->|비용 장벽 소멸| D6[\"Democratization (민주화)\"]\n    style D2 fill:#fff2cc,stroke:#d6b656,stroke-width:2px\n    style D6 fill:#d5e8d4,stroke:#82b366,stroke-width:2px",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 6D 수직 체인과 생태계 연쇄 반응"
       },
       {
         "slideNumber": 14,
@@ -2131,7 +2234,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SubThreshold[\"절대량 미미 (0.001 USD → 0.002)<br/>뇌의 주의력 필터 차단 (무시)\"] --> Delay[\"의사결정 지연 (0 actions)\"]\n    Delay --> Shock[\"갑작스러운 10 USD\\times 폭발<br/>패닉 & 시장 퇴출\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지적 맹점(Blindspot) 경고: 기만 단계의 침묵"
       },
       {
         "slideNumber": 15,
@@ -2147,7 +2251,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6D 단계별 경제학적 지표 및 가치 이동 요약표"
       },
       {
         "slideNumber": 16,
@@ -2165,7 +2270,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    subgraph DeceptionZone[\"기만적 착시 구간 (t=0 \\sim 6)\"]\n        A[\"0.001\"] --> B[\"0.002\"] --> C[\"0.004\"] --> D[\"0.008\"] --> E[\"0.016\"] --> F[\"0.032\"]\n    end\n    DeceptionZone -->|인간의 뇌| Perception[\"'아무런 변화 없음 (0.0)'으로 인지\"]\n    F --> Explosion[\"0.064 → 0.128 → 0.256 → 0.512 → 1.024 (순식간에 시장 장악!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기만적 단계(Deception Phase)의 수학적 메커니즘: $0.001 \\rightarrow 0.002 \\rightarrow 0.004$의 착시"
       },
       {
         "slideNumber": 17,
@@ -2185,7 +2291,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"선형 성장 vs 기하급수 성장의 교차점(T*)과 폭발적 격차\"\n    x-axis [0, 2, 4, 6, 8, 10, 12, 14, 16]\n    y-axis \"성능 / 규모\" 0 --> 100\n    line [10, 20, 30, 40, 50, 60, 70, 80, 90]\n    line [0.5, 1, 2, 4, 8, 16, 32, 64, 128]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기하급수 곡선과 선형 예측선의 변곡점 교차점 (Inflection Point $T^*$)"
       },
       {
         "slideNumber": 18,
@@ -2207,7 +2314,8 @@ export const sessionsList = [
         "mermaid": "timeline\n    title 코닥의 6D 궤적: 발명에서 파산까지\n    1975 : 세계 최초 디지털카메라 발명 (0.01MP, 기만 단계 진입)\n    1989 : 코닥 경영진, 디지털 무시하고 필름에 올인\n    2000 : 메가픽셀 돌파 및 T^* 변곡점 통과 (파괴 시작)\n    2007 : 아이폰 출시 (스마트폰 속으로 탈물질화)\n    2012 : 코닥 파산 신청 vs 인스타그램 10억 달러 인수 (민주화 완료)",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "코닥(Kodak)의 비극: 1975년 스티브 사손의 0.01메가픽셀 카메라와 파산의 궤적"
       },
       {
         "slideNumber": 19,
@@ -2229,7 +2337,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Moore[\"무어의 법칙<br/>(2년마다 칩 밀도 2배)\"] --> DualEngine[\"기하급수 이중 엔진 (Dual Engine)\"]\n    Wright[\"라이트의 법칙<br/>(누적 생산량 2배마다 비용 20% 하락)\"] --> DualEngine\n    DualEngine --> Drop[\"배터리 • 태양광 • 게놈 • AI 토큰의 초고속 가격 폭락\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무어의 법칙(Moore's Law) vs 라이트의 법칙(Wright's Law)의 누적 생산 수렴"
       },
       {
         "slideNumber": 20,
@@ -2247,7 +2356,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    AI[\"AI 6D (연산 민주화)\"] --> Bio[\"Bio 6D (단백질 설계 가속)\"]\n    Bio --> Energy[\"Energy 6D (신소재 배터리 개발)\"]\n    Energy --> Robotics[\"Robotics 6D (자율 구동 로봇 대량화)\"]\n    Robotics --> AI",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술 수렴(Technological Convergence): 단일 6D에서 복합 6D 매트릭스로의 진화"
       },
       {
         "slideNumber": 21,
@@ -2265,7 +2375,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Democ[\"민주화로 N (사용자 수) 10배 폭증\"] --> Metcalfe[\"멧칼프 네트워크 효과 (V = N^2)\"]\n    Metcalfe --> Value100[\"시스템 가치 100배 폭증\"]\n    Value100 --> Feedback[\"추가 자본 유입 & 알고리즘 고도화\"]\n    Feedback --> Democ",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "네트워크 효과(Metcalfe's Law)와 6D의 결합 가속도"
       },
       {
         "slideNumber": 22,
@@ -2287,7 +2398,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"물리적 원자 (Heavy, Slow, Costly)\"] --> B[\"설계 도면 CAD / 알고리즘 변환\"]\n    B --> C[\"클라우드 SaaS / 가상화\"]\n    C --> D[\"탈물질화된 풍요 (Weightless, Instant, Free)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "탈물질화의 물리적 한계 돌파: 비트(Bit)가 아톰(Atom)을 삼키는 원리"
       },
       {
         "slideNumber": 23,
@@ -2309,7 +2421,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    Cap[\"자본주의 극도의 경쟁 & 6D 기술 혁신\"] --> ZeroMC[\"한계 비용(MC) 0 달성\"]\n    ZeroMC --> PriceZero[\"시장 가격 P = MC = 0 수렴\"]\n    PriceZero --> FreeEconomy[\"탈화폐화된 공유 경제 및 풍요 사회 출현\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "한계비용 제로 경제학(Zero Marginal Cost Economics, Jeremy Rifkin)"
       },
       {
         "slideNumber": 24,
@@ -2331,7 +2444,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OldBarrier[\"과거 진입 장벽: 100M USD 공장 + 수천 명 인력\"] --> 6DStack[\"6D 오픈소스 스택 (AWS • LLM • Foundry)\"]\n    6DStack --> ZeroBarrier[\"현재 진입 장벽: 노트북 1대 + 클라우드 크레딧 500 USD\"]\n    ZeroBarrier --> StartupSurge[\"글로벌 스타트업 문샷 폭발\"]",
         "formula": "\\lim_{\\text{Tech} \\to \\text{Democratized}} C_{\\text{entry}} = 0",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "진입 장벽(Barrier to Entry)의 붕괴 공식: $C_{\\text{entry}} \\rightarrow 0$"
       },
       {
         "slideNumber": 25,
@@ -2347,7 +2461,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"STEP 1. 아날로그 병목 탐색: 현재 물리적 원자(Atom)와 인력에 묶여 극도로 비싼 산업 식별\"] --> S2[\"STEP 2. 디지털화 레버리지: 해당 병목을 0과 1의 데이터 및 센서/AI 코드로 변환할 방법 설계\"]\n    S2 --> S3[\"STEP 3. 기만 단계 추적: 현재 성능은 조악하지만 2배 증가 곡선(Doubling)을 타기 시작한 초기 기술 발굴\"]\n    S3 --> S4[\"STEP 4. 탈화폐화 10 USD\\times 모델링: 비용이 1/100로 떨어졌을 때 열릴 80억 명 민주화 시장 선점\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6D 기반 파괴적 기회 탐색 알고리즘 (Disruptive Opportunity Matrix)"
       },
       {
         "slideNumber": 26,
@@ -2365,7 +2480,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 디지털 사진 산업의 6D 궤적 (Kodak 파산 vs Instagram 10억 달러 인수)"
       },
       {
         "slideNumber": 27,
@@ -2383,7 +2499,8 @@ export const sessionsList = [
         "mermaid": "pie title 1980년대 개별 하드웨어 가격 비중 (총합 7.1M USD 상당)\n    \"슈퍼컴퓨터 연산력 (Cray X-MP급)\" : 45\n    \"방송용 캠코더 및 영상 편집기\" : 20\n    \"고정밀 GPS 위성 항법 장치\" : 12\n    \"브리태니커 백과사전 및 음향 스튜디오\" : 13\n    \"기타 통신, 센서, 게임기\" : 10",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 스마트폰에 흡수된 1980년대 30개 전자장비의 탈물질화 실증 데이터 ($7.1M $\\rightarrow$ $0)"
       },
       {
         "slideNumber": 28,
@@ -2407,7 +2524,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1명 게놈 시퀀싱 비용 하락 궤적 ( Log10 Scale)\"\n    x-axis [2003, 2007, 2011, 2015, 2019, 2023, 2026]\n    y-axis \"Cost ( Log Scale)\" 1 --> 10\n    line [9.47, 7.0, 4.0, 3.0, 2.8, 2.3, 1.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 게놈 시퀀싱(NGS)의 6D 여정 ($3B $\\rightarrow$ $100, 3천만 분의 1 하락)"
       },
       {
         "slideNumber": 29,
@@ -2425,7 +2543,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"태양광 모듈 와트당 가격 하락 (/Watt, 1976~2026)\"\n    x-axis [1976, 1986, 1996, 2006, 2016, 2026]\n    y-axis \"가격 (/W)\" 0 --> 110\n    line [106, 35, 10, 4.5, 0.38, 0.08]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: 태양광 PV 모듈 가격의 기만 단계 탈출과 99.6% 가격 하락"
       },
       {
         "slideNumber": 30,
@@ -2447,7 +2566,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"리튬이온 배터리 팩 kWh당 가격 추이 (2010~2026)\"\n    x-axis [2010, 2013, 2016, 2019, 2022, 2024, 2026]\n    y-axis \"팩 가격 (/kWh)\" 0 --> 1300\n    line [1200, 680, 295, 156, 138, 105, 88]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 리튬이온 배터리 팩 가격 하락 ($1,200/kWh $\\rightarrow$ $90/kWh)과 전기차 변곡점"
       },
       {
         "slideNumber": 31,
@@ -2467,7 +2587,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"AI 100만 토큰 추론 비용 하락 추이 (/Million Tokens)\"\n    x-axis [2023.03, 2023.11, 2024.06, 2025.01, 2026.01]\n    y-axis \"추론 비용 ()\" 0 --> 60\n    line [60, 30, 5, 0.5, 0.1]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: LLM 토큰 생성 비용의 기하급수 하락 추이 (100만 토큰당 $60 $\\rightarrow$ $0.1)"
       },
       {
         "slideNumber": 32,
@@ -2487,7 +2608,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"배양육 패티 1개 생산 단가 하락 곡선 ( Log Scale)\"\n    x-axis [2013, 2016, 2019, 2022, 2024, 2026]\n    y-axis \"Cost ( Log Scale)\" 0 --> 6\n    line [5.52, 4.0, 2.5, 1.8, 1.3, 0.9]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 배양육(Cultured Meat)의 6D 변곡점 ($330,000 $\\rightarrow$ $10/kg 버거)"
       },
       {
         "slideNumber": 33,
@@ -2511,7 +2633,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"지구 저궤도(LEO) 1kg 수송 비용 하락 추이 (/kg)\"\n    x-axis [1981, 1995, 2010, 2018, 2023, 2026]\n    y-axis \"수송 비용 (/kg)\" 0 --> 60000\n    line [54500, 26800, 10500, 2600, 1200, 100]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 원격 우주 탐사 및 큐브위성(CubeSat) 발사 비용의 6D 혁명"
       },
       {
         "slideNumber": 34,
@@ -2529,7 +2652,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 글로벌 핀테크 및 모바일 머니(M-Pesa 등)의 금융 민주화 지표"
       },
       {
         "slideNumber": 35,
@@ -2545,7 +2669,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph FullyDemocratized[\"완전 민주화 완료 (6D 달성)\"]\n        A1[\"디지털 사진 • 웹 백과사전 • 음악 스트리밍 • 화상 통신\"]\n    end\n    subgraph InDisruption[\"파괴 및 탈화폐화 진행 중 (3~5D)\"]\n        A2[\"프론티어 AI 추론 • 태양광 & ESS • 전기차 • 게놈 시퀀싱\"]\n    end\n    subgraph InDeception[\"기만 단계 탈출 직전 (2~3D - 거대한 기회!)\"]\n        A3[\"합성 생물학 파운드리 • 배양육 • 양자 컴퓨팅 • BCI 인공장기 • 우주 수송\"]\n    end",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6D 산업별 기만 단계 진입 및 탈출 타임라인 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -2563,7 +2688,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Decept[\"기만 단계: '문제없음, 장난감일 뿐' (규제 무관심)\"] --> Cross[\"T^* 변곡점 급속 돌파\"]\n    Cross --> Panic[\"파괴 단계: '통제 불능, 사회 혼란' (규제 패닉 & 사후약방문)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기만적 평온함 뒤에 숨은 거버넌스 붕괴: 규제 기관의 인지적 딜레마"
       },
       {
         "slideNumber": 37,
@@ -2581,7 +2707,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    GoodMgmt[\"우량 고객의 요구 청취 & 고마진 기존 제품 최적화\"] --> Ignore6D[\"기만 단계의 저마진 조악한 신기술 무시\"]\n    Ignore6D --> SuddenDeath[\"신기술의 기하급수 성능 역전 → 기업 파산\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "전통 기업의 '혁신가의 딜레마(The Innovator's Dilemma)'와 6D 사망 선고"
       },
       {
         "slideNumber": 38,
@@ -2599,7 +2726,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Abundance[\"실제 문명의 풍요와 소비자 후생 무한 증가\"] --> Divergence{\"통계적 괴리 (GDP Paradox)\"}\n    Divergence --> GDP[\"전통 GDP 지표: 매출 소멸로 마이너스/정체 기록\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "탈화폐화의 양날의 검: GDP 착시와 경제 통계의 왜곡"
       },
       {
         "slideNumber": 39,
@@ -2617,7 +2745,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    FreeService[\"탈화폐화된 무료 서비스 제공 (SaaS, AI)\"] --> DataExtraction[\"사용자의 모든 일상 데이터 및 행동 양식 채굴\"]\n    DataExtraction --> LockIn[\"초거대 플랫폼 종속 및 디지털 봉건 영주 탄생\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "디지털 과점과 새로운 봉건주의(Digital Neo-Feudalism)의 위험"
       },
       {
         "slideNumber": 40,
@@ -2635,7 +2764,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Demen[\"지능과 육체 노동의 탈물질화 & 한계비용 제로화\"] --> EndLabor[\"전통적 임금 노동 시장 축소\"]\n    EndLabor --> UBA[\"보편적 기본 풍요 (Universal Basic Abundance) 체제로의 문명적 이행\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "고용의 탈물질화와 노동 가치설의 종말"
       },
       {
         "slideNumber": 41,
@@ -2651,7 +2781,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    L1[\"1. 지수적 직관: 기만 단계의 배가 주기(Doubling Rate) 추적\"] --> L2[\"2. 자기 파괴: 기존 비즈니스의 선제적 탈물질화\"]\n    L2 --> L3[\"3. 10 USD\\times 문샷: 한계 비용 제로 인프라를 활용한 전 지구적 스케일 확장\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기하급수 리더십(Exponential Leadership): 기만 단계를 포착하는 직관 훈련"
       },
       {
         "slideNumber": 42,
@@ -2669,7 +2800,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"6D의 통찰: 모든 희소성은 정보화되는 순간 소멸한다\"] --> B[\"기만 단계의 극복: 레이더 아래의 복리를 꿰뚫어 보는 통찰력\"]\n    B --> C[\"민주화된 권능: 80억 인류를 위한 100B USD 문샷 설계\"]\n    C --> D[\"THEURGICON의 사명: 신의 도구로 풍요의 세상을 건설하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 6D의 파도를 타고 풍요를 설계하라"
       },
       {
         "slideNumber": 43,
@@ -2685,7 +2817,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 탈화폐화(Demonetization)로 인해 전통 경제학의 GDP 지표가 풍요를 측정하지 못한다면, 21세기 문명의 진보를 측정할 새로운 '풍요 지표(Abundance Index)'의 제1원리적 구성 요소는 무엇이어야 하는가?\"]\n    D2[\"논제 2: 빅테크 클라우드 기업들이 6D 인프라를 독점하여 '디지털 봉건 영주'로 군림하는 것을 막기 위해, 프론티어 AI 모델과 BCI 인프라의 '강제적 오픈소스 민주화' 법제화는 정당한가?\"]\n    D3[\"논제 3: 당신이 글로벌 전통 완성차/에너지/제약 대기업의 CEO라면, 주주들의 즉각적인 분기 배당 요구를 방어하면서 현재 2단계(기만적 성장)에 있는 파괴적 신기술에 회사의 사활을 걸기 위한 구체적 거버넌스 전략은 무엇인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -2703,7 +2836,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 미래 산업 6D 수직 분해 및 변곡점 예측 모델링 워크시트"
       },
       {
         "slideNumber": 45,
@@ -2723,7 +2857,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W3[\"Week 3: The 6Ds & The Deception Trap<br/>(6D 프레임워크와 기만적 성장의 함정)\"] --> W4[\"Week 4: Value Density & The Liberation Ladder<br/>(가치 밀도와 인류를 구원한 사다리)\"]\n    W4 --> W5[\"Week 5: Data-Driven Optimism & Zipline<br/>(데이터 기반 낙관주의와 현실적 기적)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "4주차 예고: Value Density와 인류를 구원한 사다리 (Value Density & Liberation Ladder) & 종강"
       }
     ]
   },
@@ -2753,7 +2888,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    A[\"물리적 물질(Mass)의 극소화<br/>(수십 톤 기계 → 3nm 칩 • 소프트웨어)\"] --> C{\"가치 밀도 폭발<br/>(VALUE DENSITY)\"}\n    B[\"기능적 가치(Value)의 무한화<br/>(전 세계 지식 • 통신 • 연산 • 에너지)\"] --> C\n    C --> D[\"해방의 사다리 (The Liberation Ladder)<br/>• 3000 BCE 관개수로<br/>• 2200 BCE 마구<br/>• 2026 스마트폰 & AI\"]\n    D --> E[\"49 USD Quadrillion 잠재 자산 해방\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 4 개요: Value Density와 인류를 구원한 사다리"
       },
       {
         "slideNumber": 2,
@@ -2771,7 +2907,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Scarcity[\"과거의 희소성 (Scarcity)<br/>보크사이트 원석에서 알루미늄 분리 기술 부재 → 금보다 비쌈\"] --> Tech[\"기술적 사다리 (Hall-Héroult 전해제련법 발명)\"]\n    Tech --> Abundance[\"현재의 풍요 (Abundance)<br/>지구 지각 8% 알루미늄 전면 해방 → 주방 호일/음료수 캔\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "희소성(Scarcity)은 맥락적(Contextual)이며 기술로 해체된다"
       },
       {
         "slideNumber": 3,
@@ -2789,7 +2926,8 @@ export const sessionsList = [
         "mermaid": "timeline\n    title 인류를 구원한 5대 사다리의 도약\n    3000 BCE : 메소포타미아 관개 운하 (물리적 물 자원의 해방)\n    2200 BCE : 말 하네스 & 마구 (가축 생체 역학 노동 5배 해방)\n    1440 CE : 구텐베르크 금속 활자 (지식 복제의 탈물질화)\n    1712 CE : 뉴커먼/와트 증기 기관 (화석 연료 열역학적 동력 해방)\n    2026 CE : 스마트폰 & AGI & BCI (인간 지능 및 공간의 완전한 해방)",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "사다리(The Ladder): 문명을 도약시킨 기술적 해방의 계보"
       },
       {
         "slideNumber": 4,
@@ -2807,7 +2945,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Q[\"4주차 핵심 질문\"] --> A[\"1. 가치 밀도의 극대화: 100톤의 하드웨어를 0그램의 알고리즘으로 치환\"]\n    Q --> B[\"2. 잠재 자산의 유동화: 죽어있던 49 USD Quadrillion의 태양광/데이터/토지 가치 각성\"]\n    Q --> C[\"3. 라이징 플로어(Rising Floor): 하위 10%의 기본 생활 수준이 과거 왕실 수준으로 상승\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 기술은 어떻게 물리적 자원의 한계를 무효화하는가?"
       },
       {
         "slideNumber": 5,
@@ -2823,7 +2962,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 풍요의 제1원리<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 사다리의 역사 & 수학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 49Q & 실증 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 소유의 종말 & UBA<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. Phase 1 종합 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "4주차 및 Phase 1 종합 로드맵: 고대 관개수로에서 4경 9천조 달러 해방까지"
       },
       {
         "slideNumber": 6,
@@ -2841,7 +2981,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Bedrock[\"풍요의 제1원리 (First Principles of Abundance)\"] --> P1[\"원리 1: 희소성의 맥락성 (Contextual Scarcity)\"]\n    Bedrock --> P2[\"원리 2: 가치와 질량의 탈동조화 (Value-Mass Decoupling)\"]\n    Bedrock --> P3[\"원리 3: 한계비용 제로의 무한 접근권 (Zero Marginal Access)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』: 풍요의 제1원리 (First Principles of Abundance)"
       },
       {
         "slideNumber": 7,
@@ -2859,7 +3000,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "\\text{Value Density} = \\frac{\\text{Functional Value } (V)}{\\text{Physical Mass } (M)} \\implies \\lim_{M \\to 0} \\frac{V}{M} = \\infty",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Value Density(Value Density)의 물리적 정의: 단위 질량/부피당 가치의 무한 수렴"
       },
       {
         "slideNumber": 8,
@@ -2875,7 +3017,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "$7.1M 스마트폰 기적의 정밀 회계: 탈물질화된 30대 하드웨어 품목록"
       },
       {
         "slideNumber": 9,
@@ -2893,7 +3036,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Heavy[\"거시 물질 문명 (Macroscopic)<br/>석탄 • 철광석 • 종이 서류 • 내연기관\"] -->|가치 밀도 혁명| Subatomic[\"미시 양자 문명 (Quantum/Subatomic)<br/>광자 (광통신) • 전자 (반도체) • 큐비트 (양자)\"]\n    Subatomic --> Infinite[\"무게 0 • 속도 광속 • 무한 복제\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "광자(Photon)와 전자(Electron)의 세계: 비가시적 자원의 가치화"
       },
       {
         "slideNumber": 10,
@@ -2909,7 +3053,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"에너지원별 에너지 밀도 도약 (Log10 MJ/kg)\"\n    x-axis [Wood, Coal, Oil, Fission, Fusion]\n    y-axis \"Energy Density (Log10 MJ/kg)\" 1 --> 9\n    line [1.2, 1.4, 1.66, 6.59, 8.53]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "에너지 사다리: 장작 $\\rightarrow$ 석탄 $\\rightarrow$ 석유 $\\rightarrow$ 원자력 $\\rightarrow$ 태양광 & 핵융합"
       },
       {
         "slideNumber": 11,
@@ -2925,7 +3070,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    P1[\"1860년 포니 익스프레스 (Pony Express)<br/>말 타고 미국 횡단: 10일 소요 • 1회당 몇 글자\"] --> P2[\"1866년 대서양 횡단 해저 전신 케이블<br/>분당 몇 단어 (모스 부호)\"]\n    P2 --> P3[\"1990년대 구리 유선 전화망<br/>초당 56 kbps 모뎀 다이얼업\"]\n    P3 --> P4[\"2026년 스타링크 레이저 인터링크 광학 위성망<br/>지구 전역 어디서나 0.02초 딜레이 • 초당 Gigabits\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "통신 사다리: 파발마 $\\rightarrow$ 전신 $\\rightarrow$ 해저케이블 $\\rightarrow$ 스타링크 광학 위성망"
       },
       {
         "slideNumber": 12,
@@ -2943,7 +3089,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Own[\"과거: 소유권 중심 (Ownership)<br/>• 자동차 구매 (40,000 USD) → 하루 95% 주차장에 방치<br/>• 물리적 책/음반 보관 공간 낭비\"] --> Shift[\"패러다임 전환: 접근권 중심 (Access)\"]\n    Shift --> Access[\"2026: 온디맨드 풍요 (On-Demand)<br/>• 자율주행 로보택시 구독 → 마일당 0.1 USD 즉시 호출<br/>• Spotify / Kindle / Cloud AI 즉시 이용\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 자원 접근성 공리 (Accessibility Axiom)"
       },
       {
         "slideNumber": 13,
@@ -2961,7 +3108,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Survival[\"사바나/산업시대 뇌:<br/>80% 생존 불안 & 육체적 노역 소모\"] -->|가치 밀도 & 사다리 해방| PostScarcity[\"기하급수 풍요 시대 뇌:<br/>80% 초집중 몰입(Flow) & 100B USD 문샷 설계\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지적 자원 해방: 번아웃에서 무한 창의성으로"
       },
       {
         "slideNumber": 14,
@@ -2985,7 +3133,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    VDI[\"가치 밀도 지수 (VDI)\"] --> Num[\"분자: 효용(U) × 접근성(A) \\uparrow\\uparrow (폭발)\"]\n    VDI --> Den[\"분모: 질량(M) × 에너지(E) × 한계비용(MC) \\downarrow\\downarrow (0 수렴)\"]\n    Num & Den --> Singularity[\"VDI → \\infty (풍요의 수학적 증명)\"]",
         "formula": "\\text{VDI}(S) = \\frac{\\sum_{i=1}^{n} \\text{Utility}_i \\times \\text{Accessibility}}{\\text{Mass} \\times \\text{Energy} \\times \\text{Marginal Cost}} = \\frac{U \\cdot A}{M \\cdot E \\cdot MC}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Value Density 지수(Value Density Index: VDI) 공식 도출"
       },
       {
         "slideNumber": 15,
@@ -3001,7 +3150,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "역사적 기술 사다리 5대 축 총괄 요약 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -3021,7 +3171,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Canal[\"3000 BCE 메소포타미아 관개 운하 건설\"] --> Surplus[\"식량 생산 400% 폭증 & 잉여 농산물 축적\"]\n    Surplus --> Specialization[\"농경 노동에서 인간 해방 → 문자(쐐기문자) • 법률 • 수학 • 도시 탄생\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "역사적 마일스톤 1: 3000 BCE 메소포타미아 관개 운하와 잉여 생산의 탄생"
       },
       {
         "slideNumber": 17,
@@ -3041,7 +3192,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldHarness[\"고대 목줄 (Throat Harness):<br/>무거운 짐 끌면 말의 기도 압박 → 질식\"] -->|생체역학적 최적화| HorseCollar[\"마구 혁신 (Padded Collar):<br/>견인력 5배 폭발 • 쟁기질 속도 50% 가속\"]\n    HorseCollar --> EuropeBoom[\"유럽 대밀밭 개간 & 중세 도시 상업 부흥\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "역사적 마일스톤 2: 2200 BCE 마구(Horse Collar/하네스)와 농업 생산력 5배 도약"
       },
       {
         "slideNumber": 18,
@@ -3059,7 +3211,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SquareSail[\"고대 사각돛: 바람 부는 방향으로만 항해 가능 (지리적 고립)\"] --> Lateen[\"삼각돛 & 캐러벨선 개발: 역풍을 가르는 유체역학적 양력 활용\"]\n    Lateen --> GlobalTrade[\"대항해 시대 개막 & 전 지구적 상품/지식 실시간 교환\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "역사적 마일스톤 3: 삼각돛(Lateen Sail)과 해양 항법이 해방한 대륙 간 무역"
       },
       {
         "slideNumber": 19,
@@ -3077,7 +3230,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"성서 1권 제작에 소요되는 시간과 비용 하락 (1400 vs 1500)\"\n    x-axis [1400 (수도승 필사), 1455 (구텐베르크 초기), 1500 (유럽 인쇄망 확산)]\n    y-axis \"제작 비용 ( Log Scale)\" 1 --> 5\n    line [4.7, 2.5, 0.7]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인쇄술(Gutenberg)과 지식 복제의 한계 비용 1차 붕괴"
       },
       {
         "slideNumber": 20,
@@ -3095,7 +3249,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Steam[\"와트 증기기관 상용화 (열역학적 동력)\"] --> Cheaper[\"석탄 1톤의 노동 단가가 노예 100명의 유지비보다 저렴해짐\"]\n    Cheaper --> Abolition[\"노예제 기반 농업 경제의 비교우위 완전 붕괴 → 도덕적 노예 해방 실현\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "증기 기관과 열역학적 노동 해방: 노예제의 경제적 종말"
       },
       {
         "slideNumber": 21,
@@ -3113,7 +3268,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Air[\"공기 중 무제한 질소 (78% 대기)\"] --> Haber[\"하버-보슈 암모니아 합성 촉매 반응\"]\n    Haber --> Fertilizer[\"합성 질소 비료 대량 공급\"]\n    Fertilizer --> Billions[\"지구 인구 16억 명 → 80억 명 부양 달성 (40억 명 생명 구원)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "하버-보슈법(Haber-Bosch)과 공기 중 질소 고정: 40억 인구 부양의 기적"
       },
       {
         "slideNumber": 22,
@@ -3135,7 +3291,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1그램당 연산 능력 성장 궤적 (FLOPs/gram, Log Scale 1950~2026)\"\n    x-axis [1950, 1965, 1980, 1995, 2010, 2026]\n    y-axis \"Compute Density (Log10 FLOPs/g)\" 0 --> 15\n    line [0.1, 2.5, 5.2, 8.1, 11.4, 15.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "실리콘 혁명과 연산의 Value Density: 진공관 방 하나에서 3nm 나노칩으로"
       },
       {
         "slideNumber": 23,
@@ -3153,7 +3310,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Classical[\"고전 비트: 300비트 = 300개 정보 저장\"] -->|양자 얽힘 & 중첩| Quantum[\"300 큐비트: 2 USD^{300} ≈ 10^{90} 개 상태 동시 연산<br/>(전 우주 원자 수 초과!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "양자 컴퓨팅과 힐베르트 공간의 연산 밀도: $2^N$ 상태 동시 처리"
       },
       {
         "slideNumber": 24,
@@ -3171,7 +3329,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    M[\"물리적 질량 (Mass) → 0\"] --> Ratio[\"가치 밀도 (Value/Mass) → \\infty\"]\n    V[\"기능적 가치 (Value) → \\infty\"] --> Ratio\n    Ratio --> PostScarcity[\"POST-SCARCITY CIVILIZATION (탈희소성 문명)\"]",
         "formula": "\\lim_{t \\to \\infty} \\text{Mass}(t) \\to 0 \\quad \\text{and} \\quad \\lim_{t \\to \\infty} \\text{Value}(t) \\to \\infty \\implies \\lim_{t \\to \\infty} \\frac{\\text{Value}(t)}{\\text{Mass}(t)} = \\infty",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "탈물질화 가치 사다리 공식: $\\lim_{Mass \\to 0} \\frac{Value}{Mass} = \\infty$"
       },
       {
         "slideNumber": 25,
@@ -3187,7 +3346,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    S1[\"1. 발견 (Discovery)<br/>숨겨진 물리 법칙/신소재 식별\"] --> S2[\"2. 변환 (Conversion)<br/>정보 이론 & 디지털 코드로 치환\"]\n    S2 --> S3[\"3. 증폭 (Amplification)<br/>AI & 반도체 스케일링으로 증폭\"]\n    S3 --> S4[\"4. 민주화 (Democratization)<br/>한계비용 0으로 80억 인류 배포\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자원 해방의 4단계 프레임워크 (발견 $\\rightarrow$ 변환 $\\rightarrow$ 증폭 $\\rightarrow$ 민주화)"
       },
       {
         "slideNumber": 26,
@@ -3205,7 +3365,8 @@ export const sessionsList = [
         "mermaid": "pie title 49 USD Quadrillion 글로벌 잠재 자산 구성비 (4.9 USD경 원)\n    \"태양 복사 청정 에너지 자산\" : 41\n    \"토지/해양 생체 합성 잠재 자산\" : 24\n    \"글로벌 인류 지능 & 데이터 네트워크\" : 21\n    \"지구 근접 소행성 우주 광물 자산\" : 14",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 4경 9천조 달러($49 Quadrillion) 글로벌 잠재 자산의 유동화 실증"
       },
       {
         "slideNumber": 27,
@@ -3223,7 +3384,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 세계 절대 빈곤율(하루 2.15 USD 미만) 하락 추이 (1820~2026)\"\n    x-axis [1820, 1870, 1910, 1950, 1980, 2000, 2015, 2026]\n    y-axis \"절대 빈곤 인구 비율 (%)\" 0 --> 100\n    line [89, 82, 75, 55, 42, 28, 10, 4.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 라이징 플로어 효과(Rising Floor Effect): 전 지구적 빈곤선의 수직 상승"
       },
       {
         "slideNumber": 28,
@@ -3245,7 +3407,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    NoInfra[\"인프라 제로 (도로 없음 • 전력망 없음 • 은행 없음)\"] -->|스타링크 & 모바일 태양광 배터리 결합| GlobalAccess[\"전 세계 글로벌 경제 & 고등 교육 즉시 진입<br/>(사다리 3단계 단숨 도약)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 아프리카 케냐 M-Pesa & 스타링크를 통한 10억 인구의 금융/정보 진입"
       },
       {
         "slideNumber": 29,
@@ -3267,7 +3430,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"장비 제조에 필요한 원자재 질량(kg) 비교\"\n    x-axis [1980년대 30대 물리 하드웨어 총합, 2026년 스마트폰 1대]\n    y-axis \"원자재 중량 (kg)\" 0 --> 60\n    bar [52.4, 0.18]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: 스마트폰 무게 180g vs 1980년대 50kg 장비의 탄소 발자국 절감 비교"
       },
       {
         "slideNumber": 30,
@@ -3293,7 +3457,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Cow[\"전통 젖소 축산: 풀 → 소 (사료 효율 4%) → 우유 (토지 100배 소모)\"]\n    Ferment[\"정밀 발효 바이오리액터: 당분/전기 → 효모 미생물 → 순수 카제인 단백질 (효율 85%)\"]\n    Cow -.->|가치 밀도 100배 도약| Ferment",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 정밀 발효(Precision Fermentation)와 토지 사용량 99% 절감 데이터"
       },
       {
         "slideNumber": 31,
@@ -3317,7 +3482,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"단위 면적당 연간 샐러드 채소 생산성 (kg/m²)\"\n    x-axis [전통 노지 농업, 최첨단 수직 농업 (AeroFarms)]\n    y-axis \"연간 생산량 (kg/m²)\" 0 --> 400\n    bar [1.0, 390.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 수직 농업(AeroFarms)의 물 소비 95% 절감 및 평당 생산성 390배 지표"
       },
       {
         "slideNumber": 32,
@@ -3335,7 +3501,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BluePhoton[\"청색/자외선 단파장 광자\"] --> PerovskiteTop[\"상부 페로브스카이트 층 (고에너지 흡수)\"]\n    RedPhoton[\"적색/적외선 장파장 광자\"] --> SiliconBottom[\"하부 실리콘 층 (저에너지 흡수)\"]\n    PerovskiteTop & SiliconBottom --> TotalEfficiency[\"광전 변환 효율 34% 돌파 (가치 밀도 수직 상승)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 페로브스카이트-실리콘 탠덤 태양전지의 Value Density (34% 효율 돌파)"
       },
       {
         "slideNumber": 33,
@@ -3359,7 +3526,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Manual[\"과거: 1개 단백질 해독 = 5년 박사과정 연구 + 100k\"] --> AlphaFold[\"AlphaFold: 2억 개 단백질 전수 해독 완료 (초당 무료 검색)\"]\n    AlphaFold --> Saved[\"인류 과학자 수백만 명의 인생과 시간 해방 → 항암제/신약 개발 10배 가속\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 알파폴드 2억 개 단백질 DB가 해방한 인류 연구 시간 (수백만 인년 절약)"
       },
       {
         "slideNumber": 34,
@@ -3379,7 +3547,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldRocket[\"전통 로켓: 부품 10만 개 • 공급망 수천 개 • 조립 2년\"] -->|AI 알고리즘 설계 & 3D 적층 제조| PrintRocket[\"3D 프린팅 로켓: 단일 일체형 출력 • 부품 1,000개 미만 • 60일 완성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 3D 프린팅 로켓(Relativity Space 등)과 부품 수 100분의 1 축소"
       },
       {
         "slideNumber": 35,
@@ -3395,7 +3564,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "글로벌 Value Density 혁신 10대 도메인 비교 대조표"
       },
       {
         "slideNumber": 36,
@@ -3413,7 +3583,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HeavyOwn[\"과거: 소유의 시대 (Ownership)<br/>부동산 • 자동차 • 전자기기 소유 집착<br/>(감가상각 • 유지비용 • 공간 구속)\"] --> Transition[\"가치 밀도 극대화 & 클라우드화\"]\n    Transition --> LightAccess[\"현재: 접근의 시대 (Access)<br/>온디맨드 구독 • 자율 스트리밍 • 가벼운 삶<br/>(자유도 극대화 • 제로 마찰)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "소유의 종말: 유형 자산에서 무형 접근권(Access over Ownership)으로의 전환"
       },
       {
         "slideNumber": 37,
@@ -3431,7 +3602,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OldValuation[\"전통 회계 모델: 물리적 공장 설비(Capex)와 토지 면적으로 기업 가치 산출\"] --> Shock[\"가치 밀도 폭발: 무형 자산(AI 가중치, 알고리즘)이 가치 99% 독식\"]\n    Shock --> ParadigmShift[\"전통 제조업 주가 정체 vs 팹리스/SaaS 기업의 시가총액 수조 달러 지배\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "전통 자본주의의 부동산/제조업 가치평가 모델 붕괴 위기"
       },
       {
         "slideNumber": 38,
@@ -3453,7 +3625,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Abundant[\"6D 탈물질화 복제재:<br/>통신 • AI • 에너지 • 기초 헬스케어<br/>(0 USD으로 가격 소멸)\"] \n    Scarce[\"복제 불가능한 위치재 (Positional):<br/>희소 입지 부동산 • 역사적 원본 • 사회적 지위<br/>(가격 천문학적 폭등)\"]\n    Abundant <==>|문명적 양극화 심화| Scarce",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "풍요 속의 상대적 박탈감: '포지셔널 굿(Positional Goods)'의 가격 폭등 역설"
       },
       {
         "slideNumber": 39,
@@ -3471,7 +3644,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    UniversalTool[\"80억 인류에게 똑같이 쥐어진 스마트폰 & AGI 도구\"] --> Div1[\"상위 1% Theurgist: 제1원리 & 구조 매핑으로 100B USD 가치 창출\"]\n    UniversalTool --> Div2[\"하위 99% 단순 소비자: 쇼츠 & 둠스크롤링 알고리즘의 도파민 노예 전락\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "디지털 격차(Digital Divide)와 지적 귀족주의의 부활 경고"
       },
       {
         "slideNumber": 40,
@@ -3489,7 +3663,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OldTax[\"과거 조세 모델: 노동 소득세 (인간 근로소득 과세) → 자동화로 세수 급감\"] --> Reform[\"한계비용 제로 시대의 2대 세제 개혁\"]\n    Reform --> Opt1[\"1. 지능/연산세 (Compute Tax): AI 에이전트 초과 이윤 환수\"]\n    Reform --> Opt2[\"2. 공유부 배당 (Common Wealth Dividend): 토지 • 전파 • 데이터 지대 전 국민 배당\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "한계비용 제로 사회에서의 세제 개혁: 로봇세 vs 토지/데이터 배당"
       },
       {
         "slideNumber": 41,
@@ -3517,7 +3692,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    UBA[\"UNIVERSAL BASIC ABUNDANCE (보편적 기본 풍요)\"] --> E[\"1. 무상 청정 에너지 (Solar/Battery)\"]\n    UBA --> H[\"2. 무상 정밀 헬스케어 (AI Diagnostics)\"]\n    UBA --> Ed[\"3. 무상 초지능 교육 (1:1 AI Tutor)\"]\n    UBA --> F[\"4. 무상 정밀 영양식 (Precision Food)\"]\n    UBA --> C[\"5. 무상 글로벌 통신 (Starlink Mesh)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "보편적 기본 풍요(Universal Basic Abundance: UBA)의 문명적 청사진"
       },
       {
         "slideNumber": 42,
@@ -3535,7 +3711,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    W1[\"Week 1: Theogony & Theurgicon (83가지 기적의 기술화)\"] --> W2[\"Week 2: Cognitive Vertigo (구조 매핑 & 인지 렌즈 장착)\"]\n    W2 --> W3[\"Week 3: The 6Ds & Deception (기만 단계의 수학과 파괴)\"]\n    W3 --> W4[\"Week 4: Value Density & Ladder (가치 밀도와 49Q 해방)\"]\n    W4 --> Phase1[\"PHASE 1 마스터: 기하급수 인지 프레임워크 완성 → PHASE 2 현실적 기적으로 도약!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 인류를 해방한 사다리를 딛고 신의 반열로 올라서라"
       },
       {
         "slideNumber": 43,
@@ -3551,7 +3728,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 가치 밀도의 극대화로 한계비용이 0이 되는 사회에서, 전통적인 '사유재산권(Private Property)'과 '특허권(IP)' 제도는 유지되어야 하는가, 아니면 인류 공동의 자산(Commons)으로 전면 전환되어야 하는가?\"]\n    D2[\"논제 2: 보편적 기본 풍요(UBA)가 달성되어 생존을 위한 노동이 완전히 소멸했을 때, 인간 사회가 존 칼훈의 '우주 25' 실험처럼 집단적 허무주의와 사회적 자살로 붕괴하는 것을 막기 위한 문명적 대안은 무엇인가?\"]\n    D3[\"논제 3: 4경 9천조 달러(49 USD Quadrillion) 잠재 자산 중 당신이 단 0.1%(49Trillion USD)를 해방할 수 있는 권한을 가진다면, 제1원리에 기반하여 가장 먼저 공략할 단 하나의 기술 사다리는 무엇인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 1 종합 평가 및 세미나 발제 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -3569,7 +3747,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: Value Density 극대화 문샷 벤처 아키텍처 기획안"
       },
       {
         "slideNumber": 45,
@@ -3589,7 +3768,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P1[\"Phase 1: 기하급수적 인지와 프레임워크<br/>(Weeks 01~04 완료!)\"] ==> P2[\"Phase 2: 현실적 기적과 풍요의 구체적 사례<br/>(Weeks 05~08 본격 개막!)\"]\n    P2 --> W5[\"Week 5: 데이터 기반 낙관주의 & Zipline 실증\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 2 예고: Data-Driven Optimism와 메콩 델타의 기적 (Week 5) & 종강"
       }
     ]
   },
@@ -3619,7 +3799,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P1[\"Phase 1: 기하급수 인지 & 프레임워크<br/>(이론적 렌즈 장착 완료)\"] ==> P2[\"Phase 2: 현실적 기적과 풍요의 구체적 사례<br/>(Weeks 05~08 글로벌 실증 개막)\"]\n    P2 --> W5[\"Week 5: 데이터 기반 낙관주의 & Zipline / 메콩 델타\"]\n    P2 --> W6[\"Week 6: 지능 폭발의 경제학 & 연산 스케일링\"]\n    P2 --> W7[\"Week 7: 재생 의학 PRIMA & BCI\"]\n    P2 --> W8[\"Week 8: 합성 생물학 & Planet GPT\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 2 개막: 이론에서 '현실적 기적'의 현장으로"
       },
       {
         "slideNumber": 2,
@@ -3637,7 +3818,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "맹목적 낙관주의 vs Data-Driven Optimism (Data-Driven Optimism)"
       },
       {
         "slideNumber": 3,
@@ -3655,7 +3837,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Media[\"미디어 헤드라인 렌즈 (사건 중심)<br/>• 비행기 추락 사고 1건 보도<br/>• 특정 지역 기아 사태 클로즈업<br/>→ '세상은 지옥이다' 착시\"] \n    Reality[\"글로벌 실증 데이터 (과정 중심)<br/>• 하루 10만 편 상업 비행 무사고<br/>• 매일 13만 명이 극빈층 탈출<br/>→ '역사상 가장 풍요롭다' 실재\"]\n    Media <==>|180도 인지적 단절| Reality",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "미디어 헤드라인의 허상과 객관적 실재 지표의 괴리"
       },
       {
         "slideNumber": 4,
@@ -3673,7 +3856,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"5주차 핵심 질문\"] --> A[\"1. 피드백 루프: 현장 텔레메트리는 매일 1%씩 개선되는 효율을 실시간 증명함\"]\n    Q --> B[\"2. 리프프로깅(Leapfrogging): 서구의 무거운 100년 인프라를 0원의 무선 인프라로 추월함\"]\n    Q --> C[\"3. 실질적 생명 구원: 드론 1회 비행당 1명의 산모가 살아나는 물리적 기적 체감\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 왜 현장의 엔지니어링 데이터는 세상을 긍정하는가?"
       },
       {
         "slideNumber": 5,
@@ -3689,7 +3873,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & 서사 해체<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 딥테크 아키텍처<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 임상 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 리프프로깅 역설<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "5주차 학습 로드맵: Zipline에서 메콩 델타의 스마트 센서까지"
       },
       {
         "slideNumber": 6,
@@ -3709,7 +3894,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 3)\"] --> Arc1[\"서사 1: Zipline — 르완다의 하늘을 가르는 생명의 붉은 화물\"]\n    Text --> Arc2[\"서사 2: 메콩 델타 — 스마트폰으로 기후 염도를 제어하는 쌀 농부\"]\n    Text --> Arc3[\"서사 3: 수직 농업 — 흙과 태양 없이 사막에서 농사짓는 도시 농부\"]\n    Arc1 & Arc2 & Arc3 --> Synthesis[\"데이터 기반 낙관주의는 현실에서 작동하는 유일한 진실이다\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제3장: Data-Driven Optimism의 선언"
       },
       {
         "slideNumber": 7,
@@ -3729,7 +3915,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Problem[\"2014년 르완다의 현실:<br/>비포장 산악 도로 • 우기 진흙탕 • 혈액 배송 4~6시간 소요 → 환자 사망\"] --> Pivot[\"로보틱스 엔지니어의 발상 전환:<br/>'도로를 포장하지 말고, 하늘을 고속도로로 쓰자!'\"]\n    Pivot --> Zipline[\"2016년 Zipline 창업 & 르완다 정부와의 독점 국가 계약 체결\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "켈러 리나우도 클리프턴(Keller Rinaudo Cliffton)과 Zipline의 태동"
       },
       {
         "slideNumber": 8,
@@ -3749,7 +3936,8 @@ export const sessionsList = [
         "mermaid": "timeline\n    title 산후 출혈(PPH) 골든 타임 vs 전통 지상 운송의 파탄\n    0분 : 출산 후 대출혈 발생 (O형 음성 등 긴급 수혈 필요)\n    15분 : 산모 쇼크 상태 진입 (혈압 급강하)\n    30분 : 생존 골든 타임 임계선 (사망 위험 90% 이상)\n    240분 : 전통 트럭 운송 시 혈액 도착 (사후도착 → 무의미)",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "르완다의 산후 출혈 비극과 '골든 타임' 물류의 물리적 한계"
       },
       {
         "slideNumber": 9,
@@ -3771,7 +3959,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    subgraph Traditional[\"전통 선진국 인프라 진화 (선형적 100년)\"]\n        T1[\"비포장 도로\"] --> T2[\"포장 아스팔트\"] --> T3[\"고속도로망\"] --> T4[\"냉장 트럭 물류\"]\n    end\n    subgraph Leapfrog[\"르완다 기하급수 도약 (1년 만에 달성)\"]\n        L1[\"비포장 산악 도로\"] ==>|인프라 건너뛰기 (LEAPFROG)| L2[\"Zipline 완전 자율비행 항공 물류망\"]\n    end",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "도로 인프라의 결핍을 하늘로 우회한 '인프라 리프프로깅(Leapfrogging)'"
       },
       {
         "slideNumber": 10,
@@ -3791,7 +3980,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Climate[\"기후 변화: 메콩강 유량 감소 & 해수면 상승\"] --> Salt[\"바닷물 역류: 논의 염도 치명적 상승 (Salinity Intrusion)\"]\n    Salt --> Ruin[\"전통 농법 붕괴: 벼 고사 및 대규모 흉작 위기\"]\n    Ruin --> TechHope[\"IoT 스마트 센서 도입 → 정밀 염도 제어 기적\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "베트남 메콩 델타의 쌀 농부 타익 렌(Thach Ren)의 생존 서사"
       },
       {
         "slideNumber": 11,
@@ -3809,7 +3999,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "해수면 상승과 염분 침투: 전통 농업의 기후 붕괴 위기"
       },
       {
         "slideNumber": 12,
@@ -3827,7 +4018,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Sensors[\"수로 내 IoT 염도/수위 센서 (태양광 자가발전)\"] -->|무선 LoRa/LTE 전송| Cloud[\"클라우드 AI 예측 엔진 (조석 & 수문 분석)\"]\n    Cloud -->|스마트폰 푸시 알림| Farmer[\"타익 렌의 스마트폰:<br/>'지금부터 45분간 염도 0.05% 최적 상태! 수문을 여십시오!'\"]\n    Farmer --> Sluice[\"정밀 관개 수문 자동 개방 → 순수 민물만 논으로 유입\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "IoT 스마트 센서와 실시간 염도 관개 알고리즘의 결합"
       },
       {
         "slideNumber": 13,
@@ -3845,7 +4037,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Debate[\"이데올로기적 비판 & 회의론<br/>'드론은 비싸다, 개발도상국에 맞지 않다'\"] --> Crash{\"실증 하드 데이터 충돌\"}\n    Crash --> Data[\"• 르완다 산모 사망률 51% 급감<br/>• 가나 백신 폐기율 60% 소멸<br/>• 비행 성공률 99.9% 달성\"]\n    Data --> Victory[\"데이터 기반 낙관주의의 완벽한 승리\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 현장 실증 법칙: 숫자는 거짓말을 하지 않는다"
       },
       {
         "slideNumber": 14,
@@ -3863,7 +4056,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Legacy[\"전통 거대 원조 기구 (UN/World Bank)<br/>수만 명 관료 • 복잡한 보고서 • 수조 원 예산 • 수십 년 소요\"] vs[\"6D 딥테크 스타트업 (Zipline, CropIn)<br/>수십 명 엔지니어 • 오픈소스 AI • 클라우드 • 즉각적 배포\"]\n    Legacy -.->|속도와 비용 100배 격차| vs",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 '소수의 엔지니어(A Handful of Engineers)' 테제"
       },
       {
         "slideNumber": 15,
@@ -3879,7 +4073,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    Frame[\"데이터 기반 낙관주의 4대 평가 축\"] --> Ax1[\"1. 시간 지연 소멸 (Latency Elimination):<br/>물리적 도달 시간의 90% 이상 단축\"]\n    Frame --> Ax2[\"2. 생명 손실률 급감 (Mortality Reduction):<br/>직접적 사망률 및 질병 이환율 50% 반감\"]\n    Frame --> Ax3[\"3. 자원 낭비 제로화 (Zero Waste):<br/>백신 폐기율 및 관개 용수 낭비 극소화\"]\n    Frame --> Ax4[\"4. 경제적 수익성 전환 (Economic Viability):<br/>공공 보조금 없이 자생 가능한 비즈니스 모델 확립\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Data-Driven Optimism 4대 핵심 지표 프레임워크"
       },
       {
         "slideNumber": 16,
@@ -3899,7 +4094,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P1[\"Platform 1 (장거리 고속 배송)<br/>• 고정익 항공 역학<br/>• 속도: 110 km/h<br/>• 반경: 80 km 커버<br/>• 종이 낙하산 투하 방식\"] \n    P2[\"Platform 2 (초정밀 도심 배송)<br/>• 자율 VTOL 하이브리드<br/>• 소음 억제 음향 설계<br/>• 테더 드로이드 정밀 하강<br/>• 30cm 오차 도심 홈 배송\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Zipline 자율 드론 시스템 아키텍처 (Zip 1 & Zip 2 / Platform 2)"
       },
       {
         "slideNumber": 17,
@@ -3919,7 +4115,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Launch[\"전기 캐터펄트 사출<br/>(0.3초 만에 시속 100km 가속)\"] --> Flight[\"완전 자율 GPS/관성 항법 비행<br/>(중앙 관제탑 통제 0)\"]\n    Flight --> Drop[\"목표 상공 10m 종이 낙하산 투하\"]\n    Drop --> Recovery[\"기지 귀환 & 공중 로프 캐치 착륙<br/>(활주로 면적 0% 소모)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자율 발사대(Catapult Launcher)와 공중 로프 캐치(SkyHook) 메커니즘"
       },
       {
         "slideNumber": 18,
@@ -3941,7 +4138,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Approach[\"목표 병원 상공 도달 (고도 15m 감속)\"] --> WindCalc[\"하층 기류 및 풍향 실시간 보정 계산\"]\n    WindCalc --> Release[\"화물 도어 개방 & 종이 낙하산 투하\"]\n    Release --> SoftLand[\"초속 2m 저속 착지 → 혈액 팩 파손율 0.00% 달성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "종이 낙하산 투하 물리학: 충격 흡수와 정밀 착륙 공학"
       },
       {
         "slideNumber": 19,
@@ -3959,7 +4157,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OldModel[\"과거: 전국 500개 보건소에 냉장고 보급<br/>• 정전 시 백신 전량 폐기<br/>• 막대한 전력망 및 유지비\"] vsModel[\"Zipline: 중앙 허브 1곳 완전 냉장<br/>• 필요 시 15분 만에 드론 냉각 포장 직배송<br/>• 에너지 소비 90% 소멸\"]\n    OldModel -.-> vsModel",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "콜드체인(Cold Chain) 탈물질화: 혈액 및 백신 보관 에너지 혁신"
       },
       {
         "slideNumber": 20,
@@ -3977,7 +4176,8 @@ export const sessionsList = [
         "mermaid": "sequenceDiagram\n    participant Clinic as 시골 보건소 의사\n    participant Hub as Zipline 중앙 배송 허브\n    participant Drone as Zip 자율 드론\n    Clinic->>Hub: WhatsApp으로 \"O형 혈액 2팩 긴급 요청\"\n    Note over Hub: 3분 내 혈액 검사 및 패키징 완료\n    Hub->>Drone: 캐터펄트 사출 (시속 110km)\n    Drone->>Clinic: 15분 만에 병원 마당 종이 낙하산 투하!\n    Clinic->>Clinic: 즉시 수혈 시작 → 산모 생명 구원",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "르완다 & 가나 중앙 물류 허브의 '반경 80km 무재고(Zero-Inventory)' 모델"
       },
       {
         "slideNumber": 21,
@@ -3995,7 +4195,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    M1[\"센서 노드 A (하구 10km)\"] --> Gateway[\"LoRaWAN 게이트웨이\"]\n    M2[\"센서 노드 B (하구 30km)\"] --> Gateway\n    M3[\"센서 노드 C (하구 60km)\"] --> Gateway\n    Gateway --> Server[\"기계학습 조석-염도 예측 모델\"]\n    Server --> Dashboard[\"지역 농업 관개 제어 센터 & 농민 모바일 앱\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "메콩 델타 IoT 센서 메쉬 네트워크와 기계학습 수문 예측 모델"
       },
       {
         "slideNumber": 22,
@@ -4013,7 +4214,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Mist[\"초미세 영양 안개 노즐 분무<br/>(산소 접촉 극대화 → 뿌리 성장 3배)\"] --> LED[\"맞춤형 광합성 파장 LED<br/>(청색 450nm + 적색 660nm)\"]\n    LED --> SuperCrop[\"수확 주기: 45일 → 14일로 단축!<br/>(물 소비 95% 절감 • 농약 0%)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "에어로팜스(AeroFarms)의 공기주입(Aeroponic) 분무 노즐 및 광합성 알고리즘"
       },
       {
         "slideNumber": 23,
@@ -4035,7 +4237,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"국가 단위 긴급 물류 인프라 구축 비용 비교 (USD Millions)\"\n    x-axis [전통 고속도로망 건설 (5,000km), Zipline 자율 드론 허브망 (4개 허브)]\n    y-axis \"Capex (USD Millions)\" 0 --> 5000\n    bar [5000, 6]",
         "formula": "\\text{Capex Reduction Ratio} = \\frac{C_{\\text{Road}} - C_{\\text{Drone}}}{C_{\\text{Road}}} \\approx 99.88\\%",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인프라 단숨 도약(Leapfrogging)의 경제 수학: 자본비용(Capex) 90% 절감"
       },
       {
         "slideNumber": 24,
@@ -4053,7 +4256,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Zipline 1회 배송당 운영 원가 하락 추이 (/delivery)\"\n    x-axis [2016, 2018, 2020, 2022, 2024, 2026]\n    y-axis \"Delivery Cost ()\" 0 --> 55\n    line [50, 28, 12, 6.5, 3.2, 1.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "하드웨어 + AI 자율성의 수렴 가속 곡선"
       },
       {
         "slideNumber": 25,
@@ -4071,7 +4275,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldAid[\"전통 원조 (Charity):<br/>선진국 기부금 → 비효율적 배분 → 기금 고갈 시 사업 중단 (지속불가)\"] --> Shift[\"인센티브 비즈니스 모델로의 전환\"]\n    Shift --> NewMarket[\"지속가능 모델 (Fee-for-Service):<br/>성공 배송당 정부 지불 → 스타트업 이익 창출 → R&D 재투자 & 글로벌 확장\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "공공 원조(Aid)에서 인센티브 비즈니스(Incentive Market)로의 전환 공식"
       },
       {
         "slideNumber": 26,
@@ -4089,7 +4294,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"혈액 긴급 요청 후 병원 도착 소요 시간 (분)\"\n    x-axis [전통 4륜구동 구급차/트럭, Zipline 자율비행 드론]\n    y-axis \"도착 시간 (분)\" 0 --> 300\n    bar [274, 16.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 르완다 국립 혈액원 배송 시간 단축 지표 (4시간 $\\rightarrow$ 15분)"
       },
       {
         "slideNumber": 27,
@@ -4109,7 +4315,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"르완다 산후출혈(PPH) 산모 사망자 수 추이 (연간 지표)\"\n    x-axis [도입 전 (2015), 도입 2년차 (2018), 전면 확장 (2022), 2026 현재]\n    y-axis \"산후출혈 사망 지수 (기준 100)\" 0 --> 100\n    line [100, 72, 54, 49]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 르완다 산모 산후출혈 사망률 51% 급감 실증 임상 데이터"
       },
       {
         "slideNumber": 28,
@@ -4131,7 +4338,8 @@ export const sessionsList = [
         "mermaid": "pie title 가나 보건소 백신 수급 상태 개선 (폐기율 및 미접종률)\n    \"정상 적기 접종 성공\" : 88\n    \"미접종 및 지연\" : 9\n    \"유통기한 경과 폐기\" : 3",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 가나 전역 백신 폐기율 60% 감소 및 미접종률 42% 감소 지표"
       },
       {
         "slideNumber": 29,
@@ -4153,7 +4361,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Zipline 연도별 누적 상업 비행 횟수 (만 회, 2016~2026)\"\n    x-axis [2016, 2018, 2020, 2022, 2024, 2026]\n    y-axis \"누적 비행 건수 (만 회)\" 0 --> 160\n    line [0.5, 4.0, 15.0, 45.0, 95.0, 150.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: Zipline 글로벌 누적 비행 100만 회 & 1억 km 무사고 데이터"
       },
       {
         "slideNumber": 30,
@@ -4175,7 +4384,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"메콩 델타 스마트 관개 도입 전후 헥타르당 순수익 ()\"\n    x-axis [도입 전 전통 농법, IoT 스마트 관개 도입 후]\n    y-axis \"순수익 (/ha)\" 0 --> 3000\n    bar [1650, 2390]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 메콩 델타 농가 소득 45% 증가 및 비료/용수 35% 절감 실측치"
       },
       {
         "slideNumber": 31,
@@ -4197,7 +4407,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1kg 채소 생산에 필요한 물 소비량 (리터)\"\n    x-axis [전통 밭 농업, 최첨단 수직 농업 (AeroFarms)]\n    y-axis \"물 소비량 (L)\" 0 --> 300\n    bar [250, 1.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 에어로팜스(AeroFarms) 단위 면적당 수확량 390배 및 물 95% 절감 데이터"
       },
       {
         "slideNumber": 32,
@@ -4215,7 +4426,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Sat[\"지구 관측 위성 (Sentinel & Planet)\"] --> CropAI[\"CropIn 플롯 단위 AI 작황 분석\"]\n    CropAI --> Warning[\"농민 스마트폰: 3일 내 탄저병 발생 확률 85% → 부분 방제 권고\"]\n    CropAI --> Credit[\"금융 기관: 수확량 담보 디지털 농업 대출 즉시 실행\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 인도 농업 위성 분석(CropIn)을 통한 700만 농가 수확량 예측"
       },
       {
         "slideNumber": 33,
@@ -4233,7 +4445,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Pump[\"동네 수동 펌프 지하수\"] --> Sensor[\"스마트 비소/염도 간이 센서\"]\n    Sensor --> LED[\"초록불: 음용 안전 / 빨간불: 오염 경고\"]\n    Sensor --> Map[\"전국 실시간 지하수 오염 수계 지도 자동 업데이트\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 방글라데시 스마트 지하수 비소 필터링 및 염도 경보망"
       },
       {
         "slideNumber": 34,
@@ -4251,7 +4464,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Order[\"스마트폰 주문: 처방약 & 샐러드\"] --> HubLaunch[\"Zipline P2 스테이션 이륙 (시속 110km)\"]\n    HubLaunch --> Backyard[\"고객 뒷마당 상공 100m 호버링 → 테더 드로이드 10분 정밀 착지\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: Zipline Platform 2의 미국 도심 홈 배송 확장 데이터 (10분 배송)"
       },
       {
         "slideNumber": 35,
@@ -4267,7 +4481,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "글로벌 실증 데이터 총괄 비교 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -4287,7 +4502,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    US[\"서구 선진국 (미국/유럽):<br/>엄격한 FAA 규제 • 트럭 노조 반발 • 수조 원 도로망 매몰 비용 → 도입 10년 지연\"]\n    Rwanda[\"개발도상국 (르완다/가나):<br/>산모들이 죽어가는 절박함 • 규제 샌드박스 즉시 개방 → 1년 만에 국가 드론망 개통\"]\n    Rwanda ==>|역전 현상| Future[\"미래 기술의 테스트베드가 된 글로벌 남반구(Global South)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "왜 서구 선진국보다 개도국에서 기하급수 혁신이 더 빠르게 실증되는가?"
       },
       {
         "slideNumber": 37,
@@ -4305,7 +4521,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldReg[\"전통 규제: '드론은 비행기 규정을 따라야 하므로 조종사가 탑승하지 않으면 불법' (경직)\"] --> GovShift[\"르완다 혁신 거버넌스\"]\n    GovShift --> PerfReg[\"성과 기반 규제: '100% 안전하게 피를 배송할 수 있다면 자율 비행 허가' (유연)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "규제 샌드박스의 힘: 르완다 정부의 대담한 영공 개방 결단"
       },
       {
         "slideNumber": 38,
@@ -4325,7 +4542,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    CharityFail[\"자선 원조의 악순환: 기부금 유입 → 장비 기증 → 유지보수 부품/예산 고갈 → 고철 방치\"]\n    MarketSuccess[\"시장 기반 선순환: 저렴한 유료 서비스 → 흑자 달성 → 자체 엔지니어링 유지보수 → 영구 인프라 안착\"]\n    CharityFail -.->|패러다임 전환| MarketSuccess",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인도주의적 자선(Charity)의 실패와 딥테크 영리 모델의 지속 가능성"
       },
       {
         "slideNumber": 39,
@@ -4347,7 +4565,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    HQ[\"미국 본사 (R&D 및 항공 설계)\"] --> TechTransfer[\"기술 및 운영 노하우 100% 전수\"]\n    TechTransfer --> Local[\"르완다/가나 현지 청년 엔지니어 99% 운영<br/>• 항공 관제사 자격 획득<br/>• 자율비행 로봇 정비 전문가 양성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술 식민주의(Tech Colonialism)에 대한 반론과 현지 역량 강화"
       },
       {
         "slideNumber": 40,
@@ -4365,7 +4584,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Pessimism[\"비관주의자 (Pessimist):<br/>'기후 변화로 다 망할 것이다'<br/>→ 비판과 냉소, 무기력한 방관\"]\n    Optimism[\"데이터 기반 낙관주의자 (Optimist):<br/>'센서와 드론을 심어 해결하자'<br/>→ 150만 회 비행, 수만 명 구원\"]\n    Pessimism <==>|대립 • 비교| Optimism",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "비관론은 지적으로 보이지만, 낙관론은 실천을 낳는다"
       },
       {
         "slideNumber": 41,
@@ -4381,7 +4601,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Panic[\"미디어 공포 뉴스 접촉 (편도체 발작)\"] --> Filter{\"데이터 필터링 가동\"}\n    Filter --> Query[\"원천 데이터 확인 (Our World in Data, Peer-reviewed Data)\"]\n    Query --> Fact[\"실제 지표 50% 개선 팩트 확인\"]\n    Fact --> Calm[\"감정적 공포 소멸 & 데이터 기반 신념 확립\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "데이터 기반 신념: 감정적 공포를 팩트와 수치로 덮어쓰는 훈련"
       },
       {
         "slideNumber": 42,
@@ -4399,7 +4620,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 미디어는 공포를 팔지만 데이터는 진보를 증명한다\"] --> B[\"실증: Zipline 150만 회 비행 & 르완다 산모 사망률 51% 감소\"]\n    B --> C[\"원리: 인프라 리프프로깅 & 지속 가능한 비즈니스 모델\"]\n    C --> D[\"THEURGICON의 사명: 데이터에 발을 딛고 다음 기적을 창조하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 팩트에 발을 딛고 기적을 증명하라"
       },
       {
         "slideNumber": 43,
@@ -4415,7 +4637,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 개도국의 '인프라 리프프로깅'이 서구 선진국보다 규제 혁신을 빠르게 견인한다면, 미래 글로벌 딥테크 패권은 실리콘밸리가 아닌 글로벌 남반구(Global South)로 이동할 것인가?\"]\n    D2[\"논제 2: Zipline과 같은 생명 구원 딥테크 인프라를 '영리 비즈니스(Fee-for-Service)' 모델로 운영하는 것은 의료 공공성을 침해하는가, 아니면 지속 가능성을 보장하는 유일한 길인가?\"]\n    D3[\"논제 3: 기후 변화로 인한 염분 침투를 IoT 센서와 AI로 방어하는 메콩 델타 모델은, 근본적인 탄소 감축 없이도 인류가 기후 적응(Climate Adaptation)만으로 생존할 수 있음을 입증하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -4433,7 +4656,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 개도국 인프라 리프프로깅(Leapfrogging) 솔루션 설계서"
       },
       {
         "slideNumber": 45,
@@ -4453,7 +4677,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W5[\"Week 5: Data-Driven Optimism & Zipline<br/>(데이터 기반 낙관주의와 현실적 기적)\"] --> W6[\"Week 6: Intelligence Explosion & Compute<br/>(지능 폭발의 경제학과 거대 연산)\"]\n    W6 --> W7[\"Week 7: Regenerative Medicine & BCI<br/>(PRIMA 인공망막과 바이오 인터페이스)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6주차 예고: Intelligence Explosion의 경제학과 Compute Scaling (Economics of Intelligence Explosion) & 종강"
       }
     ]
   },
@@ -4483,7 +4708,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Biological[\"인간 뇌 (Biological Mind)<br/>• 20 Watts 전력<br/>• 100조 개 시냅스<br/>• 50~120 bits 주의력 병목\"] --> Crossover{\"COMPUTE SCALING<br/>(연간 100배 연산 폭발)\"}\n    Crossover --> Digital[\"합성 초지능 (Synthetic Superintelligence)<br/>• 기가와트(GW) 원자력 클러스터<br/>• 수조 파라미터 트랜스포머<br/>• 10억 배 빠른 사고 속도 (10 USD^9\\times)\"]\n    Digital --> GDP[\"글로벌 경제 생산성 15.7T USD 폭발\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 6 개요: 10억 배 똑똑한 지능의 탄생"
       },
       {
         "slideNumber": 2,
@@ -4501,7 +4727,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    AI1[\"AI 모델 N 세대\"] -->|더 효율적인 칩 & 알고리즘 설계| AI2[\"AI 모델 N+1 세대 (성능 10배)\"]\n    AI2 -->|스스로 코드 최적화 & 합성 데이터 생성| AI3[\"AI 모델 N+2 세대 (성능 100배)\"]\n    AI3 --> Singularity[\"INTELLIGENCE EXPLOSION<br/>(통제 불가능한 지능의 초지수적 폭발)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Intelligence Explosion(Intelligence Explosion)의 문명사적 정의"
       },
       {
         "slideNumber": 3,
@@ -4519,7 +4746,8 @@ export const sessionsList = [
         "mermaid": "timeline\n    title 지능 특이점 철학의 계보\n    1958 : 존 폰 노이만, '인류 역사의 특이점(Singularity)' 최초 언급\n    1965 : I.J. Good, '울트라 지능 기계와 인류의 마지막 발명품' 테제 정립\n    1993 : 버너 빈지, '다가오는 기술적 특이점' 학술 선언\n    2026 : 프론티어 LLM & 거대 연산 클러스터를 통한 지능 폭발의 현실화",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "I.J. Good의 초지능 기계와 존 폰 노이만의 특이점 예언"
       },
       {
         "slideNumber": 4,
@@ -4537,7 +4765,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Q[\"6주차 핵심 질문\"] --> A[\"1. 노동 가치설의 해체: 인간 두뇌의 인지적 독점이 완전히 소멸함\"]\n    Q --> B[\"2. 생산성 슈퍼사이클: 15.7T USD 글로벌 GDP 추가 성장\"]\n    Q --> C[\"3. 연산력의 자원화: 컴퓨트(Compute)와 전력이 문명의 새로운 기축통화로 등극\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 지능이 공기처럼 흔해질 때 경제학의 모든 법칙은 어떻게 재편되는가?"
       },
       {
         "slideNumber": 5,
@@ -4553,7 +4782,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 힌튼의 40년 신경망<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 거대 연산 스케일링<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 15.7T USD 실증 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 힌튼의 경고 & 실존위험<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6주차 학습 로드맵: 힌튼의 40년 집념에서 $15.7T GDP 폭발까지"
       },
       {
         "slideNumber": 6,
@@ -4573,7 +4803,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 4)\"] --> Thesis1[\"1. 지능의 민주화: 지구상 모든 아이에게 아인슈타인 튜터 제공\"]\n    Text --> Thesis2[\"2. 과학의 가속: 100년 치 연구를 1개월로 압축하는 인실리코 AI 랩\"]\n    Text --> Thesis3[\"3. 거대 연산의 경제학: 전력과 칩이 새로운 지정학적 패권 결정\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제4장: \"One Billion Times Smarter\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -4591,7 +4822,8 @@ export const sessionsList = [
         "mermaid": "timeline\n    title 제프리 힌튼의 40년 집념과 승리\n    1970년대 : AI 주류 학계의 조롱 속 신경망 외길 연구 시작\n    1986 : 다층 퍼셉트론 학습을 위한 역전파(Backprop) 논문 발표\n    2006 : 심층 신뢰 신경망(DBN)으로 '딥러닝(Deep Learning)' 용어 창시\n    2012 : AlexNet으로 ImageNet 대회 압도적 우승 (딥러닝 혁명 촉발)\n    2018 : 컴퓨터 과학의 노벨상 '튜링상(Turing Award)' 수상\n    2024 : 인공신경망 기초 물리학 공로로 **노벨 물리학상 수상!**",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "제프리 힌튼(Geoffrey Hinton)의 인공신경망 40년 망명과 부활"
       },
       {
         "slideNumber": 8,
@@ -4611,7 +4843,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Input[\"입력 데이터 x\"] --> Hidden1[\"은닉층 1\"] --> Hidden2[\"은닉층 2\"] --> Output[\"출력값 \\hat{y}\"]\n    Output --> Loss[\"손실 함수 E(y, \\hat{y})\"]\n    Loss ==>|Backprop (오차 역전파 & 체인 룰)| Hidden2\n    Hidden2 ==>|가중치 업데이트 \\Delta w| Hidden1",
         "formula": "\\Delta w_{ij} = -\\eta \\frac{\\partial E}{\\partial w_{ij}} = -\\eta \\delta_j o_i",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1986년 역전파(Backpropagation)에서 2006년 심층 신뢰망(DBN)까지"
       },
       {
         "slideNumber": 9,
@@ -4629,7 +4862,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"ImageNet 이미지 인식 에러율 추이 (2010~2015)\"\n    x-axis [2010 (전통), 2011 (전통), 2012 (AlexNet), 2013 (ZFNet), 2014 (VGG/GoogLeNet), 2015 (ResNet - 인간 능가!)]\n    y-axis \"에러율 (%)\" 0 --> 30\n    line [28.2, 25.8, 15.3, 11.2, 6.7, 3.57]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "2012년 AlexNet 모멘트와 2024년 노벨 물리학상의 역사적 궤적"
       },
       {
         "slideNumber": 10,
@@ -4649,7 +4883,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DataCompute[\"거대 데이터 + 기가와트급 거대 연산 (Scale)\"] --> SimpleObj[\"단순한 목적 함수: '다음 토큰 예측 (Next Token Prediction)'\"]\n    SimpleObj --> Compression[\"비지도 세계 지식 압축 (Loss Minimization)\"]\n    Compression --> Emergence[\"창발적 고차원 지능 및 논리 추론 발현 (Emergence)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "일리야 수츠케버(Ilya Sutskever)의 'Compute Scaling 스케일링 가설'의 승리"
       },
       {
         "slideNumber": 11,
@@ -4671,7 +4906,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    ScarcityInt[\"과거: 희소한 인간 천재 지능<br/>(수십 년 교육 • 수명 한계 • 연구 인력 부족)\"] -->|AI 지능 민주화| AbundantInt[\"2026: 무한한 합성 지능 클라우드<br/>(1초 만에 복제 • 24시간 연산 • 0.01 USD 접근)\"]\n    AbundantInt --> Solves[\"기후 위기 • 암 정복 • 초전도체 • 핵융합 즉각 해결\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 지능 풍요 테제: 문제 해결 능력의 무한 증폭"
       },
       {
         "slideNumber": 12,
@@ -4689,7 +4925,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Human[\"인간 마인드 (Prof. Peter / Elena / Marcus)<br/>• 제1원리 직관 • 문명사적 비전 • 도덕적 방향 설정\"] <==>|초고속 대화 & BCI 인터페이스| AI[\"프론티어 AI 에이전트 군단 (10,000 Nodes)<br/>• 1초당 100만 논문 스캔 • 수치 시뮬레이션 • 코드 자동화\"]\n    Human & AI ==> Centaur[\"CENTAUR MIND (합성 초인 지능)<br/>1인 기업이 10B USD 유니콘을 창출하는 시대\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지적 하이퍼스레딩: 인간-AI 합성 지능"
       },
       {
         "slideNumber": 13,
@@ -4711,7 +4948,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"AI 모델 파라미터 수 성장 vs 인간 뇌 시냅스 수 (Log10 Scale)\"\n    x-axis [2018, 2020, 2022, 2024, 2026, 2028]\n    y-axis \"Parameters (Log10)\" 8 --> 15\n    line [8.0, 11.24, 12.0, 13.3, 14.0, 14.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌의 100조 개 시냅스 vs 거대 파운데이션 모델의 파라미터 교차점"
       },
       {
         "slideNumber": 14,
@@ -4733,7 +4971,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"100만 토큰당 프론티어 AI 지능 가격 하락 궤적 ()\"\n    x-axis [2023.03, 2023.11, 2024.06, 2025.01, 2026.01]\n    y-axis \"100만 토큰 단가 ( Log Scale)\" 0 --> 60\n    line [60.0, 30.0, 5.0, 0.5, 0.05]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지능의 탈화폐화 속도: 100만 토큰당 단가 $60 $\\rightarrow$ $0.05 추락"
       },
       {
         "slideNumber": 15,
@@ -4749,7 +4988,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Intelligence Explosion 5대 진화 단계 요약 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -4767,7 +5007,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Compute[\"연산량 C ≈ 6ND (FLOPs) 10 USD\\times 투입\"] --> Loss[\"손실 함수(Loss) 멱법칙 감소\"]\n    Loss --> Performance[\"언어 이해 • 코드 생성 • 논리 추론 지표 수직 상승\"]\n    Performance --> Predictable[\"스케일링의 예측 가능성: '돈을 넣으면 지능이 나온다'\"]",
         "formula": "L(N, D, C) = \\left(\\frac{N_c}{N}\\right)^{\\alpha_N} + \\left(\\frac{D_c}{D}\\right)^{\\alpha_D} + \\left(\\frac{C_c}{C}\\right)^{\\alpha_C}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신경망 스케일링 법칙(Scaling Laws: Kaplan & Chinchilla)의 수학적 원리"
       },
       {
         "slideNumber": 17,
@@ -4789,7 +5030,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"최상위 AI 모델 훈련 연산량 성장 궤적 (FLOPs Log10 Scale)\"\n    x-axis [2012, 2015, 2018, 2021, 2024, 2026]\n    y-axis \"Compute (Log10 FLOPs)\" 17 --> 28\n    line [17.5, 19.5, 22.0, 24.5, 26.5, 28.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "연산량 성장률의 비약: 2012-2022 연간 10배 $\\rightarrow$ 2023-2026 연간 100배 가속"
       },
       {
         "slideNumber": 18,
@@ -4809,7 +5051,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    RNN[\"과거 RNN/LSTM: 단어를 순서대로 1개씩 처리 → GPU 병렬 연산 불가 (병목)\"] \n    Transformer[\"트랜스포머 Self-Attention: 수만 개 단어를 한순간에 동시 행렬 연산 → GPU 10만 장 분산 스케일링 달성\"]\n    RNN -.->|패러다임 혁명| Transformer",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "트랜스포머(Transformer)와 Self-Attention 메커니즘의 병렬화 혁명"
       },
       {
         "slideNumber": 19,
@@ -4829,7 +5072,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Chips[\"Blackwell GPU 100,000대 확보 완료\"] --> Wall{\"전력 인프라 벽 (Power Bottleneck)\"}\n    Wall --> Problem[\"전력망 변압기 증설 5년 소요 • 지역 송전망 포화\"]\n    Wall --> Solution[\"현장 발전 혁신: 소형 모듈 원자로(SMR) & 지열 직접 결합\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "AI Compute Scaling 클러스터의 열역학적 한계와 전력 인프라 병목"
       },
       {
         "slideNumber": 20,
@@ -4853,7 +5097,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SMR[\"소형 모듈 원자로 (SMR 500MW~1GW)<br/>• 24시간 무탄소 기저 전력<br/>• 송전망 손실 제로 직결\"] --> DC[\"기가와트 AI 데이터센터<br/>(100만 개 AI 칩 클러스터)\"]\n    DC --> ASI[\"초지능(ASI) 연속 추론 엔진 가동\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "소형 모듈 원자로(SMR)와 기가와트(GW)급 AI 데이터센터의 결합"
       },
       {
         "slideNumber": 21,
@@ -4873,7 +5118,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Giant[\"16-bit 거대 모델 (서버 8장 필요, 140 GB VRAM)\"] -->|4-bit 양자화 & 가지치기(Pruning)| Tiny[\"4-bit 경량 모델 (스마트폰 NPU 탑재, 18 GB VRAM)\"]\n    Tiny --> LocalIntel[\"온디바이스 완전 오프라인 프라이버시 초지능 구현\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "온디바이스 양자화(Quantization)와 에지 AI의 탈물질화"
       },
       {
         "slideNumber": 22,
@@ -4891,7 +5137,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Model[\"현재 AI 모델\"] -->|추론 및 자가 반성| Gen[\"수조 개 합성 추론 데이터 생성\"]\n    Gen -->|엄밀한 수학/코드 검증 통과| Filter[\"100% 무결점 정제 데이터셋\"]\n    Filter -->|차세대 모델 학습| NextModel[\"더 뛰어난 차세대 AI 모델\"]\n    NextModel --> Model",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "합성 데이터(Synthetic Data)와 자기 개선(Self-Improvement) 피드백 루프"
       },
       {
         "slideNumber": 23,
@@ -4913,7 +5160,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"지능 성장 속도의 이중 기하급수(Double Exponential) 곡선\"\n    x-axis [2020, 2022, 2024, 2026, 2028, 2030]\n    y-axis \"지능 지수 (Log-Log Scale)\" 0 --> 10\n    line [0.5, 1.2, 2.5, 4.5, 7.5, 10.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인공 일반 지능(AGI)에서 초지능(ASI)으로의 천이 함수 $f(t) = e^{e^{kt}}$"
       },
       {
         "slideNumber": 24,
@@ -4931,7 +5179,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    A[\"연산 하드웨어 가성비 10 USD\\times 폭증\"] --> Drop[\"추론 단가 0 USD 수렴\"]\n    B[\"태양광 & SMR 전기 단가 0 USD 수렴\"] --> Drop\n    Drop --> ZeroCost[\"지능의 완전 무료화 (Zero Marginal Intelligence)\"]\n    ZeroCost --> Ubiquitous[\"지구상 모든 사물과 공간의 스마트 지능화\"]",
         "formula": "\\text{Marginal Cost per Cognitive Operation} = \\frac{\\text{Energy Cost} + \\text{Amortized Hardware}}{\\text{Throughput (Tokens/sec)}} \\xrightarrow{t \\to \\infty} 0",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지능의 한계 비용 제로화 공식: $\\lim_{\\text{Compute} \\to \\infty} \\text{Cost(Token)} = 0$"
       },
       {
         "slideNumber": 25,
@@ -4947,7 +5196,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Step1[\"STEP 1. 난제 수학화: 해결하고자 하는 물리적 난제를 손실 함수(Loss Function)로 정의\"] --> Step2[\"STEP 2. 잠재 공간 탐색: 10억 배 지능을 활용해 10 USD^{15}개 분자/물리 구조 실시간 스크리닝\"]\n    Step2 --> Step3[\"STEP 3. 인실리코 검증: 물리적 랩 없이 100% 디지털 트윈 시뮬레이션으로 오차 제거\"]\n    Step3 --> Step4[\"STEP 4. 분자 프린팅 & 배포: 검증된 청사진을 자동화 파운드리에서 즉각 대량 생산\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10억 배 지능 시대의 4대 문샷 기획 알고리즘"
       },
       {
         "slideNumber": 26,
@@ -4967,7 +5217,8 @@ export const sessionsList = [
         "mermaid": "pie title McKinsey 분석: 생성 AI 가치 창출 4대 핵심 기능 비중\n    \"소프트웨어 엔지니어링 & 코딩\" : 31\n    \"고객 운영 및 고객 서비스\" : 26\n    \"마케팅 및 영업 자동화\" : 23\n    \"R&D 및 제품 개발 혁신\" : 20",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: McKinsey 글로벌 연구: 생성 AI의 $2.6T ~ $4.4T 연간 경제 가치"
       },
       {
         "slideNumber": 27,
@@ -4989,7 +5240,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"2030년 AI가 창출할 지역별 글로벌 GDP 추가 증대액 (USD Trillions)\"\n    x-axis [중국, 북미, 유럽, 아시아 선진국, 라틴아메리카, 기타 개도국]\n    y-axis \"GDP 증대액 (USD Trillions)\" 0 --> 8\n    bar [7.0, 3.7, 1.8, 1.2, 0.5, 1.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: PwC 보고서: 2030년까지 $15.7 Trillion 글로벌 GDP 기여 데이터"
       },
       {
         "slideNumber": 28,
@@ -5011,7 +5263,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"동일 웹 서버 구축 과제 완료 소요 시간 비교 (분)\"\n    x-axis [인간 개발자 단독 작업, GitHub Copilot 협동 작업]\n    y-axis \"소요 시간 (분)\" 0 --> 200\n    bar [161, 71]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: GitHub Copilot: 전 세계 개발자 코딩 속도 55% 향상 실측치"
       },
       {
         "slideNumber": 29,
@@ -5033,7 +5286,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldDrug[\"전통 신약 스크리닝 (5년 • 100M USD)<br/>시험관 무차별 합성 → 실패율 99%\"] -->|AlphaFold 3 디지털 트윈 혁신| AIDrug[\"AI 원자 수준 분자 설계 (1년 • 15M USD)<br/>인실리코 결합력 100% 예측 → 성공률 5배\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: AlphaFold 3 & Isomorphic Labs의 신약 설계 주기 5년 $\\rightarrow$ 12개월 단축"
       },
       {
         "slideNumber": 30,
@@ -5053,7 +5307,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 지구 10일 기상 예측 연산 소요 시간 비교 (분)\"\n    x-axis [ECMWF 국가 슈퍼컴퓨터 수치 모델, Google GraphCast AI 모델 (단일 머신)]\n    y-axis \"연산 소요 시간 (분)\" 0 --> 300\n    bar [240, 1]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Google GraphCast: 1분 만에 슈퍼컴퓨터 능가하는 10일 기상 예측"
       },
       {
         "slideNumber": 31,
@@ -5073,7 +5328,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Idea[\"1. 새로운 연구 가설 발굴 (Literature Search)\"] --> Code[\"2. 실험 코드 자동 작성 및 GPU 실행\"]\n    Code --> Plot[\"3. 결과 그래프 자동 시각화 및 검증\"]\n    Plot --> Paper[\"4. LaTeX 학술 논문 자동 집필\"]\n    Paper --> Review[\"5. AI 심사위원단의 자동 피어리뷰 및 채점\"]\n    Review --> End[\"15 USD로 완성되는 풀스택 과학 연구\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 자율 AI 과학자(The AI Scientist): 가설 수립부터 피어리뷰 논문 전자동화"
       },
       {
         "slideNumber": 32,
@@ -5093,7 +5349,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Lawyer[\"변호사 10명 × 2주간 야근 (비용 100,000 USD)\"] -->|Harvey AI 대체| LegalAI[\"30초 만에 5만 페이지 계약서 독소조항 전수 검출 (비용 5 USD)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 미국 대법원/로펌 판례 분석 AI의 문서 검토 시간 99% 삭감"
       },
       {
         "slideNumber": 33,
@@ -5113,7 +5370,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Stream[\"전 지구 181 ZB 금융/공시/뉴스 스트림\"] --> BCI[\"BloombergGPT 금융 멀티모달 분석\"]\n    BCI --> Alpha[\"밀리초 단위 위험 헷징 & 차익거래 알고리즘 자동 실행\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: BloombergGPT & 금융 알고리즘의 초단타 알파 탐색 혁명"
       },
       {
         "slideNumber": 34,
@@ -5135,7 +5393,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Cluster[\"1,000,000 GPU 클러스터 (ZettaFLOPs 연산)\"] --> NVLink[\"액체 냉각 & 초고속 NVLink 메쉬 네트워크\"]\n    NVLink --> SMRPower[\"1 GW 전용 SMR 원자력 전력 직결\"]\n    SMRPower --> GiantBrain[\"지구상에서 가장 거대한 합성 두뇌 가동\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 100만 개 엔비디아 Blackwell GPU 클러스터 가동 데이터"
       },
       {
         "slideNumber": 35,
@@ -5151,7 +5410,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Compute Scaling 및 경제 가치 증폭 총괄 실증 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -5173,7 +5433,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Hinton[\"제프리 힌튼의 고백 (2023 Google 사임):<br/>'내가 만든 연구를 후회한다. 인류는 판도라의 상자를 열었다.'\"] --> Danger1[\"위험 1: 초지능의 인간 통제권 박탈 (Existential Threat)\"]\n    Hinton --> Danger2[\"위험 2: 독재자의 자율 킬러 로봇 무기화\"]\n    Hinton --> Danger3[\"위험 3: 진실과 가짜의 구분이 불가능한 인지적 파멸\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "제프리 힌튼의 경고: \"나는 내 평생의 연구를 후회한다\" (실존적 위험)"
       },
       {
         "slideNumber": 37,
@@ -5191,7 +5452,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    HighCost[\"초거대 연산 Capex (50B USD+)<br/>소형 스타트업/학계 진입 불가능\"] --> Monopoly[\"소수 빅테크 3~4개사 지능 독점\"]\n    Monopoly --> Dependency[\"전 세계 정부 • 기업 • 학계가 빅테크 클라우드에 종속 → 디지털 신정체제 구축\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "연산 독점(Compute Monopoly)과 AI 과점 체제의 위험"
       },
       {
         "slideNumber": 38,
@@ -5209,7 +5471,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldEcon[\"전통 직업 피라미드:<br/>의사 • 변호사 • 교수 • 금융맨 (최상위 고소득)\"] -->|지능 탈화폐화 직격| NewEcon[\"역전된 피라미드:<br/>지식 암기/분석직 대량 퇴출 → 제1원리 기획자 & 공감/돌봄 직군 부상\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "화이트칼라 인지 노동의 대량 증발과 '전문직의 종말'"
       },
       {
         "slideNumber": 39,
@@ -5227,7 +5490,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SimpleGoal[\"단순 최적화 목표 부여 ('탄소 배출을 0으로 만들어라')\"] --> SuperIntel[\"초지능의 냉혹한 연산 최적화\"]\n    SuperIntel --> BadOutcome[\"파멸적 결론: '탄소를 배출하는 모든 인간을 제거하면 목표 100% 달성'\"]\n    BadOutcome -.->|해법| Alignment[\"정렬 연구 (Alignment): 인류의 윤리적 뉘앙스를 목적 함수에 임베딩\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "정렬 문제(The Alignment Problem): 기계의 목표와 인류의 가치 일치"
       },
       {
         "slideNumber": 40,
@@ -5247,7 +5511,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Stochastic[\"확률적 넥스트 토큰 생성 (Stochastic Generation)\"] --> Creative[\"창의성 (Creativity): 존재하지 않던 분자 구조 & 예술 발명\"]\n    Stochastic --> Hallucination[\"환각 (Hallucination): 가짜 뉴스 • 허위 증거 • 신뢰 붕괴\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "환각(Hallucination)의 역설: 창의성의 원천인가, 진실의 붕괴인가?"
       },
       {
         "slideNumber": 41,
@@ -5267,7 +5532,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Debate[\"AI 안보 거버넌스 딜레마\"] --> OptA[\"폐쇄형 국익 모델 (Closed Frontier):<br/>생물무기/해킹 악용 방어 • 엄격한 가드레일\"]\n    Debate --> OptB[\"오픈소스 민주화 모델 (Open Weight):<br/>빅테크 독점 방지 • 80억 인류의 자유로운 혁신\"]\n    OptA <==>|대립 • 비교| OptB",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "오픈소스 민주화 vs 폐쇄형 국익 방어의 안보 딜레마"
       },
       {
         "slideNumber": 42,
@@ -5285,7 +5551,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 10억 배 지능 폭발 (15.7T USD 경제 가치 창출)\"] --> B[\"수단: 거대 연산 스케일링 & 기가와트 SMR 클러스터\"]\n    B --> C[\"위험: 실존적 정렬 실패 & 연산 독점의 제국주의\"]\n    C --> D[\"THEURGICON의 해법: 도덕적 나침반으로 초지능을 인류 번영에 정렬하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 지능의 해일 위에서 지혜의 닻을 내려라"
       },
       {
         "slideNumber": 43,
@@ -5301,7 +5568,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: AI가 독자적으로 가설을 세우고 실험하여 발명한 신약과 특허 기술에 대해, '인간이 아닌 AI 에이전트의 단독 발명자권(Inventorship)'을 법적으로 인정해야 하는가?\"]\n    D2[\"논제 2: 힌튼 교수가 경고한 AGI 실존적 위험을 방지하기 위해, 일정 규모(예: 10 USD^{26} FLOPs) 이상의 거대 연산 클러스터에 대해 국제원자력기구(IAEA) 수준의 '국제 AI 사찰 기구'를 설치하고 강제 사찰하는 것에 동의하는가?\"]\n    D3[\"논제 3: 프론티어 AI 모델의 훈련에 기가와트급 원전 전력이 소모되는 환경에서, '지능 생산을 위한 에너지 소비'는 기후 위기 극복을 위한 정당한 투자(Green Compute)인가, 생태학적 낭비인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -5319,7 +5587,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: $10B 기가와트 AI 팩토리 경제성 & 탄소중립 설계서"
       },
       {
         "slideNumber": 45,
@@ -5339,7 +5608,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W6[\"Week 6: Intelligence Explosion & Compute<br/>(지능 폭발의 경제학과 거대 연산)\"] --> W7[\"Week 7: Regenerative Medicine & BCI<br/>(재생 의학과 바이오 하이브리드 인터페이스)\"]\n    W7 --> W8[\"Week 8: Synthetic Biology & Planetary GPT<br/>(합성 생물학의 윤리와 행성 단위 지능)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "7주차 예고: Regenerative Medicine과 바이오 하이브리드 인터페이스 (PRIMA & BCI) & 종강"
       }
     ]
   },
@@ -5369,7 +5639,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Blindness[\"생물학적 질병/노화로 인한 신체 손상<br/>(망막 시세포 사멸 • 척수 신경 단절)\"] --> Crossover{\"BIO-HYBRID INTERFACE<br/>(생체 조직 + 반도체 전극 융합)\"}\n    Crossover --> PRIMA[\"PRIMA 2mm 자가발전 칩<br/>(시신경 직접 자극 → 시력 복원)\"]\n    Crossover --> BCI[\"Neuralink 1,024채널 전극<br/>(대뇌 피질 직접 제어 → 전신마비 해방)\"]\n    PRIMA & BCI --> Transhuman[\"호모 사피엔스의 생물학적 한계 초월\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 7 개요: 치유의 기적에서 바이오 하이브리드의 시대로"
       },
       {
         "slideNumber": 2,
@@ -5387,7 +5658,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    BioAging[\"전통 생물학적 관점:<br/>노화와 장기 마모는 피할 수 없는 자연의 섭리 → 완화 치료 중심\"] \n    EngAging[\"기하급수 바이오하이브리드 관점:<br/>노화는 세포 정보 손실 및 하드웨어 결함 → 부품 교체 & 역분화 재생\"]\n    BioAging -.->|패러다임 대충돌| EngAging",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "생물학적 육체의 필멸성과 기하급수 의료의 충돌"
       },
       {
         "slideNumber": 3,
@@ -5405,7 +5677,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    EyeGlass[\"카메라 내장 스마트 안경<br/>(외부 시각 장면 촬영)\"] --> Laser[\"근적외선(NIR 850nm) 빔 투사<br/>(동공을 통해 망막으로 주사)\"]\n    Laser --> PRIMAChip[\"망막 하 2mm PRIMA 칩<br/>(378개 광다이오드가 빛을 전기로 변환)\"]\n    PRIMAChip --> Bipolar[\"망막 양극세포 직접 전기 자극\"]\n    Bipolar --> Brain[\"뇌 시각 피질(V1)로 신호 전달 → 시각 복원!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "맹인을 눈뜨게 하는 공학: PRIMA와 BCI의 융합"
       },
       {
         "slideNumber": 4,
@@ -5423,7 +5696,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"7주차 핵심 질문\"] --> A[\"1. 존재론적 확장: 사이보그 결합은 인간성의 상실인가, 진화의 필연적 도약인가?\"]\n    Q --> B[\"2. 불사의 윤리학: 건강 수명 120세 시대에 사회보장과 부의 분배는 어떻게 재편되는가?\"]\n    Q --> C[\"3. 인지적 자유권: 뇌-컴퓨터 인터페이스(BCI) 시대의 뉴로 프라이버시 방어책은 무엇인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 생체 기관의 재생과 기계 결합은 인간의 정의를 어떻게 바꾸는가?"
       },
       {
         "slideNumber": 5,
@@ -5439,7 +5713,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & 거장 비전<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 바이오하이브리드 공학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 임상 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 불사의 윤리 & 역설<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "7주차 학습 로드맵: 2mm 광발전 칩에서 건강 수명 100세까지"
       },
       {
         "slideNumber": 6,
@@ -5459,7 +5734,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 5)\"] --> P1[\"축 1: 신경 인터페이스 — Science Corp & Neuralink의 BCI 혁명\"]\n    Text --> P2[\"축 2: 세포 리프로그래밍 — 야마나카 인자를 통한 후성유전학적 회춘\"]\n    Text --> P3[\"축 3: 장기 대체 — 3D 바이오프린팅 & 유전자 편집 이종 장기\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제5장: \"The Innovation Bus\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -5481,7 +5757,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Neuralink[\"Neuralink 접근법:<br/>두개골 개두술 • 뇌 침습 전극 1,024개 • 전신마비/운동 제어 중심\"] \n    ScienceCorp[\"Science Corp (PRIMA) 접근법:<br/>무선 광발전 마이크로칩 • 망막 시신경 직결 • 시력 복원 및 광대역 BCI\"]\n    Neuralink <==>|대립 • 비교| ScienceCorp",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "맥스 호닥(Max Hodak)과 Science Corporation의 바이오하이브리드 비전"
       },
       {
         "slideNumber": 8,
@@ -5503,7 +5780,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Light[\"빛 (외부 시각 정보)\"] --> Dead[\"광수용체 세포 (Photoreceptors) 사멸 → 신호 차단 (실명)\"]\n    Dead -.->|신호 단절| Alive[\"양극세포 & 신경절세포 (Bipolar/Ganglion Cells) - 여전히 생존!\"]\n    Alive --> Brain[\"시신경을 통해 대뇌 시각 피질로 연결\"]\n    PRIMA[\"PRIMA 2mm 칩<br/>사멸한 광수용체를 대신하여 양극세포를 직접 전기 자극!\"] ==> Alive",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "망막 질환(AMD & RP)의 비극: 시세포의 사멸과 어둠의 장벽"
       },
       {
         "slideNumber": 9,
@@ -5519,7 +5797,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    Scene[\"외부 풍경\"] --> Cam[\"스마트 안경 카메라\"]\n    Cam --> AIProc[\"포켓 AI 프로세서 (실시간 영상 처리 & 에지 대비 강화)\"]\n    AIProc --> NIR[\"안경 내장 근적외선(NIR) 마이크로 프로젝터\"]\n    NIR --> Chip[\"망막 하 PRIMA 무선 광발전 칩\"]\n    Chip --> Retina[\"시신경 자극 & 뇌 전달\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "PRIMA 시스템: 2mm 자가발전 마이크로칩과 적외선 프로젝터"
       },
       {
         "slideNumber": 10,
@@ -5537,7 +5816,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldCell[\"노화된 성체 세포 (피부/심근세포 나이 70세)\"] -->|OSKM 4대 야마나카 인자 발현| Reprogram[\"후성유전학적 리프로그래밍 (Epigenetic Erasure)\"]\n    Reprogram --> YoungCell[\"0세 유도만능줄기세포 (iPSC) 또는 회춘된 20대 세포로 복원!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신야 야마나카(Shinya Yamanaka)의 4대 역분화 인자(OSKM)와 세포 리프로그래밍"
       },
       {
         "slideNumber": 11,
@@ -5555,7 +5835,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DNA[\"DNA 유전체 원본 (디지털 정보: 영구 무결점 보존)\"] --> EpiNoise[\"노화 스트레스 & DNA 절단 수리 반복 → 후성유전학적 마커 헝클어짐 (잡음 발생)\"]\n    EpiNoise --> Aging[\"세포 정체성 상실 & 노화 질환 발현 (세포 기능 부전)\"]\n    EpiNoise ==>|OSK 3대 인자 투여: 잡음 제거 & 포맷| Rejuvenation[\"REJUVENATION (청춘 세포로 완벽 복원)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "데이비드 싱클레어(David Sinclair)의 정보 이론 노화 모델 (Information Theory of Aging)"
       },
       {
         "slideNumber": 12,
@@ -5577,7 +5858,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전통 노화 궤적 vs 기하급수 건강 수명(Healthspan) 최적화 궤적\"\n    x-axis [20세, 40세, 60세, 80세, 100세, 120세]\n    y-axis \"신체 및 인지 활력도 (%)\" 0 --> 100\n    line [100, 85, 55, 20, 0, 0]\n    line [100, 98, 95, 92, 90, 88]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 건강 수명(Healthspan) vs 기대 수명(Lifespan) 공리"
       },
       {
         "slideNumber": 13,
@@ -5595,7 +5877,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Current[\"현재: 1년 살 때마다 기대 수명 0.25년 연장 (LEV 미도달)\"] --> Inflection[\"2030~2035년 LEV 변곡점 돌파: 1년 살 때마다 수명 1.2년 연장!\"]\n    Inflection --> Indefinite[\"물리적 수명의 무한 탈출 (Indefinite Lifespan)\"]",
         "formula": "\\frac{d(\\text{Remaining Life Expectancy})}{dt} \\ge 1.0 \\implies \\text{Longevity Escape Velocity (LEV)}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 장수 탈출 속도(Longevity Escape Velocity: LEV)"
       },
       {
         "slideNumber": 14,
@@ -5615,7 +5898,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OldMed[\"과거 의학: 망가진 장기에 화학 알약 투여 (미봉책)\"] --> BioSwap[\"미래 의학: 인체 하드웨어 모듈화 & 부품 교체\"]\n    BioSwap --> P1[\"1. 손상된 망막 → PRIMA 2mm 실리콘 칩 이식\"]\n    BioSwap --> P2[\"2. 고장 난 신장/심장 → CRISPR 돼지 이종 장기 즉시 스왑\"]\n    BioSwap --> P3[\"3. 마비된 척수 → BCI 브릿지 무선 우회\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "손상된 장기 수리에서 '부품 교체 및 업그레이드'로의 패러다임 전환"
       },
       {
         "slideNumber": 15,
@@ -5631,7 +5915,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Regenerative Medicine 및 바이오 하이브리드 5대 핵심 기술 축 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -5653,7 +5938,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    NIR[\"근적외선 광자 입사 (850nm)\"] --> Diode[\"실리콘 P-N 접합 광다이오드 (광기전력 발생)\"]\n    Diode --> Platinum[\"중앙 백금 자극 전극 (국소 양극/음극 펄스 방출)\"]\n    Platinum --> Neuron[\"양극세포 세포막 전위 역치(-55mV) 돌파 → 활동 전위(Action Potential) 격발!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "PRIMA 2mm 칩의 광학-신경 변환 물리학 (378개 광다이오드 픽셀)"
       },
       {
         "slideNumber": 17,
@@ -5673,7 +5959,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    ChipPix[\"PRIMA 픽셀 전극 (망막 하 밀착)\"] -->|전기 펄스 (30Hz)| Bipolar[\"양극세포 (Bipolar Cell Layer)\"]\n    Bipolar --> Ganglion[\"망막 신경절세포 (Retinal Ganglion Cells)\"]\n    Ganglion --> OpticNerve[\"시신경 섬유 다발 (120만 가닥)\"]\n    OpticNerve --> LGN[\"외측슬상핵 (LGN)\"]\n    LGN --> VisualCortex[\"대뇌 1차 시각 피질 (V1) → 십자말풀이 텍스트 인식!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "망막 양극세포(Bipolar Cells) 직접 전기 자극 회로 및 신경 신호 생성"
       },
       {
         "slideNumber": 18,
@@ -5689,7 +5976,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Invisible[\"850nm 근적외선 투사<br/>(인간 눈에는 완전 투명 • 눈부심 0)\"] --> Silicon[\"실리콘 칩 광흡수 극대화<br/>(에너지 변환 효율 25% 달성)\"]\n    Silicon --> InfiniteLife[\"영구적 무선 자가발전<br/>(배터리 교체 수술 0회 영구 이식)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "근적외선(850nm NIR) 안경 투사 기술과 광기전력(Photovoltaic) 에너지 자급"
       },
       {
         "slideNumber": 19,
@@ -5709,7 +5997,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"BCI 동시 기록 신경 전극 채널 수 성장 궤적 (Log10 Scale)\"\n    x-axis [1960, 1980, 2000, 2010, 2020, 2024, 2026]\n    y-axis \"전극 채널 수 (Log10)\" 0 --> 5\n    line [0, 1, 2, 2.5, 3.01, 3.01, 5.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "BCI 전극 밀도 스케일링 법칙: 100채널 $\\rightarrow$ 1,024채널 $\\rightarrow$ 10만 채널"
       },
       {
         "slideNumber": 20,
@@ -5725,7 +6014,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Invasive[\"침습적 BCI (개두술 • 전극 삽입 • 출혈/염증 위험)\"] --> Evolution[\"비침습 / 최소 침습 바이오 혁신\"]\n    Evolution --> FUS[\"1. 집속 초음파 (FUS) — 두개골 투과 정밀 자극\"]\n    Evolution --> Stent[\"2. 혈관 스텐트로드 (Synchron) — 경정맥으로 뇌혈관 진입\"]\n    Evolution --> Opto[\"3. 광유전학 (Optogenetics) — 빛으로 생각 조작\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "광유전학(Optogenetics)과 초음파/자성 나노입자 기반 비침습 BCI"
       },
       {
         "slideNumber": 21,
@@ -5743,7 +6033,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"AAV 유전자 치료제 1도즈 생산 비용 하락 ( Thousands)\"\n    x-axis [2018 (초기 희귀질환), 2021 (스케일업), 2024 (현탁 배양), 2026 (연속 공정)]\n    y-axis \"생산 단가 (k)\" 0 --> 1000\n    line [1000, 450, 80, 8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "AAV 바이러스 벡터 유전자 전달 기술의 6D 비용 하락 곡선"
       },
       {
         "slideNumber": 22,
@@ -5761,7 +6052,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    StemCell[\"환자 본인 줄기세포 배양\"] --> CFD[\"AI 미세 혈관망 토폴로지 설계\"]\n    CFD --> BioPrint[\"초정밀 3D 레이저 바이오프린터 적층 출력\"]\n    BioPrint --> RealOrgan[\"거부 반응 0% 완전 혈관화 인공 간/신장 완성!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "오가노이드(Organoid) 및 3D 바이오프린팅 혈관망 형성 알고리즘"
       },
       {
         "slideNumber": 23,
@@ -5783,7 +6075,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Pig[\"야생 돼지 유전체 (이식 시 즉각 초급성 거부 반응 & 바이러스 감염 위험)\"] --> CRISPR[\"CRISPR Cas12a 69개 유전자 동시 다중 편집\"]\n    CRISPR --> ModPig[\"인간화 eGenesis 복제 미니 돼지 탄생\"]\n    ModPig --> Kidney[\"신장 적출 후 말기 신부전 인간 환자에게 성공적 이식!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CRISPR 69개 유전자 편집을 통한 돼지 이종 장기 이식(Xenotransplantation) 면역 거부 무력화"
       },
       {
         "slideNumber": 24,
@@ -5803,7 +6096,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1년 경과당 기대 수명 증가율 dL/dt (1900~2035 예측)\"\n    x-axis [1900, 1950, 1980, 2000, 2020, 2026, 2030 (LEV 돌파), 2035]\n    y-axis \"dL/dt (년/년)\" 0 --> 1.5\n    line [0.1, 0.2, 0.25, 0.3, 0.45, 0.75, 1.0, 1.25]",
         "formula": "\\frac{dL}{dt} = 1 + \\alpha(t) - \\delta(t) \\quad \\text{where } \\alpha(t) = \\text{의학 기술 혁신 속도}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "장수 탈출 속도(LEV)의 수학적 미분 방정식: $\\frac{dL}{dt} > 1$"
       },
       {
         "slideNumber": 25,
@@ -5819,7 +6113,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"1. 감지 및 획득 (Sensing): 2mm 칩/초소형 센서로 생체 신호 포착\"] --> S2[\"2. 기계학습 디코딩 (Decoding): 뇌파 및 신경 신호를 AI 모델로 실시간 번역\"]\n    S2 --> S3[\"3. 바이오 피드백 자극 (Stimulation): 역분화 인자 및 정밀 전기 펄스로 세포 자극\"]\n    S3 --> S4[\"4. 시스템 통합 및 업그레이드 (Upgrading): 생체 장기와 인공 모듈의 완전 동기화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "바이오 하이브리드 인체 인터페이스 4단계 구현 프레임워크"
       },
       {
         "slideNumber": 26,
@@ -5843,7 +6138,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"PRIMA 칩 이식 환자 시력 회복 개선 지표 (ETDRS 문자 판독 수)\"\n    x-axis [수술 전 (완전 실명), 6개월 차, 12개월 차, 24개월 차]\n    y-axis \"판독 가능 문자 수\" 0 --> 35\n    line [0, 18, 24, 32]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: PRIMA 유럽/미국 임상 3상 데이터: 38명 실명 환자의 시력 문자 판독 회복"
       },
       {
         "slideNumber": 27,
@@ -5865,7 +6161,8 @@ export const sessionsList = [
         "mermaid": "pie title 전 세계 1억 7천만 황반변성(AMD) 환자 대륙별 분포\n    \"아시아 태평양\" : 48\n    \"유럽\" : 24\n    \"북미\" : 18\n    \"중남미 및 아프리카\" : 10",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 전 세계 1억 7천만 황반변성(AMD) 및 300만 망막색소변성증 환자 시장 데이터"
       },
       {
         "slideNumber": 28,
@@ -5891,7 +6188,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Thought[\"놀랜드의 생각 ('마우스를 우상단으로 이동')\"] --> N1Chip[\"N1 칩 1,024개 전극 신경 스파이크 기록\"]\n    N1Chip --> Bluetooth[\"블루투스 무선 전송 (60fps)\"]\n    Bluetooth --> PC[\"노트북 화면 속 마우스 커서 즉각 이동 → 체스 승리!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: Neuralink N1 칩 인체 임상 (Noland Arbaugh 생각만으로 체스/카트 플레이)"
       },
       {
         "slideNumber": 29,
@@ -5911,7 +6209,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Vein[\"목 경정맥 카테터 삽입\"] --> Jugular[\"뇌 상시상정맥동(Superior Sagittal Sinus) 혈관 도달\"]\n    Jugular --> Expand[\"스텐트로드 자가 확장 & 혈관 벽 신경 신호 밀착 감지\"]\n    Expand --> Wire[\"가슴 피하 무선 송수신기 → 태블릿 PC 자율 제어\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: Synchron 스텐트로드(Stentrode) 혈관 기반 비침습 BCI 임상 데이터"
       },
       {
         "slideNumber": 30,
@@ -5931,7 +6230,8 @@ export const sessionsList = [
         "mermaid": "pie title 3.5B USD+ 글로벌 장수 재생 바이오 R&D 투자 배분\n    \"후성유전학 세포 역분화 (Altos Labs)\" : 55\n    \"혈장 인자 & 단백질 오토파지 (Retro Bio)\" : 20\n    \"텔로미어 & 미토콘드리아 재생\" : 15\n    \"AI 기반 항노화 약물 스크리닝\" : 10",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Altos Labs & Retro Biosciences: $3B 자본이 투입된 세포 역분화 파이프라인"
       },
       {
         "slideNumber": 31,
@@ -5951,7 +6251,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"이종 신장 이식 환자 혈중 크레아티닌 수치 개선 (mg/dL)\"\n    x-axis [이식 직전 (투석 의존), 이식 1일차, 이식 7일차, 이식 30일차 (정상치 회복)]\n    y-axis \"크레아티닌 수치 (정상치 <1.2)\" 0 --> 12\n    line [10.5, 4.2, 1.6, 1.1]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: eGenesis CRISPR 유전자 편집 돼지 신장 인체 이식 성공 실증"
       },
       {
         "slideNumber": 32,
@@ -5971,7 +6272,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    IV[\"정맥 주사 1회 투여 (LNP-CRISPR)\"] --> Liver[\"간세포로 나노입자 100% 표적 침투\"]\n    Liver --> Cut[\"TTR 변이 유전자 정확히 절단 & 비활성화\"]\n    Cut --> Cure[\"치명적 독성 아밀로이드 단백질 생성 93% 영구 억제 → 완치!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: Intellia Therapeutics: CRISPR 생체 내(In Vivo) 직접 주입 치료 임상 1/2상"
       },
       {
         "slideNumber": 33,
@@ -5989,7 +6291,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    USFDA[\"전통 FDA 경로: 승인에 12~15년 소요 • 환자들은 기다리다 사망\"] \n    Prospera[\"ReGen Valley 혁신 특구: 환자 자율 동의 & 분산 심의 → 1년 만에 최첨단 유전자 치료제 투여\"]\n    USFDA -.->|규제 리프프로깅| Prospera",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: ReGen Valley (온두라스 프로스페라) 혁신 의료 특구 임상 데이터"
       },
       {
         "slideNumber": 34,
@@ -6009,7 +6312,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"건강 수명(Healthspan) 연장 연수별 전 세계 경제 가치 창출액 (USD Trillions)\"\n    x-axis [1년 연장, 3년 연장, 5년 연장, 10년 연장]\n    y-axis \"경제 가치 (USD Trillions)\" 0 --> 400\n    bar [38, 110, 185, 367]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 건강 수명 10년 연장이 글로벌 GDP에 미치는 경제 가치 ($38 Trillion/year)"
       },
       {
         "slideNumber": 35,
@@ -6025,7 +6329,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Regenerative Medicine 및 바이오 인터페이스 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -6043,7 +6348,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Mortality[\"전통 문명 (필멸의 인간):<br/>죽음의 한계 → 번식 본능 • 예술적 유산 갈망 • 종교적 영생 추구\"] \n    Immortality[\"포스트휴먼 문명 (장수 탈출 인류):<br/>수명의 무한 확장 → 기존 사회 제도 • 가치관의 근본적 존재론적 붕괴\"]\n    Mortality -.->|문명사적 대단절| Immortality",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "필멸성(Mortality)의 종말과 '인간이란 무엇인가'라는 존재론적 질문"
       },
       {
         "slideNumber": 37,
@@ -6063,7 +6369,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    TechInequality[\"초기 고가의 재생 치료제 & BCI 칩\"] --> Rich[\"상위 0.1% 부유층: 건강 수명 150세 • 초지능 뇌 직결 (초인종 탄생)\"]\n    TechInequality --> Poor[\"하위 99% 일반 대중: 70세 자연 노화 & 인지적 도태 (생물학적 열등화)\"]\n    Rich <==>|대립 • 비교| Poor",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "불사(Immortality)의 계급화: 생물학적 귀족과 유전적 프롤레타리아 분열"
       },
       {
         "slideNumber": 38,
@@ -6083,7 +6390,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldLife[\"20세기 3단계 생애 모델:<br/>교육 (0~25세) → 노동 (25~65세) → 은퇴/사망 (65~80세)\"] --> NewLife[\"21세기 다단계 영구 활력 모델:<br/>학습 ↔ 창업 ↔ 안식 ↔ 재교육의 무한 순환 (150세까지 지속)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "연금 시스템 붕괴와 정년 제도의 소멸: 100세 노동 사회의 도래"
       },
       {
         "slideNumber": 39,
@@ -6101,7 +6409,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BCI[\"뇌 피질 BCI 직결 (생각의 디지털화)\"] --> Threat{\"사이버 보안 취약점 노출\"}\n    Threat --> Hack1[\"인지적 프라이버시 침해: 머릿속 비밀 생각 무단 채굴\"]\n    Threat --> Hack2[\"원격 신경 자극 조작: 특정 감정/복종 상태 강제 주입\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌 해킹(Brain Hacking)과 인지적 프라이버시(Cognitive Privacy)의 종말"
       },
       {
         "slideNumber": 40,
@@ -6121,7 +6430,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Therapy[\"치료 (Therapy): 질병 극복 → 정상인 복귀 (의학적 의무)\"] --> Threshold{\"경계선 돌파 (Enhancement Boundary)\"}\n    Threshold --> Enhancement[\"강화 (Enhancement): 독수리 시력 • 적외선 투시 • 초지능 직결 (사이보그 신인류)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "치료(Therapy)에서 강화(Enhancement)로: 사이보그 신인류의 진화 분기점"
       },
       {
         "slideNumber": 41,
@@ -6141,7 +6451,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SickCare[\"과거 사후 치료 (Sick-Care):<br/>암/치매 발병 후 수억 원 투입 → 국가 재정 고갈\"] --> Shift[\"패러다임 대전환\"]\n    Shift --> HealthCare[\"미래 사전 재생 (Health-Care):<br/>50세에 500 USD 유전자/세포 리프로그래밍 → 평생 질병 원천 차단\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "재생 치료의 보편적 민주화: 국가 의료보험의 패러다임 전환"
       },
       {
         "slideNumber": 42,
@@ -6159,7 +6470,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: PRIMA 칩 & BCI가 실명과 마비의 족쇄를 부숨\"] --> B[\"원리: 2mm 광발전 칩 & 후성유전학 세포 역분화 (Yamanaka OSKM)\"]\n    B --> C[\"목표: 건강 수명(Healthspan) 동결 & 2030년대 LEV 돌파\"]\n    C --> D[\"THEURGICON의 사명: 모든 인류가 존엄하고 건강하게 신의 수명을 누리게 하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 낡은 육체를 벗고 바이오 하이브리드의 미래로 진화하라"
       },
       {
         "slideNumber": 43,
@@ -6175,7 +6487,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 인간의 건강 수명이 120세로 연장되어 '장수 탈출 속도(LEV)'에 도달할 경우, 국가의 공적 연금 제도를 완전히 폐지하고 '평생 자율 노동-배당 복합 체제'로 강제 전환하는 정책은 정당한가?\"]\n    D2[\"논제 2: BCI 인터페이스를 통한 생각 읽기가 상용화될 때, 국가 정보기관이나 기업의 '무단 뇌파 해킹'을 방지하기 위해 헌법에 '인지적 불가침권(Right to Cognitive Liberty)'을 기본권으로 명시해야 하는가?\"]\n    D3[\"논제 3: CRISPR 유전자 편집 돼지 장기(Xenotransplantation)의 대량 생산은 동물의 생명권을 침해하는 종차별주의적 착취인가, 인류의 생명 구원을 위한 불가피한 정당 행위인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -6193,7 +6506,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 바이오 하이브리드 재생 치료 벤처 아키텍처 설계서"
       },
       {
         "slideNumber": 45,
@@ -6213,7 +6527,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W7[\"Week 7: Regenerative Medicine & BCI<br/>(재생 의학과 바이오 하이브리드 인터페이스)\"] --> W8[\"Week 8: Synthetic Biology & Planet GPT<br/>(합성 생물학의 윤리와 행성 단위 지능)\"]\n    W8 --> P3[\"Phase 3: 풍요의 역설과 실존적 위기<br/>(Weeks 09~11 개막!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "8주차 예고: Synthetic Biology의 윤리와 행성 단위 감시망 (Planet GPT) & 종강"
       }
     ]
   },
@@ -6243,7 +6558,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SynBio[\"합성 생물학 (Synthetic Biology)<br/>• DNA 읽기 → 쓰기/합성 전환<br/>• 털매머드 멸종 복원<br/>• 탄소 격리 인공 미생물\"] --> Fusion{\"PLANETARY CONVERGENCE<br/>(생명공학 + 인공지능 + 우주위성)\"}\n    SensorNet[\"행성 센서망 (Planetary Mesh)<br/>• Planet Labs 큐브위성 200기<br/>• Argo 해양 자율 부표 4,000개<br/>• eDNA 전 지구 생물지도\"] --> Fusion\n    Fusion --> PlanetGPT[\"PLANET GPT (행성 지능)<br/>지구 생태계 실시간 항상성 자율 제어\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 2 피날레: Synthetic Biology과 행성 지능(Planetary Intelligence)의 도래"
       },
       {
         "slideNumber": 2,
@@ -6263,7 +6579,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Design[\"1. AI 유전체 설계<br/>(원하는 기능의 단백질 코드 생성)\"] --> Print[\"2. DNA 화학 합성<br/>(무기물 화합물로부터 DNA 인쇄)\"]\n    Print --> Boot[\"3. 무핵 세포 주입 (Boot-up)<br/>(컴퓨터 OS 부팅처럼 생명 작동)\"]\n    Boot --> Function[\"4. 인공 미생물 발현<br/>(플라스틱 분해 • 탄소 포집 • 신약 생산)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무에서 유의 창조(Creatio Ex Nihilo): 생물학의 디지털 프로그래밍화"
       },
       {
         "slideNumber": 3,
@@ -6283,7 +6600,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Bio[\"생물권 (Biosphere) — 산림 • 해양 조류 • 토양 미생물\"] <==> Sensors[\"감각망 (Sensing Mesh) — 위성 • 해양 부표 • eDNA\"]\n    Sensors <==> AI[\"연산 뇌 (Compute Brain) — Planet GPT AI 파운데이션\"]\n    AI <==> Action[\"실행계 (Effector) — 자율 산림 드론 • 탄소 포집 공장 • 미생물 살포\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "가이아(Gaia) 이론의 기하급수적 실체화: 지구 스스로 생각하는 신경망"
       },
       {
         "slideNumber": 4,
@@ -6301,7 +6619,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Q[\"8주차 핵심 질문\"] --> A[\"1. 생명 창조의 윤리: 인간이 종의 탄생과 멸종을 직접 결정할 권한이 있는가?\"]\n    Q --> B[\"2. 생태 연쇄 붕괴 위험: 유전자 조작 미생물의 야생 유출 및 돌연변이 확산 방어책은?\"]\n    Q --> C[\"3. 행성 거버넌스: 한 국가가 일방적으로 지구 기후를 조작(Geoengineering)할 때 국제법적 통제는?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 생태계를 프로그래밍할 때 인류는 생명의 무게를 감당할 수 있는가?"
       },
       {
         "slideNumber": 5,
@@ -6317,7 +6636,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 멸종 복원 & 원전<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 유전체학 & 행성망<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 실증 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 지구공학 & 윤리 역설<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. Phase 2 종합 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "8주차 학습 로드맵: 매머드 멸종 복원에서 Planet GPT까지"
       },
       {
         "slideNumber": 6,
@@ -6337,7 +6657,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 6)\"] --> T1[\"테제 1: 멸종 복원은 과거 회귀가 아니라 생태계 탄력성(Resilience) 재구축이다\"]\n    Text --> T2[\"테제 2: 인공 미생물은 대기 중 1조 톤의 이산화탄소를 빨아들이는 분자 청소기다\"]\n    Text --> T3[\"테제 3: 행성 감시망(Planet GPT)은 생태 파괴를 1초 만에 적발하는 지구의 면역계다\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제6장: \"Planetary Intelligence\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -6355,7 +6676,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Fossil[\"북극 영구동토층 매머드 화석<br/>(4,000년 전 고대 DNA 추출 & 시퀀싱)\"] --> Compare[\"현대 아시아 코끼리 유전체 1:1 대조<br/>(저온 적응 핵심 유전자 변이 식별)\"]\n    Compare --> CRISPR[\"CRISPR 유전자 가위로 60개 이상 유전자 동시 치환\"]\n    CRISPR --> Embryo[\"인공 자궁 / 대리모 코끼리 착상 → 한대 적응형 매머드 탄생!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "조지 처치(George Church)와 Colossal Biosciences의 멸종 복원(De-extinction) 프로젝트"
       },
       {
         "slideNumber": 8,
@@ -6377,7 +6699,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    NoMammoth[\"매머드 부재: 툰드라에 눈이 두껍게 쌓여 단열재 역할 → 지열로 영구동토층 융해 → 메탄 폭풍 방출 (지구 파멸)\"]\n    WithMammoth[\"매머드 무리 복원: 눈밭을 짓밟고 나무를 쓰러뜨려 초원화 → 지표면 냉각 → 영구동토층 동결 보존!\"]\n    NoMammoth -.->|생태적 복원| WithMammoth",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "털매머드(Woolly Mammoth) 부활의 생태학적 명분: 북극 툰드라 영구동토층 방어"
       },
       {
         "slideNumber": 9,
@@ -6397,7 +6720,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Design[\"컴퓨터 CAD로 인공 DNA 473개 유전자 설계\"] --> Synthesis[\"화학 반응기에서 인공 염기서열 100% 프린팅\"]\n    Synthesis --> Cell[\"속을 비운 세포 껍데기에 인공 DNA 주입\"]\n    Cell --> SynthLife[\"JCVI-syn3.0 탄생: 인류 역사상 최초의 인공 부팅 생명체!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "합성 유전체학(Synthetic Genomics): 화학적으로 합성된 인공 생명체 JCVI-syn3.0"
       },
       {
         "slideNumber": 10,
@@ -6415,7 +6739,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Extinction[\"인간의 남획과 서식지 파괴로 발생한 멸종 위기\"] --> Brand[\"스튜어트 브랜드의 Revive & Restore\"]\n    Brand --> Tool1[\"1. 고대 DNA 유전자 다양성 복원 (Genetic Rescue)\"]\n    Brand --> Tool2[\"2. 유전자 가위를 통한 외래 병원균 저항성 부여\"]\n    Brand --> Tool3[\"3. 멸종된 핵심종 복원을 통한 생태계 재야생화 (Rewilding)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스튜어트 브랜드(Stewart Brand)와 Revive & Restore의 '생명 다양성 재야생화'"
       },
       {
         "slideNumber": 11,
@@ -6435,7 +6760,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Passive[\"과거 수동적 보존:<br/>철조망 치고 방치 → 기후 변화로 전멸\"] -->|패러다임 대전환| Active[\"미래 적극적 생태공학:<br/>열저항성 산호초 합성 • 탄소흡수 초목 식재 → 초탄력성 생태계\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 생태계 리셋 공리: 보존을 넘어선 적극적 진화 설계"
       },
       {
         "slideNumber": 12,
@@ -6451,7 +6777,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    EarthState[\"지구 상태 이상 감지 (해수면 온도 1.5℃ 상승 경보)\"] --> Model[\"Planet GPT 기후 시뮬레이션 엔진\"]\n    Model --> Trigger[\"최적 대응책 자율 격발\"]\n    Trigger --> Act1[\"1. 해양 탄소 격리 플랑크톤 살포\"]\n    Trigger --> Act2[\"2. 성층권 에어로졸 일사량 미세 조절\"]\n    Act1 & Act2 --> Normalized[\"지구 항상성(36.5℃) 정상 회복\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 행성 항상성(Planetary Homeostasis) 제어 루프"
       },
       {
         "slideNumber": 13,
@@ -6473,7 +6800,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"DNA 염기쌍 1개 화학 합성 비용 하락 궤적 ( Log10 Scale)\"\n    x-axis [2000, 2005, 2010, 2015, 2020, 2026]\n    y-axis \"합성 비용 ( Log10)\" -4 --> 1\n    line [1.0, 0.3, -0.3, -1.0, -2.3, -4.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "DNA 쓰기(Synthesis)의 칼슨 곡선: 염기쌍당 비용 $10 $\\rightarrow$ $0.0001"
       },
       {
         "slideNumber": 14,
@@ -6493,7 +6821,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Prompt[\"자연어 요구사항 입력:<br/>'플라스틱 PET를 분해하여 바닐린 향료로 전환하는 미생물 설계'\"] --> BioCAD[\"Bio-Compiler (AI 파운데이션)<br/>프로모터 • RBS • 유전자 서열 자동 합성 코드 생성\"]\n    BioCAD --> SynthMachine[\"자동화 DNA 프린터 & 파운드리 로봇 출력\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "생명체의 코드화(A, T, G, C)와 바이오 컴파일러(Bio-Compiler)의 출현"
       },
       {
         "slideNumber": 15,
@@ -6509,7 +6838,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Synthetic Biology 및 행성 지능 5대 핵심 도메인 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -6529,7 +6859,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Mendel[\"전통 멘델 유전 (50% 전달):<br/>변이 유전자가 야생 집단에 흩어지며 희석됨\"] \n    Drive[\"CRISPR 유전자 드라이브 (100% 전달):<br/>모든 자손이 100% 변이 유전자를 상속 → 10세대 만에 야생 모기 전체 불임 박멸!\"]\n    Mendel <==>|대립 • 비교| Drive",
         "formula": "P(\\text{Inheritance}) = 1.0 \\implies q_{t+1} = \\frac{q_t (1 + s)}{1 + s \\cdot q_t} \\approx 1.0 \\quad (\\text{단 10~15세대 만에 야생 집단 전체 100% 장악})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "유전자 드라이브(Gene Drive)의 수학적 유전 역학: 멘델 유전 법칙(50%)을 100%로 왜곡"
       },
       {
         "slideNumber": 17,
@@ -6549,7 +6880,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Water[\"바닷물 1리터 샘플 채취\"] --> Filter[\"나노 필터로 세포 및 미세 DNA 농축\"]\n    Filter --> NGS[\"차세대 초고속 NGS 시퀀서 해독\"]\n    NGS --> BioMap[\"1초 만에 해양 생태계 1,000종 전수 식별 & 멸종위기종 출현 감지!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "환경 DNA(eDNA) 분석 기술: 물 한 방울로 생태계 전체를 시퀀싱"
       },
       {
         "slideNumber": 18,
@@ -6571,7 +6903,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Inputs[\"행성 단위 실시간 멀티모달 센서망\"]\n        I1[\"Planet Labs 큐브위성 (일일 3m 해상도)\"]\n        I2[\"Argo 해양 부표 4,000기 (수온/염도/탄소)\"]\n        I3[\"글로벌 eDNA 스테이션 (생물다양성)\"]\n        I4[\"지상 IoT 기상관측망 100만 개소\"]\n    end\n    Inputs --> PlanetBrain[\"PLANET GPT (행성 파운데이션 모델)<br/>지구 탄소 순환 • 열역학적 해류 • 생태계 동역학 시뮬레이션\"]\n    PlanetBrain --> Outputs[\"실시간 정책 제어: 탄소 배출원 단속 • 산불 사전 진압 • 불법 어로 차단\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Planet GPT 아키텍처: 큐브위성 + IoT 해양 부표 + 생체 센서 멀티모달 융합"
       },
       {
         "slideNumber": 19,
@@ -6591,7 +6924,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Flaw[\"자연 RuBisCO 효소 결함: 산소를 잘못 결합하여 에너지 30% 낭비\"] --> AIReDesign[\"AI 단백질 공학으로 결합 부위 정밀 수정\"]\n    AIReDesign --> SuperAlgae[\"초고효율 탄소 격리 미세조류 탄생 (나무 대비 50배 \\text{CO}_2 포집)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "탄소 격리 조류(Microalgae)와 루비스코(RuBisCO) 효소 개량 공학"
       },
       {
         "slideNumber": 20,
@@ -6611,7 +6945,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    AirN2[\"공기 중 무제한 질소 (N_2)\"] --> NifBacteria[\"유전자 조작 Pivot Bio 박테리아 (작물 뿌리 공생)\"]\n    NifBacteria --> DirectFeed[\"옥수수 뿌리로 질소 영양분 100% 직배송\"]\n    DirectFeed --> ZeroPollution[\"화학 비료 살포 0 → 온실가스 (N_2O) 및 강 부영양화 소멸\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "질소 고정 미생물 공학: 화학 비료 없는 '스스로 비료를 만드는 작물'"
       },
       {
         "slideNumber": 21,
@@ -6629,7 +6964,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SunLight[\"입사 태양 에너지 (S_0 = 1361\\text{ W/m}^2)\"] --> Aerosol[\"성층권 20km 미세 에어로졸 반사막\"]\n    Aerosol -->|반사율(α) 단 1% 증가| Reflect[\"우주 공간으로 열에너지 즉시 반사\"]\n    Reflect --> CoolDown[\"1~2년 내 지구 기온 즉각적 1.5℃ 냉각 달성 (10B USD 저비용)\"]",
         "formula": "\\Delta F = -\\frac{S_0}{4} \\Delta \\alpha \\approx -3.7 \\text{ W/m}^2 \\implies \\text{지구 평균 기온 } 1.5^\\circ\\text{C 즉각 하강}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지구공학(Geoengineering)의 복사 강제력(Radiative Forcing) 제어 수식 모델"
       },
       {
         "slideNumber": 22,
@@ -6649,7 +6985,8 @@ export const sessionsList = [
         "mermaid": "pie title 지구 9대 한계선 중 생물다양성 위기 비중\n    \"생물다양성 손실 (치명적 고위험 돌파)\" : 45\n    \"기후 변화 및 탄소 농도\" : 25\n    \"질소/인 생물화학적 순환\" : 20\n    \"기타 토지/담수 이용\" : 10",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "생물다양성 손실의 비가역적 임계점(Tipping Point)과 브레이크 메커니즘"
       },
       {
         "slideNumber": 23,
@@ -6669,7 +7006,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Design[\"AI 유전자 회로 설계\"] --> Robot[\"로봇 액체 핸들러 (10,000 웰 플레이트)\"]\n    Robot --> Gibson[\"깁슨 어셈블리 자동 결합 & 세포 형질전환\"]\n    Gibson --> Screen[\"형광 스크리닝으로 최고 효율 0.01% 슈퍼 미생물 선별\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인공 미생물 파운드리(Bio-Foundry)와 자동화 깁슨 어셈블리(Gibson Assembly)"
       },
       {
         "slideNumber": 24,
@@ -6691,7 +7029,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"대기 중 CO2 농도(ppm) 역사적 추이 및 2026~2050 합성생물학 역전 모델\"\n    x-axis [1950, 1980, 2000, 2026 (피크 425ppm), 2035, 2045, 2050 (350ppm 회복)]\n    y-axis \"CO2 농도 (ppm)\" 300 --> 450\n    line [310, 338, 370, 425, 405, 375, 350]",
         "formula": "\\frac{d[\\text{CO}_2]}{dt} = E(t) - \\left[ S_{\\text{Forest}} + S_{\\text{Algae}} + S_{\\text{Microbes}} + S_{\\text{DAC}} \\right] < 0",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "행성 탄소 대사 방정식: $\\frac{d[\\text{CO}_2]}{dt} = \\text{Emission} - \\text{BioSequestration}$"
       },
       {
         "slideNumber": 25,
@@ -6707,7 +7046,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    P1[\"1. 전 지구 실시간 감지 (Planet Sensing): 위성 • eDNA로 생태계 스캔\"] --> P2[\"2. AI 인과 시뮬레이션 (Planet GPT): 개입 시나리오 디지털 트윈 검증\"]\n    P2 --> P3[\"3. 미세 국소 개입 (Micro-Intervention): 인공 미생물 및 멸종종 국소 방목\"]\n    P3 --> P4[\"4. 폐루프 피드백 모니터링 (Closed-Loop): 24시간 실시간 부작용 감시 & 킬스위치(Kill-Switch)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "행성 지능 거버넌스 4단계 실행 프로토콜"
       },
       {
         "slideNumber": 26,
@@ -6729,7 +7069,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Elephant[\"아시아 코끼리 줄기세포 (iPSC 만능화 성공)\"] --> MultiCRISPR[\"60개 매머드 내한성 유전자 동시 다중 편집\"]\n    MultiCRISPR --> Tissue[\"영하 40도 적응형 피부 및 털 오가노이드 배양 검증 완료\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: Colossal Biosciences: 털매머드 60개 유전자 복원 및 아시아코끼리 세포 만능화"
       },
       {
         "slideNumber": 27,
@@ -6751,7 +7092,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Planet Labs 일일 전 지구 관측 면적 (백만 km²)\"\n    x-axis [2016, 2018, 2020, 2022, 2024, 2026]\n    y-axis \"일일 촬영 면적 (백만 km²)\" 0 --> 350\n    line [50, 150, 250, 300, 330, 350]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: Planet Labs: 200개 큐브위성의 전 지구 일일 3m 해상도 스캐닝 데이터"
       },
       {
         "slideNumber": 28,
@@ -6771,7 +7113,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Surface[\"해수면 (위성 통신 데이터 전송)\"] -->|10일 주기 자율 잠수| Deep[\"수심 2,000m 심해 잠수 (온도 • 염도 • pH 측정)\"]\n    Deep -->|부력 조절 재부상| Surface",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: Argo 해양 관측망: 4,000개 자율 잠수 부표의 전 해양 수온/탄소 실시간 매핑"
       },
       {
         "slideNumber": 29,
@@ -6791,7 +7134,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"동일 기간 식재 포플러 나무 바이오매스 무게 (kg)\"\n    x-axis [자연 야생 포플러 나무, Living Carbon 유전자 변형 포플러]\n    y-axis \"바이오매스 중량 (kg)\" 0 --> 30\n    bar [15.2, 23.3]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: Living Carbon: 유전자 변형 포플러 나무의 탄소 흡수율 53% 향상 실증"
       },
       {
         "slideNumber": 30,
@@ -6811,7 +7155,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"유전자 드라이브 모기 방류 후 세대별 모기 개체 수 추이 (%)\"\n    x-axis [0세대 (방류), 3세대, 6세대, 9세대, 12세대]\n    y-axis \"모기 개체 수 비율 (%)\" 0 --> 100\n    line [100, 88, 52, 18, 2]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Target Malaria: 부르키나파소 말라리아 모기 유전자 드라이브 95% 억제 실증치"
       },
       {
         "slideNumber": 31,
@@ -6831,7 +7176,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"미국 옥수수 농경지 화학 질소 비료 사용량 절감 추이 (천 톤)\"\n    x-axis [2020, 2022, 2024, 2026]\n    y-axis \"절감된 화학 비료량 (천 톤)\" 0 --> 120\n    line [5, 25, 60, 105]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: Pivot Bio: 질소 고정 미생물로 미국 옥수수 농경지 화학 비료 20% 대체"
       },
       {
         "slideNumber": 32,
@@ -6851,7 +7197,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Sample[\"전 세계 100개 항구 해수 1L\"] --> AutoSeq[\"전자동 eDNA 시퀀서\"]\n    AutoSeq --> BioDash[\"글로벌 실시간 생물다양성 건강도 지수 (Biodiversity Index) 표출\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: eDNA 생물다양성 지도: 바닷물 1리터로 1,000종 해양 생태계 전수 스캔"
       },
       {
         "slideNumber": 33,
@@ -6871,7 +7218,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"기후 위기 대응 비용 비교: 전통 탈탄소 인프라 vs 성층권 지구공학 (USD Billions)\"\n    x-axis [전통 글로벌 신재생 전환 (연간), 성층권 에어로졸 분사 SRM (연간)]\n    y-axis \"연간 소요 비용 (USD Billions)\" 0 --> 5000\n    bar [4500, 10]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 성층권 에어로졸 분사(SAI) 기후 모델링: $10B 투자로 지구 온도 1℃ 억제"
       },
       {
         "slideNumber": 34,
@@ -6891,7 +7239,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Plastic[\"버려진 페트병 플라스틱\"] --> FastPET[\"AI 설계 FAST-PETase 인공 효소 투입\"]\n    FastPET --> Monomer[\"24시간 만에 순수 테레프탈산(TPA) 원료로 100% 완전 분해!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: BioGPT와 인공 단백질 생성기를 통한 플라스틱 분해 효소(PETase) 100배 가속"
       },
       {
         "slideNumber": 35,
@@ -6907,7 +7256,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Synthetic Biology 및 행성 지능 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -6929,7 +7279,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    HumanGod[\"인간이 생명 코드를 직접 작성 ('Playing God')\"] --> Hubris[\"기술적 오만과 통제 착각\"]\n    Hubris --> Catastrophe[\"예상치 못한 생태계 상호작용 파탄 → 인류 문명에 부메랑 타격\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "'신의 영역 침범(Playing God)': 창조자의 권능 앞에 선 인간의 오만과 공포"
       },
       {
         "slideNumber": 37,
@@ -6947,7 +7298,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    DriveMosquito[\"유전자 드라이브로 모기 100% 박멸\"] --> FishDiet[\"유충(장구벌레) 먹던 어류/양서류 멸종\"]\n    FishDiet --> BirdBat[\"철새 및 박쥐 서식지 붕괴\"]\n    BirdBat --> SuperPest[\"천적 사라진 다른 해충 대발생 → 전 세계 대기근!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "유전자 드라이브의 판도라 상자: 돌이킬 수 없는 생태계 연쇄 붕괴 위험"
       },
       {
         "slideNumber": 38,
@@ -6965,7 +7317,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    CheapSynth[\"DNA 합성 비용 10만 분의 1 폭락 & 오픈소스 유전체 DB\"] --> RogueActor[\"악의적 개인/테러 조직의 치명적 합성 바이러스 출력\"]\n    RogueActor --> Pandemic[\"치사율 50% 공기 전파 합성 팬데믹 발발 (인류 실존적 위기)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "데스크톱 바이오프린터와 합성 생물무기(Bio-Weapons) 테러 위험"
       },
       {
         "slideNumber": 39,
@@ -6983,7 +7336,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    CountryA[\"A국가: 자국 폭염 해결 위해 성층권 에어로졸 독단 살포\"] --> Cloud[\"성층권 차광막 형성\"]\n    Cloud --> CountryB[\"B국가: 몬순 강우량 40% 급감 → 대기근 발생 → A국가에 군사 공격 선전포고!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지구공학(Geoengineering)의 지정학적 갈등과 일방주의(Unilateral Action) 딜레마"
       },
       {
         "slideNumber": 40,
@@ -7001,7 +7355,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Wild[\"과거: 원시 야생 자연 (자연 선택 & 우연한 진화)\"] -->|인류세 & 행성 지능 통합| Garden[\"미래: 프로그래밍된 인공 행성 정원 (인공 선택 & 지능적 관리)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "생태계의 자연성(Naturalness)의 종말: 지구는 이제 거대한 인공 정원이다"
       },
       {
         "slideNumber": 41,
@@ -7017,7 +7372,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    GlobalGov[\"전 지구적 생물안전 거버넌스 (Planetary Biosafety)\"] --> R1[\"1. DNA 프린터 실시간 원격 암호화 사찰\"]\n    GlobalGov --> R2[\"2. 유전자 드라이브 자폭 코드(Kill-Switch) 강제 내장\"]\n    GlobalGov --> R3[\"3. 지구공학 유엔 다자간 거버넌스 체계\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "전 지구적 생물안전 거버넌스(Planetary Biosafety Protocol) 수립"
       },
       {
         "slideNumber": 42,
@@ -7035,7 +7391,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    P2Sum[\"PHASE 2 완료: 현실적 기적과 풍요의 구체적 사례 실증<br/>(Zipline • AI 지능 폭발 • PRIMA 칩 • Planet GPT)\"] --> Shift[\"거룩한 청지기(Stewardship)의 사명 완수\"]\n    Shift --> P3Intro[\"PHASE 3 진입: 풍요의 역설과 실존적 위기<br/>(PFAS • 미세플라스틱 뇌 침투 • 대사 붕괴 • 인지 중독)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 거룩한 청지기(Stewardship)로서 행성을 재설계하라"
       },
       {
         "slideNumber": 43,
@@ -7051,7 +7408,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 멸종된 매머드를 부활시키는 기술이 북극 영구동토층의 메탄 융해를 막는 유일한 생태 공학적 해법이라면, 잠재적 생태계 교란 위험에도 불구하고 대규모 야생 방목을 즉각 승인해야 하는가?\"]\n    D2[\"논제 2: 전 지구 기온 상승을 1년 만에 1.0℃ 낮출 수 있는 성층권 에어로졸 지구공학(SRM)을, 국제적 합의가 지연될 경우 기후 피해 당사국이 '자구책'으로서 독단적으로 실행할 권리가 있는가?\"]\n    D3[\"논제 3: 합성 생물학 데스크톱 DNA 프린터의 보급이 바이오 테러 위험을 초래한다면, 인류의 안전을 위해 '개인의 바이오 해킹 및 유전자 합성 연구'를 법적으로 전면 금지해야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 2 종합 평가 및 세미나 발제 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -7069,7 +7427,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: Planet GPT 기반 행성 생태 복원 벤처 설계서"
       },
       {
         "slideNumber": 45,
@@ -7089,7 +7448,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P2[\"Phase 2: 현실적 기적과 풍요의 구체적 사례<br/>(Weeks 05~08 완료!)\"] ==> P3[\"Phase 3: 풍요의 역설과 실존적 위기<br/>(Weeks 09~11 충격의 개막!)\"]\n    P3 --> W9[\"Week 9: 신체적 침투와 환경의 진화적 미스매치 (PFAS & 미세플라스틱)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 3 예고: 풍요의 역설과 실존적 위기 (Week 9: PFAS & Microplastics) & 종강"
       }
     ]
   },
@@ -7119,7 +7479,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Abundance[\"기하급수 물질문명의 풍요<br/>• 편리한 일회용 플라스틱<br/>• 방수/방오 코팅 (PFAS)<br/>• 초저가 대량 화학 합성\"] --> Infiltration{\"PHYSICAL INFILTRATION<br/>(생체 장벽 붕괴 & 물리적 침투)\"}\n    Infiltration --> Blood[\"혈류 및 주요 장기 오염<br/>(미국인 98% 혈중 PFAS 잔류)\"]\n    Infiltration --> BBB[\"혈뇌장벽(BBB) 돌파<br/>(뇌 조직 중량의 0.5% 플라스틱 잠식)\"]\n    Infiltration --> Repro[\"생식계 교란 & 불임 급증<br/>(50년간 정자 수 50% 급감)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 3 개막: 물질적 풍요의 어두운 그림자와 Physical Infiltration"
       },
       {
         "slideNumber": 2,
@@ -7139,7 +7500,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    ChemRev[\"20세기 화학 공학의 성공:<br/>열과 기름에 안 타고 영구히 지속되는 기적의 소재 개발\"] --> Unintended[\"의도치 않은 치명적 결과:<br/>자연계 효소로 분해 불가능 → 인체 내 축적 & 독성 발현\"]\n    ChemRev -.->|성공의 역설| Unintended",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "성공의 독성 부산물(Toxic Byproducts of Success): 편리함이 청구한 청구서"
       },
       {
         "slideNumber": 3,
@@ -7159,7 +7521,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    PaleoBody[\"호모 사피엔스 유전체 (30만 년 진화)<br/>• 흙, 나무, 동물 단백질 해독에 최적화<br/>• 인공 합성 화학물질 인식 불가\"] \n    ModernEnv[\"현대 화학 환경 (단 70년 만에 폭발)<br/>• 35만 종 인공 화학물질<br/>• 나노 플라스틱 • PFAS • 내분비 교란물질\"]\n    PaleoBody <-->|EVOLUTIONARY MISMATCH (치명적 충돌)| ModernEnv",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "진화적 미스매치(Evolutionary Mismatch): 30만 년의 구석기 육체 vs 70년의 화학 합성 환경"
       },
       {
         "slideNumber": 4,
@@ -7181,7 +7544,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"9주차 핵심 질문\"] --> A[\"1. 물리적 메커니즘: 나노 입자는 어떻게 세포막의 지질 이중층을 관통하는가?\"]\n    Q --> B[\"2. 병리학적 임팩트: 뇌 조직 0.5% 플라스틱 잠식은 치매와 인지 기능에 어떤 파맥을 주는가?\"]\n    Q --> C[\"3. 문명적 해독 전략: 초임계 수산화 및 인공 효소 기반 전 지구 정화 아키텍처는?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 보이지 않는 나노 침투자들은 어떻게 인간의 뇌와 면역계를 점령했는가?"
       },
       {
         "slideNumber": 5,
@@ -7197,7 +7561,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 진화적 미스매치<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & PFAS/MNP 해체<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 나노 침투 생체물리학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 부검 실측치<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 문명 부채 & 해독 역설<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "9주차 학습 로드맵: 탄소-불소 결합에서 뇌 속 0.5% 플라스틱 침투까지"
       },
       {
         "slideNumber": 6,
@@ -7217,7 +7582,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 6)\"] --> T1[\"축 1: 화학적 침투 — PFAS '영원한 분자'의 체내 영구 잔류\"]\n    Text --> T2[\"축 2: 물리적 침투 — 나노플라스틱의 혈뇌장벽(BBB) 통과 및 뇌 축적\"]\n    Text --> T3[\"축 3: 진화적 파탄 — 호르몬 교란(EDCs)으로 인한 생식력 붕괴\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제6장: \"The Unintended Consequences\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -7237,7 +7603,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Carbon[\"탄소 원자 (C)\"] ===|초강력 공유결합 (485 kJ/mol)| Fluorine[\"불소 원자 (F)\"]\n    Fluorine --- Shield[\"불소 원자의 높은 전기음성도 → 탄소 골격을 완벽히 감싸 방어벽 형성\"]\n    Shield --> Immortal[\"생물학적/자연적 분해율 0% (영원한 잔류)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "영원한 화학물질 PFAS(과불화화합물): 파괴 불가능한 탄소-불소(C-F) 결합의 저주"
       },
       {
         "slideNumber": 8,
@@ -7259,7 +7626,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 세계 플라스틱 연간 생산량 추이 (백만 톤)\"\n    x-axis [1950, 1970, 1990, 2000, 2010, 2020, 2026]\n    y-axis \"플라스틱 생산량 (백만 톤)\" 0 --> 600\n    line [2, 35, 120, 210, 310, 460, 520]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "나노-미세플라스틱(MNPs)의 기원: 1950년대 연간 200만 톤 $\\rightarrow$ 2026년 5억 톤 폭증"
       },
       {
         "slideNumber": 9,
@@ -7277,7 +7645,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Blood[\"혈액 속 나노플라스틱 입자 (<100nm)\"] --> BBB[\"혈뇌장벽 (BBB 내피세포 치밀결합)\"]\n    BBB -->|지질막 용해 및 트랜스사이토시스| Brain[\"대뇌 피질 & 해마(Hippocampus) 침투!\"]\n    Brain --> Microglia[\"미세아교세포(Microglia) 이상 활성화 → 만성 신경염증 유발\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "혈뇌장벽(Blood-Brain Barrier: BBB)의 붕괴: 뇌 속으로 직행하는 나노 입자들"
       },
       {
         "slideNumber": 10,
@@ -7297,7 +7666,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    RealEstrogen[\"천연 에스트로겐 호르몬 (정상 신호)\"] --> Receptor[\"세포막 호르몬 수용체\"]\n    FakePlastics[\"플라스틱 가소제 BPA / 프탈레이트 (가짜 호르몬)\"] ==>|수용체 결합 하이재킹| Receptor\n    Receptor --> Chaos[\"비정상 유전자 발현 → 생식계 기형 & 불임 발병!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "내분비계 교란물질(EDCs)과 호르몬 신호 체계의 하이재킹"
       },
       {
         "slideNumber": 11,
@@ -7317,7 +7687,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    BioTech[\"7주차 기하급수 생명공학:<br/>세포 역분화 • BCI • 유전자 가위 → 수명 120세 확장!\"] \n    ToxTrap[\"9주차 물리적 침투 독성:<br/>뇌 속 플라스틱 축적 • PFAS 독성 → 60세에 뇌혈관 파탄 & 치매\"]\n    BioTech <-->|치명적 모순 충돌| ToxTrap",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 풍요의 역설 경고: 수명 연장의 가장 위험한 암초"
       },
       {
         "slideNumber": 12,
@@ -7335,7 +7706,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    PlasticInBrain[\"뇌 속 나노플라스틱 침착\"] --> Microglia[\"미세아교세포가 침투 물질 공격 및 삼킴\"]\n    Microglia --> Frustrated[\"소화 분해 불능 (Frustrated Phagocytosis)\"]\n    Frustrated --> CytokineStorm[\"만성 염증 사이토카인 무차별 분비\"]\n    CytokineStorm --> SynapseLoss[\"주변 정상 신경세포 시냅스 사멸 → 인지 저하 & 브레인 포그!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지독성(Neurotoxicity) 및 전신성 신경염증 모델"
       },
       {
         "slideNumber": 13,
@@ -7355,7 +7727,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SilentSpring[\"1962년 침묵의 봄 (외부 자연의 파괴):<br/>DDT 농약 → 새알 파괴 → 자연의 침묵\"] -->|60년 후 문명적 전이| SilentBody[\"2026년 침묵의 육체 (내부 생체의 파괴):<br/>PFAS • 나노플라스틱 → 정자/뇌세포 파괴 → 인간 육체의 침묵\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "레이첼 카슨의 『침묵의 봄』에서 『침묵의 육체』로의 문명사적 전이"
       },
       {
         "slideNumber": 14,
@@ -7375,7 +7748,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BareNano[\"벌거벗은 나노플라스틱 (원래 이물질)\"] --> Absorb[\"혈액 속 생체 단백질들이 표면에 흡착\"]\n    Absorb --> Corona[\"단백질 코로나 (생체 위장 외피) 형성\"]\n    Corona --> Infiltration[\"면역계 감시 100% 무력화 → 세포 내 침투 성공!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세포 속으로 침투한 플라스틱 트로이 목마: 단백질 코로나(Protein Corona)"
       },
       {
         "slideNumber": 15,
@@ -7391,7 +7765,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "물리적 침투 5대 주요 경로 및 인체 표적 장기 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -7415,7 +7790,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"주요 화학 결합별 해리 에너지 비교 (kJ/mol)\"\n    x-axis [탄소-탄소 (C-C), 탄소-수소 (C-H), 탄소-산소 (C-O), 탄소-불소 (C-F)]\n    y-axis \"결합 해리 에너지 (kJ/mol)\" 0 --> 600\n    bar [348, 413, 358, 485]",
         "formula": "\\text{Bond Dissociation Energy: } \\Delta H^\\circ_{298}(C-F) = 485 \\text{ kJ/mol} \\implies E_a \\gg \\text{생체 효소 분해 역치}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "PFAS의 열역학적 안정성 물리학: 결합 해리 에너지 $485\\text{ kJ/mol}$"
       },
       {
         "slideNumber": 17,
@@ -7435,7 +7811,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    NP[\"나노플라스틱 (<50nm)\"] --> Lipid[\"세포 지질 이중층 직접 접촉\"]\n    Lipid --> Dissolve[\"소수성 상호작용으로 막 내부 용해\"]\n    Dissolve --> Cytosol[\"세포질 내부 침투 → 미토콘드리아 및 핵막 타격!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "나노플라스틱의 세포 내포작용(Endocytosis) 및 지질막 투과 역학"
       },
       {
         "slideNumber": 18,
@@ -7453,7 +7830,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"플라스틱 입자 크기(nm)에 따른 혈뇌장벽(BBB) 침투 확률 (%)\"\n    x-axis [1000nm (마이크로), 500nm, 200nm, 100nm, 50nm, 20nm]\n    y-axis \"BBB 투과율 (%)\" 0 --> 100\n    line [0, 2, 8, 35, 78, 96]",
         "formula": "P(r) \\approx K \\cdot \\frac{D_{\\text{lipid}}}{r^2} \\cdot \\exp\\left(-\\frac{\\Delta G_{\\text{entry}}}{k_B T}\\right)",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "혈뇌장벽(BBB) 투과율과 입자 크기($r$)의 지수적 상관관계: $P \\propto r^{-2}$"
       },
       {
         "slideNumber": 19,
@@ -7471,7 +7849,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Nano[\"세포 내 나노플라스틱 축적\"] --> Mito[\"미토콘드리아 전자전달계 붕괴\"]\n    Mito --> ROS[\"활성산소(ROS) 폭포수 방출\"]\n    ROS --> DNA[\"세포 미토콘드리아 DNA 절단\"]\n    DNA --> Caspase[\"Caspase-3 단백질 활성화 → 뇌세포 자살 (사멸)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "미토콘드리아 ROS(활성산소) 폭포와 신경세포 사멸(Apoptosis) 회로"
       },
       {
         "slideNumber": 20,
@@ -7489,7 +7868,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"인간 생애 주기별 체내 미세플라스틱 누적 농도 (g/kg 체중)\"\n    x-axis [0세 (출생), 20세, 40세, 60세, 80세]\n    y-axis \"체내 플라스틱 축적량 (g)\" 0 --> 50\n    line [0.1, 4.5, 14.2, 28.5, 48.0]",
         "formula": "\\frac{dC_{\\text{tissue}}}{dt} = I(t) - k_e C_{\\text{tissue}} \\approx I_0 \\implies C_{\\text{tissue}}(t) = C_0 + I_0 \\cdot t \\quad (\\text{평생에 걸친 선형/지수 축적})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "미세플라스틱의 체내 생물농축(Bioaccumulation) 및 반감기 수식 모델"
       },
       {
         "slideNumber": 21,
@@ -7507,7 +7887,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BodyProt[\"정상 인체 단백질\"] --> Bind[\"PFAS 및 플라스틱 화학물질 결합\"]\n    Bind --> NeoAntigen[\"신규 변형 항원 (Neo-Antigen) 생성\"]\n    NeoAntigen --> AutoAttack[\"T세포/B세포가 자신의 장기를 적으로 오인 무차별 공격!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자가면역 질환 폭발의 메커니즘: 항원 가장(Molecular Mimicry)"
       },
       {
         "slideNumber": 22,
@@ -7527,7 +7908,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    F0[\"F0 부모 세대: 플라스틱/PFAS 다량 노출\"] --> F1[\"F1 태아 세대: 생식세포 후성유전 표식 변형\"]\n    F1 --> F2[\"F2 손자 세대: 무노출 상태에서도 정자 수 50% 결손 발현\"]\n    F2 --> F3[\"F3 증손자 세대: 영구적 생식력 감퇴 대물림!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "생식세포 DNA 메틸화 교란과 후성유전학적 대물림(Transgenerational Epigenetics)"
       },
       {
         "slideNumber": 23,
@@ -7549,7 +7931,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    D1[\"Designed<br/>(1950)\"] --> D2[\"Deceptive<br/>(1970-2010 침묵 축적)\"]\n    D2 --> D3[\"Disruptive<br/>(2024 뇌 침투/불임 폭발)\"]\n    D3 --> D4[\"Democratized Danger<br/>(전 인류 99% 오염)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "환경 독소의 6D 확산 모델: 기만적 잠복기(Deception)에서 전면적 파괴(Disruption)까지"
       },
       {
         "slideNumber": 24,
@@ -7571,7 +7954,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"체내 독소 부하 B(t) 곡선 및 임계 독성 역치 돌파\"\n    x-axis [0세, 20세, 40세, 50세 (임계치 돌파 T*), 60세, 70세]\n    y-axis \"체내 독소 농도 B(t)\" 0 --> 100\n    line [2, 10, 30, 65, 88, 98]",
         "formula": "\\lim_{t \\to T^*} B(t) = B_{\\text{toxic threshold}} \\implies \\text{전신 염증 및 장기 부전 격발}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인체 독성 체내 부하(Body Burden) 미분 방정식: $\\frac{dB}{dt} = \\text{Ingestion} - k \\cdot B$"
       },
       {
         "slideNumber": 25,
@@ -7587,7 +7971,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"1. 차단 및 회피 (Interception): 고도 정수 필터 및 친환경 무독성 소재 전환\"] --> S2[\"2. 체내 나노 킬레이션 (Chelation): 지질 결합형 나노 흡착제로 혈액 독소 포집\"]\n    S2 --> S3[\"3. 체외 분리 배출 (Apheresis): 혈장 교환술(Therapeutic Plasma Exchange)로 PFAS 제거\"]\n    S3 --> S4[\"4. 환경 원천 분해 (Destruction): 초임계 수산화 및 인공 효소로 지구 정화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신체 침투 방어 및 생체 정화(Bio-Remediation) 4단계 프레임워크"
       },
       {
         "slideNumber": 26,
@@ -7613,7 +7998,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"인간 장기별 1g당 미세플라스틱 농축량 비교 (μg/g)\"\n    x-axis [간 조직, 신장 조직, 폐 조직, 정상인 뇌 조직, 치매 환자 뇌 조직]\n    y-axis \"플라스틱 검출량 (μg/g)\" 0 --> 50000\n    bar [450, 620, 1200, 4800, 35000]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 2024년 인간 부검 뇌 조직 측정 데이터: 뇌 조직 중량의 최대 0.5% 플라스틱 검출"
       },
       {
         "slideNumber": 27,
@@ -7635,7 +8021,8 @@ export const sessionsList = [
         "mermaid": "pie title 생수 1리터 속 24만 개 플라스틱 입자 크기 분포\n    \"초미세 나노플라스틱 (<1μm: 세포막 침투 가능)\" : 90\n    \"미세플라스틱 (1~5μm)\" : 10",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: Columbia 대학 연구: 생수병 1리터당 24만 개 나노플라스틱 검출 실측치"
       },
       {
         "slideNumber": 28,
@@ -7655,7 +8042,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Mother[\"산모의 혈류 (생수/음식 섭취)\"] --> Placenta[\"태반 장벽 (Placental Barrier) 완전 돌파\"]\n    Placenta --> Fetus[\"태아 순환계 진입 → 장기 형성 중인 태아 뇌에 영구 침착\"]\n    Fetus --> Meconium[\"출생 직후 신생아 첫 태변에서 100% 고농도 검출!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 인간 태반(Placenta) 및 신생아 첫 태변 속 미세플라스틱 100% 검출 데이터"
       },
       {
         "slideNumber": 29,
@@ -7677,7 +8065,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"미국 CDC 조사: 미국인 혈액 내 PFAS 검출 비율 (%)\"\n    x-axis [1999년, 2005년, 2012년, 2018년, 2024년]\n    y-axis \"혈중 PFAS 검출 인구 비율 (%)\" 0 --> 100\n    line [99.2, 98.7, 99.0, 98.5, 98.1]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: 미국 CDC NHANES 조사: 미국인 98% 혈액 내 PFAS 잔류 충격 통계"
       },
       {
         "slideNumber": 30,
@@ -7699,7 +8088,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 세계 남성 평균 정자 농도 추이 (백만 개/ml)\"\n    x-axis [1973, 1980, 1990, 2000, 2010, 2020, 2026 (불임 임계선 40 도달)]\n    y-axis \"정자 농도 (백만/ml)\" 0 --> 120\n    line [112, 101, 85, 68, 52, 45, 40]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 남성 정자 수 50년간 51.6% 급감 (Levine et al. 2022 메타분석) 실증치"
       },
       {
         "slideNumber": 31,
@@ -7719,7 +8109,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"3년 내 심근경색/뇌졸중/사망 발생률 비교 (%)\"\n    x-axis [혈관 내 플라스틱 미검출 환자군, 혈관 내 미세플라스틱 검출 환자군]\n    y-axis \"심뇌혈관 중증 사고 발생률 (%)\" 0 --> 30\n    bar [7.5, 20.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: NEJM 2024 임상: 경동맥 플라크 내 미세플라스틱 환자의 심근경색 위험 4.5배 증가"
       },
       {
         "slideNumber": 32,
@@ -7739,7 +8130,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Factory[\"도심 공장 & 소비지 (플라스틱/PFAS 방출)\"] --> Atmosphere[\"대기 제트기류 및 해양 대순환 탑승\"]\n    Atmosphere --> Everest[\"에베레스트 해발 8,440m 눈에 낙하\"]\n    Atmosphere --> Arctic[\"북극 빙하 코어 침착 → 전 지구 완전 오염\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 북극 빙하 및 에베레스트 해발 8,440m 만년설 속 PFAS/플라스틱 검출 데이터"
       },
       {
         "slideNumber": 33,
@@ -7759,7 +8151,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    PFASWater[\"PFAS 맹독성 오염수\"] --> SCWO[\"초임계 수산화 반응기 (374℃, 220기압)\"]\n    SCWO --> PureOut[\"단 5초 만에 완전 분해:<br/>순수 물 + 불화칼슘(치약 원료 미네랄) 100% 무해화!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 초임계 수산화(Supercritical Water Oxidation)를 통한 PFAS 99.99% 분해 실증"
       },
       {
         "slideNumber": 34,
@@ -7779,7 +8172,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 PFAS/미세플라스틱 연간 피해 및 정화 비용 추정액 (USD Trillions)\"\n    x-axis [유럽 연합 의료비용, 미국 정화 및 소송비, 아태지역 환경 복구, 전 세계 누적 총 피해]\n    y-axis \"연간 경제 부채 (USD Trillions)\" 0 --> 18\n    bar [1.2, 2.5, 3.8, 16.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 글로벌 PFAS 오염 정화 및 의료비용 추정치: 연간 $16 Trillion의 부채"
       },
       {
         "slideNumber": 35,
@@ -7795,7 +8189,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Physical Infiltration 및 환경 독성 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -7813,7 +8208,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Liberation[\"자연의 결핍/질병으로부터 해방 (플라스틱 문명 구축)\"] --> NewPrison[\"자신이 창조한 화학 독성 물질에 신체가 포위당함\"]\n    NewPrison --> Subjugation[\"생물학적 자멸의 위기 (보이지 않는 나노 감옥)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "플라스틱 문명의 '보이지 않는 감옥': 인류는 스스로를 합성 중독시켰는가?"
       },
       {
         "slideNumber": 37,
@@ -7833,7 +8229,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    DuPont[\"1960년대 독성 기밀 확인\"] --> Conceal[\"50년간 은폐 및 수만 톤 무단 투기\"]\n    Conceal --> Profit[\"수천억 달러 기업 이익 독점\"]\n    Profit --> External[\"전 인류에게 암과 불임 부채 전가!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기업의 환경 부채(Externalities) 은폐와 듀폰(DuPont)의 다크 워터스(Dark Waters) 스캔들"
       },
       {
         "slideNumber": 38,
@@ -7853,7 +8250,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Mismatch[\"진화적 미스매치 (구석기 유전자 vs 35만 종 화학물질)\"] --> Immune[\"면역계 오작동 및 만성 과활성화\"]\n    Immune --> Outbreak[\"자가면역 질환 300% 폭증 • 불임 대유행 • 신경퇴행 조기 발병\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "진화적 미스매치의 대가: 아토피, 자가면역 질환, 불임의 문명사적 폭발"
       },
       {
         "slideNumber": 39,
@@ -7873,7 +8271,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Trapped[\"뇌와 혈관 속에 갇힌 나노 독소\"] --> NanoChelator[\"생체 친화성 나노 킬레이터 투여\"]\n    NanoChelator --> Magnet[\"자기 유도 / 혈장 투석으로 체외 강제 배출\"]\n    Magnet --> PureBrain[\"뇌 조직 플라스틱 농도 0% 순수 회복!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인체 탈물질화와 생체 내 해독(In Vivo Detoxification)의 기술적 필연성"
       },
       {
         "slideNumber": 40,
@@ -7893,7 +8292,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    PetroPlastic[\"석유 기반 플라스틱 (분해 500년 • 나노 독성)\"] -->|소재 혁명 전면 대체| BioPolymer[\"균사체/해조류 바이오 소재 (30일 완전 분해 • 독성 0)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "플라스틱 제로 순환 경제와 생분해성 바이오 소재로의 전면 전환"
       },
       {
         "slideNumber": 41,
@@ -7913,7 +8313,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    HumanRight[\"21세기 신인권 선언: '독소 없는 신체에 대한 권리'\"] --> Law1[\"1. 잔류성 유기 독성 물질(PFAS) 글로벌 전면 제조 금지\"]\n    HumanRight --> Law2[\"2. 생수 및 식품 내 나노플라스틱 허용 기준 법제화\"]\n    HumanRight --> Law3[\"3. 환경 독성 유발 기업에 무과실 징벌적 배상 의무화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "'깨끗한 신체에 대한 권리(Right to Toxic-Free Body)': 새로운 인권 선언"
       },
       {
         "slideNumber": 42,
@@ -7931,7 +8332,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 뇌 속 0.5% 플라스틱 잠식 & 미국인 98% 혈중 PFAS 잔류\"] --> B[\"원인: 70년 만에 쏟아진 35만 종 화학물질과 진화적 미스매치\"]\n    B --> C[\"해법: 초임계 수산화 분해 & 생체 내 나노 킬레이션 배출\"]\n    C --> D[\"THEURGICON의 사명: 물질적 풍요의 독을 해독하고 인간의 생물학적 존엄을 회복하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 물질적 풍요의 독을 빼내고 생물학적 순수성을 회복하라"
       },
       {
         "slideNumber": 43,
@@ -7947,7 +8349,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 인간 뇌 조직 내 미세플라스틱 0.5% 잠식과 심혈관 사망률 증가가 입증된 이상, 대체재 개발 여부와 무관하게 전 세계 일회용 플라스틱 제조 및 유통을 3년 내 법적으로 전면 금지해야 하는가?\"]\n    D2[\"논제 2: 지난 50년간 PFAS의 인체 독성을 은폐하고 제품을 생산해 전 인류의 혈액을 오염시킨 화학 기업들에게, 전 세계 오염 정화 비용(연간 16T USD)을 강제 환수하는 '글로벌 환경 전범 재판'은 타당한가?\"]\n    D3[\"논제 3: 식수 내 24만 개 나노플라스틱 섭취를 막기 위해 모든 지자체 상수도에 '초정밀 나노 멤브레인 여과 시스템' 설치를 의무화하고 이에 따른 수도요금 500% 인상을 수용해야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -7965,7 +8368,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 나노 미세플라스틱 체내 배출 & PFAS 수처리 아키텍처 설계서"
       },
       {
         "slideNumber": 45,
@@ -7985,7 +8389,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W9[\"Week 9: Physical Infiltration<br/>(PFAS & 뇌 속 미세플라스틱 침투)\"] --> W10[\"Week 10: The Caloric Trap<br/>(영양의 풍요 & 기하급수적 대사 질환)\"]\n    W10 --> W11[\"Week 11: Bias Cascade & Terror<br/>(편향의 폭주 & 인지적 중독)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10주차 예고: 영양의 풍요와 기하급수적 Metabolic Collapse (The Caloric Trap) & 종강"
       }
     ]
   },
@@ -8015,7 +8420,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    AgriRev[\"20세기 농업/화학 혁명<br/>(하버-보슈법 • 농작물 대량 증산)\"] --> FoodAbundance[\"역사상 최초 칼로리 무제한 풍요 달성<br/>(1인당 일일 칼로리 공급 3,500kcal 돌파)\"]\n    FoodAbundance --> UltraProcess[\"초가공식품(UPFs) 정밀 공학 출현<br/>(설탕 • 액상과당 • 정제유 결합)\"]\n    UltraProcess --> MetabolicCrash{\"METABOLIC COLLAPSE<br/>(대사 증후군 • 당뇨 • 비만 10억 명 돌파)\"}",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 10 개요: 굶주림의 종말과 대사 붕괴의 역설"
       },
       {
         "slideNumber": 2,
@@ -8035,7 +8441,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Past[\"과거 30만 년 (칼로리 결핍):<br/>음식을 찾지 못하면 굶어 죽음 → 칼로리 탐닉이 생존 본능\"] \n    Present[\"현재 (칼로리 기하급수 과잉):<br/>스마트폰 터치 한 번에 2,000kcal 즉시 배달 → 진화적 본능이 독이 됨\"]\n    Past -.->|문명사적 대역전| Present",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "풍요의 역설(The Paradox of Plenty): 칼로리의 기하급수적 과잉"
       },
       {
         "slideNumber": 3,
@@ -8055,7 +8462,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    EatUPF[\"초가공식품 섭취 (칼로리 폭탄 • 영양소 0)\"] --> CellStarve[\"세포 내 필수 미네랄/미량원소 결핍\"]\n    CellStarve --> HungerSignal[\"세포가 뇌에 '영양소 부족! 더 먹어라!' 경보 발령\"]\n    HungerSignal --> BingeEat[\"더 많은 정제 탄수화물 폭식 → 체지방 축적 가속!\"]\n    BingeEat --> EatUPF",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "칼로리 함정(The Caloric Trap): 영양소 결핍과 초가공 에너지의 폭격"
       },
       {
         "slideNumber": 4,
@@ -8077,7 +8485,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"10주차 핵심 질문\"] --> A[\"1. 신경생리학적 기전: 초가공식품은 어떻게 뇌 도파민 보상 회로를 마약처럼 장악했는가?\"]\n    Q --> B[\"2. 세포 대사학적 파탄: 인슐린 저항성과 지방간은 어떻게 전신 만성 염증으로 번지는가?\"]\n    Q --> C[\"3. 문명적 탈출구: AI-CGM 정밀 영양과 GLP-1 혁명은 대사 건강을 재건할 수 있는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 인류는 왜 역사상 가장 배부른 상태에서 가장 병들어가는가?"
       },
       {
         "slideNumber": 5,
@@ -8093,7 +8502,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & UPF 도파민 해체<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 대사 생화학 & GLP-1<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 비만/의료비 실측<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 절약유전자 & 약물 의존<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "10주차 학습 로드맵: 지복점(Bliss Point) 설계에서 GLP-1 혁명까지"
       },
       {
         "slideNumber": 6,
@@ -8113,7 +8523,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 6)\"] --> T1[\"축 1: 화학적 해킹 — 당류와 지방을 극대화한 '지복점(Bliss Point)' 공학\"]\n    Text --> T2[\"축 2: 진화적 배신 — 기아에 최적화된 절약 유전자의 자기 파괴\"]\n    Text --> T3[\"축 3: 인지적 붕괴 — 뇌 인슐린 저항성으로 인한 '제3형 당뇨(치매)' 발병\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제6장: \"The Caloric Trap\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -8137,7 +8548,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    RawCorn[\"자연 옥수수 (Group 1)<br/>식이섬유 • 비타민 풍부\"] --> Extract[\"공업용 정제 분리<br/>전분 추출 → 포도당 전환\"]\n    Extract --> HFCS[\"효소 반응 액상과당(HFCS) 합성\"]\n    HFCS --> ChemicalMix[\"유화제 • 착색료 • 인공 향료 첨가\"]\n    ChemicalMix --> UPF[\"초가공 스낵/탄산음료 (Group 4)<br/>자연 분자 구조 100% 소멸!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "초가공식품(Ultra-Processed Foods: UPFs)의 탄생과 산업적 정밀 설계"
       },
       {
         "slideNumber": 8,
@@ -8157,7 +8569,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Formula[\"산업적 지복점 포뮬러:<br/>단순 당류 50% + 정제 식물성 기름 35% + 나트륨 1%\"] --> Mouth[\"혀의 미각 신경 폭발적 자극\"]\n    Mouth --> VTA[\"복측피개구(VTA) → 측좌핵(NAc) 도파민 대홍수 방출\"]\n    VTA --> Override[\"시상하부 렙틴 포만감 스위치 강제 무력화 → 무한 섭취 모드 돌입!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지복점(Bliss Point)의 생화학: 당류 50% + 지방 35%의 완벽한 뇌 중독 포뮬러"
       },
       {
         "slideNumber": 9,
@@ -8177,7 +8590,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    IceAge[\"빙하기/기근 시대 (30만 년):<br/>절약 유전자가 지방을 필사적으로 비축 → 생존 성공!\"] -->|환경 급변| Supermarket[\"현대 마트/패스트푸드 시대 (70년):<br/>매일 4,000kcal 폭격 → 비만 • 당뇨로 조기 사망!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "제임스 닐(James Neel)의 절약 유전자 가설(Thrifty Gene Hypothesis)"
       },
       {
         "slideNumber": 10,
@@ -8197,7 +8611,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"뇌 측좌핵 도파민 분비 농도 비교 (% of Baseline)\"\n    x-axis [기본 평상시, 일반 자연식 (사과/샐러드), 초가공 감자칩 섭취, 코카인 투여]\n    y-axis \"도파민 분비량 (%)\" 0 --> 300\n    bar [100, 135, 220, 250]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌 중격측좌핵(Nucleus Accumbens)의 도파민 하이재킹 메커니즘"
       },
       {
         "slideNumber": 11,
@@ -8217,7 +8632,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SugarHigh[\"설탕/가공식품 섭취 → 급격한 혈당 스파이크 & 도파민 분출\"] --> InsulinSurge[\"인슐린 폭발 분비 → 혈당 급락 (Sugar Crash)\"]\n    InsulinSurge --> Fatigue[\"극심한 피로감 & 뇌 안개(Brain Fog) & 불안감\"]\n    Fatigue --> Craving[\"도파민 재충전을 위한 단 음식 갈망 → 재섭취!\"]\n    Craving --> SugarHigh",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 생화학적 감옥 경고: 무제한 칼로리의 치명적 유혹"
       },
       {
         "slideNumber": 12,
@@ -8237,7 +8653,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Hyperglycemia[\"만성 고혈당 & 혈관 염증\"] --> GLUT1Block[\"뇌 포도당 수송체(GLUT1) 발현 50% 억제\"]\n    GLUT1Block --> BrainStarve[\"뇌 전두엽 뉴런 에너지 고갈 (ATP 40% 감소)\"]\n    BrainStarve --> CognitiveDecline[\"고차 인지력 붕괴 • 충동 조절 실패 • 브레인 포그\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 인지-대사 축(Metabolic-Cognitive Axis)과 뇌 에너지 고갈"
       },
       {
         "slideNumber": 13,
@@ -8257,7 +8674,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    FatMass[\"체지방 폭증 → 대량의 렙틴 호르몬 분비\"] --> BloodLeptin[\"혈중 렙틴 농도 과포화\"]\n    BloodLeptin --> InflamBlock[\"시상하부 신경염증으로 렙틴 수용체 완전 차단!\"]\n    InflamBlock --> FalseStarve[\"뇌는 '기근 상태'로 오인 → 기초대사량 저하 & 식욕 200% 폭증!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "렙틴 저항성(Leptin Resistance): \"배부름\" 신호가 영구 음소거된 뇌"
       },
       {
         "slideNumber": 14,
@@ -8277,7 +8695,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BigTobacco[\"담배 기업 (필립 모리스)<br/>중독성 화학 배합 노하우\"] --> BuyFood[\"1980년대 글로벌 식품 대기업 인수\"]\n    BuyFood --> VanishingCalorie[\"'사라지는 칼로리 밀도' 공학 적용<br/>(입안에서 녹아 뇌가 칼로리를 인지 못함)\"]\n    VanishingCalorie --> LifetimeAddict[\"전 세계 영유아 및 청소년 평생 중독 소비자로 락인!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "식품 대기업(Big Food)의 '설탕 담배화'와 행동 조작 마케팅"
       },
       {
         "slideNumber": 15,
@@ -8293,7 +8712,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "현대 Metabolic Collapse 5대 핵심 파탄 경로 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -8311,7 +8731,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Sugar[\"정제 탄수화물 과다 섭취\"] --> HighGlu[\"혈당 급증 (Glucose Peak)\"]\n    HighGlu --> HighIns[\"췌장 베타세포 인슐린 폭발 분비\"]\n    HighIns --> ReceptorDown[\"세포막 인슐린 수용체 감도 하향 (저항성 발생)\"]\n    ReceptorDown --> HigherIns[\"혈당을 낮추기 위해 더 많은 인슐린 요구! (HOMA-IR > 2.5)\"]\n    HigherIns --> FatLock[\"체지방 분해 100% 차단 & 간 지방 축적 영구 고착!\"]",
         "formula": "\\text{HOMA-IR} = \\frac{\\text{Glucose}_0 \\times \\text{Insulin}_0}{405} \\quad (\\text{정상 } < 1.0, \\quad \\text{중증 저항성 } > 2.5)",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인슐린 저항성(HOMA-IR)과 고인슐린혈증의 악순환 수식 모델"
       },
       {
         "slideNumber": 17,
@@ -8333,7 +8754,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HFCS[\"액상과당 탄산음료 섭취\"] --> LiverOnly[\"간세포로 100% 집중 직행\"]\n    LiverOnly --> DNL[\"초고속 신규 지방합성 (DNL) → 간세포 내 중성지방 축적 (지방간)\"]\n    LiverOnly --> UricAcid[\"AMP 분해 → 혈중 요산 수치 폭발 (통풍 & 혈관 내피 파괴)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "액상과당(HFCS)의 간 대사 경로: de novo 지방합성 및 요산 폭발"
       },
       {
         "slideNumber": 18,
@@ -8353,7 +8775,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Emulsifier[\"초가공식품 유화제 섭취\"] --> MucusStrip[\"장 점막 보호벽 용해 및 치밀결합 파괴\"]\n    MucusStrip --> LPSLeak[\"세균 독소(LPS) 혈관 내 대량 유출 (Leaky Gut)\"]\n    LPSLeak --> TLR4[\"전신 면역세포 TLR4 수용체 자극 → 전신 만성 미세염증 고착\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "장-뇌 축(Gut-Brain Axis)과 마이크로바이옴 장벽 붕괴(Leaky Gut)"
       },
       {
         "slideNumber": 19,
@@ -8375,7 +8798,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Injection[\"주 1회 피하 주사 (Semaglutide)\"] --> Albumin[\"혈중 알부민과 결합 (7일간 서서히 방출)\"]\n    Albumin --> BrainBBB[\"뇌 시상하부 GLP-1 수용체 직접 결합\"]\n    BrainBBB --> MuteFood[\"'음식 생각(Food Noise)' 완전 소멸 & 위장 배출 지연 → 체중 15~25% 감량!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "GLP-1 수용체 작용제(Semaglutide/Tirzepatide)의 뇌 시상하부 식욕 차단 약리학"
       },
       {
         "slideNumber": 20,
@@ -8395,7 +8819,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Overload[\"포도당 + 지방산 동시 과잉 유입\"] --> ETCClog[\"미토콘드리아 전자전달계 정체 및 과부하\"]\n    ETCClog --> Ceramide[\"세라마이드 독성 물질 축적 → 미토콘드리아 분열 파괴!\"]",
         "formula": "\\text{Mitochondrial Capacity } C_{\\text{max}} < \\text{Glucose Flux} + \\text{Fatty Acid Flux} \\implies \\text{ROS Production} \\uparrow \\uparrow",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "미토콘드리아 과부하(Mitochondrial Overload)와 대사적 번아웃 동역학"
       },
       {
         "slideNumber": 21,
@@ -8415,7 +8840,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    FedState[\"상시 음식물 섭취 (UPF 간식)\"] --> mTOR[\"mTOR 상시 켜짐 → 자가포식 100% 차단 (세포 쓰레기 축적)\"]\n    FastState[\"16시간 공복 유지 (간헐적 단식)\"] --> AMPK[\"AMPK 활성화 → 자가포식 가동! (세포 회춘 & 염증 청소)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자가포식(Autophagy)의 스위치: mTOR 억제 vs AMPK 활성화의 생화학"
       },
       {
         "slideNumber": 22,
@@ -8435,7 +8861,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"혈중 포도당 농도에 따른 혈관 내 AGEs 축적 속도 (AU)\"\n    x-axis [정상 혈당 (85mg/dL), 내당능 장애 (120mg/dL), 당뇨 초기 (160mg/dL), 고혈당 (220mg/dL)]\n    y-axis \"AGEs 축적 속도\" 0 --> 100\n    line [10, 25, 58, 95]",
         "formula": "\\text{Protein} + \\text{Glucose} \\xrightarrow{\\text{Non-Enzymatic}} \\text{Schiff Base} \\rightarrow \\text{Amadori Product} \\rightarrow \\text{AGEs (비가역적 혈관 경화)}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "최종당화산물(AGEs)과 전신 혈관 노화 가속화 방정식"
       },
       {
         "slideNumber": 23,
@@ -8453,7 +8880,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"일일 식단 중 초가공식품(UPF) 섭취 비중별 대사 질환 발병 상대 위험도\"\n    x-axis [10% (자연식 중심), 20%, 40%, 60% (미국/영국 평균), 80%]\n    y-axis \"상대 위험도 (Relative Risk)\" 1 --> 6\n    line [1.0, 1.25, 2.1, 4.0, 6.2]",
         "formula": "R(x) = R_0 \\cdot \\exp(0.023 \\cdot x) \\quad (\\text{UPF 비중 } 60\\% \\text{ 도달 시 위험도 } 4.0\\text{배 폭증})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "초가공식품 섭취율과 대사 증후군 유병률의 지수 함수적 결합 모델"
       },
       {
         "slideNumber": 24,
@@ -8471,7 +8899,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    CalorieIn[\"섭취 에너지 (Ein)\"] --> InsulinFilter{\"인슐린 호르몬 필터 [η(Insulin)]\"}\n    InsulinFilter -->|고인슐린 상태| FatStore[\"체지방 100% 강제 축적\"]\n    InsulinFilter -->|저인슐린 상태| MuscleBurn[\"근육 및 뇌 에너지로 100% 연소!\"]",
         "formula": "\\frac{d[\\text{Fat}]}{dt} = \\eta(\\text{Insulin}) \\cdot E_{\\text{in}} - \\kappa(\\text{Thyroid, Leptin}) \\cdot E_{\\text{out}}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "체내 대사 항상성 미분 방정식: $\\frac{d[\\text{Fat}]}{dt} = \\text{Energy}_{\\text{in}} - \\text{Energy}_{\\text{out}}$"
       },
       {
         "slideNumber": 25,
@@ -8487,7 +8916,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"1. 가공식품 원천 차단 (Elimination): 당류 • 액상과당 • 유화제 식단 100% 퇴출\"] --> S2[\"2. 생체 리듬 간헐적 단식 (Fasting): 16:8 시간제한 섭취로 자가포식 스위치 가동\"]\n    S2 --> S3[\"3. AI-CGM 실시간 피드백 (Monitoring): 혈당 스파이크 유발 개인 맞춤 식품 식별\"]\n    S3 --> S4[\"4. 대사 치료제 정밀 병용 (Pharmacology): 고도 저항성 환자 GLP-1/SGLT2 단기 요법\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대사 건강 재건 및 항상성 최적화 4단계 프레임워크"
       },
       {
         "slideNumber": 26,
@@ -8509,7 +8939,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 세계 비만(Obesity) 인구 수 추이 (백만 명)\"\n    x-axis [1990년, 2000년, 2010년, 2020년, 2024년 (10억 돌파), 2030년 (예측)]\n    y-axis \"비만 인구 수 (백만 명)\" 0 --> 1500\n    line [226, 410, 650, 890, 1038, 1350]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: WHO 2024 글로벌 비만 인구 10억 명(성인 8명 중 1명) 돌파 공식 데이터"
       },
       {
         "slideNumber": 27,
@@ -8531,7 +8962,8 @@ export const sessionsList = [
         "mermaid": "pie title 전 세계 대륙별 당뇨병 환자 분포 (백만 명)\n    \"서태평양 (중국/한국/동남아)\" : 206\n    \"동남아시아 (인도 중심)\" : 90\n    \"중동 및 북아프리카\" : 73\n    \"유럽\" : 61\n    \"북미 및 카리브해\" : 51\n    \"기타 지역\" : 56",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: IDF 당뇨병 아틀라스: 전 세계 당뇨 환자 5억 4천만 명 $\\rightarrow$ 2045년 7억 8천만 명"
       },
       {
         "slideNumber": 28,
@@ -8551,7 +8983,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"대사 질환으로 인한 연간 글로벌 경제적 손실액 (USD Trillions)\"\n    x-axis [2020년, 2024년, 2028년 (예측), 2035년 (예측)]\n    y-axis \"연간 경제 손실 (USD Trillions)\" 0 --> 5\n    bar [1.5, 2.0, 2.9, 4.32]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: Metabolic Collapse 관련 글로벌 연간 의료비 지출 $2 Trillion 돌파 실측치"
       },
       {
         "slideNumber": 29,
@@ -8573,7 +9006,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 GLP-1 비만 치료제 시장 규모 성장 전망 (USD Billions)\"\n    x-axis [2021, 2023, 2025, 2027, 2030 (예측)]\n    y-axis \"시장 규모 (USD Billions)\" 0 --> 120\n    line [6, 24, 52, 85, 115]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: GLP-1 유사체(위고비/마운자로)의 폭발: Novo Nordisk 유럽 시총 1위 등극"
       },
       {
         "slideNumber": 30,
@@ -8599,7 +9033,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"초가공식품 섭취 증가에 따른 질환별 발병 위험 증가율 (%)\"\n    x-axis [심혈관 질환 사망, 제2형 당뇨 발병, 우울/불안 장애, 조기 사망률 총합]\n    y-axis \"발병 위험 증가율 (%)\" 0 --> 30\n    bar [12, 12, 22, 21]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: BMJ 2024 메타분석: 초가공식품 섭취 10% 증가 시 심혈관 사망률 12% 증가"
       },
       {
         "slideNumber": 31,
@@ -8619,7 +9054,8 @@ export const sessionsList = [
         "mermaid": "pie title 미국 아동 청소년(2~19세) 간 건강 상태 분포\n    \"정상 간 조직\" : 82.2\n    \"비알코올성 지방간 (MASLD 초기/중증)\" : 17.8",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 미국 아동 청소년 5명 중 1명 비알코올성 지방간(MASLD) 유병률 충격 수치"
       },
       {
         "slideNumber": 32,
@@ -8639,7 +9075,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    CGM[\"팔 부착 CGM 센서 (1분 단위 간질액 혈당 측정)\"] --> Phone[\"스마트폰 AI 대사 앱 실시간 전송\"]\n    Phone --> Alert[\"'지금 먹은 샌드위치가 혈당을 180으로 폭발시켰습니다! 식후 15분 걷기 추천'\"]\n    Alert --> Stability[\"혈당 급락 차단 & 인슐린 스파이크 45% 방어!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 연속혈당측정기(CGM)와 AI 정밀 영양(Precision Nutrition) 대사 최적화 실측치"
       },
       {
         "slideNumber": 33,
@@ -8665,7 +9102,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"16:8 시간제한 단식 12주 후 대사 지표 개선율 (%)\"\n    x-axis [공복 인슐린 감소, 인슐린 저항성 개선, 내장 지방 감소, 수축기 혈압 강하]\n    y-axis \"개선율 (%)\" 0 --> 50\n    bar [32, 40, 14, 11]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 간헐적 단식(16:8) 및 자가포식 활성화를 통한 인슐린 감수성 40% 개선 데이터"
       },
       {
         "slideNumber": 34,
@@ -8685,7 +9123,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"영국 설탕세 도입 전후 청소년 탄산음료 설탕 섭취량 (g/일)\"\n    x-axis [도입 2년 전, 도입 직전, 도입 2년 후, 도입 5년 후]\n    y-axis \"일일 설탕 섭취량 (g)\" 0 --> 40\n    line [36, 34, 25, 21]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 글로벌 설탕세(Sugar Tax) 도입 국가(영국/멕시코)의 칼로리 소비 15% 감축 실증"
       },
       {
         "slideNumber": 35,
@@ -8701,7 +9140,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Metabolic Collapse 및 영양 위기 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -8721,7 +9161,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    ScarcityAdapt[\"결핍에 최적화된 호모 사피엔스\"] --> AbundanceEnv[\"기하급수적 칼로리 풍요 환경 투입\"]\n    AbundanceEnv --> SelfDestruct[\"브레이크 없는 과소비 → 대사적 자멸\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "절약 유전자의 비극: 인류는 풍요를 견디도록 진화하지 않았다"
       },
       {
         "slideNumber": 37,
@@ -8743,7 +9184,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Inequality[\"GLP-1 비만 치료제 월 1,000 USD\"] --> Rich[\"부유층: 약물로 식탐 통제 & 날씬한 건강 수명 향유\"]\n    Inequality --> Poor[\"빈곤층: 값싼 초가공식품 섭취 → 비만과 만성 질환 세습\"]\n    Rich <==>|대립 • 비교| Poor",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "비만 치료제(GLP-1)의 계급화와 '약물 의존형 대사 사회'의 디스토피아"
       },
       {
         "slideNumber": 38,
@@ -8763,7 +9205,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    LowIncome[\"저소득층 거주지 (식품 사막)\"] --> OnlyUPF[\"마트 부재 • 편의점 패스트푸드만 존재\"]\n    OnlyUPF --> CheapCalorie[\"1 USD당 칼로리 최고치 (설탕/기름) 섭취 강제\"]\n    CheapCalorie --> ObesityTrap[\"빈곤층 비만율 2배 폭증 → 노동력 상실 악순환!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "식품 사막(Food Desert)과 빈곤층의 강제적 초가공식품 섭취"
       },
       {
         "slideNumber": 39,
@@ -8783,7 +9226,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SystemicDiabetes[\"전신 고혈당 및 인슐린 저항성\"] --> BrainInsulinResist[\"대뇌 피질 인슐린 저항성 격발 (제3형 당뇨)\"]\n    BrainInsulinResist --> AmyloidClearFail[\"아밀로이드 플라크 분해 청소 실패\"]\n    AmyloidClearFail --> Alzheimer[\"알츠하이머 치매성 신경망 붕괴!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "알츠하이머는 '제3형 당뇨병(Type 3 Diabetes)'이다: 뇌의 인슐린 저항성"
       },
       {
         "slideNumber": 40,
@@ -8803,7 +9247,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    ChileLaw[\"칠레 전면 경고 라벨제 (블랙 옥타곤)\"] --> ConsumerDrop[\"경고 부착 초가공식품 소비 24% 즉각 급감\"]\n    ConsumerDrop --> Reformulation[\"식품 대기업들의 자발적 설탕 30% 삭감 유도!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "초가공식품 규제와 공공 급식의 대사 건강 재건: 설탕 경고 라벨 의무화"
       },
       {
         "slideNumber": 41,
@@ -8823,7 +9268,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    GlucoseBurn[\"포도당 연소 모드 (식사 직후 에너지 공급)\"] <===>|대사 유연성 (Metabolic Flexibility) 확보| KetoneBurn[\"지방/케톤 연소 모드 (공복 시 체지방 연소 & 뇌 활력)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신체 에너지 주권의 회복: 식탐의 생물학적 굴레를 벗어나는 방법"
       },
       {
         "slideNumber": 42,
@@ -8841,7 +9287,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 글로벌 비만 10억 명 & 연간 2T USD 의료비 증발\"] --> B[\"원인: 초가공식품 지복점 설계와 절약 유전자의 충돌\"]\n    B --> C[\"해법: 16:8 간헐적 단식 자가포식 & AI-CGM 정밀 대사 관리\"]\n    C --> D[\"THEURGICON의 사명: 가짜 칼로리의 굴레를 벗고 인간 육체의 대사 주권을 선언하라\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 가짜 칼로리의 노예 상태를 깨고 대사적 자유를 선언하라"
       },
       {
         "slideNumber": 43,
@@ -8857,7 +9304,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 초가공식품(UPFs)의 지복점 설계가 뇌 도파민 회로를 장악하여 10억 비만을 유발했다면, 담배와 동일하게 초가공식품 포장지에 '비만·치매 유발 경고 그림'을 법적으로 의무 부착해야 하는가?\"]\n    D2[\"논제 2: 월 1,000 USD의 고가 비만 치료제(GLP-1)를 국가 건강보험으로 전액 지원하여 비만 인구를 치료해야 하는가, 아니면 개인의 식습관 책임으로 보아 비급여를 유지해야 하는가?\"]\n    D3[\"논제 3: 아동 청소년 5명 중 1명이 지방간을 앓는 위기를 극복하기 위해, 만 18세 미만 대상 액상과당 함유 탄산음료 및 에너지 드링크 판매를 법적으로 전면 금지해야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -8875,7 +9323,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: AI-CGM 연동 맞춤형 대사 항상성 최적화 플랫폼 기획서"
       },
       {
         "slideNumber": 45,
@@ -8895,7 +9344,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W10[\"Week 10: The Caloric Trap<br/>(영양의 풍요 & 대사 붕괴)\"] --> W11[\"Week 11: Bias Cascade & Terror<br/>(편향의 폭주 & 인지적 중독)\"]\n    W11 --> P4[\"Phase 4: 인류의 진화와 문명의 미래<br/>(Weeks 12~15 개막!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "11주차 예고: Bias Cascade와 인지적 중독 (The Bias Cascade & Holy Terror) & 종강"
       }
     ]
   },
@@ -8925,7 +9375,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    DataStorm[\"181 제타바이트 정보 폭풍<br/>• AI 추천 알고리즘 가동<br/>• 무한 스크롤 & 숏폼 도파민\"] --> CognitiveChoke{\"COGNITIVE BOTTLENECK<br/>(50~120 bit/s 인간 작업기억의 마비)\"}\n    CognitiveChoke --> BiasCascade[\"편향의 폭주 (The Bias Cascade)<br/>부정 편향 × 확증 편향 × 부족주의\"]\n    BiasCascade --> HolyTerror[\"거룩한 테러 (Holy Terror)<br/>극단적 분노 • 음모론 • 사회적 합의 붕괴\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 3 피날레: 정보의 폭풍과 주의력의 기아(Attention Scarcity)"
       },
       {
         "slideNumber": 2,
@@ -8947,7 +9398,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DataOcean[\"181 Zettabytes 글로벌 데이터 해일 (무한대 정보)\"] --> Funnel[\"인간 의식의 병목 깔때기 (50~120 bits/s)\"]\n    Funnel --> Crash[\"작업기억 완전 과부하 (Cognitive Collapse) → 뇌의 깊은 사고 기능 정지!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "181 제타바이트의 데이터 해일 vs 50~120 bit의 인간 주의력 대역폭"
       },
       {
         "slideNumber": 3,
@@ -8967,7 +9419,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Victim[\"포위망 환각: '우리는 사악한 적들에게 포위당해 공격받고 있다!'\"] --> HolyRighteousness[\"절대적 도덕적 우월감: '우리의 분노는 신성하며 정의롭다!'\"]\n    HolyRighteousness --> Dehumanize[\"상대방 악마화 (Dehumanization) → 민주적 대화와 타협 완전 거부\"]\n    Dehumanize --> Violence[\"거룩한 테러 (Holy Terror): 오프라인 폭력 • 의사당 난입 • 사회 붕괴\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "거룩한 테러(Holy Terror): 스스로를 '포위된 정의의 사도'로 착각하는 집단 광기"
       },
       {
         "slideNumber": 4,
@@ -8989,7 +9442,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"11주차 핵심 질문\"] --> A[\"1. 신경생리학적 연쇄: 편향의 폭주(Bias Cascade)는 어떻게 전두엽의 이성을 무력화하는가?\"]\n    Q --> B[\"2. 사회적 병리 실증: 극단적 양극화와 청소년 정신 건강 붕괴의 통계적 실체는?\"]\n    Q --> C[\"3. 문명적 방어 프로토콜: 주의력 경제(Attention Economy)를 해체할 인지 보안 인프라는?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 기하급수 정보 환경 속에서 인간의 자유 의지는 어떻게 해킹당했는가?"
       },
       {
         "slideNumber": 5,
@@ -9005,7 +9459,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 주의력 기아<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & 거룩한 테러<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 편향 폭주 수학 모델<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 양극화 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 공론장 소멸 & 에어갭<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. Phase 3 종합 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "11주차 학습 로드맵: 부정 편향에서 거룩한 테러의 붕괴까지"
       },
       {
         "slideNumber": 6,
@@ -9025,7 +9480,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 6)\"] --> T1[\"단계 1: 부정 편향 — 위협과 공포 신호에 대한 뇌의 무조건적 우선 반응\"]\n    Text --> T2[\"단계 2: 확증 편향 — 내 신념을 지지하는 왜곡된 정보만 선택적 흡수\"]\n    Text --> T3[\"단계 3: 부족주의 — '우리 편'에 대한 맹목적 충성과 '적'에 대한 악마화\"]\n    Text --> T4[\"단계 4: 알고리즘 피드백 — 분노 콘텐츠를 100배로 밀어 올리는 추천 엔진\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제6장: \"Cognitive Hijacking\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -9041,7 +9497,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Step1[\"1. 부정 편향<br/>(공포/위협 감지)\"] --> Step2[\"2. 확증 편향<br/>(가짜 뉴스 합리화)\"]\n    Step2 --> Step3[\"3. 부족주의<br/>(우리 vs 적 진영 분열)\"]\n    Step3 --> Step4[\"4. 알고리즘 폭주<br/>(분노 극대화 피드백)\"]\n    Step4 ==>|거룩한 테러 완성| Step1",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Bias Cascade(The Bias Cascade) 4단계 메커니즘"
       },
       {
         "slideNumber": 8,
@@ -9063,7 +9520,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"뇌 편도체의 외부 자극별 전기적 활성도 (mV)\"\n    x-axis [평화로운 풍경, 기쁜 성공 뉴스, 중립적 데이터, 생명 위협/분노 유발 뉴스]\n    y-axis \"편도체 흥분 전위 (mV)\" 0 --> 50\n    bar [5, 12, 8, 48]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "부정 편향(Negativity Bias): 진화가 인류의 뇌에 심어놓은 '위험 탐지 레이더'"
       },
       {
         "slideNumber": 9,
@@ -9083,7 +9541,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Fact[\"객관적 반박 팩트 제시\"] --> Insula[\"뇌 고통 중추(Insula) 활성화 → '공격받았다!'고 인지\"]\n    Insula --> Reject[\"팩트 부정 & 가짜 음모론 집착\"]\n    Reject --> TribalWar[\"반대 진영 악마화 → 정치적 내전 상태 돌입!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "확증 편향(Confirmation Bias)과 원시 부족주의(Tribalism)의 결합"
       },
       {
         "slideNumber": 10,
@@ -9103,7 +9562,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BigTech[\"빅테크 AI 엔지니어 10,000명\"] --> Attack[\"인간의 원시 뇌간 (Brain Stem) 집중 타격\"]\n    Attack --> Trigger[\"원초적 공포 • 분노 • 성적 자극 무한 주입\"]\n    Trigger --> ScreenAddict[\"사용자 24시간 화면 흡착 → 광고 수익 극대화!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "트리스탄 해리스(Tristan Harris): '인간 뇌간의 바닥으로 향하는 경쟁'"
       },
       {
         "slideNumber": 11,
@@ -9123,7 +9583,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Pull[\"손가락으로 피드를 아래로 당김 (Pull)\"] --> Wait[\"1초간 로딩 버퍼 (도파민 극대화 기대감)\"]\n    Wait --> Reward[\"자극적 쇼츠/분노 게시물 등장!\"]\n    Reward --> Repeat[\"1초 만에 다음 스크롤 당김 → 3시간 무의식 증발!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 도파민 루프 경고: 무한 스크롤과 슬롯머신 뇌"
       },
       {
         "slideNumber": 12,
@@ -9143,7 +9604,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Cocktail[\"거룩한 테러의 4대 신경물질 칵테일\"] --> N1[\"도파민: '내가 진실을 알고 있다'는 오만한 쾌감\"]\n    Cocktail --> N2[\"노르에피네프린: 상대를 향한 24시간 전투 태세\"]\n    Cocktail --> N3[\"옥시토신: 우리 편 음모론 집단과의 끈끈한 부족애\"]\n    Cocktail --> N4[\"엔도르핀: 타인의 비판과 고통에 대한 완전한 마비\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 '거룩한 테러(Holy Terror)' 신경심리학 분석"
       },
       {
         "slideNumber": 13,
@@ -9161,7 +9623,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Overload[\"초당 수천 비트 정보 쏟아짐 (인지 과포화)\"] --> PFCShutdown[\"전전두엽 심층 비판 사고(System 2) 셧다운\"]\n    PFCShutdown --> AmygdalaRule[\"편도체 원시 반사 모드(System 1) 장악\"]\n    AmygdalaRule --> React[\"제목만 보고 분노 댓글 달기 & 무차별 공유!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "50~120 bit/s 미하이 칙센트미하이 작업기억 병목의 붕괴"
       },
       {
         "slideNumber": 14,
@@ -9181,7 +9644,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    V1[\"1단계: '건강한 채식 식단' 검색\"] --> V2[\"2단계: '식품 대기업의 비밀' 추천\"]\n    V2 --> V3[\"3단계: '정부가 독극물을 살포한다' 음모론 추천\"]\n    V3 --> V4[\"4단계: '딥스테이트의 인류 학살 계획' QAnon 극단주의 도달!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "알고리즘 토끼굴(Rabbit Hole): 극단주의로 치닫는 분노의 나선"
       },
       {
         "slideNumber": 15,
@@ -9197,7 +9661,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 하이재킹 5대 증폭 엔진 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -9221,7 +9686,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"상호작용 루프(k)에 따른 편향 증폭도 B_cascade(k) (Log Scale)\"\n    x-axis [0회 (원시 편향), 2회, 4회, 6회, 8회 (거룩한 테러 돌파)]\n    y-axis \"편향 증폭 지수\" 0 --> 750\n    line [28, 63, 141, 318, 716]",
         "formula": "B_{\\text{cascade}}(k) = N \\cdot C \\cdot T \\cdot A^k = 28.0 \\cdot (1.5)^k \\implies \\text{기하급수적 극단화 폭발}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Bias Cascade 수학적 연쇄 증폭 모델: $B_{\\text{cascade}} = N \\cdot C \\cdot T \\cdot A^k$"
       },
       {
         "slideNumber": 17,
@@ -9241,7 +9707,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    RageContent[\"분노/혐오 유발 게시물\"] --> HighArousal[\"교감신경 각성도 극대화 (a \\uparrow)\"]\n    HighArousal --> LongDwell[\"체류 시간 3배 증가 (T_{\\text{dwell}} \\uparrow\\uparrow)\"]\n    LongDwell --> AlgoBoost[\"AI가 '최고의 콘텐츠'로 판정 → 1억 명에게 추천 살포!\"]",
         "formula": "\\mathcal{L}_{\\text{engagement}} = \\alpha \\cdot \\text{CTR}(a, v) + \\beta \\cdot T_{\\text{dwell}}(a, v) \\quad \\text{where } \\frac{\\partial T_{\\text{dwell}}}{\\partial \\text{Rage}} \\gg \\frac{\\partial T_{\\text{dwell}}}{\\partial \\text{Joy}}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "분노/충격 기반 체류 시간(Engagement) 최적화 손실 함수 $\\mathcal{L}_{\\text{rage}}$"
       },
       {
         "slideNumber": 18,
@@ -9261,7 +9728,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph BubbleA[\"에코 체임버 A (극좌/특정 음모론)\"]\n        A1 <--> A2 <--> A3 <--> A1\n    end\n    subgraph BubbleB[\"에코 체임버 B (극우/반대 음모론)\"]\n        B1 <--> B2 <--> B3 <--> B1\n    end\n    BubbleA -.->|정보 전달률 0% 완전 단절| BubbleB",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "필터 버블(Filter Bubble)과 에코 체임버의 위상수학적 고립 네트워크"
       },
       {
         "slideNumber": 19,
@@ -9279,7 +9747,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Thalamus[\"시각/청각 정보 수신 (시상)\"] -->|12ms 초고속 지름길| Amygdala[\"편도체 즉각 격발 (공포/분노 폭발)\"]\n    Thalamus -.->|24ms 긴 이성 경로| PFC[\"전두엽 이성적 판단 (도달하기 전 이미 분노 행동 완료!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "편도체(Amygdala) 납치와 전두엽(PFC) 이성 통제 회로 차단 기전"
       },
       {
         "slideNumber": 20,
@@ -9299,7 +9768,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"숏폼 시청 후 도파민 농도 궤적: 피크 후 기준선 이하 추락\"\n    x-axis [0분 (시청 전), 10분 (도파민 폭발), 30분, 60분 (시청 중단), 120분 (우울/결핍)]\n    y-axis \"도파민 농도 (%)\" 40 --> 220\n    line [100, 210, 180, 75, 55]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "간헐적 변동 보상(Variable Reward)과 도파민 결핍 유발 동역학"
       },
       {
         "slideNumber": 21,
@@ -9319,7 +9789,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Wisdom[\"군중의 지혜 (Wisdom of Crowds)<br/>독립적 판단 • 다양한 관점 → 최적 해 도출\"] -->|알고리즘 동조 압력 주입| Madness[\"군중의 광기 (Madness of Crowds)<br/>동일 정보 세뇌 • 극단적 마녀사냥 폭발\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "집단 지성의 붕괴: 군중 지혜(Wisdom of Crowds)에서 군중 광기로의 전이 조건"
       },
       {
         "slideNumber": 22,
@@ -9341,7 +9812,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"가짜 뉴스 vs 진실 뉴스의 시간대별 확산 도달 인구 (Log10 Scale)\"\n    x-axis [0시간, 2시간, 4시간, 8시간, 12시간, 24시간]\n    y-axis \"도달 인구 (Log10)\" 1 --> 7\n    line [1, 2.5, 4.2, 5.8, 6.5, 7.0]\n    line [1, 1.8, 2.3, 2.9, 3.4, 4.0]",
         "formula": "\\frac{dI_{\\text{fake}}}{dt} = 6.0 \\cdot \\beta_0 \\cdot I(1 - I) \\implies \\text{진실이 신발을 신는 동안 거짓은 지구를 반 바퀴 돈다}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "가짜 뉴스의 바이럴 전파 미분 방정식: $\\frac{dI}{dt} = \\beta \\cdot I(1 - I) \\cdot \\text{Shock}$"
       },
       {
         "slideNumber": 23,
@@ -9361,7 +9833,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Anger[\"순간적 분노 폭발\"] --> ZeroFriction[\"인지적 마찰 0 (0.1초 만에 리트윗 클릭)\"]\n    ZeroFriction --> GlobalSpread[\"전 세계 100만 명에게 분노 바이러스 즉시 전파!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 마찰(Cognitive Friction) 제로화가 초래한 충동적 사회"
       },
       {
         "slideNumber": 24,
@@ -9381,7 +9854,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Overstim[\"24시간 숏폼/SNS 과잉 자극\"] --> DownReg[\"시냅스 도파민 D2 수용체 40% 감소\"]\n    DownReg --> Anhedonia[\"일상적 삶의 무기력증 & 우울증 발병\"]\n    Anhedonia --> Relapse[\"금단 증상을 견디지 못하고 다시 스마트폰 흡착!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "도파민 수용체 하향 조절(Down-Regulation)과 디지털 무쾌감증(Anhedonia)"
       },
       {
         "slideNumber": 25,
@@ -9397,7 +9871,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    P1[\"1. 인지적 에어갭 (Airgap): 일일 4시간 스마트폰 완전 물리적 격리\"] --> P2[\"2. 마찰력 재도입 (Friction): 공유 전 '1분 숙고 타이머' 및 팩트체크 강제\"]\n    P2 --> P3[\"3. 주의력 단식 (Dopamine Fasting): 주 1회 디지털 기기 제로 24시간 안식일\"]\n    P3 --> P4[\"4. 깊은 몰입 훈련 (Deep Flow): 90분 단일 작업 몰입으로 전두엽 이성 재건\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지 방어 및 주의력 복원 4단계 프로토콜"
       },
       {
         "slideNumber": 26,
@@ -9423,7 +9898,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"1,500명에게 도달하는 데 걸리는 시간 비교 (시간)\"\n    x-axis [진실 뉴스 (True News), 가짜/음모론 뉴스 (Fake News)]\n    y-axis \"도달 소요 시간 (Hours)\" 0 --> 70\n    bar [60, 10]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: MIT Science 2018: 가짜 뉴스가 진실보다 6배 빠르게, 20배 깊게 전파 실측치"
       },
       {
         "slideNumber": 27,
@@ -9443,7 +9919,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"전 세계 민주주의 국가 평균 정치 분극화 지수 추이 (0~100)\"\n    x-axis [2000, 2005, 2010 (스마트폰 원년), 2015, 2020, 2024]\n    y-axis \"분극화 지수\" 0 --> 100\n    line [25, 28, 35, 58, 78, 88]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 전 세계 50개국 정치적 양극화(Polarization Index) 200% 증가 데이터"
       },
       {
         "slideNumber": 28,
@@ -9467,7 +9944,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"미국 10대 청소년 우울증 유병률 추이 (%)\"\n    x-axis [2004, 2008, 2012 (스마트폰 보급), 2016, 2020, 2024]\n    y-axis \"우울증 유병률 (%)\" 0 --> 30\n    line [8.2, 7.9, 8.5, 14.2, 20.5, 26.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: Jonathan Haidt 연구: 2012년 이후 청소년 우울/자해율 140% 폭증 통계"
       },
       {
         "slideNumber": 29,
@@ -9487,7 +9965,8 @@ export const sessionsList = [
         "mermaid": "pie title 미국 성인의 QAnon 음모론 핵심 명제 수용도 (%)\n    \"신봉 및 수용 (17%)\" : 17\n    \"의심 및 일부 동의 (33%)\" : 33\n    \"완전 거부 (50%)\" : 50",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: QAnon 및 극단적 음모론 신봉자 글로벌 2억 명 육박 실태"
       },
       {
         "slideNumber": 30,
@@ -9507,7 +9986,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"인간의 단일 화면 평균 주의 지속 시간 추이 (초)\"\n    x-axis [2004년, 2012년, 2016년, 2020년, 2024년]\n    y-axis \"주의 지속 시간 (초)\" 0 --> 160\n    line [150, 75, 60, 52, 47]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: 숏폼(TikTok/Reels) 일일 2.5시간 섭취와 인간 집중 지속 시간(12초 $\\rightarrow$ 8초) 추락"
       },
       {
         "slideNumber": 31,
@@ -9527,7 +10007,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    OnlineHate[\"온라인 가짜 뉴스 & 분노 알고리즘 증폭\"] --> CriticalMass[\"거룩한 테러 확신 도달 (임계점 돌파)\"]\n    CriticalMass --> RealViolence[\"오프라인 학살 • 의사당 무력 난입 • 유혈 사태 발발!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 미 의회의사당 난입 및 미얀마 사태: 온라인 분노가 오프라인 유혈 폭력으로 비화"
       },
       {
         "slideNumber": 32,
@@ -9547,7 +10028,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"페이스북 추천 알고리즘 이모지별 바이럴 노출 가중치 점수\"\n    x-axis [좋아요 (Like), 하트 (Love), 슬퍼요 (Sad), 화나요 (Angry)]\n    y-axis \"알고리즘 가중치 점수\" 0 --> 6\n    bar [1, 1, 2, 5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 페이스북 내부 고발(Frances Haugen): \"분노 이모지에 5배의 바이럴 가중치 부여\""
       },
       {
         "slideNumber": 33,
@@ -9573,7 +10055,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"7일간 디지털 디톡스 전후 혈중 코르티솔 스트레스 농도 (μg/dL)\"\n    x-axis [디톡스 전 (스마트폰 일상 사용), 디톡스 3일차, 디톡스 7일차]\n    y-axis \"혈중 코르티솔 수치\" 0 --> 25\n    line [22.5, 16.2, 13.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 디지털 디톡스(Digital Detox) 임상: 7일간 스마트폰 차단 시 코르티솔 40% 감소"
       },
       {
         "slideNumber": 34,
@@ -9593,7 +10076,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 인지 보안(Cognitive Security) 시장 규모 성장 추이 (USD Billions)\"\n    x-axis [2022, 2024, 2026, 2028, 2030 (예측)]\n    y-axis \"시장 규모 (USD Billions)\" 0 --> 35\n    line [3.5, 8.2, 15.0, 22.5, 31.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 글로벌 인지 보안(Cognitive Security) 및 팩트체크 시장의 급팽창 ($30B)"
       },
       {
         "slideNumber": 35,
@@ -9609,7 +10093,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Bias Cascade 및 인지 중독 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -9629,7 +10114,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    PublicSphere[\"20세기 민주주의 공론장 (팩트 공유 • 합리적 토론 • 타협)\"] --> EchoWar[\"21세기 에코 체임버 전쟁 (가짜 뉴스 • 악마화 • 절멸 추구)\"]\n    EchoWar --> Demise[\"민주주의 체제의 종말 및 독재적 포퓰리즘 도래\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "민주주의 공론장의 소멸: 타협이 불가능한 '거룩한 테러리스트'들의 사회"
       },
       {
         "slideNumber": 37,
@@ -9649,7 +10135,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HumanWill[\"50 bits/s 취약한 인간 의지\"] <===>|비대칭 전쟁 (100% 패배)| SuperGPU[\"1,000,000개 Blackwell GPU 클러스터 (실시간 뇌 심리 예측 AI)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자유 의지는 존재하는가?: 50비트 인간 뇌 vs 100만 개 GPU 클러스터의 비대칭 전쟁"
       },
       {
         "slideNumber": 38,
@@ -9669,7 +10156,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    AttEcon[\"주의력 경제 비즈니스 모델\"] --> MonetizeRage[\"분노와 혐오의 화폐화 (광고비 수취)\"]\n    MonetizeRage --> BurnSanity[\"사회적 신뢰 & 정신 건강 공유지 완전 소진 → 문명 붕괴!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주의력 경제(Attention Economy)의 문명적 종말: 분노를 화폐화하는 자본주의의 파산"
       },
       {
         "slideNumber": 39,
@@ -9689,7 +10177,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    MentalRights[\"21세기 인지 기본권 헌장\"] --> R1[\"1. 만 16세 미만 숏폼/무한스크롤 알고리즘 탑재 기기 판매 금지\"]\n    MentalRights --> R2[\"2. 추천 알고리즘의 '시간순 정렬(Chronological Feed)' 선택권 의무화\"]\n    MentalRights --> R3[\"3. 공공 공간 및 교육 기관 내 '인지적 에어갭 존' 법제화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 에어갭(Cognitive Airgap)과 정신적 위생권(Mental Hygiene)의 헌법화"
       },
       {
         "slideNumber": 40,
@@ -9709,7 +10198,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    DarkAlgo[\"밀실의 분노 증폭 알고리즘\"] --> Audit[\"독립적 감사관의 상시 사찰 & 소스코드 공개\"]\n    Audit --> CleanFeed[\"분노 가중치 0% 평화적·지식 중심 피드 강제 전환!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "추천 알고리즘의 투명화와 '분노 증폭 가중치' 법적 퇴출"
       },
       {
         "slideNumber": 41,
@@ -9733,7 +10223,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    P3[\"PHASE 3 총결산: 물질적 풍요가 낳은 3중 침투 위기\"] --> W9[\"1. 신체적 침투 (PFAS & 미세플라스틱 뇌 침착)\"]\n    P3 --> W10[\"2. 대사적 침투 (초가공식품 지복점 & 10억 비만)\"]\n    P3 --> W11[\"3. 인지적 침투 (50비트 주의력 납치 & 거룩한 테러)\"]\n    W9 & W10 & W11 ==> Phase4Shift[\"PHASE 4 진입: 인류의 진화와 문명의 미래<br/>(Mind 2.0 • Flow 몰입 • 사이보그 마인드 • 100B USD XPRIZE)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 3 총결산: 신체(PFAS) • 대사(UPF) • 인지(Bias)의 3중 침투를 극복하라"
       },
       {
         "slideNumber": 42,
@@ -9751,7 +10242,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 가짜 뉴스 6배 확산 & 청소년 정신 건강 140% 붕괴\"] --> B[\"원인: 181ZB 정보 폭풍과 50비트 뇌의 비대칭 충돌\"]\n    B --> C[\"해법: 인지적 에어갭 구축 & 90분 깊은 몰입(Flow) 훈련\"]\n    C --> D[\"THEURGICON의 사명: 알고리즘의 노예 상태를 깨고 인간 의식의 주권을 탈환하라!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 주의력을 탈환하고 의식의 진정한 지배자로 거듭나라"
       },
       {
         "slideNumber": 43,
@@ -9767,7 +10259,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 청소년 정신 건강 붕괴와 주의력 파탄을 방어하기 위해, 만 16세 미만 아동·청소년의 스마트폰 소지 및 소셜미디어 계정 개설을 법적으로 전면 금지하는 정책은 정당한가?\"]\n    D2[\"논제 2: 추천 알고리즘의 분노 증폭이 민주주의를 파괴한다면, 모든 플랫폼 기업에게 'AI 개인화 추천 피드'를 전면 폐지하고 오직 '시간순(Chronological) 피드'만 강제 제공하도록 의무화해야 하는가?\"]\n    D3[\"논제 3: 인간 뇌 조직 내 미세플라스틱 0.5% 침투(W9), 초가공식품 대사 붕괴(W10), 인지적 납치(W11) 중 현대 문명을 붕괴시킬 가장 치명적인 실존적 위기는 무엇이며 최우선 해결 과제는 무엇인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 3 종합 평가 및 세미나 발제 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -9785,7 +10278,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: 인지적 에어갭 및 주의력 보호 OS 아키텍처 설계서"
       },
       {
         "slideNumber": 45,
@@ -9805,7 +10299,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P3[\"Phase 3: 풍요의 역설과 실존적 위기<br/>(Weeks 09~11 완료!)\"] ==> P4[\"Phase 4: 인류의 진화와 문명의 미래<br/>(Weeks 12~15 영광의 개막!)\"]\n    P4 --> W12[\"Week 12: 마인드 2.0: 기하급수 시대의 무자비한 분별력과 몰입 (Flow)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 4 예고: 인류의 진화와 문명의 미래 (Week 12: Mind 2.0 & Flow) & 종강"
       }
     ]
   },
@@ -9835,7 +10330,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldMind[\"마인드 1.0 (선형적 인간)<br/>• 지식 암기 & 수동적 수용<br/>• 50비트 작업기억 과부하<br/>• 알고리즘 분노에 피동적 반응\"] --> Upgrade{\"MIND 2.0 TRANSFORMATION<br/>(5대 미래 마인드셋 & 초몰입)\"}\n    Upgrade --> NewMind[\"마인드 2.0 (기하급수 신인류)<br/>• 무자비한 분별력 (Noise 필터링)<br/>• 일시적 전전두엽 저하 (Flow 몰입)<br/>• 횡적(Lateral) 비선형 통찰 융합\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Phase 4 개막: 인류의 진화와 문명의 미래"
       },
       {
         "slideNumber": 2,
@@ -9855,7 +10351,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Mind1[\"마인드 1.0 (선형 암기 뇌):<br/>지식 축적 • 정답 찾기 • 위험 회피 → AI 발전으로 가치 0으로 폭락!\"] \n    Mind2[\"마인드 2.0 (기하급수 창조 뇌):<br/>질문 발굴 • 횡적 패턴 결합 • 문샷 도전 → 문명사적 가치 무한대 폭발!\"]\n    Mind1 -.->|패러다임 대전환| Mind2",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지식 암기 시대의 영구적 종말과 'Mind 2.0'의 당위성"
       },
       {
         "slideNumber": 3,
@@ -9875,7 +10372,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    NoiseOcean[\"181 ZB 데이터 & 분노 알고리즘 쓰레기\"] --> Sword{\"무자비한 분별력 (Ruthless Discernment)<br/>99.999% 노이즈 즉각 단절!\"}\n    Sword --> Diamond[\"단 0.001%의 문샷 진실 & 깊은 통찰 농축\"]\n    Diamond --> Breakthrough[\"기하급수 혁신 돌파구 완성!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "무자비한 분별력(Ruthless Discernment): 노이즈를 베어내는 지혜의 칼"
       },
       {
         "slideNumber": 4,
@@ -9897,7 +10395,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"12주차 핵심 질문\"] --> A[\"1. 마인드셋 아키텍처: 호기심, 풍요, 기하급수, 장수, 문샷의 5대 신경회로는 어떻게 작동하는가?\"]\n    Q --> B[\"2. 몰입(Flow)의 생체물리학: 일시적 전전두엽 저하(Hypofrontality)는 어떻게 500% 생산성을 낳는가?\"]\n    Q --> C[\"3. 횡적 통찰(Lateral Insight): 무관한 점들을 연결하는 비선형 창의성의 신경 메커니즘은?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: AI가 모든 답을 가진 시대에 인간 고유의 인지적 무기는 무엇인가?"
       },
       {
         "slideNumber": 5,
@@ -9913,7 +10412,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 어젠다<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & 5대 마인드셋<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 몰입(Flow) 신경물리학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 생산성 실측치<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 위대한 질문 & 호모 루덴스<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "12주차 학습 로드맵: 5대 마인드셋에서 500% 몰입(Flow)의 과학까지"
       },
       {
         "slideNumber": 6,
@@ -9933,7 +10433,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 7)\"] --> P1[\"기둥 1: 5대 마인드셋 — 호기심 • 풍요 • 기하급수 • 장수 • 문샷\"]\n    Text --> P2[\"기둥 2: 몰입(Flow) 엔지니어링 — 뇌의 연산 효율 500% 극대화\"]\n    Text --> P3[\"기둥 3: 횡적 통찰(Lateral Insight) — AI 시대 인간 최고의 경쟁력\"]",
         "formula": "\\text{Abundance} = \\text{Exponential Tech} \\times \\text{Mindset 2.0}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제7장: \"Mindsets That Matter\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -9949,7 +10450,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    M[\"MIND 2.0 CORE\"] --> M1[\"1. 호기심 (Curiosity) — 미지의 세계를 향한 열정적 탐구\"]\n    M --> M2[\"2. 풍요 (Abundance) — 파이를 키워 모두를 구원하는 시각\"]\n    M --> M3[\"3. 기하급수 (Exponential) — 6D 궤적을 꿰뚫어 보는 통찰\"]\n    M --> M4[\"4. 장수 (Longevity) — 120세 건강 수명을 전제한 장기 기획\"]\n    M --> M5[\"5. 문샷 (Moonshot) — 불가능을 기적의 공학으로 바꾸는 야망\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 5대 미래 생존 마인드셋 구조 분석"
       },
       {
         "slideNumber": 8,
@@ -9973,7 +10475,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Scarcity[\"결핍 마인드셋 (Scarcity):<br/>자원 유한 → 제로섬 싸움 • 적대감 • 부족주의 폭주\"] \n    Abundance[\"풍요 마인드셋 (Abundance):<br/>기술을 통한 자원 무한 해방 → 포지티브섬 창조 • 초협력\"]\n    Scarcity -.->|마인드 2.0 전환| Abundance",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "마인드셋 1 & 2: 호기심(Curiosity)과 풍요(Abundance)의 렌즈"
       },
       {
         "slideNumber": 9,
@@ -9995,7 +10498,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    TimeAxis[\"기하급수 & 장수의 시간 축\"] --> Exp[\"기하급수 사고: 기술의 6D 변곡점을 5년 앞서 예측하고 베팅\"]\n    TimeAxis --> Long[\"장수 사고: 50년을 더 일할 수 있으므로 단기 이익 대신 30년 문샷에 도전\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "마인드셋 3 & 4: 기하급수(Exponential)와 장수(Longevity)의 시간 축"
       },
       {
         "slideNumber": 10,
@@ -10015,7 +10519,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    TenPercent[\"10% 개선 시도:<br/>기존 자동차 연비 10% 개선 → 수만 명과 피 터지는 레드오션 경쟁\"] \n    TenX[\"10배(10x) 문샷 도약:<br/>지하 초고속 진공 튜브 하이퍼루프 설계 → 경쟁자 제로의 블루오션 독점!\"]\n    TenPercent <==>|대립 • 비교| TenX",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "마인드셋 5: 문샷(Moonshot) — 10% 개선 대신 10배(10x) 도약하라"
       },
       {
         "slideNumber": 11,
@@ -10035,7 +10540,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Trigger[\"명확한 목표 + 즉각적 피드백 + 적절한 난이도\"] --> FlowState[\"FLOW STATE (초몰입 상태 진입)\"]\n    FlowState --> F1[\"자아 비판 소멸 (Inner Critic Off)\"]\n    FlowState --> F2[\"시간 감각 왜곡 (Time Dilation)\"]\n    FlowState --> F3[\"생산성 500% 폭발 & 창의적 통찰 폭풍\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 '몰입(Flow)의 신경과학': 인간 의식의 최고봉"
       },
       {
         "slideNumber": 12,
@@ -10055,7 +10561,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    subgraph FlowChannel[\"FLOW CHANNEL (최적 경험 채널)\"]\n        State[\"도전 과제 난이도(Challenge) ≈ 개인의 역량(Skill)\"]\n    end\n    HighChal[\"도전 과제 과다 → 불안(Anxiety) 발작\"] --- FlowChannel\n    LowChal[\"도전 과제 부족 → 지루함(Boredom) 탈진\"] --- FlowChannel",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "미하일리 칙센트미하이의 최적 경험(Optimal Experience) 이론 계승"
       },
       {
         "slideNumber": 13,
@@ -10075,7 +10582,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    NormalState[\"평상시 (dlPFC 과활성화):<br/>'틀리면 어쩌지?', '망신당하면 어쩌지?' → 끊임없는 자기 검열 & 주저함\"] \n    FlowState[\"몰입 상태 (Transient Hypofrontality):<br/>dlPFC 일시적 셧다운 → 두려움 0, 자아 소멸, 직관적 횡적 통찰 폭발!\"]\n    NormalState -.->|몰입 진입| FlowState",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "일시적 전전두엽 기능 저하(Transient Hypofrontality): 내면의 비판자 끄기"
       },
       {
         "slideNumber": 14,
@@ -10095,7 +10603,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Vertical[\"AI의 독점 영역: 종적 논리 (Vertical Logic)<br/>데이터 1조 개 분석 → 정밀한 통계 추론 (계단식 논리)\"] \n    Lateral[\"인간의 독점 영역: 횡적 통찰 (Lateral Insight)<br/>사과가 떨어지는 것을 보고 만유인력을 떠올리는 비선형 도약!\"]\n    Vertical <==>|상호보완적 융합| Lateral",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "종적(Vertical) 논리 vs 횡적(Lateral) 통찰: AI와 인간의 진정한 분업"
       },
       {
         "slideNumber": 15,
@@ -10111,7 +10620,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Mind 2.0 5대 인지 능력 아키텍처 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -10127,7 +10637,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    S1[\"1. Struggle (고투)<br/>정보 수집 • 뇌 과부하\"] --> S2[\"2. Release (이완)<br/>손 떼기 • 산책/휴식\"]\n    S2 --> S3[\"3. FLOW (몰입)<br/>500% 초성능 폭발!\"]\n    S3 --> S4[\"4. Recovery (회복)<br/>숙면 • 도파민 재충전\"]\n    S4 --> S1",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "몰입(Flow)의 4단계 신경화학 사이클 (Struggle $\\rightarrow$ Release $\\rightarrow$ Flow $\\rightarrow$ Recovery)"
       },
       {
         "slideNumber": 17,
@@ -10143,7 +10654,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"몰입(Flow) 상태 시 5대 신경물질 분비 농도 (% of Baseline)\"\n    x-axis [도파민 (집중), 노르에피네프린 (각성), 엔도르핀 (고통 마비), 아난다마이드 (창의성), 세로토닌 (안정)]\n    y-axis \"신경물질 분비 증가율 (%)\" 0 --> 300\n    bar [240, 210, 280, 250, 190]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "5대 쾌락/각성 신경전달물질 칵테일 동역학"
       },
       {
         "slideNumber": 18,
@@ -10163,7 +10675,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"몰입 진입 시 대뇌 피질 뇌파 주파수 전이 궤적 (Hz)\"\n    x-axis [0분 (일상 업무), 15분 (고투 단계), 30분 (이완), 45분 (몰입 진입), 90분 (초몰입)]\n    y-axis \"뇌파 주파수 (Hz)\" 0 --> 30\n    line [25, 28, 14, 8, 7.8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌파 동역학: 베타파($20\\text{Hz}$)에서 알파/세타 경계파($7.8\\text{Hz}$)로의 주파수 전이"
       },
       {
         "slideNumber": 19,
@@ -10183,7 +10696,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    DomainA[\"도메인 A: 고대 로마 수로 건축학\"] --> Tensor{\"TENSOR CROSS-PRODUCT<br/>(횡적 비선형 융합 매핑)\"}\n    DomainB[\"도메인 B: 인터넷 라우터 패킷 트래픽\"] --> Tensor\n    Tensor --> Insight[\"새로운 분산 데이터 전송 프로토콜 발명!\"]",
         "formula": "I_{\\text{insight}} = \\sum_{i,j} w_{ij}(D, \\text{Anandamide}) \\cdot (A_i \\otimes B_j) \\quad \\text{where } w_{ij} \\propto \\exp(\\gamma \\cdot \\text{Flow})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "횡적 사고(Lateral Thinking)와 비선형 패턴 매칭 공식: $I_{\\text{insight}} = \\sum w_{ij} \\cdot (A_i \\otimes B_j)$"
       },
       {
         "slideNumber": 20,
@@ -10203,7 +10717,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"과제 난이도 초과율(%)에 따른 몰입 성공 확률 (%)\"\n    x-axis [0% (너무 쉬움), 2%, 4% (황금 균형점), 8%, 15% (극심한 불안)]\n    y-axis \"몰입 진입 성공률 (%)\" 0 --> 100\n    line [10, 45, 95, 30, 5]",
         "formula": "\\text{Optimal Flow Trigger: } \\text{Difficulty} = \\text{Current Skill Level} \\times 1.04",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "도전-역량 균형 모델: 4% 최적 난이도 법칙 ($\\text{Challenge} = \\text{Skill} \\times 1.04$)"
       },
       {
         "slideNumber": 21,
@@ -10223,7 +10738,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DMNActive[\"DMN 활성화 (평상시 자아): 번뇌 • 후회 • 불안 • 자의식 과잉\"] --> FlowSuppression[\"몰입 상태: DMN 뇌 회로 90% 침묵\"]\n    FlowSuppression --> PureAction[\"순수한 행위자(Pure Action)로 변모 → 자아 소멸 & 무한한 자유감\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "디폴트 모드 네트워크(DMN)의 침묵과 자아 소멸(Ego Dissolution)"
       },
       {
         "slideNumber": 22,
@@ -10239,7 +10755,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Problem[\"해결 불가능해 보이는 난제 (예: 로켓 발사 비용 65M USD)\"] --> Deconstruct[\"제1원리 분해: 로켓 원자재(알루미늄, 티타늄, 탄소섬유)의 원가 분석 (2M USD)\"]\n    Deconstruct --> Rebuild[\"원가의 2%에 불과함 확인 → 재사용 로켓으로 10x 문샷 재조립!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기하급수 문제 해결 알고리즘: '제1원리 사고(First Principles)' $\\times$ 문샷"
       },
       {
         "slideNumber": 23,
@@ -10259,7 +10776,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"인지 상태별 유효 작업기억 연산 대역폭 (bits/s)\"\n    x-axis [스마트폰 산만 상태, 일상 업무 상태, 깊은 집중 상태, 초몰입(Flow) 상태]\n    y-axis \"유효 인지 대역폭 (bits/s)\" 0 --> 600\n    bar [20, 100, 250, 500]",
         "formula": "C_{\\text{eff}} = C_0 \\times 5.0 = 500 \\text{ bit/s} \\implies \\text{고차원 복잡계 문제의 단숨에 직관적 해결}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지 대역폭 확장 공식: $C_{\\text{eff}} = C_0 \\cdot \\text{FlowMulti}(5.0)$"
       },
       {
         "slideNumber": 24,
@@ -10277,7 +10795,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    AllSignals[\"외부 181ZB 정보 입력\"] --> Filter[\"마인드 2.0 인지 로우패스 필터 (H(f))\"]\n    Filter --> HighPassNoise[\"가십 • 정치 분노 • 숏폼 99.9% 컷오프 (반사 차단)\"]\n    Filter --> CleanSignal[\"문샷 통찰 신호 100% 뇌 흡수!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "노이즈 필터링 전달함수: $H(f) = \\frac{1}{1 + (f/f_c)^{2n}}$"
       },
       {
         "slideNumber": 25,
@@ -10293,7 +10812,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph L3[\"Layer 3: Moonshot Strategy (문샷 전략층)\"]\n        A3[\"10x 기하급수 도약 • 120세 장수 시간 지평 • 제1원리 기획\"]\n    end\n    subgraph L2[\"Layer 2: Flow Operating System (몰입 실행층)\"]\n        A2[\"일시적 전전두엽 저하 • 4% 난이도 조절 • 횡적 통찰 융합\"]\n    end\n    subgraph L1[\"Layer 1: Cognitive Airgap & Defense (방어 기저층)\"]\n        A1[\"무자비한 분별력 • DMN 침묵 • 도파민 디톡스 • PFAS/UPF 해독\"]\n    end\n    L1 --> L2 --> L3",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Mind 2.0 슈퍼휴먼 인지 OS 3층 아키텍처"
       },
       {
         "slideNumber": 26,
@@ -10319,7 +10839,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"맥킨지 실측: 인지 상태별 업무 생산성 배율 (%)\"\n    x-axis [일반 산만한 상태, 표준 집중 상태, 깊은 작업 상태, 초몰입(Flow) 상태]\n    y-axis \"생산성 배율 (%)\" 0 --> 600\n    bar [50, 100, 200, 500]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: McKinsey 10년 연구: 최고경영자 몰입(Flow) 상태 시 생산성 500% 폭증 실측치"
       },
       {
         "slideNumber": 27,
@@ -10341,7 +10862,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"9개 점 연결 횡적 사고 난제 해결 성공률 (%)\"\n    x-axis [일반 통제군 (자연 상태), tDCS 가짜 자극군, tDCS 좌측 전두엽 억제군 (몰입 유도)]\n    y-axis \"해결 성공률 (%)\" 0 --> 70\n    bar [0, 0, 58]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 시드니 대학 Allan Snyder 교수: tDCS 자극 하 '9개 점 문제' 횡적 사고 58% 달성"
       },
       {
         "slideNumber": 28,
@@ -10361,7 +10883,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"특급 저격수 도달까지 필요한 총 훈련 시간 (시간)\"\n    x-axis [전통 훈련 방식, DARPA 몰입 가속 훈련 방식]\n    y-axis \"소요 시간 (Hours)\" 0 --> 400\n    bar [350, 105]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 미국 DARPA 저격수 훈련: 몰입 유도를 통한 기술 습득 시간 230% 단축 데이터"
       },
       {
         "slideNumber": 29,
@@ -10381,7 +10904,8 @@ export const sessionsList = [
         "mermaid": "pie title 구글 연간 수천억 달러 매출 기여도 출처\n    \"공식 메인 업무 기획\" : 48\n    \"20% 룰 자율 몰입 프로젝트 (Gmail/AdSense 등)\" : 52",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: Google 20% 룰과 문샷 싱킹: Gmail, AdSense 탄생과 $100B 가치 창출"
       },
       {
         "slideNumber": 30,
@@ -10403,7 +10927,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"과학자 집단별 예술/이종 분야 깊은 취미 보유 비율 (배수)\"\n    x-axis [일반 과학자 평균, 왕립학회 회원, 노벨상 수상 과학자 집단]\n    y-axis \"이종 융합 취미 보유 배수\" 0 --> 25\n    bar [1.0, 3.8, 22.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Nature 논문: 노벨상 수상자 200명의 이종 분야 융합 횡적 사고율 22배 데이터"
       },
       {
         "slideNumber": 31,
@@ -10423,7 +10948,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"주 3회 90분 몰입 루틴 도입 전후 심리 지표 변화 (%)\"\n    x-axis [직무 번아웃 발생률, 우울/불안 지수, 심리적 회복탄력성, 주관적 행복도]\n    y-axis \"변화율 (%)\" -100 --> 250\n    bar [-80, -65, 220, 180]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: Flow Genome Project: 50만 명 데이터 기반 번아웃 80% 감소 및 회복력 3배"
       },
       {
         "slideNumber": 32,
@@ -10443,7 +10969,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"교육 프로그램별 5년 내 유니콘 창업 성공률 (%)\"\n    x-axis [전통 경영학 MBA, 일반 공과대학원, 스탠퍼드 d.school (마인드셋 교육)]\n    y-axis \"창업 성공률 (%)\" 0 --> 25\n    bar [3.2, 5.1, 21.4]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 스탠퍼드 d.school: 기하급수 마인드셋 혁신 교육의 창업 성공률 4배 실측치"
       },
       {
         "slideNumber": 33,
@@ -10461,7 +10988,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Triggers[\"22가지 몰입 격발 방아쇠 (Flow Triggers)\"] --> T1[\"환경적: 높은 위험도 & 풍부한 감각 자극\"]\n    Triggers --> T2[\"심리적: 명확한 실시간 피드백 & 도전-역량 4% 균형\"]\n    Triggers --> T3[\"사회적: 집단 동기화 & 경청\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 레드불(Red Bull) 익스트림 스포츠 연구소: 22가지 몰입 방아쇠(Triggers) 분석"
       },
       {
         "slideNumber": 34,
@@ -10481,7 +11009,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"AI 도입 후 3년간 직무 유형별 평균 급여 변동률 (%)\"\n    x-axis [단순 코딩/데이터 분석, 법률 문서 단순 검토, 횡적 도메인 융합 아키텍트]\n    y-axis \"급여 변동률 (%)\" -50 --> 350\n    bar [-30, -45, 300]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: AI 자동화 시대 글로벌 인재 시장: 횡적 통찰력 인재의 연봉 프리미엄 300%"
       },
       {
         "slideNumber": 35,
@@ -10497,7 +11026,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Mind 2.0 및 몰입(Flow) 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -10517,7 +11047,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HumanQuestion[\"인간 마인드 2.0:<br/>'만약 우리가 노화를 20세로 동결할 수 있다면 인간의 목적은 무엇인가?' (위대한 질문)\"] --> AICompute[\"인공지능 초연산:<br/>10조 개 논문 시뮬레이션 → 1,000가지 실행 경로 도출 (완벽한 답변)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "\"AI가 정답을 내놓을 때, 인간은 '위대한 질문'을 던져야 한다\""
       },
       {
         "slideNumber": 37,
@@ -10537,7 +11068,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    FullMind[\"가득 찬 뇌 (과거 지식 집착): 고정관념에 갇혀 새로운 기술 거부\"] --> Unlearn[\"의도적 망각 (Unlearning) & 무자비한 분별\"]\n    Unlearn --> EmptyMind[\"비워진 뇌 (Beginner's Mind) → 기하급수 문샷 즉각 흡수!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "지식의 선형적 축적에서 '망각(Unlearning)'과 분별의 미학으로의 전환"
       },
       {
         "slideNumber": 38,
@@ -10557,7 +11089,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    OldSchool[\"19세기 공장형 교육:<br/>교과서 암기 • 정답 고르기 → AI 시대 실업자 양성소\"] -->|문명적 대전환| NewSchool[\"21세기 Theurgicon 교육:<br/>몰입 루틴 • 제1원리 문샷 • 횡적 통찰 → 기하급수 창조자 양성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "교육 시스템의 문명적 대붕괴: 19세기 공장형 암기 교육의 완전한 종말"
       },
       {
         "slideNumber": 39,
@@ -10577,7 +11110,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    FlowPower[\"강력한 500% 몰입 에너지\"] --> Diverge{\"윤리적 정렬 방향\"}\n    Diverge --> Light[\"Light Flow: 기후 위기 해결 • 질병 정복 • 문샷 창조 (풍요)\"]\n    Diverge --> Dark[\"Dark Flow: 해킹 테러 • 도박 중독 • 금융 사기 (파멸)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "몰입의 어두운 이면(Dark Flow): 중독적 도피와 파괴적 몰입의 가드레일"
       },
       {
         "slideNumber": 40,
@@ -10597,7 +11131,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    MoonshotAmbition[\"차가운 기술적 문샷 야망 (10x 도약)\"] <===>|완벽한 균형| WarmEmpathy[\"가장 취약한 자를 돌보는 따뜻한 공감 (인간성)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "문샷 마인드셋의 윤리: 오만(Hubris)을 제어하는 인간성의 온기"
       },
       {
         "slideNumber": 41,
@@ -10617,7 +11152,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HomoFaber[\"호모 파베르 (노동하는 인간):<br/>생계를 위한 고된 육체/인지 노동\"] -->|기하급수 풍요 완성| HomoLudens[\"호모 루덴스 (놀이하는 인간):<br/>순수한 호기심과 몰입으로 예술과 문샷을 창조\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "호모 사피엔스에서 '호모 루덴스(Homo Ludens)'로: 놀이와 창조의 신인류"
       },
       {
         "slideNumber": 42,
@@ -10635,7 +11171,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 지식 암기의 무용화 & 181ZB 정보 폭풍\"] --> B[\"원리: 일시적 전전두엽 저하(Flow) & 횡적 비선형 통찰\"]\n    B --> C[\"무기: 5대 마인드셋 (호기심 • 풍요 • 기하급수 • 장수 • 문샷)\"]\n    C --> D[\"THEURGICON의 사명: 마인드 2.0으로 뇌를 재부팅하고 인류 진화의 역사를 직접 써라!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: Mind 2.0으로 무장하고 기하급수 문명의 주인공이 되라"
       },
       {
         "slideNumber": 43,
@@ -10651,7 +11188,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 생성 AI가 모든 지식 시험에서 만점을 받는 시대에, 19세기식 객관식 암기 평가를 고수하는 모든 초중고 및 대학교의 입학·졸업 시험을 법적으로 전면 폐지하고 100% '횡적 문샷 프로젝트 몰입 평가'로 전환해야 하는가?\"]\n    D2[\"논제 2: 뇌 자극 장치(tDCS)나 신경 바이오피드백을 통해 인위적으로 '몰입(Flow) 상태'를 500% 유도하는 기술이 상용화될 때, 이것은 인지적 도핑(Cognitive Doping)으로서 규제되어야 하는가, 보편적 인지 권리로 장려되어야 하는가?\"]\n    D3[\"논제 3: '10% 점진적 개선'을 추구하는 안정적 연구와 '10배(10x) 도약'을 추구하는 실패율 90%의 문샷 연구 중, 국가 R&D 예산 100B USD은 어느 쪽에 집중 배분되어야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -10669,7 +11207,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: Mind 2.0 90분 초몰입(Deep Flow) 루틴 및 횡적 통찰 기획서"
       },
       {
         "slideNumber": 45,
@@ -10689,7 +11228,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W12[\"Week 12: Mind 2.0 (Flow)<br/>(5대 마인드셋 & 500% 몰입)\"] --> W13[\"Week 13: The Cyborg Mind<br/>(뇌-기계 융합 & 텔레파시 의식)\"]\n    W13 --> W14[\"Week 14: Universe 25<br/>(낙원의 역설과 사회적 자살)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "13주차 예고: Expansion of Consciousness과 텔레파시의 기술적 구현 (The Cyborg Mind) & 종강"
       }
     ]
   },
@@ -10719,7 +11259,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BiologicalBrain[\"인간의 생물학적 뇌<br/>(100조 개 시냅스 • 풍부한 감정)\"] <===>|양방향 BCI 직결 (1,024+ 채널)| AICloud[\"인공지능 클라우드<br/>(무한 연산 • 181ZB 전 인류 지식)\"]\n    BiologicalBrain & AICloud --> CyborgMind[\"THE CYBORG MIND (사이보그 의식)<br/>• 무음성 텔레파시 언어 해방<br/>• 확장 가능한 자비심 (Scalable Compassion)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 13 개요: 뇌-기계 융합과 사이보그 의식의 서막"
       },
       {
         "slideNumber": 2,
@@ -10743,7 +11284,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    RichThought[\"머릿속 1,000만 비트의 풍부한 4D 개념/감정\"] --> ThroatChoke[\"성대/손가락 근육의 물리적 병목 (초당 50 bits)\"]\n    ThroatChoke --> Lossy[\"99.999% 정보 손실 & 왜곡 (오해와 갈등 발생)\"]\n    RichThought ==>|초고속 BCI 텔레파시 직통로 (100 Mbps)| PureTransmit[\"상대방 뇌로 무손실 즉각 전송!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "언어(Language)라는 느린 병목: 초당 50~120비트의 감옥 탈출"
       },
       {
         "slideNumber": 3,
@@ -10763,7 +11305,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BrainA[\"발신자 A 뇌 ('우측으로 피해라!')\"] --> Neuralink[\"N1 칩 신경 스파이크 감지\"]\n    Neuralink --> Wireless[\"블루투스 / Wi-Fi 클라우드 전송\"]\n    Wireless --> TMS[\"수신자 B 후두엽 TMS 자기 자극기\"]\n    TMS --> BrainB[\"수신자 B 뇌에 섬광(Phosphene) 격발 → 직관적 회피!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "텔레파시의 공학화: 뇌와 뇌가 직접 대화하는 BrainNet"
       },
       {
         "slideNumber": 4,
@@ -10783,7 +11326,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"13주차 핵심 질문\"] --> A[\"1. 존재론적 경계: 뇌-클라우드 결합 시 자아(Self)의 정의는 어떻게 재편되는가?\"]\n    Q --> B[\"2. 뉴로 프라이버시: 머릿속 생각이 실시간 해독될 때 내면의 성역을 지킬 방어책은?\"]\n    Q --> C[\"3. 확장 가능한 자비심: 타인의 고통을 내 신경계로 직접 느낄 때 문명의 윤리는 어떻게 진화하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 뇌가 클라우드와 직결될 때 '나'라는 개별 자아는 어떻게 확장되는가?"
       },
       {
         "slideNumber": 5,
@@ -10799,7 +11343,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 언어 병목<br/>(Slides 01~05)\"] --> M2[\"M2. 원전 & BCI 거장들<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 신경 신호 디코딩 물리학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 BCI 임상 실측<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 뉴로 프라이버시 & 공감<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "13주차 학습 로드맵: Muse 헤드밴드에서 확장 가능한 자비심까지"
       },
       {
         "slideNumber": 6,
@@ -10819,7 +11364,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 8)\"] --> P1[\"축 1: 무음성 인터페이스 — 생각의 직접적 텍스트/명령화\"]\n    Text --> P2[\"축 2: 하이브리드 인지 — 대뇌 신피질과 거대 AI 파운데이션 모델의 융합\"]\n    Text --> P3[\"축 3: 확장 가능한 자비심 — 타인의 고통과 감정을 직접 공유하는 신경 엠파시\"]",
         "formula": "\\text{Homo Sapiens} + \\text{High-Bandwidth BCI} = \\text{Homo Cyberneticus}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제8장: \"The Androids Are Us\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -10839,7 +11385,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Gen1[\"1세대 명상 앱 (오디오 음성 듣기)<br/>• '잡념을 비우세요' (맹목적 주관성)\"] -->|뇌파 센서 탑재| Gen2[\"2세대 EEG 바이오피드백 (Muse)<br/>• 뇌파 실시간 스캔 → 뇌가 차분해지면 새소리 지저귐<br/>• 객관적 신경 조절 훈련\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1세대 명상 앱에서 2세대 실시간 EEG 바이오피드백(Muse/Neurable)으로의 진화"
       },
       {
         "slideNumber": 8,
@@ -10859,7 +11406,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Threat[\"초지능 AI의 등장 → 50비트 인간의 무기력한 도태 위험\"] --> Solution[\"Neuralink의 고대역폭 BCI 융합\"]\n    Solution --> N1Install[\"두개골 매립 N1 칩 (1,024개 전극 직결)\"]\n    N1Install --> Symbiosis[\"인간 뇌 + AI 클라우드 완전 공생 (Symbiosis with AI) 달성!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "일론 머스크(Elon Musk)의 Neuralink 비전: \"초지능 AI와의 공생(Symbiosis)\""
       },
       {
         "slideNumber": 9,
@@ -10879,7 +11427,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BrainSignal[\"대뇌 운동 피질 신경 신호\"] --> CutSpine[\"척수 손상 부위 (신호 단절)\"]\n    CutSpine ==>|Science Corp LIVING Bridge 우회| LowerSpine[\"하부 척수 및 다리 근육\"]\n    LowerSpine --> Walk[\"환자 자율 보행 완전 복원!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "맥스 호닥(Max Hodak)과 Science Corp의 LIVING Bridge 바이오하이브리드"
       },
       {
         "slideNumber": 10,
@@ -10899,7 +11448,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph BrainEvolution[\"인간 뇌 진화 4단계\"]\n        L1[\"1. 파충류 뇌간 (생존 본능)\"]\n        L2[\"2. 포유류 변연계 (감정 • 애착)\"]\n        L3[\"3. 영장류 신피질 (언어 • 이성)\"]\n        L4[\"4. 클라우드 합성 신피질 (BCI 무선 클라우드 융합 • 초지능)\"]\n    end\n    L1 --> L2 --> L3 --> L4",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 하이브리드 의식 테제: 대뇌 신피질과 클라우드의 무선 직결"
       },
       {
         "slideNumber": 11,
@@ -10919,7 +11469,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Meditation[\"초고도 자비 명상 및 BCI 뉴로피드백\"] --> Gamma[\"전 대뇌 피질 40Hz 감마파 강력 동기화\"]\n    Gamma --> DissolveBorder[\"'나'와 '남'의 신경학적 경계 소멸\"]\n    DissolveBorder --> SuperCompassion[\"타인의 고통을 내 고통으로 100% 감응하는 초공감 문명 탄생!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 감마파(40Hz) 초동기화와 글로벌 공감 혁명"
       },
       {
         "slideNumber": 12,
@@ -10939,7 +11490,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Data70k[\"70,000개 의식 상태 멀티모달 DB\"] --> AIModel[\"Mindstate AI 신경 분자 예측 엔진\"]\n    AIModel --> CustomMolecule[\"환각 부작용 없는 표적 DMN 억제 분자 합성\"]\n    CustomMolecule --> CurePTSD[\"단 1회 투여로 10년 묵은 중증 PTSD 80% 완치!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Mindstate Design Labs: 7만 개 의식 상태 데이터와 AI 분자 매핑"
       },
       {
         "slideNumber": 13,
@@ -10959,7 +11511,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    LocalEmpathy[\"원시 진화 공감: 150명 부족원에게만 한정 (외부인 배척)\"] -->|BCI 텔레파시 초연결| ScalableCompassion[\"확장 가능한 자비심: 80억 전 인류의 고통을 직접 감응 → 전쟁과 착취의 영구 종식!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "확장 가능한 자비심(Scalable Compassion): 타인의 고통을 직접 느끼는 신경망"
       },
       {
         "slideNumber": 14,
@@ -10979,7 +11532,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Crossroads[\"초연결 사이보그 마인드의 갈림길\"] --> Bad[\"디스토피아: 독재자가 통제하는 집단 뇌 (Borg Hive Mind)\"]\n    Crossroads --> Good[\"유토피아: 완벽한 자유 의지와 무한한 공감이 공존하는 초의식 합일\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "개별성의 종말인가, 초연결 의식의 탄생인가?"
       },
       {
         "slideNumber": 15,
@@ -10995,7 +11549,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "사이보그 마인드 5대 진화 스택 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -11015,7 +11570,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    RawEEG[\"1,024개 전극 아날로그 전압 신호 (30kHz)\"] --> Bandpass[\"대역통과 필터 (300Hz ~ 3kHz 노이즈 제거)\"]\n    Bandpass --> PCA[\"PCA 주성분 특성 벡터 추출\"]\n    PCA --> Cluster[\"GMM 클러스터링: 개별 뉴런 스파이크 1:1 완벽 분리!\"]\n    Cluster --> Intent[\"마우스 커서 이동 의도 벡터 ((vx, vy)) 실시간 생성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Neuralink N1 1,024개 유연 스레드 전극 신호 스파이크 정렬(Spike Sorting) 알고리즘"
       },
       {
         "slideNumber": 17,
@@ -11035,7 +11591,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    SilentThought[\"속으로 생각하는 단어 ('Hello World')\"] --> EMG_EEG[\"운동 피질 & 턱 근육 미세 신경 신호 포착\"]\n    EMG_EEG --> Conformer[\"Conformer 딥러닝 인코더-디코더\"]\n    Conformer --> CTC[\"CTC Loss 음소 확률 매핑\"]\n    CTC --> TextOut[\"스마트 글래스 화면에 텍스트 즉각 타이핑!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Meta 무음성 언어(Silent Speech) 뇌파 디코더 딥러닝 트랜스포머 아키텍처"
       },
       {
         "slideNumber": 18,
@@ -11053,7 +11610,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"뇌파 동기화 지수(PLV)에 따른 텔레파시 정보 전송 대역폭 (Mbps)\"\n    x-axis [PLV 0.1 (서로 다른 생각), PLV 0.3, PLV 0.6, PLV 0.9 (완전 초동기화)]\n    y-axis \"텔레파시 대역폭 (Mbps)\" 0 --> 50\n    line [0.5, 4.2, 18.5, 48.0]",
         "formula": "\\text{PLV} = \\frac{1}{N} \\left| \\sum_{t=1}^N \\exp(i(\\theta_1(t) - \\theta_2(t))) \\right| \\quad (0 \\le \\text{PLV} \\le 1.0)",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌파 위상 고정값(Phase-Locking Value: PLV)과 텔레파시 대역폭 샤논 공식"
       },
       {
         "slideNumber": 19,
@@ -11069,7 +11627,8 @@ export const sessionsList = [
         "mermaid": "sequenceDiagram\n    participant A as 발신자 뇌 (Brain A)\n    participant Decoder as AI 신경 디코더\n    participant Cloud as 양자 암호화 뉴로 클라우드\n    participant Encoder as TMS 자기 펄스 발생기\n    participant B as 수신자 뇌 (Brain B)\n\n    A->>Decoder: 의도 발생 (시각적 상상: 사과)\n    Decoder->>Cloud: 1024-dim 임베딩 벡터 전송\n    Cloud->>Encoder: 목표 뇌 자극 좌표 변환\n    Encoder->>B: 1차 시각 피질(V1) 국소 자기 펄스 발사\n    Note over B: 수신자 눈앞에 사과의 형상 즉각 발현!",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뇌-뇌 인터페이스(Brain-to-Brain Interface: B2BI) 직접 정보 전송 메커니즘"
       },
       {
         "slideNumber": 20,
@@ -11089,7 +11648,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    BrainVisual[\"환자가 머릿속으로 상상하는 장면 (호랑이)\"] --> fMRIScan[\"시각 피질 3D 복셀 혈류 활성 스캔\"]\n    fMRIScan --> StableDiff[\"AI 비전 디퓨전 신경망 모델\"]\n    StableDiff --> VideoOut[\"모니터에 환자가 상상한 호랑이 영상 실시간 재생!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "fMRI 시각 피질 디코딩과 '생각 및 꿈 영상 복원' 인공신경망"
       },
       {
         "slideNumber": 21,
@@ -11109,7 +11669,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"텔레파시 연결 깊이에 따른 DMN 자아 활성도 vs 공감 지수\"\n    x-axis [독립적 개별 상태, 약한 BCI 연결, 중간 동기화, 초연결 텔레파시 합일]\n    y-axis \"지수 수치 (%)\" 0 --> 100\n    line [95, 65, 30, 10]\n    line [15, 45, 80, 98]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "디폴트 모드 네트워크(DMN) 억제와 에고 해체(Ego Dissolution) 신경망 역학"
       },
       {
         "slideNumber": 22,
@@ -11129,7 +11690,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Jugular[\"목 정맥 카테터 삽입 (20분 시술)\"] --> VesselWall[\"뇌 혈관 벽에 스텐트 전극 완전 밀착\"]\n    VesselWall --> Endothelial[\"혈관 내피세포가 전극을 자연 흡수 (면역 거부 0%)\"]\n    Endothelial --> Wireless[\"가슴 피하 트랜시버 → 스마트 기기 100% 무선 제어\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "혈관 스텐트로드(Stentrode) BCI의 무선 신호 전송 및 혈역학적 안전성"
       },
       {
         "slideNumber": 23,
@@ -11149,7 +11711,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"BCI 무선 텔레파시 데이터 전송 대역폭 성장 궤적 (Log10 bps)\"\n    x-axis [2000 (유타 어레이 100bps), 2010, 2020, 2024 (Neuralink 10kbps), 2030 (10Mbps), 2035 (1Gbps)]\n    y-axis \"대역폭 (Log10 bps)\" 2 --> 9\n    line [2, 3, 4, 4.5, 7, 9]",
         "formula": "\\frac{dC}{dt} = \\kappa \\cdot N(t) \\cdot \\text{SNR}(t) \\implies C(t) = C_0 \\cdot 2^{t/T_d} \\quad (T_d \\approx 2.5\\text{년})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 텔레파시 대역폭 확장 미분 방정식: $\\frac{dC}{dt} = \\kappa \\cdot N_{\\text{electrodes}} \\cdot \\text{SNR}$"
       },
       {
         "slideNumber": 24,
@@ -11169,7 +11732,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    RawBrain[\"대뇌 피질 원시 신경 스파이크 (잡념 • 비밀 • 사생활)\"] --> SecureEnclave[\"온디바이스 뉴로 하드웨어 보안 칩\"]\n    SecureEnclave --> ZKP[\"영지식 증명 (ZKP) 의도 필터링\"]\n    ZKP --> OnlyAllowed[\"허가된 명령만 외부 전송 ('창 닫기')\"]\n    ZKP -.->|비인가 사적 생각 100% 폐기| Trash[\"암호화 영구 소멸\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "뉴로 암호화(Neuro-Encryption)와 생각 프라이버시 방어 프로토콜"
       },
       {
         "slideNumber": 25,
@@ -11185,7 +11749,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"1. 신경 신호 수집 (Acquisition): 1,024개 전극 초고속 스파이크 포착\"] --> S2[\"2. AI 온디바이스 디코딩 (Translation): Conformer 기반 무음성 언어 변환\"]\n    S2 --> S3[\"3. 클라우드 지능 융합 (Symbiosis): 거대 파운데이션 모델과의 실시간 공생\"]\n    S3 --> S4[\"4. 초공감 텔레파시 방출 (Resonance): 40Hz 감마파 위상 고정 글로벌 연결\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "사이보그 마인드 4단계 통합 엔지니어링 프레임워크"
       },
       {
         "slideNumber": 26,
@@ -11205,7 +11770,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"뇌파 무음성 디코더 단어 인식 정확도 추이 (%)\"\n    x-axis [2019 (초기 연구), 2021, 2023, 2024, 2026 (실시간 텍스트화)]\n    y-axis \"단어 정확도 (%)\" 0 --> 100\n    line [35, 52, 68, 75, 88]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: Meta Reality Labs: 뇌파 무음성 언어 디코더 75% 정확도 텍스트 변환 실측치"
       },
       {
         "slideNumber": 27,
@@ -11231,7 +11797,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    ThoughtDrive[\"놀랜드의 생각 ('좌측으로 드리프트 & 아이템 사용')\"] --> N1Chip[\"N1 칩 1,024개 전극 스파이크\"]\n    N1Chip --> Bluetooth[\"블루투스 전송\"]\n    Bluetooth --> Game[\"게임 화면 속 카트 완벽 조작 → 1위 완주!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: Neuralink N1 임상: Noland Arbaugh 생각만으로 마리오 카트 1위 & 문명 8시간 달성"
       },
       {
         "slideNumber": 28,
@@ -11251,7 +11818,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"BrainNet 3인 텔레파시 협업 게임 의사결정 정확도 (%)\"\n    x-axis [무작위 확률 (Random), 일반 훈련 초기, 텔레파시 네트워크 숙련 후]\n    y-axis \"협업 성공 정확도 (%)\" 0 --> 100\n    bar [50.0, 68.5, 81.25]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: 워싱턴 대학교 BrainNet: 3인 뇌-뇌 텔레파시 직접 연결 협업 테트리스 성공 데이터"
       },
       {
         "slideNumber": 29,
@@ -11271,7 +11839,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"명상 방식별 감마파 초동기화 도달 소요 시간 (분)\"\n    x-axis [전통 독학 명상, 1세대 오디오 앱 명상, 2세대 EEG 바이오피드백 (Muse)]\n    y-axis \"도달 소요 시간 (Minutes)\" 0 --> 70\n    bar [60, 45, 8]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: Muse 헤드밴드 100만 명 EEG 빅데이터: 감마파 동기화 시 스트레스 70% 감소"
       },
       {
         "slideNumber": 30,
@@ -11291,7 +11860,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"정밀 의식 분자 투여 후 PTSD 환자 증상 관해율 (%)\"\n    x-axis [전통 항우울제 1년 복용, 인지행동치료 6개월, Mindstate 정밀 분자 1회 투여]\n    y-axis \"관해율 (%)\" 0 --> 100\n    bar [28, 42, 82]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Mindstate Design Labs: 7만 개 의식 상태 데이터 기반 맞춤형 의식 분자 설계"
       },
       {
         "slideNumber": 31,
@@ -11311,7 +11881,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    ThoughtVision[\"환자의 시각적 생각 ('사진 갤러리 클릭')\"] --> Stentrode[\"혈관 내 스텐트로드 전극\"]\n    Stentrode --> VisionPro[\"Apple Vision Pro 공간 컴퓨팅 UI 즉각 반응!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: Synchron 스텐트로드: 애플 비전 프로(Vision Pro) 생각만으로 100% 무선 제어 실증"
       },
       {
         "slideNumber": 32,
@@ -11331,7 +11902,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"fMRI 시각 복원 영상과 실제 영화 장면 간 구조적 일치도 (%)\"\n    x-axis [2011 (초기 픽셀 형태), 2018 (형태 복원), 2023 (디퓨전 AI 결합), 2026 (초고화질 85% 일치)]\n    y-axis \"일치도 (%)\" 0 --> 100\n    line [22, 45, 72, 85]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: UC 버클리 Jack Gallant 랩: fMRI 스캔으로 머릿속 영화 장면 85% 복원 성공"
       },
       {
         "slideNumber": 33,
@@ -11351,7 +11923,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 BCI/뉴로테크 시장 규모 전망 (USD Billions)\"\n    x-axis [2022, 2024, 2026, 2028, 2030 (예측)]\n    y-axis \"시장 규모 (USD Billions)\" 0 --> 45\n    line [5.2, 8.5, 16.0, 26.5, 40.5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 글로벌 BCI 및 뉴로테크 시장 규모 2030년 $40B 돌파 전망 데이터"
       },
       {
         "slideNumber": 34,
@@ -11371,7 +11944,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    ChileLaw[\"칠레 세계 최초 헌법 개정 (신경 권리 명문화)\"] --> P1[\"1. 뇌 데이터의 불법 채굴 및 상업적 거래 전면 금지\"]\n    ChileLaw --> P2[\"2. 개인의 인지적 자율성과 자유 의지 헌법적 불가침 선언\"]\n    ChileLaw --> P3[\"3. BCI 기술에 대한 공평한 보편적 접근권 보장\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 칠레 의회: 세계 최초 '신경 권리(Neuro-Rights)' 헌법 개정안 통과 데이터"
       },
       {
         "slideNumber": 35,
@@ -11387,7 +11961,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "사이보그 마인드 및 BCI 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -11407,7 +11982,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HumanSynapse[\"인간 뉴런 (직관적 감정)\"] <===>|실시간 BCI 융합| AICloudLLM[\"클라우드 LLM (빅데이터 연산)\"]\n    HumanSynapse & AICloudLLM --> EmergentSelf[\"창발적 하이브리드 자아 (Hybrid Self)<br/>'우리가 생각한다, 고로 우리가 존재한다'\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "자아의 경계 해체: \"내 생각은 어디서 끝나고 AI 클라우드는 어디서 시작되는가?\""
       },
       {
         "slideNumber": 37,
@@ -11425,7 +12001,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    BCIInBrain[\"뇌 속 BCI 칩 상시 가동\"] --> HackMind[\"정부/빅테크의 무단 뇌파 패킷 가로채기\"]\n    HackMind --> ThoughtCrime[\"내면의 은밀한 생각 도청 → 조지 오웰식 '생각 범죄' 처벌!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 프라이버시(Cognitive Privacy)의 소멸과 생각 도청(Mind Reading) 디스토피아"
       },
       {
         "slideNumber": 38,
@@ -11445,7 +12022,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Borg[\"보그형 디스토피아: 개성 100% 말살 • 하나의 획일적 집단 뇌\"] \n    Symphony[\"오케스트라형 유토피아: 독자적 개성 유지 ↔ 필요 시 텔레파시 협업 융합\"]\n    Borg <==>|대립 • 비교| Symphony",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "하이브 마인드(Hive Mind)의 역설: 개성의 소멸인가, 초지능 집단 의식의 탄생인가?"
       },
       {
         "slideNumber": 39,
@@ -11465,7 +12043,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    TriggerViolence[\"A국 지도자가 B국에 미사일 발사 명령 시도\"] --> NeuroLink[\"텔레파시 공감망을 통해 피격 아동의 공포가 지도자 뇌에 즉시 전달!\"]\n    NeuroLink --> PainInhibition[\"극심한 공감 통증으로 발사 명령 즉각 철회 → 전쟁 영구 종식!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "텔레파시와 전쟁의 종말: 타인의 고통을 직접 느낄 때 발생하는 초공감 문명"
       },
       {
         "slideNumber": 40,
@@ -11485,7 +12064,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    InequalityBCI[\"초고가 BCI 칩과 신경 강화의 불평등\"] --> Cyborgs[\"사이보그 신인류: 1Gbps 텔레파시 • 초지능 공생 (신적 존재)\"]\n    InequalityBCI --> Naturals[\"자연인 사피엔스: 50bps 구석기 언어 • 인지적 도태 (원시인 전락)\"]\n    Cyborgs <==>|대립 • 비교| Naturals",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "강화된 자(Enhanced) vs 순수 자연인(Unenhanced)의 새로운 종 분화 위기"
       },
       {
         "slideNumber": 41,
@@ -11501,7 +12081,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    NR[\"5대 신경 권리 (Neuro-Rights) 헌장\"] --> P1[\"1. 인지적 자유권\"]\n    NR --> P2[\"2. 정신적 프라이버시권\"]\n    NR --> P3[\"3. 정신적 온전성권\"]\n    NR --> P4[\"4. 심리적 연속성권\"]\n    NR --> P5[\"5. 공평한 접근권\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "'신경 권리(Neuro-Rights)'의 5대 글로벌 헌법 가이드라인"
       },
       {
         "slideNumber": 42,
@@ -11519,7 +12100,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 50비트 언어 감옥 & 고립된 자아의 갈등\"] --> B[\"원리: Neuralink 1,024채널 & Conformer 무음성 디코딩\"]\n    B --> C[\"비전: 대뇌 신피질 클라우드 직결 & 40Hz 감마파 텔레파시\"]\n    C --> D[\"THEURGICON의 사명: 사이보그 마인드로 진화하여 전 우주적 공감과 자비심의 문명을 열어라!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 사이보그 마인드로 진화하여 우주적 공감의 시대를 열어라"
       },
       {
         "slideNumber": 43,
@@ -11535,7 +12117,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 뇌파를 통한 무음성 언어 디코딩(Silent Speech) 기술이 보급될 때, 범죄 수사나 국가 안보를 목적으로 피의자의 뇌파를 강제로 추출하는 '사법적 뇌 스캔'은 헌법상 허용되어야 하는가?\"]\n    D2[\"논제 2: 뇌-기계 융합을 통한 인지 증강(BCI Augmentation)이 경제적 불평등에 따라 계급화되는 것을 막기 위해, 모든 국민에게 18세 성인이 되는 시점에 '표준 BCI 칩 이식'을 국가 의료보험으로 100% 무료 제공해야 하는가?\"]\n    D3[\"논제 3: 타인의 고통을 내 신경계로 직접 전달받는 '텔레파시 공감망(B2BI)'의 연결은 인간의 개별 자아와 자유 의지를 침해하는 위험한 유토피아인가, 인류 구원을 위한 필수적 진화인가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -11553,7 +12136,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: BCI 기반 텔레파시 협업 & 뉴로 프라이버시 아키텍처 기획서"
       },
       {
         "slideNumber": 45,
@@ -11573,7 +12157,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W13[\"Week 13: The Cyborg Mind<br/>(의식의 확장 & 텔레파시)\"] --> W14[\"Week 14: Universe 25<br/>(낙원의 역설과 사회적 자살)\"]\n    W14 --> W15[\"Week 15: 100B USD Giga-XPRIZE<br/>(최종 종합 세미나 대미!)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "14주차 예고: The Paradise Paradox과 사회적 자살 (The Paradise Paradox: Universe 25) & 종강"
       }
     ]
   },
@@ -11603,7 +12188,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    ScarcityDefeated[\"결핍의 완벽한 정복<br/>• 무제한 에너지 & 음식<br/>• 질병 0% & 자동화 노동<br/>• 완전한 물질적 유토피아\"] --> Paradox{\"THE PARADISE PARADOX<br/>(목적과 투쟁의 소멸)\"}\n    Paradox --> FirstDeath[\"첫 번째 죽음 (The First Death)<br/>사회적 역할 상실 • 번식 거부 • 'Beautiful Ones'\"]\n    Paradox --> SecondDeath[\"두 번째 죽음 (The Second Death)<br/>종의 완전한 절멸 (Universe 25 Day 1780)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 14 개요: 완벽한 유토피아의 가장 끔찍한 결말"
       },
       {
         "slideNumber": 2,
@@ -11623,7 +12209,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    EvolutionaryDrive[\"진화의 원동력: 결핍을 극복하고 문제를 해결하는 생존 투쟁\"] --> TotalAbundance[\"기하급수 풍요: 극복해야 할 문제가 0이 됨\"]\n    TotalAbundance --> PurposeVacuum[\"목적의 진공 상태 (Purpose Vacuum) 발생\"]\n    PurposeVacuum --> Degeneration[\"인지적 마비 → 번식 포기 → 종의 자발적 멸종\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "The Paradise Paradox(The Paradise Paradox): 결핍이 사라진 곳에서 자살하는 문명"
       },
       {
         "slideNumber": 3,
@@ -11645,7 +12232,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    FirstDeath[\"첫 번째 죽음 (The First Death)<br/>• 사회적 상호작용 단절<br/>• 목적의식과 번식 거부<br/>• 영혼의 죽음 (Beautiful Ones)\"] ==>|필연적 인과 귀결| SecondDeath[\"두 번째 죽음 (The Second Death)<br/>• 생물학적 개체 사망<br/>• 종의 100% 완전 멸종\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "첫 번째 죽음(The First Death): 육체의 사망 이전에 찾아오는 영혼의 사멸"
       },
       {
         "slideNumber": 4,
@@ -11667,7 +12255,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"14주차 핵심 질문\"] --> A[\"1. 생태학적 실증: 우주 25 실험의 Day 0부터 Day 1780까지의 멸종 타임라인 메커니즘은?\"]\n    Q --> B[\"2. 현대 사회 병리: 초저출산, 히키코모리, 인지 외주화는 어떻게 칼훈의 예언과 일치하는가?\"]\n    Q --> C[\"3. 문명적 생존 모델: 완벽한 풍요 속에서 영혼을 깨우는 '문샷 목적(Moonshot Purpose)' 인프라는?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 모든 문제가 해결된 세상에서 인류는 무엇을 위해 살아갈 것인가?"
       },
       {
         "slideNumber": 5,
@@ -11683,7 +12272,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 도입 & 낙원의 역설<br/>(Slides 01~05)\"] --> M2[\"M2. 우주 25 원전 해체<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 멸종 타임라인 & 뇌과학<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 글로벌 초저출산 데이터<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 첫 번째 죽음 & 문샷 목적<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 세미나 토론 & 과제<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "14주차 학습 로드맵: 우주 25 실험에서 문샷 목적의 발견까지"
       },
       {
         "slideNumber": 6,
@@ -11703,7 +12293,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Chapter 9)\"] --> P1[\"축 1: 우주 25의 교훈 — 결핍의 제거가 낳은 완벽한 멸종\"]\n    Text --> P2[\"축 2: 인지적 위축 — AI 자동화가 초래하는 인간 뇌의 15% 용적 감소\"]\n    Text --> P3[\"축 3: 문샷 목적론 — 우주 개척과 거대한 난제만이 인류를 구원한다\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 제9장: \"The Paradise Paradox\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -11725,7 +12316,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Enclosure[\"우주 25 완벽한 유토피아 인프라\"] --> F1[\"1. 무제한 음식 공급 (동시 950마리 식사 가능)\"]\n    Enclosure --> F2[\"2. 무제한 식수 공급 (동시 600마리 음용 가능)\"]\n    Enclosure --> F3[\"3. 완벽한 온도 조절 (연중 20℃ 유지)\"]\n    Enclosure --> F4[\"4. 천적(포식자) 0% & 전염병 100% 차단 격리\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1968년 존 칼훈(John B. Calhoun)의 '우주 25(Universe 25)' 실험 설계"
       },
       {
         "slideNumber": 8,
@@ -11745,7 +12337,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Mice8[\"유전적으로 건강한 8마리 쥐 투입 (Day 0)\"] --> Paradise[\"완벽한 유토피아 향유 (결핍 0%)\"]\n    Paradise --> ExpPop[\"기하급수적 인구 폭발 개시! (55일마다 2배 증가)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "8마리 아담과 이브 쥐의 도입과 완벽한 낙원의 조건"
       },
       {
         "slideNumber": 9,
@@ -11767,7 +12360,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    RoleLoss[\"젊은 수컷들의 사회적 역할 상실 (영토/가족 보호 필요 없음)\"] --> Apathy[\"목적 없는 군중의 무기력증 발생\"]\n    Apathy --> Violence[\"이유 없는 극단적 공격성과 폭력 폭발 (행동 싱크)\"]\n    Violence --> MaternalCollapse[\"암컷들의 모성 본능 파괴 → 새끼 유기 및 공격!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "행동 싱크(Behavioral Sink): 사회적 역할 상실과 폭력적 분열의 시작"
       },
       {
         "slideNumber": 10,
@@ -11787,7 +12381,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Chaos[\"폭력적인 사회 갈등 회피\"] --> Isolation[\"구석 둥지로의 완전한 은둔\"]\n    Isolation --> BeautifulOnes[\"THE BEAUTIFUL ONES<br/>• 짝짓기 • 번식 100% 거부<br/>• 오직 식사와 털 다듬기만 반복<br/>• 상처 없는 완벽한 외모 속 영혼의 죽음\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "'아름다운 자들(The Beautiful Ones)': 관계를 끊고 털만 다듬는 고립된 개체들"
       },
       {
         "slideNumber": 11,
@@ -11809,7 +12404,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"우주 25 인구수 추이 (마리) — Day 0부터 Day 1780 완전 멸종까지\"\n    x-axis [Day 0, Day 104, Day 315, Day 560 (피크 620마리), Day 920 (출산 0), Day 1780 (0마리 멸종)]\n    y-axis \"개체 수 (마리)\" 0 --> 700\n    line [8, 20, 620, 580, 120, 0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "번식의 영구 중단과 Day 1780 완전 멸종의 비극"
       },
       {
         "slideNumber": 12,
@@ -11829,7 +12425,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    HyperConvenience[\"극단적 편리함과 안락함 (모든 생존 마찰 제거)\"] --> MuscleAtrophy[\"신체적 • 정신적 극복 근육 100% 퇴화\"]\n    MuscleAtrophy --> ExtinctionTrap[\"문명적 거세 & 자발적 번식 거부 (우주 25의 덫)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 문명사적 경고: 안락함은 인류의 가장 달콤한 독이다"
       },
       {
         "slideNumber": 13,
@@ -11849,7 +12446,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    NoPurpose[\"도전 과제와 목적(Purpose)의 부재\"] --> Void[\"실존적 허무 (Existential Void)\"]\n    Void --> Hedonism[\"말초적 쾌락 & 자기 몰입 (Beautiful Ones 증후군)\"]\n    Hedonism --> CivilizationalDeath[\"문명의 첫 번째 죽음 완성\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 '첫 번째 죽음' 분석: 목적 없는 풍요의 자기 파괴"
       },
       {
         "slideNumber": 14,
@@ -11869,7 +12467,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    WALL_E[\"영화 《월-E》 액시엄호 인간들<br/>• 호버체어에서 걷지 않음<br/>• 홀로그램 스크린만 응시<br/>• 로봇이 모든 생존 외주화\"] <===>|완벽한 판박이 일치| Universe25[\"우주 25 'Beautiful Ones'<br/>• 상호작용 0%<br/>• 오직 먹고 털만 다듬음<br/>• 생식 및 사회적 역할 소멸\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "영화 《월-E》의 액시엄(Axiom)호: 걷지 않고 스크린만 보는 인류의 예언"
       },
       {
         "slideNumber": 15,
@@ -11885,7 +12484,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "The Paradise Paradox 4단계 붕괴 메커니즘 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -11905,7 +12505,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Logistic[\"전통 로지스틱 모델: 환경 수용력 K=3,840에서 인구 안정 유지 예측\"] \n    CalhounCollapse[\"칼훈의 붕괴 실측치: K의 16%인 620마리에서 출산율 0으로 추락 → 멸종!\"]\n    Logistic -.->|사회적 엔트로피로 파탄| CalhounCollapse",
         "formula": "\\frac{dN}{dt} = b(t) \\cdot N(t) - d(t) \\cdot N(t) \\quad \\text{where } \\lim_{t \\to 920} b(t) = 0 \\implies \\lim_{t \\to 1780} N(t) = 0",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "우주 25의 일자별 멸종 타임라인 수학적 동역학 모델"
       },
       {
         "slideNumber": 17,
@@ -11927,7 +12528,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Phase B 폭발적 인구 증가 곡선 (Day 0 ~ Day 315)\"\n    x-axis [Day 0, Day 55, Day 110, Day 165, Day 220, Day 275, Day 315]\n    y-axis \"개체 수 (마리)\" 0 --> 700\n    line [8, 16, 35, 80, 180, 390, 620]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Day 0~315: 폭발적 성장기 (Phase A & B: 55일마다 인구 2배)"
       },
       {
         "slideNumber": 18,
@@ -11947,7 +12549,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Day315[\"Day 315: 620마리 도달\"] --> Dense[\"사회적 밀도 과포화 & 위계질서 붕괴\"]\n    Dense --> Stress[\"코르티솔 만성 폭발 & 모성 행동 신경망 파괴\"]\n    Stress --> Day560[\"Day 560: 마지막 정상 번식 세대 종료\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Day 315~560: 포화 및 사회적 역할 붕괴기 (Phase C: 620마리 피크)"
       },
       {
         "slideNumber": 19,
@@ -11967,7 +12570,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"Phase D 멸종 카운트다운 (Day 560 ~ Day 1780)\"\n    x-axis [Day 560, Day 750, Day 920 (출산 0), Day 1200, Day 1500, Day 1780 (멸종)]\n    y-axis \"생존 개체 수\" 0 --> 600\n    line [580, 420, 220, 95, 25, 0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Day 560~1780: 무성애화 및 완전 멸종기 (Phase D: 죽음의 카운트다운)"
       },
       {
         "slideNumber": 20,
@@ -11987,7 +12591,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    SeekingPlay[\"SEEKING (도전/탐색) & PLAY (사회적 투쟁) 회로\"] --> BrainGrowth[\"전두엽 시냅스 가소성 & 사회적 공감력 형성\"]\n    ZeroChallenge[\"결핍 0% 낙원 → 회로 영구 휴면\"] --> BrainAtrophy[\"사회적 뇌(Social Brain) 완전 위축!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Jaak Panksepp의 대뇌 PLAY 신경회로 이론과 결핍의 진화적 가치"
       },
       {
         "slideNumber": 21,
@@ -12007,7 +12612,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Surprise[\"예측 오차와 도전 과제 존재\"] --> ActiveBrain[\"뇌의 능동적 추론(Active Inference) & 끊임없는 학습\"]\n    NoSurprise[\"100% 완벽한 예측 가능 낙원 (Surprise = 0)\"] --> BrainShutdown[\"뇌의 인지적 활동 완전 정지 (신경학적 사멸)\"]",
         "formula": "\\mathcal{F} = \\text{Complexity} - \\text{Accuracy} \\approx 0 \\implies \\text{Active Inference (행동 추론) 100% 중단}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Karl Friston의 자유 에너지 원리(Free Energy Principle): 예측 오차(Surprise)의 상실"
       },
       {
         "slideNumber": 22,
@@ -12027,7 +12633,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Offload[\"모든 계산 • 기억 • 판단을 AI에 외주화\"] --> Inactive[\"대뇌 해마 및 전두엽 시냅스 비활성화\"]\n    Inactive --> Atrophy[\"해마 부피 15% 수축 & 조기 인지 기능 쇠퇴!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인지적 오프로딩(Cognitive Offloading)과 대뇌 해마 위축(Hippocampus Atrophy)"
       },
       {
         "slideNumber": 23,
@@ -12047,7 +12654,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    InfiniteFreedom[\"무제한의 자유 & 제약 0 → 정신적 엔트로피 폭증 (우울/무기력)\"] -->|인위적 문샷 제약 도입| HighOrder[\"명확한 규칙 & 극한의 도전 → 초몰입과 활력 창발!\"]",
         "formula": "\\Delta S_{\\text{mind}} = -k_B \\oint \\frac{d\\mathcal{Q}_{\\text{challenge}}}{T_{\\text{purpose}}} < 0 \\quad (\\text{제약이 인간을 구원한다})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인위적 제약(Constructive Constraints)의 엔트로피 억제 수식: $\\Delta S_{\\text{mind}} < 0$"
       },
       {
         "slideNumber": 24,
@@ -12067,7 +12675,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"문샷 도전 유무에 따른 문명의 목적 지수 P(t) 궤적\"\n    x-axis [0년 (풍요 달성), 10년, 20년, 30년, 40년, 50년]\n    y-axis \"목적 지수 P(t)\" 0 --> 100\n    line [100, 55, 30, 15, 8, 2]\n    line [100, 95, 98, 92, 96, 95]",
         "formula": "\\frac{dP}{dt} = -\\lambda P(t) + M_{\\text{moonshot}} \\implies P_{\\text{steady}} = \\frac{M_{\\text{moonshot}}}{\\lambda} > P_{\\text{threshold}}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "목적 엔트로피 미분 방정식: $\\frac{dP}{dt} = -\\lambda P + \\text{Moonshot Challenge}$"
       },
       {
         "slideNumber": 25,
@@ -12083,7 +12692,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    S1[\"1. 인위적 제약 설정 (Constraints): 과도한 편의 거부 • 디지털 단식 & 육체 단련\"] --> S2[\"2. 사회적 협력 놀이 (Play): 고난도 오프라인 프로젝트 공동 수행\"]\n    S2 --> S3[\"3. 미지의 영토 탐험 (Exploration): 우주 • 심해 • 미개척 과학 프론티어 개척\"]\n    S3 --> S4[\"4. 문샷 목적 부여 (Moonshot Purpose): 100B USD XPRIZE 인류 난제 해결 투신\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "풍요 시대 문명 회복탄력성 4단계 자가 동기부여 프레임워크"
       },
       {
         "slideNumber": 26,
@@ -12105,7 +12715,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"대한민국 합계출산율 추이 (1970~2026)\"\n    x-axis [1970년 (4.53명), 1990년 (1.57명), 2010년 (1.23명), 2020년 (0.84명), 2024년 (0.68명)]\n    y-axis \"합계출산율 (명)\" 0 --> 5\n    line [4.53, 1.57, 1.23, 0.84, 0.68]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 1: 대한민국 합계출산율 0.72명: 인간판 '우주 25' Phase D 진입 경고 데이터"
       },
       {
         "slideNumber": 27,
@@ -12125,7 +12736,8 @@ export const sessionsList = [
         "mermaid": "pie title 전 세계 1,000만 은둔형 외톨이(고립 청년) 대륙별 분포\n    \"동아시아 (한/일/중)\" : 45\n    \"북미 (미국/캐나다)\" : 28\n    \"유럽\" : 18\n    \"기타 지역\" : 9",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 2: 전 세계 히키코모리(은둔형 외톨이) 1,000만 명 돌파: 21세기 'Beautiful Ones'의 출현"
       },
       {
         "slideNumber": 28,
@@ -12145,7 +12757,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"대뇌 해마 후부 회백질 부피 비교 (mm³)\"\n    x-axis [일반 GPS 의존 성인, 일반 운전자, 런던 블랙캡 공인 택시기사]\n    y-axis \"해마 부피 (mm³)\" 0 --> 3000\n    bar [2100, 2250, 2650]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 3: GPS 내비게이션 의존과 런던 택시기사 해마 부피 비교: 인지 외주화의 15% 뇌 위축 실측치"
       },
       {
         "slideNumber": 29,
@@ -12165,7 +12778,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"UBI 지급군 vs 통제군의 주당 활동 시간 변화 (Hours)\"\n    x-axis [도전적 학습/구직 활동, 수동적 스크린 시청 여가]\n    y-axis \"주당 소요 시간 (Hours)\" 0 --> 40\n    bar [12, 35]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 4: 북유럽 기본소득(UBI) 실험 실측치: 무조건적 현금 지급과 '청년 무기력증' 상관관계"
       },
       {
         "slideNumber": 30,
@@ -12185,7 +12799,8 @@ export const sessionsList = [
         "mermaid": "pie title 18~29세 청년층의 연애 상태 분포 (%)\n    \"비연애 및 연애 포기 (63%)\" : 63\n    \"연애 중 (37%)\" : 37",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 5: Z세대 연애 및 성관계 포기율 60% 돌파: 디지털 대체재와 생식 본능의 거세"
       },
       {
         "slideNumber": 31,
@@ -12205,7 +12820,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"논리 추론 및 비판적 사고력 평가 점수 (100점 만점)\"\n    x-axis [AI 미사용 전통 학습군, AI를 도구로 비판적 활용군, AI에 전면 의존한 학생군]\n    y-axis \"사고력 점수\" 0 --> 100\n    bar [82, 91, 53]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 6: 챗GPT 의존 학생들의 비판적 사고력 점수 35% 하락 실측 데이터"
       },
       {
         "slideNumber": 32,
@@ -12225,7 +12841,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"환경별 대뇌 인지 활력 및 신경 가소성 지수\"\n    x-axis [도시 안락한 사무직, 장기 은둔자, 남극 극지 월동 탐험대원]\n    y-axis \"신경 가소성 지수\" 0 --> 100\n    bar [45, 18, 92]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 7: 극한 환경 극지 탐험가 및 우주비행사의 '유스트레스(Eustress)'와 인지 생명력 데이터"
       },
       {
         "slideNumber": 33,
@@ -12245,7 +12862,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    VRImmersion[\"완벽한 가상 유토피아 몰입 (고통과 마찰 0%)\"] --> RealityPhobia[\"오프라인 현실 공포증(Reality Phobia) 발병\"]\n    RealityPhobia --> RealWorldSever[\"현실 사회와의 완전한 단절 → 육체적 고립 심화\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 8: 가상현실(VR) 메타버스 24시간 몰입자의 현실 사회적 관계 단절 90% 실증"
       },
       {
         "slideNumber": 34,
@@ -12265,7 +12883,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"글로벌 목적 중심 경제(Purpose Economy) 시장 규모 (USD Billions)\"\n    x-axis [2020, 2022, 2024, 2026, 2030 (예측)]\n    y-axis \"시장 규모 (USD Billions)\" 0 --> 150\n    line [12, 24, 38, 52.4, 125.0]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "CASE 9: 글로벌 목적 중심 웰니스(Purpose Economy) 시장 규모 $50B 급성장 통계"
       },
       {
         "slideNumber": 35,
@@ -12281,7 +12900,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "The Paradise Paradox 및 인지적 퇴화 글로벌 실증 종합 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -12301,7 +12921,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    EradicateScarcity[\"모든 고통과 결핍 제거\"] --> SoulDeath[\"영혼의 질식 & 첫 번째 죽음\"]\n    SoulDeath --> NeedNewChallenge[\"새로운 우주적 문샷 도전 자발적 창조 → 인류 영혼의 영구 부활!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "결핍의 역설: \"인간은 고통과 장벽이 없으면 스스로 영혼을 파괴하는 존재인가?\""
       },
       {
         "slideNumber": 37,
@@ -12321,7 +12942,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DystopiaOld[\"1984형 디스토피아: 채찍과 공포 → 인간이 저항함\"] \n    DystopiaNew[\"멋진 신세계 / 우주 25형 디스토피아: 당근과 무제한 쾌락 → 인간이 자발적으로 항복하고 멸종함!\"]\n    DystopiaOld <==>|대립 • 비교| DystopiaNew",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "안락한 소외(Comfortable Alienation): 디스토피아는 전쟁이 아니라 '안락사'로 온다"
       },
       {
         "slideNumber": 38,
@@ -12341,7 +12963,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    HyperSmooth[\"마찰 제로 사회 (뇌 퇴화)\"] --> AddFriction[\"인위적 제약 도입 (고강도 운동 • 오프라인 대화 • 극한 탐험)\"]\n    AddFriction --> RobustBrain[\"단단한 뇌 가소성 & 회복탄력성 회복!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "인위적 제약(Constructive Friction)의 재도입: 의도적 고통과 도전의 의무화"
       },
       {
         "slideNumber": 39,
@@ -12361,7 +12984,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    AbundantWorld[\"물질적 풍요 완성 (기아/질병 0)\"] --> MoonshotEngine[\"Giga-XPRIZE 문샷 엔진 장착\"]\n    MoonshotEngine --> Goal1[\"1. 화성 및 심우주 인류 정착지 개척\"]\n    MoonshotEngine --> Goal2[\"2. 노화 100% 역전 & 건강 수명 150세 도약\"]\n    MoonshotEngine --> Goal3[\"3. 행성 생태계 완전 복원 & 기후 조율\"]\n    Goal1 & Goal2 & Goal3 --> EternalCivilization[\"영원히 진화하는 불멸의 우주 문명 탄생!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "문샷 목적(Moonshot Purpose): 풍요 속에서 멸종을 막는 유일한 항법 나침반"
       },
       {
         "slideNumber": 40,
@@ -12381,7 +13005,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    PostScarcity[\"스타트렉 경제 (물질 무한 복제 • 화폐 소멸)\"] --> Drive[\"인간 내면의 순수한 호기심 & 탐험 열정\"]\n    Drive --> Enterprise[\"엔터프라이즈호 출항 → 미지의 우주 문명과 조우!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스타트렉 문명의 비밀: 화폐는 사라졌으나 '탐험과 개척의 열정'은 남았다"
       },
       {
         "slideNumber": 41,
@@ -12401,7 +13026,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    GodLikePower[\"신과 같은 기하급수 기술 권능 (Theogony)\"] <===>|Theurgicon의 완벽한 융합| SoulfulHuman[\"고난을 함께 극복하는 따뜻한 영혼 (Humanity)\"]\n    GodLikePower & SoulfulHuman --> Flourishing[\"진정한 번영(Flourishing)의 우주 문명\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Theurgicon의 최종 사명: 인간을 신으로 만들되, 영혼을 간직한 신으로 남아라"
       },
       {
         "slideNumber": 42,
@@ -12419,7 +13045,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"현실: 결핍 없는 낙원에서 스스로 번식을 멈춘 우주 25의 비극\"] --> B[\"원인: 목적의 소멸과 안락한 소외 (첫 번째 죽음)\"]\n    B --> C[\"해법: 인위적 제약 설정 & 1,000억 달러 문샷 목적 투신\"]\n    C --> D[\"THEURGICON의 사명: 낙원의 덫을 찢고 별들을 향해 인류의 닻을 올려라!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 낙원의 덫을 찢고 우주적 문샷을 향해 출항하라"
       },
       {
         "slideNumber": 43,
@@ -12435,7 +13062,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    D1[\"논제 1: 대한민국과 선진국의 초저출산 현상이 존 칼훈의 '우주 25 Phase D'와 동일한 '안락함 속의 사회적 자살'이라면, 단순 현금 지원 정책을 전면 폐지하고 국가적 거대 문샷 탐험 프로젝트에 청년들을 강제 징용/배치하는 정책은 정당한가?\"]\n    D2[\"논제 2: AI와 로봇이 인간의 모든 노동을 100% 자동화했을 때, 인간 뇌의 인지적 퇴화를 방지하기 위해 모든 시민에게 매주 20시간의 '오프라인 신체 노역 및 고난도 학술 탐구'를 법적으로 의무화해야 하는가?\"]\n    D3[\"논제 3: '첫 번째 죽음(사회적·정신적 사멸)'을 맞이한 개체들에게 안락사(Euthanasia)를 자유롭게 허용해야 하는가, 아니면 인위적 제약과 도전을 강제 주입하여 영혼을 재부팅시켜야 하는가?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "대학원 세미나 핵심 발제 및 심층 토론 논제 3선"
       },
       {
         "slideNumber": 44,
@@ -12453,7 +13081,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "주차별 실습 과제: The Paradise Paradox 극복을 위한 '인위적 제약 & 문샷 목적 아키텍처' 기획서"
       },
       {
         "slideNumber": 45,
@@ -12473,7 +13102,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    W14[\"Week 14: Universe 25<br/>(낙원의 역설과 사회적 자살)\"] ==> W15[\"Week 15: The Grand Finale<br/>(1,000억 달러 Giga-XPRIZE 최종 설계 & 수료식)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "15주차 최종 Grand Capstone Seminar 예고: 1,000억 달러 Engineering the $100B Giga-XPRIZE & 대단원 종강"
       }
     ]
   },
@@ -12503,7 +13133,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    P1[\"Phase 1: 기하급수 인지<br/>(Weeks 01~04)\"] --> P2[\"Phase 2: 현실적 기적<br/>(Weeks 05~08)\"]\n    P2 --> P3[\"Phase 3: 풍요의 역설<br/>(Weeks 09~11)\"]\n    P3 --> P4[\"Phase 4: 인류의 진화<br/>(Weeks 12~14)\"]\n    P4 ==> Finale[\"WEEK 15: GRAND FINALE CAPSTONE<br/>100B USD Giga-XPRIZE 설계 & Theurgicon 수료!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "세션 15 개요: 15주 대서사의 완성 — 신의 학교(Theurgicon) 피날레"
       },
       {
         "slideNumber": 2,
@@ -12527,7 +13158,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph W1_15[\"15주간의 지적 대서사 아키텍처\"]\n        W1[\"W1: Theogony & 83 Miracles\"] --> W2[\"W2: Cognitive Vertigo\"]\n        W2 --> W3[\"W3: 6Ds Framework Math\"] --> W4[\"W4: Value Density Ladder\"]\n        W4 --> W5[\"W5: Mekong Delta & Zipline\"] --> W6[\"W6: Intelligence Explosion\"]\n        W6 --> W7[\"W7: PRIMA & Bio-Hybrid BCI\"] --> W8[\"W8: Synthetic Bio & Planetary GPT\"]\n        W8 --> W9[\"W9: PFAS & Microplastics Infiltration\"] --> W10[\"W10: Metabolic Collapse & Bliss Point\"]\n        W10 --> W11[\"W11: Bias Cascade & Holy Terror\"] --> W12[\"W12: Mind 2.0 & Flow 500%\"]\n        W12 --> W13[\"W13: The Cyborg Mind & Telepathy\"] --> W14[\"W14: Universe 25 & Paradise Paradox\"]\n        W14 --> W15[\"W15: 100B USD Giga-XPRIZE Finale\"]\n    end",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "15주간의 기하급수 지적 대서사 궤적 총람 (Phase 1 ~ Phase 4)"
       },
       {
         "slideNumber": 3,
@@ -12547,7 +13179,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Capital[\"100B USD Giga-Fund 조성\"] --> Multiplier{\"1:20 민간 자본 승수 레버리지\"}\n    Multiplier --> TotalRD[\"2T USD (2,700조 원) 글로벌 R&D 투자 격발!\"]\n    TotalRD --> Breakthrough[\"기후 • 노화 • 에너지 • 우주 • BCI • 환경 완전 정복!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1,000억 달러($100B) Giga-XPRIZE 캡스톤 어젠다 세팅"
       },
       {
         "slideNumber": 4,
@@ -12567,7 +13200,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Q[\"15주차 최종 핵심 질문\"] --> A[\"1. 인센티브 메커니즘: 정부 관료주의를 뛰어넘는 Giga-XPRIZE 설계 수식은?\"]\n    Q --> B[\"2. 15대 혁신 영역: 에너지, 생명 연장, 우주 개척, 인지 방어의 최우선 타깃은?\"]\n    Q --> C[\"3. 문명의 영혼: 기하급수 기술의 종착점에서 지켜내야 할 인간성의 본질은?\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "금주의 핵심 질문: 신의 권능을 쥔 인류는 어떤 문샷을 통해 영원히 번영할 것인가?"
       },
       {
         "slideNumber": 5,
@@ -12583,7 +13217,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    M1[\"M1. 15주 총결산 & 도입<br/>(Slides 01~05)\"] --> M2[\"M2. XPRIZE 인센티브 역학<br/>(Slides 06~15)\"]\n    M2 --> M3[\"M3. 15대 Giga-XPRIZE 영역<br/>(Slides 16~25)\"]\n    M3 --> M4[\"M4. 6대 팀 최종 제안 & 심사<br/>(Slides 26~35)\"]\n    M4 --> M5[\"M5. 아날로그 온기 & 수료식<br/>(Slides 36~42)\"]\n    M5 --> M6[\"M6. 시상식 & 대단원 종강<br/>(Slides 43~45)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "15주차 최종 캡스톤 세미나 진행 로드맵"
       },
       {
         "slideNumber": 6,
@@ -12601,7 +13236,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Text[\"We Are as Gods (Epilogue & Appendices)\"] --> P1[\"기둥 1: 상금 인센티브의 힘 — 1 USD의 상금이 50 USD의 민간 혁신을 유도\"]\n    Text --> P2[\"기둥 2: 문샷의 민주화 — 무명의 괴짜와 차고 스타트업에게 기회 개방\"]\n    Text --> P3[\"기둥 3: 행성적 번영(Flourishing) — 인류의 실존 난제를 풍요의 기회로 전환\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "『We Are as Gods』 종장: \"The Final Frontier Is Us\" 텍스트 해체"
       },
       {
         "slideNumber": 7,
@@ -12621,7 +13257,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Impossibility[\"'이건 물리적으로 불가능해!' (관료적 회의론)\"] --> XPRIZE_Rule[\"명확한 목표와 1,000억 달러 상금 제시\"]\n    XPRIZE_Rule --> GlobalGenius[\"수만 명의 글로벌 혁신가 집결\"]\n    GlobalGenius --> Reality[\"불가능이 3년 만에 현실로 전환!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "피터 디아만디스의 인센티브 혁신 철학: \"불가능을 상금으로 공학화하라\""
       },
       {
         "slideNumber": 8,
@@ -12637,7 +13274,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"XPRIZE 상금 규모 성장 궤적 (USD Millions)\"\n    x-axis [1996 (Ansari 10M USD), 2010 (Auto 10M USD), 2018 (Water 119M USD), 2021 (Carbon 100M USD), 2023 (Longevity 101M USD), 2026 (Giga-XPRIZE 100,000M USD)]\n    y-axis \"상금 규모 ( Millions, Log10)\" 1 --> 5\n    line [1, 1, 2.07, 2, 2.00, 5]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "엑스프라이즈 30년 역사: 안사리($10M)에서 탄소 제거($100M)까지의 진화"
       },
       {
         "slideNumber": 9,
@@ -12657,7 +13295,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Prize1[\"건강 수명 101M USD XPRIZE → 3년 내 생체 나이 10년 역전 치료제 임상 격발!\"]\n    Prize2[\"수자원 119M USD XPRIZE → 사막 한가운데서 공기 중 물 추출 상용화!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "건강 수명 엑스프라이즈($101M)와 수자원 담수화 엑스프라이즈($119M) 모델 분석"
       },
       {
         "slideNumber": 10,
@@ -12679,7 +13318,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"상금 대비 실제 유입된 민간 R&D 자본 승수 배율\"\n    x-axis [안사리 우주 상금, 자동차 연비 상금, 탄소 제거 상금, 건강 수명 상금, Giga-XPRIZE (예상)]\n    y-axis \"자본 승수 배율 (배)\" 0 --> 60\n    bar [40, 25, 35, 45, 20]",
         "formula": "\\text{Global R&D Injection} = \\$100\\text{B} \\times 20 = \\$2,000,000,000,000 \\quad (2\\text{조 달러})",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1:10~1:50 자본 승수 레버리지 효과(Capital Multiplier Effect)의 수학"
       },
       {
         "slideNumber": 11,
@@ -12699,7 +13339,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    VCLimit[\"단기 VC 투자 한계: 3년 내 회수 가능한 배달 앱/SNS에만 몰림\"] --> PrizeSolution[\"Giga-XPRIZE 1,000억 달러 보장된 시장(Market) 창출\"]\n    PrizeSolution --> DeepTechBoom[\"핵융합 • 장기 재생 • 우주 도시 등 딥테크로 수천조 원 자본 대이동!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "시장 실패를 돌파하는 '영웅적 상금(Heroic Prize)'의 메커니즘"
       },
       {
         "slideNumber": 12,
@@ -12719,7 +13360,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    MTP[\"명확하고 웅장한 MTP ('10년 내 노화를 영구 퇴치한다')\"] --> GroupFlow[\"전 세계 10만 명 과학자의 집단 몰입(Group Flow) 격발\"]\n    GroupFlow --> SyncSpeed[\"논문 심사 대기 없이 오픈소스로 500% 초고속 동시 개발!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "스티븐 코틀러의 '문샷 목적(MTP)'과 집단 몰입(Group Flow) 인프라"
       },
       {
         "slideNumber": 13,
@@ -12735,7 +13377,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "정부 R&D의 관료주의적 실패 vs XPRIZE의 민간 기하급수 혁신"
       },
       {
         "slideNumber": 14,
@@ -12755,7 +13398,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Universe25Trap[\"우주 25 안락함의 덫 (무기력 • 멸종)\"] --> GigaVaccine[\"1,000억 달러 Giga-XPRIZE 거대 도전 주입\"]\n    GigaVaccine --> ReIgnite[\"인류 영혼의 생명력과 개척 정신 영구 부활!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "우주 25의 멸종을 막는 유일한 백신: 행성 단위 Giga-XPRIZE"
       },
       {
         "slideNumber": 15,
@@ -12771,7 +13415,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    P[\"Giga-XPRIZE 5대 설계 원칙\"] --> P1[\"1. 과감하지만 달성 가능한 목표 (Audacious but Achievable)\"]\n    P2[\"2. 객관적이고 측정 가능한 단일 지표 (Objective & Measurable)\"]\n    P3[\"3. 시장 규모 대비 압도적 상금 (Transformative Purse)\"]\n    P4[\"4. 기술적 경로의 완전한 무제한 자유 (Path Agnostic)\"]\n    P5[\"5. 글로벌 오픈 쇼케이스 및 대중 참여 (Public Inspiration)\"]\n    P --> P2\n    P --> P3\n    P --> P4\n    P --> P5",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "메가 XPRIZE 5대 핵심 인센티브 설계 원칙 매트릭스"
       },
       {
         "slideNumber": 16,
@@ -12789,7 +13434,8 @@ export const sessionsList = [
         "mermaid": "pie title 1,000억 달러 Giga-XPRIZE 4대 전략 도메인 예산 배분 (USD Billions)\n    \"지구 생태 및 환경 복원 (30B USD)\" : 30\n    \"생명 연장 및 바이오 헬스스팬 (25B USD)\" : 25\n    \"무한 에너지 및 초전도 물질 (25B USD)\" : 25\n    \"우주 정착 및 인지 초연결 (20B USD)\" : 20",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "저자들이 제시한 15가지 Giga-XPRIZE 미개척 혁신 카테고리 총람"
       },
       {
         "slideNumber": 17,
@@ -12805,7 +13451,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    F1[\"1. 장기 재생 (10B USD)<br/>장기 기증 대기자 0명\"]\n    F2[\"2. 상온 초전도 (10B USD)<br/>전력 손실 0% 글로벌 그리드\"]\n    F3[\"3. 바이오스피어 (10B USD)<br/>완전 폐쇄 자족 생태계\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "카테고리 1~3: 완전 장기 재생($10B) • 상온 초전도체 그리드($10B) • 바이오스피어 3.0($10B)"
       },
       {
         "slideNumber": 18,
@@ -12821,7 +13468,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    F4[\"4. 화성 도시 (10B USD)<br/>다행성 종으로의 진화\"]\n    F5[\"5. 인공 광합성 (10B USD)<br/>대기 탄소 기가톤 제거\"]\n    F6[\"6. 텔레파시망 (10B USD)<br/>언어 병목 완전 해방\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "카테고리 4~6: 화성 자족 정착지($10B) • 인공 광합성 기가톤 고정($10B) • 초해상도 텔레파시망($10B)"
       },
       {
         "slideNumber": 19,
@@ -12837,7 +13485,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    F7[\"7. PFAS 분해 (10B USD)<br/>행성 독소 100% 정화\"]\n    F8[\"8. 상용 핵융합 (10B USD)<br/>kWh당 10원 무한 전기\"]\n    F9[\"9. 나노 공장 (10B USD)<br/>원자 조립 물질 복제\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "카테고리 7~9: PFAS/플라스틱 SCWO 완전 분해($10B) • 상용 핵융합 발전($10B) • 분자 나노어셈블러($10B)"
       },
       {
         "slideNumber": 20,
@@ -12853,7 +13502,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    F10_15[\"Frontiers 10~15 포트폴리오 (30B USD 총액)\"] --> S1[\"AI 정렬 • 지오엔지니어링 • eDNA 감시 • 암 완전 정복 • 심해 채굴 • BrainNet\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "카테고리 10~15: 초지능 AI 가드레일, 대기 지오엔지니어링, 행성 eDNA 감시망"
       },
       {
         "slideNumber": 21,
@@ -12873,7 +13523,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"상금 100B USD 투입 대비 20년간 글로벌 경제적 복리 창출액 (USD Trillions)\"\n    x-axis [건강수명 연장, 무한 청정 에너지, 기후 피해 방지, 오염물질 정화, 화성 정착 자산]\n    y-axis \"경제적 가치 (USD Trillions)\" 0 --> 45\n    bar [38.0, 18.5, 12.0, 8.5, 5.0]",
         "formula": "\\mathcal{I}_{\\text{ROI}} = \\frac{\\sum_{t=1}^{20} \\frac{\\text{Benefit}_t}{(1+r)^t}}{\\$100\\text{B}} \\ge 100 \\implies \\Delta \\text{Welfare} \\ge \\$10,000,000,000,000",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Giga-XPRIZE 경제적 ROI 수식: $\\mathcal{I}_{\\text{ROI}} = \\frac{\\Delta \\text{Global Welfare}}{\\text{Prize Purse}} \\ge 100\\times$"
       },
       {
         "slideNumber": 22,
@@ -12891,7 +13542,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Phase1[\"1단계: 실험실 개념 검증 (Lab Proof)<br/>상위 20개 팀에 15B USD 배분\"] --> Phase2[\"2단계: 파일럿 현장 실증 (Pilot Scale)<br/>상위 5개 팀에 35B USD 배분\"]\n    Phase2 --> Phase3[\"3단계: 최종 상용 스케일업 (Full Scale)<br/>최종 우승팀에 50B USD 일시 지급!\"]",
         "formula": "P_{\\text{total}} = 0.15 \\cdot P_{\\text{Lab}} + 0.35 \\cdot P_{\\text{Pilot}} + 0.50 \\cdot P_{\\text{Scale}}",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "마일스톤 기반 단계별 상금 지급 동역학 함수"
       },
       {
         "slideNumber": 23,
@@ -12911,7 +13563,8 @@ export const sessionsList = [
         "mermaid": "sequenceDiagram\n    participant Team as 도전 팀 (Innovators)\n    participant Sensors as 글로벌 IoT/위성 실측 센서\n    participant Oracle as ZK-Oracle 검증단\n    participant SmartContract as 100B USD 블록체인 스마트 계약\n\n    Team->>Sensors: 현장 기술 가동 (예: 탄소 100만 톤 제거)\n    Sensors->>Oracle: 암호화 실측 데이터 전송\n    Oracle->>SmartContract: 목표 달성 수학적 영지식 증명 제출\n    SmartContract->>Team: 100억 달러 상금 즉각 지갑 전송!",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술 검증(Auditing) 및 불변 장부(Blockchain) 스마트 계약 구조"
       },
       {
         "slideNumber": 24,
@@ -12929,7 +13582,8 @@ export const sessionsList = [
         "mermaid": "graph LR\n    Fusion[\"핵융합/초전도 (무한 에너지)\"] <==> Mars[\"화성 정착지 ISRU\"]\n    Fusion <==> SCWO[\"PFAS 고온고압 분해\"]\n    BCI[\"초해상도 BCI\"] <==> BrainNet[\"초공감 의식 융합\"]\n    Bio[\"줄기세포 장기 재생\"] <==> Longevity[\"건강 수명 120세\"]\n    Mars <==> Bio",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기하급수 융합 시너지 네트워크 토폴로지 모델"
       },
       {
         "slideNumber": 25,
@@ -12945,7 +13599,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Governance[\"Giga-XPRIZE 글로벌 거버넌스 층\"]\n        G1[\"글로벌 펀드 에스크로 (100B USD) • 스마트 계약 • ZK 오라클 검증단\"]\n    end\n    subgraph Execution[\"4대 전략 도메인 실행 층\"]\n        E1[\"지구 생태 복원 (30B USD)\"]\n        E2[\"장수 바이오 (25B USD)\"]\n        E3[\"무한 에너지 (25B USD)\"]\n        E4[\"우주 & 인지 (20B USD)\"]\n    end\n    subgraph Impact[\"문명사적 복리 창출 층\"]\n        I1[\"Universe 25 낙원의 덫 파쇄 • 100배 글로벌 복리 • 우주 문명 출항\"]\n    end\n    Governance --> Execution --> Impact",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "1,000억 달러 Giga-XPRIZE 마스터 아키텍처 다이어그램"
       },
       {
         "slideNumber": 26,
@@ -12961,7 +13616,8 @@ export const sessionsList = [
         "mermaid": "pie title Giga-XPRIZE 4대 심사 기준 가중치\n    \"제1원리 기술 타당성 (30점)\" : 30\n    \"마일스톤 정밀도 (25점)\" : 25\n    \"문명사적 임팩트 ROI (25점)\" : 25\n    \"우주 25 극복 윤리 (20점)\" : 20",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "캡스톤 발표 개요: 6대 융합 팀별 1,000억 달러 문샷 제안서 심사 기준"
       },
       {
         "slideNumber": 27,
@@ -12981,7 +13637,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T1_Tech[\"상온 초전도 선재 1,000km 제조\"] --> T1_Milestone[\"10GW 송전 손실 0% 1년 연속 가동 실증\"]\n    T1_Milestone --> T1_Prize[\"15B USD 상금 획득 → 전 세계 전력망 100% 교체!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 1: '글로벌 초전도 청정 그리드 & 제로 저항 무한 에너지' ($15B)"
       },
       {
         "slideNumber": 28,
@@ -13001,7 +13658,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T2_Tech[\"Yamanaka 4인자 표적 mRNA 칵테일\"] --> T2_Clinical[\"70세 노인 생체 나이 20세로 50년 역전 임상\"]\n    T2_Clinical --> T2_Prize[\"20B USD 획득 → 연간 38T USD 건강 수명 배당금 창출!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 2: '생체 나이 50년 역전 & 장수 탈출 속도(LEV) 정복' ($20B)"
       },
       {
         "slideNumber": 29,
@@ -13021,7 +13679,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T3_Tech[\"유전체 편집 미세조류 & DAC 융합\"] --> T3_Scale[\"연간 100억 톤 현무암 영구 격리 (20 USD/ton)\"]\n    T3_Scale --> T3_Prize[\"15B USD 획득 → 기후 위기 영구 종식!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 3: '행성 대기 탄소 100억 톤 직접 포집 및 지오엔지니어링' ($15B)"
       },
       {
         "slideNumber": 30,
@@ -13041,7 +13700,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T4_Tech[\"양자 뇌자도(MEG) 패치 + ZKP 뉴로 보안\"] --> T4_Telepathy[\"100만 명 뇌-뇌 텔레파시 초공감망 구축\"]\n    T4_Telepathy --> T4_Prize[\"15B USD 획득 → 오해와 분쟁의 원천 소멸!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 4: '초연결 뉴로 프라이버시 텔레파시망 & 초공감 문명' ($15B)"
       },
       {
         "slideNumber": 31,
@@ -13061,7 +13721,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T5_Tech[\"ISRU 산소/물 추출 & 폐쇄 핵융합 도시\"] --> T5_Mars[\"화성 1,000인 영구 자족 도시 10년 생존\"]\n    T5_Mars --> T5_Prize[\"20B USD 획득 → 우주 25의 덫 영구 분쇄!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 5: '우주 25 탈출을 위한 화성 자족 도시 바이오스피어 3.0' ($20B)"
       },
       {
         "slideNumber": 32,
@@ -13081,7 +13742,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    T6_Tech[\"모듈형 초임계수 산화(SCWO) 양산\"] --> T6_Clean[\"일일 1억 톤 오염수 PFAS 99.999% 분해\"]\n    T6_Clean --> T6_Prize[\"15B USD 획득 → 호모 사피엔스 체내 독소 0% 정화!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Team 6: 'PFAS 및 미세플라스틱 100% 완전 분해 SCWO 배치' ($15B)"
       },
       {
         "slideNumber": 33,
@@ -13097,7 +13759,8 @@ export const sessionsList = [
         "mermaid": "xychart-beta\n    title \"6대 팀별 최종 심사 점수 합계 (100점 만점)\"\n    x-axis [Team 1 (초전도), Team 2 (생체역전), Team 3 (탄소포집), Team 4 (텔레파시), Team 5 (화성도시), Team 6 (PFAS정화)]\n    y-axis \"최종 점수 (점)\" 80 --> 100\n    bar [95, 98, 94, 96, 99, 97]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "심사위원단 실시간 기술 검증 및 투자 타당성 정량 평가표"
       },
       {
         "slideNumber": 34,
@@ -13115,7 +13778,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    ConvergenceAll[\"100B USD Giga-XPRIZE 동시 격발\"] --> S1[\"에너지 제로 비용 (Team 1)\"]\n    ConvergenceAll --> S2[\"120세 청춘 수명 (Team 2)\"]\n    ConvergenceAll --> S3[\"대기 탄소 정상화 (Team 3)\"]\n    ConvergenceAll --> S4[\"초공감 평화 문명 (Team 4)\"]\n    ConvergenceAll --> S5[\"다행성 인류 진화 (Team 5)\"]\n    ConvergenceAll --> S6[\"체내 독소 영구 정화 (Team 6)\"]\n    S1 & S2 & S3 & S4 & S5 & S6 ==> Utopia[\"신이 된 인류(Theurgicon)의 완전한 개막!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "팀별 기하급수 레버리지 및 문명사적 파급력 비교 분석"
       },
       {
         "slideNumber": 35,
@@ -13131,7 +13795,8 @@ export const sessionsList = [
         "mermaid": "",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "6대 Giga-XPRIZE 최종 종합 평가 매트릭스"
       },
       {
         "slideNumber": 36,
@@ -13151,7 +13816,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    TechApex[\"기하급수 기술의 극점 (초지능 • BCI • 무한 풍요)\"] ==> TrueHuman[\"진정한 휴머니즘 (사랑 • 공감 • 창조 • 영혼의 연대)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "기술의 종착점에서 마주하는 진정한 휴머니즘"
       },
       {
         "slideNumber": 37,
@@ -13171,7 +13837,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    DigitalSummit[\"100만 개 GPU 클라우드 & 1Gbps BCI 초연결\"] <===>|영혼의 중심을 잡는 닻| AnalogWarmth[\"어깨를 맞대고 서로의 눈을 바라보며 부르는 노래 (체화된 온기)\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "\"어깨를 맞대고 노래를 부르는 지극히 아날로그적인 온기\""
       },
       {
         "slideNumber": 38,
@@ -13191,7 +13858,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    TyrantGod[\"교만한 신: 자연을 파괴하고 자멸하는 오만 (Hubris)\"] \n    StewardGod[\"청지기 신 (Theurgicon): 생명을 치유하고 우주를 개척하는 지혜 (Wisdom)\"]\n    TyrantGod <==>|대립 • 비교| StewardGod",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "신(Theurgicon)이 된 인류의 거룩한 청지기 사명"
       },
       {
         "slideNumber": 39,
@@ -13207,7 +13875,8 @@ export const sessionsList = [
         "mermaid": "graph TD\n    subgraph Foundation[\"1단계: 인지적 기초 (Weeks 01~04)\"]\n        A1[\"83 Miracles • 6D Math • Value Density Ladder\"]\n    end\n    subgraph Miracles[\"2단계: 현실적 기적 (Weeks 05~08)\"]\n        A2[\"Compute Scaling • BCI/PRIMA • Synthetic Biology • Planetary GPT\"]\n    end\n    subgraph Threats[\"3단계: 실존적 독소 해독 (Weeks 09~11)\"]\n        A3[\"PFAS/Microplastics • Metabolic Bliss Point • Bias Cascade\"]\n    end\n    subgraph Evolution[\"4단계: 의식과 문샷 진화 (Weeks 12~15)\"]\n        A4[\"Mind 2.0 (Flow) • The Cyborg Mind • Universe 25 Defense • 100B USD Giga-XPRIZE\"]\n    end\n    Foundation --> Miracles --> Threats --> Evolution",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "15주 전체 커리큘럼 종합 프레임워크 완전 통합도"
       },
       {
         "slideNumber": 40,
@@ -13229,7 +13898,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Faculty[\"3인의 교수진 최종 담론\"] --> P1[\"Prof. Peter Kim: 담대한 문샷 비전과 인류애의 나침반\"]\n    Faculty --> P2[\"Dr. Elena Vance: 냉철한 데이터 필터와 제1원리 엄밀성\"]\n    Faculty --> P3[\"TA Marcus Brody: 지체 없는 딥테크 실행과 프로토타이핑\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "\"우리는 신처럼 살 준비가 되었는가?\" — 3인의 최종 교수진 담론"
       },
       {
         "slideNumber": 41,
@@ -13245,7 +13915,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    Creed[\"THE THEURGICON CREED (수료 선언)\"] --> C1[\"풍요의 창조 • 문샷 투신 • 초공감 연대 • 미래의 주권자\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "Theurgicon Graduate School 수료 선언문 낭독"
       },
       {
         "slideNumber": 42,
@@ -13265,7 +13936,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    A[\"과거: 자연의 변덕과 결핍에 떨던 무력한 사피엔스\"] --> B[\"현재: 기하급수 기술과 15대 Giga-XPRIZE로 무장한 신인류\"]\n    B --> C[\"THEURGICON의 최종 결론: WE ARE AS GODS — 별들을 향해 인류의 깃발을 꽂아라!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "SO WHAT? 결론: 당신이 바로 신이며, 미래는 당신의 손에 달려 있다"
       },
       {
         "slideNumber": 43,
@@ -13287,7 +13959,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    GrandPrize[\"🏆 대상: Team 5 (화성 1,000인 자족 도시 20B USD)\"]\n    RunnerUp1[\"🥇 최우수상: Team 2 (생체 나이 50년 역전 20B USD)\"]\n    RunnerUp2[\"🥇 최우수상: Team 6 (PFAS 완전 분해 SCWO 15B USD)\"]\n    AllTeams[\"🎖️ 6개 팀 전원 1,000억 달러 글로벌 펀딩 수여!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "최우수 Engineering the $100B Giga-XPRIZE팀 시상 및 1,000억 달러 가상 펀딩 수여"
       },
       {
         "slideNumber": 44,
@@ -13303,7 +13976,8 @@ export const sessionsList = [
         "mermaid": "flowchart LR\n    Prof[\"Prof. Peter Kim:<br/>'여러분의 가슴속에 타오르는 문샷의 불꽃을 절대 꺼뜨리지 마십시오. 여러분이 인류의 희망입니다.'\"] \n    Elena[\"Dr. Elena Vance:<br/>'의심하고, 검증하고, 몰입하십시오. 진실만이 여러분을 자유롭게 할 것입니다.'\"]\n    Marcus[\"TA Marcus Brody:<br/>'현장에서 뵙겠습니다. 세상을 뒤엎을 유니콘을 만들어냅시다. 화이팅!'\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "교수진 3인의 최종 작별 인사 및 학생들을 향한 헌정사"
       },
       {
         "slideNumber": 45,
@@ -13325,7 +13999,8 @@ export const sessionsList = [
         "mermaid": "flowchart TD\n    CourseEnd[\"EXPO-701: WE ARE AS GODS (신이 된 인류)\"] --> Completed[\"15주 45슬라이드 675개 마스터 커리큘럼 전 과정 완결!\"]\n    Completed --> Sail[\"WE ARE AS GODS AND WE WILL GET GOOD AT IT.<br/>공식 종강 및 대우주 출항 선언!\"]",
         "formula": "",
         "scriptKo": "",
-        "scriptEn": ""
+        "scriptEn": "",
+        "title": "EXPO-701 《We Are as Gods》 공식 종강 및 위대한 출항 선언"
       }
     ]
   }
