@@ -7,3 +7,5 @@ dist
 *.epub
 .DS_Store
 Thumbs.db
+
+.vercel

@@ -4,8 +4,8 @@ import { Skull, AlertTriangle, Play, Pause, RefreshCw, HeartHandshake } from 'lu
 export default function SimulatorUniverse25({ lang }) {
   const [currentDay, setCurrentDay] = useState(560);
 
-  const timelineData = [
-    { day: 0, pop: 8, phase: 'Phase A: Establishment', event: '8 Healthy Mice (4M, 4F) introduced to 2.7m square paradise. Abundance: 100%.' },
+  const timelineDataEn = [
+    { day: 0, pop: 8, phase: 'Phase A: Establishment', event: '8 Healthy Mice (4M, 4F) introduced to 2.7m square paradise. Scarcity = 0%.' },
     { day: 104, pop: 20, phase: 'Phase A: First Generation', event: 'First litters born. Social bonds strong, territorial spaces healthy.' },
     { day: 220, pop: 180, phase: 'Phase B: Rapid Exploitation', event: 'Population doubling every 55 days. Perfect exponential growth.' },
     { day: 315, pop: 620, phase: 'Phase C: Stagnation Peak', event: 'Peak population (620 mice). All 256 nesting apartments claimed. Role loss begins.' },
@@ -17,6 +17,22 @@ export default function SimulatorUniverse25({ lang }) {
     { day: 1500, pop: 25, phase: 'Phase D: The Final Few', event: '25 elderly mice remain. Food untouched, infinite water.' },
     { day: 1780, pop: 0, phase: 'Phase D: Total Extinction', event: 'Last surviving male dies. Population reaches 0. Extinction complete.' }
   ];
+
+  const timelineDataKo = [
+    { day: 0, pop: 8, phase: 'Phase A: 정착기 (Establishment)', event: '4쌍의 건강한 쥐(8마리)를 2.7m 낙원에 도입. 결핍 0%.' },
+    { day: 104, pop: 20, phase: 'Phase A: 1세대 출현', event: '첫 새끼 출산. 사회적 유대감과 영역권 건강하게 형성.' },
+    { day: 220, pop: 180, phase: 'Phase B: 기하급수 폭발기', event: '55일마다 개체 수 2배 증가. 완벽한 기하급수 번식.' },
+    { day: 315, pop: 620, phase: 'Phase C: 정체 및 포화기', event: '최대 개체 수 도달(620마리). 모든 아파트 점유 완료. 역할 결핍 시작.' },
+    { day: 450, pop: 600, phase: 'Phase C: 행동 싱크(Behavioral Sink)', event: '젊은 수컷들이 설 자리를 잃음. 중앙 광장에서 무차별 폭력 발생.' },
+    { day: 560, pop: 580, phase: 'Phase D: 아름다운 자들(Beautiful Ones)', event: '"아름다운 자들" 출현. 사회적 단절, 번식 포기, 그루밍만 지속.' },
+    { day: 750, pop: 420, phase: 'Phase D: 사망률 역전 가속', event: '사망률이 출생률을 초월. 어미가 새끼를 버리고 공격.' },
+    { day: 920, pop: 120, phase: 'Phase D: 최후의 임신', event: '우주 25 역사의 마지막 임신. 이후 번식 완전 중단.' },
+    { day: 1200, pop: 95, phase: 'Phase D: 노화기', event: '아름다운 자들의 집단 노화. 짝짓기 시도 0건.' },
+    { day: 1500, pop: 25, phase: 'Phase D: 최후의 생존자', event: '25마리의 노령 쥐만 잔존. 무제한 음식은 그대로 방치됨.' },
+    { day: 1780, pop: 0, phase: 'Phase D: 완전 멸종', event: '마지막 수컷 사망. 개체 수 0 마리. 종의 완전한 자발적 멸종.' }
+  ];
+
+  const timelineData = lang === 'en' ? timelineDataEn : timelineDataKo;
 
   // Interpolate current population
   const getInterpolatedData = (day) => {
@@ -58,7 +74,9 @@ export default function SimulatorUniverse25({ lang }) {
         <div className="lg:col-span-5 space-y-6 bg-slate-950/60 p-6 rounded-2xl border border-slate-800">
           <div>
             <div className="flex justify-between items-center mb-2">
-              <span className="text-xs font-bold uppercase text-slate-400">Simulation Day:</span>
+              <span className="text-xs font-bold uppercase text-slate-400">
+                {lang === 'en' ? 'Simulation Day:' : '시뮬레이션 일자:'}
+              </span>
               <span className="text-2xl font-extrabold font-mono text-rose-400">Day {currentDay}</span>
             </div>
             <input
@@ -71,27 +89,29 @@ export default function SimulatorUniverse25({ lang }) {
               className="w-full h-2 bg-slate-800 rounded-lg appearance-none cursor-pointer accent-rose-500"
             />
             <div className="flex justify-between text-[10px] text-slate-500 mt-1">
-              <span>Day 0 (8 Mice)</span>
-              <span>Day 560 (Peak)</span>
-              <span>Day 1780 (0 Mice)</span>
+              <span>Day 0 ({lang === 'en' ? '8 Mice' : '8마리'})</span>
+              <span>Day 560 ({lang === 'en' ? 'Peak' : '정점'})</span>
+              <span>Day 1780 ({lang === 'en' ? '0 Mice' : '0마리'})</span>
             </div>
           </div>
 
           {/* Quick Jump Milestone Buttons */}
           <div className="space-y-1.5">
-            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">Jump to Historical Milestone:</span>
+            <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block mb-2">
+              {lang === 'en' ? 'Jump to Historical Milestone:' : '역사적 마일스톤 바로가기:'}
+            </span>
             <div className="grid grid-cols-2 gap-2">
               <button onClick={() => setCurrentDay(0)} className="px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-400 text-slate-300 text-xs font-medium text-left">
-                🌱 Day 0: 8 Adam Mice
+                {lang === 'en' ? '🌱 Day 0: 8 Adam Mice' : '🌱 Day 0: 8마리 도입'}
               </button>
               <button onClick={() => setCurrentDay(315)} className="px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-amber-400 text-slate-300 text-xs font-medium text-left">
-                ⚠️ Day 315: 620 Peak
+                {lang === 'en' ? '⚠️ Day 315: 620 Peak' : '⚠️ Day 315: 620마리 정점'}
               </button>
               <button onClick={() => setCurrentDay(560)} className="px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-purple-400 text-slate-300 text-xs font-medium text-left">
-                🪞 Day 560: Beautiful Ones
+                {lang === 'en' ? '🪞 Day 560: Beautiful Ones' : '🪞 Day 560: 아름다운 자들'}
               </button>
               <button onClick={() => setCurrentDay(920)} className="px-2.5 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-rose-400 text-slate-300 text-xs font-medium text-left">
-                🚫 Day 920: Births = 0
+                {lang === 'en' ? '🚫 Day 920: Births = 0' : '🚫 Day 920: 출생률 0'}
               </button>
             </div>
           </div>
@@ -99,17 +119,21 @@ export default function SimulatorUniverse25({ lang }) {
           {/* Current Day Metric Readouts */}
           <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 space-y-2.5">
             <div className="flex justify-between text-xs">
-              <span className="text-slate-400">Living Population:</span>
-              <span className="font-mono font-bold text-white text-sm">{currentStatus.pop} Mice</span>
+              <span className="text-slate-400">{lang === 'en' ? 'Living Population:' : '생존 개체 수:'}</span>
+              <span className="font-mono font-bold text-white text-sm">{currentStatus.pop} {lang === 'en' ? 'Mice' : '마리'}</span>
             </div>
             <div className="flex justify-between text-xs">
-              <span className="text-slate-400">Current Phase:</span>
+              <span className="text-slate-400">{lang === 'en' ? 'Current Phase:' : '현재 단계:'}</span>
               <span className="font-bold text-amber-400">{currentStatus.phase}</span>
             </div>
             <div className="flex justify-between text-xs">
-              <span className="text-slate-400">Reproductive Vitality:</span>
+              <span className="text-slate-400">{lang === 'en' ? 'Reproductive Vitality:' : '생식 활성도:'}</span>
               <span className={`font-bold ${currentDay > 920 ? 'text-rose-400' : currentDay > 560 ? 'text-amber-400' : 'text-emerald-400'}`}>
-                {currentDay > 920 ? '0% (Irreversibly Dead)' : currentDay > 560 ? '12% (Severely Impaired)' : '100% (Healthy)'}
+                {currentDay > 920 
+                  ? (lang === 'en' ? '0% (Irreversibly Dead)' : '0% (비가역적 중단)')
+                  : currentDay > 560 
+                    ? (lang === 'en' ? '12% (Severely Impaired)' : '12% (심각한 손상)')
+                    : (lang === 'en' ? '100% (Healthy)' : '100% (건강)')}
               </span>
             </div>
           </div>
@@ -124,7 +148,13 @@ export default function SimulatorUniverse25({ lang }) {
 
             <div className="p-4 rounded-xl bg-rose-950/20 border border-rose-500/30 text-slate-200 text-xs sm:text-sm leading-relaxed mb-6">
               <strong className="text-rose-400 block mb-1">
-                {currentDay >= 1780 ? '💀 DAY 1780: THE SILENT END' : currentDay >= 920 ? '🛑 DAY 920: THE POINT OF NO RETURN' : currentDay >= 560 ? '🪞 DAY 560: THE BEAUTIFUL ONES' : '🌾 DAYS 0~315: THE GOLDEN AGE'}
+                {currentDay >= 1780 
+                  ? (lang === 'en' ? '💀 DAY 1780: THE SILENT END' : '💀 DAY 1780: 침묵의 종말')
+                  : currentDay >= 920 
+                    ? (lang === 'en' ? '🛑 DAY 920: THE POINT OF NO RETURN' : '🛑 DAY 920: 되돌릴 수 없는 임계점')
+                    : currentDay >= 560 
+                      ? (lang === 'en' ? '🪞 DAY 560: THE BEAUTIFUL ONES' : '🪞 DAY 560: 아름다운 자들의 출현')
+                      : (lang === 'en' ? '🌾 DAYS 0~315: THE GOLDEN AGE' : '🌾 DAYS 0~315: 황금 번식기')}
               </strong>
               {currentStatus.event}
             </div>
@@ -132,10 +162,12 @@ export default function SimulatorUniverse25({ lang }) {
             {/* Visual Timeline Bar representation */}
             <div className="space-y-2">
               <div className="flex justify-between text-[11px] text-slate-400">
-                <span>Phase A (Growth)</span>
-                <span>Phase B (Boom)</span>
-                <span>Phase C (Sink)</span>
-                <span className="text-rose-400 font-bold">Phase D (Beautiful Ones Extinction)</span>
+                <span>Phase A ({lang === 'en' ? 'Growth' : '성장'})</span>
+                <span>Phase B ({lang === 'en' ? 'Boom' : '폭발'})</span>
+                <span>Phase C ({lang === 'en' ? 'Sink' : '정체'})</span>
+                <span className="text-rose-400 font-bold">
+                  Phase D ({lang === 'en' ? 'Beautiful Ones Extinction' : '아름다운 자들과 멸종'})
+                </span>
               </div>
               <div className="w-full h-4 bg-slate-900 rounded-full overflow-hidden flex border border-slate-800">
                 <div style={{ width: '6%' }} className="bg-cyan-500" title="Phase A" />
@@ -148,7 +180,9 @@ export default function SimulatorUniverse25({ lang }) {
 
           {/* Civilizational Lesson Callout */}
           <div className="mt-6 p-4 rounded-xl bg-purple-950/20 border border-purple-500/30 text-xs text-slate-300 leading-relaxed">
-            <strong className="text-purple-300 block mb-1">💡 The First Death Warning for 2026 Humanity:</strong>
+            <strong className="text-purple-300 block mb-1">
+              💡 {lang === 'en' ? 'The First Death Warning for 2026 Humanity:' : '2026 인류를 향한 제1의 죽음 경고:'}
+            </strong>
             {lang === 'en'
               ? 'When artificial intelligence and automated robotics remove all physical scarcity, humanity will degenerate like Universe 25 unless we anchor ourselves in massive transformative purpose (Moonshots).'
               : '인공지능과 로봇이 모든 생존 마찰을 제거할 때, 인류는 문샷 목적(Moonshot Purpose)을 품지 않으면 우주 25의 쥐들처럼 스스로 번식을 멈추고 멸종할 것입니다.'}

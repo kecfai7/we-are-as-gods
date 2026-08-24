@@ -9,7 +9,9 @@ export default function CourseFooter({ lang }) {
         {/* 3 Instructors Showcase */}
         <div>
           <div className="text-center max-w-2xl mx-auto mb-10">
-            <span className="badge badge-cyan text-xs mb-2">Faculty & Research Team</span>
+            <span className="badge badge-cyan text-xs mb-2">
+              {lang === 'en' ? 'Faculty & Research Team' : '교수진 및 연구팀'}
+            </span>
             <h3 className="font-['Syne'] font-extrabold text-2xl sm:text-3xl text-white">
               {lang === 'en' ? 'Course Instructors & Seminar Leaders' : 'EXPO-701 교수진 및 연구팀'}
             </h3>
@@ -53,10 +55,12 @@ export default function CourseFooter({ lang }) {
             THE THEURGICON GRADUATION CREED
           </h4>
           <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mx-auto leading-relaxed italic mb-4">
-            "We are as gods and might as well get good at it. We engineer abundance not to become machines, but to elevate human consciousness and cosmic empathy."
+            {lang === 'en'
+              ? '"We are as gods and might as well get good at it. We engineer abundance not to become machines, but to elevate human consciousness and cosmic empathy."'
+              : '"우리는 이미 신이 되었으니 잘해내는 수밖에 없다. 인류가 풍요를 설계하는 것은 기계가 되기 위함이 아니라, 인간의 의식을 확장하고 우주적 공감을 완성하기 위함이다."'}
           </p>
           <div className="text-[11px] font-mono text-purple-400 uppercase tracking-wider">
-            EXPO-701 • Spring 2026 Academic Session
+            EXPO-701 • {lang === 'en' ? 'Spring 2026 Academic Session' : '2026 봄학기 대학원 세미나'}
           </div>
         </div>
 
@@ -69,7 +73,7 @@ export default function CourseFooter({ lang }) {
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1 text-slate-400">
               <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-              <span>Academic Honor Code Verified</span>
+              <span>{lang === 'en' ? 'Academic Honor Code Verified' : '학술 아너 코드 인증 완료'}</span>
             </span>
           </div>
         </div>

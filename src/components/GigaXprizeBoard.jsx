@@ -15,8 +15,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 95,
       icon: "⚡",
       domain: "Infinite Energy",
+      domainKo: "무한 청정 에너지",
       mtp: "Eliminate 100% of global power transmission loss, liberating 10,000 TWh of clean energy annually.",
+      mtpKo: "전 지구 송전 손실 100% 제거 및 연간 10,000 TWh 청정 전기 해방",
       metric: "1,000 km ambient superconductor wire at 295K & 10GW zero loss transmission.",
+      metricKo: "295K 1기압 1,000km 초전도 선재 가설 및 10GW 무손실 송전 실증",
       leverage: "25× ($375B Private Capital Generated)"
     },
     {
@@ -27,8 +30,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 98,
       icon: "🧬",
       domain: "Longevity & Healthspan",
+      domainKo: "장수 및 건강수명",
       mtp: "Reset a 70-year-old's cellular tissue to the pristine vitality of a 20-year-old.",
+      mtpKo: "70세 노인의 세포 조직을 20세 청년의 생체 나이로 역전시켜 영구 젊음 제공",
       metric: "50-year DNA methylation clock reset across 100 clinical human trials.",
+      metricKo: "100명 인간 임상에서 야마나카 인자 기반 생체 시계 50년 역전 실측치 증명",
       leverage: "40× ($800B Private Capital Generated)"
     },
     {
@@ -39,8 +45,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 94,
       icon: "🌍",
       domain: "Planetary Restoration",
+      domainKo: "행성 생태 복원",
       mtp: "Restore pre-industrial atmospheric CO2 (280 ppm) at under $20 per ton.",
+      mtpKo: "산업화 이전의 대기 농도(280 ppm)로 복원하는 톤당 $20 이하 초대형 포집 시스템",
       metric: "10 Gigatons/year permanent basalt mineralization verified by satellite eDNA.",
+      metricKo: "연간 100억 톤 현무암 영구 광물화 실시간 위성 검증 통과",
       leverage: "30× ($450B Private Capital Generated)"
     },
     {
@@ -51,8 +60,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 96,
       icon: "🧠",
       domain: "Cognitive Evolution",
+      domainKo: "인지 진화 & 초연결",
       mtp: "Break the 50 bps speech bottleneck to enable 100 Mbps silent empathetic thought transfer.",
+      mtpKo: "50 bps 언어 병목을 깨고 초당 100 Mbps 무음성 공감 텔레파시 통신망 구축",
       metric: "99% silent speech decoder accuracy with zero-knowledge on-device thought firewall.",
+      metricKo: "99% 무음성 디코더 정확도 및 온디바이스 영지식 생각 방화벽 완성",
       leverage: "20× ($300B Private Capital Generated)"
     },
     {
@@ -63,8 +75,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 99,
       icon: "🚀",
       domain: "Space & Multi-Planetary",
+      domainKo: "우주 & 다행성 문명",
       mtp: "Make humanity a multi-planetary immortal civilization to permanently shatter the Universe 25 trap.",
+      mtpKo: "인류를 다행성 불멸 문명으로 진화시켜 우주 25의 멸종 덫을 영구 분쇄",
       metric: "1,000 humans living 10 years on Mars surface with 100% autonomous closed-loop ISRU.",
+      metricKo: "1,000명이 외부 보급 없이 10년간 자급자족하는 완전 폐쇄 생태계 완성",
       leverage: "50× ($1,000B Private Capital Generated)"
     },
     {
@@ -75,8 +90,11 @@ export default function GigaXprizeBoard({ lang }) {
       score: 97,
       icon: "💧",
       domain: "Planetary Detox",
+      domainKo: "행성 정화 및 해독",
       mtp: "Eradicate forever chemicals from all global waterways and human brains using supercritical water.",
+      mtpKo: "초임계수를 이용해 전 지구 수계와 인체 뇌 속 잔류 화학물질 100% 박멸",
       metric: "10,000 SCWO modular plants deployed decomposing 100M tons/day with 99.999% C-F destruction.",
+      metricKo: "10,000기 모듈러 플랜트 가동으로 일 1억 톤 C-F 결합 99.999% 완전 분해",
       leverage: "35× ($525B Private Capital Generated)"
     }
   ];
@@ -109,7 +127,7 @@ export default function GigaXprizeBoard({ lang }) {
         </div>
 
         <div className="flex items-center gap-2 bg-purple-950/40 border border-purple-500/40 px-4 py-2 rounded-xl text-purple-300 font-mono text-xs font-bold shadow-[0_0_20px_rgba(139,92,246,0.2)]">
-          <span>Global Purse: $100,000,000,000 USD</span>
+          <span>{lang === 'en' ? 'Global Purse: $100 Billion USD' : '글로벌 총 상금: 1,000억 달러 (100B USD)'}</span>
         </div>
       </div>
 
@@ -143,9 +161,15 @@ export default function GigaXprizeBoard({ lang }) {
           {/* Left 8 Cols: Project Pitch Specs */}
           <div className="lg:col-span-8 space-y-5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="badge badge-purple text-xs">TEAM 0{activeTeam.id} PROPOSAL</span>
-              <span className="badge badge-cyan text-xs">{activeTeam.domain}</span>
-              <span className="badge badge-amber text-xs">Score: {activeTeam.score}/100</span>
+              <span className="badge badge-purple text-xs">
+                {lang === 'en' ? `TEAM 0${activeTeam.id} PROPOSAL` : `팀 0${activeTeam.id} 제안서`}
+              </span>
+              <span className="badge badge-cyan text-xs">
+                {lang === 'en' ? activeTeam.domain : activeTeam.domainKo}
+              </span>
+              <span className="badge badge-amber text-xs">
+                {lang === 'en' ? `Score: ${activeTeam.score}/100` : `심사 점수: ${activeTeam.score}/100`}
+              </span>
             </div>
 
             <h3 className="font-['Syne'] font-extrabold text-2xl sm:text-3xl text-white">
@@ -154,28 +178,30 @@ export default function GigaXprizeBoard({ lang }) {
 
             <div className="p-4 rounded-xl bg-slate-950/60 border border-slate-800 space-y-2">
               <div className="text-[11px] font-bold text-cyan-400 uppercase tracking-wider">
-                Massive Transformative Purpose (MTP):
+                {lang === 'en' ? 'Massive Transformative Purpose (MTP):' : '거대 변혁적 목표 (MTP):'}
               </div>
               <p className="text-sm text-slate-200 leading-relaxed font-medium">
-                "{activeTeam.mtp}"
+                "{lang === 'en' ? activeTeam.mtp : activeTeam.mtpKo}"
               </p>
             </div>
 
             <div className="space-y-2">
               <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
-                Auditable Target Metric:
+                {lang === 'en' ? 'Auditable Target Metric:' : '검증 가능한 핵심 목표 지표:'}
               </div>
               <p className="text-xs text-slate-300 bg-white/5 p-3 rounded-lg border border-slate-800/80 font-mono">
-                {activeTeam.metric}
+                {lang === 'en' ? activeTeam.metric : activeTeam.metricKo}
               </p>
             </div>
 
             <div className="flex flex-wrap items-center gap-6 pt-2 text-xs">
               <span className="text-slate-400">
-                Prize Allocation: <strong className="text-purple-300 font-mono text-sm">{activeTeam.prize}</strong>
+                {lang === 'en' ? 'Prize Allocation: ' : '상금 배정: '}
+                <strong className="text-purple-300 font-mono text-sm">{activeTeam.prize}</strong>
               </span>
               <span className="text-slate-400">
-                Capital Multiplier: <strong className="text-emerald-400 font-mono text-sm">{activeTeam.leverage}</strong>
+                {lang === 'en' ? 'Capital Multiplier: ' : '민간 자본 승수 효과: '}
+                <strong className="text-emerald-400 font-mono text-sm">{activeTeam.leverage}</strong>
               </span>
             </div>
           </div>

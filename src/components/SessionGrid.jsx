@@ -6,10 +6,8 @@ import { Filter, Search, BookOpen } from 'lucide-react';
 export default function SessionGrid({ lang, selectedPhase, setSelectedPhase, searchQuery, onOpenSession }) {
   const filteredSessions = sessionsList.filter((session) => {
     const matchPhase = selectedPhase === 'all' || session.phase === Number(selectedPhase);
-    const matchSearch = searchQuery === '' || 
-      session.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      session.reading.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      session.slides.some(s => s.title.toLowerCase().includes(searchQuery.toLowerCase()));
+    const searchTarget = `${session.titleEn} ${session.titleKo} ${session.reading} ${session.slides.map(s => s.title).join(' ')}`.toLowerCase();
+    const matchSearch = searchQuery === '' || searchTarget.includes(searchQuery.toLowerCase());
     return matchPhase && matchSearch;
   });
 
@@ -20,7 +18,9 @@ export default function SessionGrid({ lang, selectedPhase, setSelectedPhase, sea
         <div>
           <div className="flex items-center gap-2 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-1">
             <BookOpen className="w-4 h-4" />
-            <span>{lang === 'en' ? 'Master Syllabus & Slide Repository' : '15주 마스터 강의 교안 및 슬라이드 저장소'}</span>
+            <span>
+              {lang === 'en' ? 'Master Syllabus & Slide Repository' : '15주 마스터 강의 교안 및 슬라이드 저장소'}
+            </span>
           </div>
           <h2 className="font-['Syne'] font-extrabold text-2xl sm:text-3xl text-white">
             {lang === 'en' ? '15-Week Master Curriculum' : '15주차 세미나 전체 교안'}
@@ -50,7 +50,7 @@ export default function SessionGrid({ lang, selectedPhase, setSelectedPhase, sea
                   : 'text-slate-400 hover:text-white hover:bg-white/5'
               }`}
             >
-              Phase {p}
+              {lang === 'en' ? `Phase ${p}` : `페이즈 ${p}`}
             </button>
           ))}
         </div>

@@ -49,19 +49,27 @@ export default function HeroBanner({ lang, onSelectPhase, onExploreClick }) {
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-12 pt-8 border-t border-slate-800/80 max-w-4xl mx-auto">
           <div className="glass-panel p-4 text-center">
             <div className="font-['Syne'] text-2xl sm:text-3xl font-extrabold text-cyan-400">15</div>
-            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">{lang === 'en' ? 'Weeks of Mastery' : '15주 마스터 커리큘럼'}</div>
+            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">
+              {lang === 'en' ? 'Weeks of Mastery' : '15주 마스터 커리큘럼'}
+            </div>
           </div>
           <div className="glass-panel p-4 text-center">
             <div className="font-['Syne'] text-2xl sm:text-3xl font-extrabold text-emerald-400">675</div>
-            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">{lang === 'en' ? 'Interactive Slides' : '전체 슬라이드 완비'}</div>
+            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">
+              {lang === 'en' ? 'Interactive Slides' : '전체 슬라이드 완비'}
+            </div>
           </div>
           <div className="glass-panel p-4 text-center">
             <div className="font-['Syne'] text-2xl sm:text-3xl font-extrabold text-purple-400">83</div>
-            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">{lang === 'en' ? 'Miracles Cataloged' : '기적의 기술 목록'}</div>
+            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">
+              {lang === 'en' ? 'Miracles Cataloged' : '기적의 기술 목록'}
+            </div>
           </div>
           <div className="glass-panel p-4 text-center">
             <div className="font-['Syne'] text-2xl sm:text-3xl font-extrabold text-amber-400">$100B</div>
-            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">{lang === 'en' ? 'Giga-XPRIZE Purse' : '엑스프라이즈 상금'}</div>
+            <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mt-1">
+              {lang === 'en' ? 'Giga-XPRIZE Purse' : '엑스프라이즈 상금'}
+            </div>
           </div>
         </div>
       </div>
@@ -73,7 +81,9 @@ export default function HeroBanner({ lang, onSelectPhase, onExploreClick }) {
             <Zap className="w-5 h-5 text-cyan-400" />
             <span>{lang === 'en' ? 'The 4 Evolutionary Phases' : '4대 진화 페이즈 로드맵'}</span>
           </h2>
-          <span className="text-xs text-slate-400">{lang === 'en' ? 'Click to filter lectures' : '페이즈를 클릭하여 필터링'}</span>
+          <span className="text-xs text-slate-400">
+            {lang === 'en' ? 'Click to filter lectures' : '페이즈를 클릭하여 필터링'}
+          </span>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -108,7 +118,9 @@ export default function HeroBanner({ lang, onSelectPhase, onExploreClick }) {
 
               <div className="flex items-center justify-between pt-3 border-t border-slate-800 text-[11px] font-semibold text-slate-400 group-hover:text-white">
                 <span>{phase.sessionIds.length} {lang === 'en' ? 'Sessions' : '개 세션'}</span>
-                <span className="text-cyan-400 group-hover:translate-x-1 transition-transform">View →</span>
+                <span className="text-cyan-400 group-hover:translate-x-1 transition-transform">
+                  {lang === 'en' ? 'View' : '보기'} →
+                </span>
               </div>
             </div>
           ))}

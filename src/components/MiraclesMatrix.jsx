@@ -81,7 +81,7 @@ export default function MiraclesMatrix({ lang, onSelectSession }) {
               </h3>
 
               <div className="text-[11px] text-emerald-400 font-mono font-bold mb-3">
-                ⚡ Key Metric: {item.metric}
+                ⚡ {lang === 'en' ? 'Key Metric:' : '핵심 지표:'} {item.metric}
               </div>
 
               <p className="text-xs text-slate-300 leading-relaxed mb-4">
@@ -91,10 +91,11 @@ export default function MiraclesMatrix({ lang, onSelectSession }) {
 
             <div className="pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs">
               <span className="text-slate-500 text-[11px] font-medium">
-                Status: <strong className="text-slate-300 font-semibold">{item.maturity}</strong>
+                {lang === 'en' ? 'Status: ' : '상태: '}
+                <strong className="text-slate-300 font-semibold">{item.maturity}</strong>
               </span>
               <span className="text-emerald-400 text-xs font-bold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
-                Read in Course →
+                {lang === 'en' ? 'Read in Course' : '코스에서 확인'} →
               </span>
             </div>
           </div>

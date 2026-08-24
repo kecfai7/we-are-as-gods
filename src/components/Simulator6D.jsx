@@ -53,7 +53,9 @@ export default function Simulator6D({ lang }) {
           <div>
             <div className="flex justify-between text-xs font-semibold mb-1">
               <span className="text-slate-300">{lang === 'en' ? 'Doubling Time (T_d):' : '더블링 주기 (T_d):'}</span>
-              <span className="text-cyan-400 font-mono font-bold">{doublingTime} Months</span>
+              <span className="text-cyan-400 font-mono font-bold">
+                {doublingTime} {lang === 'en' ? 'Months' : '개월'}
+              </span>
             </div>
             <input
               type="range"
@@ -91,7 +93,9 @@ export default function Simulator6D({ lang }) {
           <div>
             <div className="flex justify-between text-xs font-semibold mb-1">
               <span className="text-slate-300">{lang === 'en' ? 'Simulation Horizon:' : '시뮬레이션 기간:'}</span>
-              <span className="text-purple-400 font-mono font-bold">{totalYears} Years</span>
+              <span className="text-purple-400 font-mono font-bold">
+                {totalYears} {lang === 'en' ? 'Years' : '년'}
+              </span>
             </div>
             <input
               type="range"
@@ -131,14 +135,17 @@ export default function Simulator6D({ lang }) {
           <div className="w-full h-64 relative flex items-end justify-between gap-1 border-b border-l border-slate-700/80 p-2">
             {points.map((pt, idx) => {
               const heightPercent = Math.min(100, Math.max(4, (pt.expValue / maxExp) * 100));
-              const linearPercent = Math.min(100, Math.max(4, (pt.linearValue / maxExp) * 100));
               return (
                 <div key={idx} className="flex-1 flex flex-col items-center justify-end h-full group relative">
                   {/* Tooltip */}
                   <div className="absolute bottom-full mb-2 hidden group-hover:flex flex-col items-center bg-slate-900 border border-slate-700 text-[10px] text-white p-2 rounded shadow-xl z-20 whitespace-nowrap pointer-events-none">
-                    <span className="font-bold text-cyan-300">Year {pt.year}</span>
+                    <span className="font-bold text-cyan-300">{lang === 'en' ? 'Year' : '연도'} {pt.year}</span>
                     <span>Exp: {pt.expValue > 1000 ? pt.expValue.toExponential(2) : pt.expValue.toFixed(2)}x</span>
-                    <span className="text-slate-400">{pt.isDeception ? '⚠️ Deceptive Phase' : '🚀 Disruptive Chaos'}</span>
+                    <span className="text-slate-400">
+                      {pt.isDeception 
+                        ? (lang === 'en' ? '⚠️ Deceptive Phase' : '⚠️ 기만적 잠복기') 
+                        : (lang === 'en' ? '🚀 Disruptive Chaos' : '🚀 폭발적 파괴 단계')}
+                    </span>
                   </div>
 
                   {/* Exponential Bar */}
@@ -158,21 +165,27 @@ export default function Simulator6D({ lang }) {
           {/* Bottom Summary Callout */}
           <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-3 text-xs">
             <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
-              <span className="text-slate-400 block text-[11px]">Final Growth Multiple:</span>
+              <span className="text-slate-400 block text-[11px]">
+                {lang === 'en' ? 'Final Growth Multiple:' : '최종 성장 배수:'}
+              </span>
               <span className="text-cyan-400 font-bold font-mono text-base">
                 {maxExp > 1000000 ? maxExp.toExponential(2) : maxExp.toFixed(1)}×
               </span>
             </div>
             <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800">
-              <span className="text-slate-400 block text-[11px]">Deception Horizon:</span>
+              <span className="text-slate-400 block text-[11px]">
+                {lang === 'en' ? 'Deception Horizon:' : '잠복기 지속 기간:'}
+              </span>
               <span className="text-amber-400 font-bold font-mono text-base">
-                {points.filter(p => p.isDeception).length * step / 12} Years
+                {points.filter(p => p.isDeception).length * step / 12} {lang === 'en' ? 'Years' : '년'}
               </span>
             </div>
             <div className="p-2.5 rounded-xl bg-slate-900/80 border border-slate-800 col-span-2 sm:col-span-1">
-              <span className="text-slate-400 block text-[11px]">Inflection Velocity:</span>
+              <span className="text-slate-400 block text-[11px]">
+                {lang === 'en' ? 'Inflection Velocity:' : '변곡점 도달 속도:'}
+              </span>
               <span className="text-purple-400 font-bold font-mono text-base">
-                Instant Chaos 💥
+                {lang === 'en' ? 'Instant Chaos 💥' : '순간적 혼돈 💥'}
               </span>
             </div>
           </div>

@@ -7,9 +7,7 @@ import mermaid from 'mermaid';
 
 export default function SlideViewerModal({ session, initialSlide = 1, onClose, lang }) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialSlide - 1);
-  const [activeTab, setActiveTab] = useState('script'); // 'script' | 'notes' | 'mermaid'
   const [mermaidSvg, setMermaidSvg] = useState('');
-  const mermaidContainerRef = useRef(null);
 
   const slides = session?.slides || [];
   const currentSlide = slides[currentSlideIndex] || null;
@@ -81,45 +79,57 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     return rawScript.split('\n').map((line, idx) => {
       let speaker = 'Prof. Peter Kim';
       let avatar = '👑';
-      let color = 'from-amber-400 to-cyan-400';
+      let roleLabel = lang === 'en' ? 'Lead Chair' : '석좌교수';
       let badgeClass = 'text-amber-300 bg-amber-950/40 border-amber-500/30';
       let content = line;
 
       if (line.includes('Dr. Elena Vance:')) {
         speaker = 'Dr. Elena Vance';
         avatar = '🔬';
-        color = 'from-purple-400 to-emerald-400';
+        roleLabel = lang === 'en' ? 'Biophysics' : '수석연구원';
         badgeClass = 'text-emerald-300 bg-emerald-950/40 border-emerald-500/30';
         content = line.replace(/.*Dr\. Elena Vance:\s*/, '');
       } else if (line.includes('TA Marcus Brody:')) {
         speaker = 'TA Marcus Brody';
         avatar = '⚡';
-        color = 'from-cyan-400 to-blue-500';
+        roleLabel = lang === 'en' ? 'Engineering' : '딥테크조교';
         badgeClass = 'text-cyan-300 bg-cyan-950/40 border-cyan-500/30';
         content = line.replace(/.*TA Marcus Brody:\s*/, '');
       } else if (line.includes('Prof. Peter Kim:')) {
         speaker = 'Prof. Peter Kim';
         avatar = '👑';
-        color = 'from-amber-400 to-orange-500';
+        roleLabel = lang === 'en' ? 'Lead Chair' : '석좌교수';
         badgeClass = 'text-amber-300 bg-amber-950/40 border-amber-500/30';
         content = line.replace(/.*Prof\. Peter Kim:\s*/, '');
       }
 
-      return { speaker, avatar, color, badgeClass, content, id: idx };
+      return { speaker, avatar, roleLabel, badgeClass, content, id: idx };
     });
   };
 
   const scriptItems = parseScriptLines(currentSlide.script);
 
   const getModuleLabel = (modNum) => {
-    switch (modNum) {
-      case 1: return 'Module 1: Introduction & Agenda';
-      case 2: return 'Module 2: Textual Exegesis';
-      case 3: return 'Module 3: Exponential Math & Models';
-      case 4: return 'Module 4: Global Case Studies 1~9';
-      case 5: return 'Module 5: Philosophical So What';
-      case 6: return 'Module 6: Seminar Debates & Lab';
-      default: return `Module ${modNum}`;
+    if (lang === 'en') {
+      switch (modNum) {
+        case 1: return 'Module 1: Introduction & Agenda Setting';
+        case 2: return 'Module 2: Textual Exegesis & Foundations';
+        case 3: return 'Module 3: Exponential Math & Frameworks';
+        case 4: return 'Module 4: Global Data & Case Studies 1~9';
+        case 5: return 'Module 5: Philosophical So What & Paradoxes';
+        case 6: return 'Module 6: Seminar Debates & Capstone Lab';
+        default: return `Module ${modNum}`;
+      }
+    } else {
+      switch (modNum) {
+        case 1: return 'Module 1: 도입 및 어젠다 세팅';
+        case 2: return 'Module 2: 원전 텍스트 정밀 해체';
+        case 3: return 'Module 3: 기하급수 이론 및 수식 모델';
+        case 4: return 'Module 4: 글로벌 데이터 & 실증 케이스 1~9';
+        case 5: return 'Module 5: 사회적·철학적 역설 (So What?)';
+        case 6: return 'Module 6: 세미나 토론 및 실습 과제';
+        default: return `Module ${modNum}`;
+      }
     }
   };
 
@@ -133,14 +143,14 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           </span>
           <span className="text-xs font-bold text-slate-400 hidden sm:inline">|</span>
           <h2 className="text-xs sm:text-sm font-bold text-white truncate max-w-lg">
-            {session.title}
+            {lang === 'en' ? session.titleEn : session.titleKo}
           </h2>
         </div>
 
         {/* Center Progress & Navigation */}
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-1 bg-slate-900 border border-slate-800 px-3 py-1 rounded-full text-xs font-mono text-cyan-300">
-            <span>Slide</span>
+            <span>{lang === 'en' ? 'Slide' : '슬라이드'}</span>
             <span className="font-bold text-white">{currentSlide.slideNumber}</span>
             <span className="text-slate-500">/</span>
             <span>45</span>
@@ -236,7 +246,9 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
 
           {/* Quick Slide Slider Bar */}
           <div className="pt-4 border-t border-slate-800/80 flex items-center gap-4">
-            <span className="text-xs text-slate-400 font-medium whitespace-nowrap">Slide {currentSlideIndex + 1} / 45</span>
+            <span className="text-xs text-slate-400 font-medium whitespace-nowrap">
+              {lang === 'en' ? 'Slide' : '슬라이드'} {currentSlideIndex + 1} / 45
+            </span>
             <input
               type="range"
               min="0"
@@ -255,10 +267,12 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
             <div className="flex items-center gap-2">
               <MessageSquare className="w-4 h-4 text-cyan-400" />
               <span className="text-xs font-bold font-['Syne'] uppercase tracking-wider text-white">
-                3-Presenter Tiki-Taka Dialogue Script
+                {lang === 'en' ? '3-Presenter Authentic Dialogue Script' : '3인 교수진 티키타카 대화 스크립트'}
               </span>
             </div>
-            <span className="badge badge-purple text-[10px]">Live Audio Sync</span>
+            <span className="badge badge-purple text-[10px]">
+              {lang === 'en' ? 'Live Audio Sync' : '실시간 동기화'}
+            </span>
           </div>
 
           {/* Script Dialogue Stream */}
@@ -274,7 +288,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                       </span>
                     </div>
                     <span className={`text-[10px] font-bold px-2 py-0.5 rounded border ${item.badgeClass}`}>
-                      {item.speaker === 'Prof. Peter Kim' ? 'Chair' : item.speaker === 'Dr. Elena Vance' ? 'Biophysics' : 'Engineering'}
+                      {item.roleLabel}
                     </span>
                   </div>
 
@@ -285,7 +299,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
               ))
             ) : (
               <div className="text-center py-12 text-slate-500 text-xs">
-                {lang === 'en' ? 'No presenter dialogue for this slide.' : '이 슬라이드에 등록된 교수진 스크립트가 없습니다.'}
+                {lang === 'en' ? 'No presenter dialogue recorded for this slide.' : '이 슬라이드에 등록된 교수진 스크립트가 없습니다.'}
               </div>
             )}
           </div>
