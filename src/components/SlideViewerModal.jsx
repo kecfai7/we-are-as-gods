@@ -10,7 +10,7 @@ import { localizeSlideTitle, localizeBullet, localizeScriptContent } from '../ut
 export default function SlideViewerModal({ session, initialSlide = 1, onClose, lang }) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialSlide - 1);
   const [mermaidSvg, setMermaidSvg] = useState('');
-  const [showScript, setShowScript] = useState(false); // Default: hidden
+  const [showScript, setShowScript] = useState(true); // Default: visible (Oikos Univ style dual-view)
 
   const slides = session?.slides || [];
   const currentSlide = slides[currentSlideIndex] || null;
