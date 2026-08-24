@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { createPortal } from 'react-dom';
 import { 
   X, ChevronLeft, ChevronRight, Play, Maximize2, Minimize2, 
   BookOpen, MessageSquare, Layers, Sparkles, User, HelpCircle, Download
@@ -142,15 +143,25 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     };
   }, []);
 
-  return (
+  return createPortal(
     <div 
-      className="fixed inset-0 z-9999 bg-modal-solid flex flex-col overflow-hidden animate-in fade-in duration-150"
-      style={{ backgroundColor: '#060913', zIndex: 9999 }}
+      className="fixed inset-0 flex flex-col overflow-hidden animate-in fade-in duration-150"
+      style={{ 
+        position: 'fixed',
+        top: 0, 
+        left: 0, 
+        right: 0, 
+        bottom: 0, 
+        width: '100vw', 
+        height: '100vh', 
+        zIndex: 999999, 
+        backgroundColor: '#060913' 
+      }}
     >
       {/* Top Modal Bar */}
       <div 
-        className="px-6 py-3 border-b border-slate-800 flex items-center justify-between bg-modal-bar shrink-0"
-        style={{ backgroundColor: '#0B1120' }}
+        className="px-6 py-3 border-b border-slate-800 flex items-center justify-between shrink-0"
+        style={{ backgroundColor: '#0B1120', minHeight: '52px' }}
       >
         <div className="flex items-center gap-3">
           <span className="badge badge-cyan text-xs">
@@ -337,6 +348,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           </div>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   );
 }
