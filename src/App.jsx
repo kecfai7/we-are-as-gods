@@ -11,13 +11,44 @@ import CourseFooter from './components/CourseFooter';
 import { sessionsList } from './data/sessionsData';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState('curriculum'); // 'curriculum' | 'miracles' | 'simulators' | 'xprize'
-  const [lang, setLang] = useState('en'); // 'en' | 'ko'
+  const getInitialSession = () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const s = parseInt(params.get('session') || params.get('s') || params.get('week'), 10);
+      if (s >= 1 && s <= 15) {
+        return sessionsList.find(item => item.weekNumber === s) || null;
+      }
+    }
+    return null;
+  };
+
+  const getInitialSlide = () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const slide = parseInt(params.get('slide') || params.get('p'), 10);
+      if (slide >= 1 && slide <= 100) return slide;
+    }
+    return 1;
+  };
+
+  const getInitialLang = () => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const l = params.get('lang');
+      if (l === 'ko' || l === 'en') return l;
+    }
+    return 'en';
+  };
+
+  const [activeTab, setActiveTab] = useState('curriculum');
+  const [lang, setLang] = useState(getInitialLang);
   const [selectedPhase, setSelectedPhase] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
-  const [activeModalSession, setActiveModalSession] = useState(null);
+  const [activeModalSession, setActiveModalSession] = useState(getInitialSession);
+  const [modalInitialSlide, setModalInitialSlide] = useState(getInitialSlide);
 
-  const handleOpenSession = (session) => {
+  const handleOpenSession = (session, slideNum = 1) => {
+    setModalInitialSlide(slideNum);
     setActiveModalSession(session);
   };
 
@@ -104,7 +135,7 @@ export default function App() {
       {activeModalSession && (
         <SlideViewerModal
           session={activeModalSession}
-          initialSlide={1}
+          initialSlide={modalInitialSlide}
           onClose={() => setActiveModalSession(null)}
           lang={lang}
         />

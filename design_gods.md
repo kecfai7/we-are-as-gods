@@ -55,11 +55,18 @@ graph LR
 | **👩‍🔬 Dr. Elena Vance**<br/>(32세, 인지과학/AI 수석) | • 인지신경과학 & 생물학<br/>• Dedre Gentner 구조 매핑<br/>• BCI(PRIMA/Neuralink) & AI | • 날카로운 반론 및 메커니즘 해체<br/>• 50~120 bit 주의력 대역폭, DMN 억제, 피질 예측 엔진 규명<br/>• 수식, 신경생리학적 기전, 복잡계 데이터 분석 | `en-US-JennyNeural`<br/>(Rate: +2%, Pitch: +1Hz)<br/>정밀하고 명쾌한 톤 |
 | **👨‍💻 TA Marcus Brody**<br/>(29세, 딥테크/XPRIZE 조교) | • 딥테크 벤처 & 바이오 공학<br/>• XPRIZE 인센티브 엔지니어링<br/>• 글로벌 현장 실증 데이터 | • 현장감 넘치는 생생한 수치 고발 (Zipline 드론, PFAS 오염도)<br/>• 비즈니스 모델 및 1,000억 달러 펀딩 구조 분해<br/>• 유쾌하고 직관적인 비유와 실무적 챌린지 제시 | `en-US-GuyNeural`<br/>(Rate: +3%, Pitch: +0Hz)<br/>에너지 넘치는 액티브 톤 |
 
-### 2.2. 불변의 4대 대화 원칙
-1. **마이크로 턴(Micro-turns):** 한 사람의 발언은 최대 2~3문장을 넘지 않으며, 슬라이드당 최소 7~10회의 끊임없는 핑퐁 티키타카를 유지합니다.
-2. **리얼리스틱 인터랙션(Realistic Reaction):** *"Wait, Elena!", "Marcus, are you serious about the 51% drop?", "Hold on, look at the Day 560 data!"* 등 생생한 감탄사와 상호 반박을 배치합니다.
-3. **구체적 엔지니어링 팩트(Hard Quantitative Metrics):** `181 Zettabytes`, `2mm 태양광 칩`, `$7.1M 스마트폰 가치 밀도`, `390x 에어로팜스 수확량`, `58% 횡적 사고 증폭`, `$100M 탄소 XPRIZE` 등 실제 수치를 필수 인용합니다.
-4. **명확한 So What? 도출:** 각 슬라이드의 마지막 턴은 해당 기술과 데이터가 인류의 미래와 인간성에 던지는 질문으로 완결합니다.
+### 2.2. 불변의 5대 대화 및 글로벌 언어 원칙 (The 5 Golden Rules of Tiki-Taka)
+1. **글로벌 학생 눈높이의 명쾌한 구어체 영어 (Plain Spoken English for Global Scholars):**
+   - 만연체의 복합 복문이나 현학적인 라틴어계 어휘를 철저히 배제하고, 듣는 즉시 이해되는 1~2문장 단위의 직관적 구어체를 사용합니다.
+   - 핵심 전문 용어(CRISPR, BCI, PRIMA, AlphaFold, 6Ds 등)는 정확히 유지하되, 일상적이고 생생한 비유(e.g., *"drinking a waterfall through a needle"*, *"TV static with no picture"*, *"turning $7.1M of hardware into a pocket device"*)를 통해 직관적으로 풀어냅니다.
+2. **풍성하고 유기적인 마이크로 턴 (Rich & Substantive Micro-turns, 8~10 Turns):**
+   - 슬라이드당 8~10회의 끊임없는 핑퐁 티키타카를 유지하며, 피상적인 단답형으로 축약하지 않고 슬라이드의 핵심 데이터와 작동 원리를 깊이 있게 설명합니다 (슬라이드당 약 90~140초 분량).
+3. **생생한 리액션 및 대화 연결고리 (Authentic Conversational Connectors):**
+   - *"Wait a minute", "Hold on, Dr. Vance", "Look at that number", "Think about it this way", "Spot on, Marcus"* 등의 자연스러운 인터랙션과 감탄사를 배치하여 실제 세미나실에서 대화하는 생동감을 극대화합니다.
+4. **구체적 엔지니어링 팩트와 정량적 메트릭 필수 인용 (Hard Quantitative Metrics):**
+   - `181 Zettabytes vs 120-bit cortical funnel`, `2mm PRIMA chip with 378 photodiodes & 880nm NIR`, `$7.1M smartphone dematerialization`, `Zipline 51% maternal mortality reduction & 70M miles`, `AlphaFold 200M protein structures`, `Calhoun Universe 25 timeline` 등 실제 수치를 유기적으로 대화에 녹여냅니다.
+5. **실존적 성찰과 'So What?' 결론 도출 (Philosophical Telos):**
+   - 각 슬라이드의 마무리 턴은 단순 기술 나열을 넘어, 해당 기술이 인간의 존재론적 의미와 윤리적 책임에 던지는 질문으로 완결합니다.
 
 ---
 
@@ -151,8 +158,35 @@ flowchart LR
 
 ---
 
-## 6. 🛠️ HARDWARE & REPRODUCTION ENVIRONMENT (실행 및 음성 생성 환경)
+## 6. 🛠️ AUDIO-VISUAL PRODUCTION & PIPELINE SPECIFICATIONS (비디오/오디오 생성 파이프라인 규약)
 
-1. **대본 표준 규격:** 각 세션별 Markdown 파일(`session1.md` ~ `session15.md`) 내 슬라이드 45개 전 분량에 대해 3인 강사진 티키타카 대본 수록.
-2. **음성 생성 파이프라인:** Edge-TTS (`en-US-ChristopherNeural`, `en-US-JennyNeural`, `en-US-GuyNeural`) 기반 자동 합성 스크립트 구축.
-3. **인터랙티브 웹 앱:** 슬라이드 실시간 내비게이터, 티키타카 트랜스크립트 뷰어, 팟캐스트 오디오 플레이어 완벽 연동.
+```mermaid
+flowchart LR
+    A["Markdown 대본<br/>(sessionX_EN.md)"] --> B["데이터 동기화<br/>(sessionsData.js)"]
+    B --> C["Edge-TTS 음성 합성 & 포먼트 변조<br/>(Peter / Elena / Marcus)"]
+    C --> D["Playwright 1080p 슬라이드 캡처<br/>(React UI 기반)"]
+    D --> E["FFmpeg 인코딩 & 하드코딩 자막 Burn-in<br/>(Slide MP4 & SRT)"]
+    E --> F["4대 모듈 및 Master Lecture 병합<br/>(Full Broadcast MP4)"]
+```
+
+### 6.1. 오디오 합성 및 포먼트 변조 규격
+1. **Prof. Peter Kim (석좌교수):**
+   - Base Model: `en-US-ChristopherNeural` (Rate: `-2%`, Pitch: `-2Hz`)
+   - FFmpeg Formant Filter: `asetrate=24000*0.96`, `equalizer=f=120:g=3.8`, `equalizer=f=350:g=-1.8`, `equalizer=f=2800:g=2.2`, `acompressor=threshold=-18dB:ratio=3:attack=15:release=120` (중후하고 권위 있는 석학 음성)
+2. **Dr. Elena Vance (수석 과학자):**
+   - Base Model: `en-US-JennyNeural` (Rate: `+2%`, Pitch: `+1Hz`) (지적이고 명쾌한 템포)
+3. **TA Marcus Brody (딥테크 펠로우):**
+   - Base Model: `en-US-GuyNeural` (Rate: `+3%`, Pitch: `+0Hz`) (에너지 넘치는 액티브 톤)
+
+### 6.2. 자막 및 렌더링 정합성 정책 (Zero Stale-Audio Policy)
+1. **자동 캐시 무효화 (Force Rebuild):** 대본 수정 시 이전 세션의 캐시된 음성 파일(MP3)을 자동 정리하고, 변경된 텍스트에 맞추어 100% 신규 음성을 합성함으로써 **화면 자막과 음성의 1:1 완벽 일치**를 강제합니다.
+2. **타이밍 및 묵음 간격 표준화:**
+   - 발화 인트로 묵음: `1,000ms` (1.0초)
+   - 발화자 턴 사이 간격: `900ms` (0.9초)
+   - 슬라이드 아웃트로 인터미션: 일반 슬라이드 `4.0초`, 모듈 전환 슬라이드 `6.0~8.0초`, 최종 슬라이드 `10.0초`.
+3. **SRT 자막 분할 알고리즘:** 문장 부호(`.`, `!`, `?`) 기준 자동 청킹 및 음성 재생 시간 비례 정밀 타임스탬프 계산.
+4. **산출물 표준:**
+   - 45개 개별 슬라이드 비디오 (`SessionX_Slide_YY_DuoLecture.mp4`) 및 자막 (`Slide_YY_Subtitles.srt`)
+   - 4개 모듈 분할 비디오 (`SessionX_Part1~4_Module.mp4`)
+   - 전체 풀버전 마스터 강의 비디오 (`SessionX_Full_Master_Lecture.mp4`)
+

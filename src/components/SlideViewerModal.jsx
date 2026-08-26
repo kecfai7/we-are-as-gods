@@ -89,15 +89,20 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     });
   }, []);
 
+  const displayMermaid = lang === 'en'
+    ? (currentSlide?.mermaidEn || currentSlide?.mermaid)
+    : (currentSlide?.mermaidKo || currentSlide?.mermaid);
+
   useEffect(() => {
-    if (!currentSlide?.mermaid) { setMermaidSvg(''); return; }
+    if (!displayMermaid) { setMermaidSvg(''); return; }
     (async () => {
       try {
-        const { svg } = await mermaid.render(`mermaid-${Date.now()}`, currentSlide.mermaid);
+        const { svg } = await mermaid.render(`mermaid-${Date.now()}`, displayMermaid);
         setMermaidSvg(svg);
       } catch { setMermaidSvg(''); }
     })();
-  }, [currentSlideIndex, session]);
+  }, [currentSlideIndex, session, lang, displayMermaid]);
+
 
   // Keyboard navigation
   useEffect(() => {
@@ -173,30 +178,82 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
     }
   };
 
-  // Parse script into speaker lines (3-Presenter format)
+  // Parse script into speaker lines (3-Presenter format & Student Capstone Defenses)
   const parseScriptLines = (raw) => {
     if (!raw) return [];
     return raw.split('\n').map((line, idx) => {
+      let trimmed = line.trim();
+      if (!trimmed || trimmed.startsWith('####') || trimmed.startsWith('> **🎙️')) return null;
+      // Clean leading markdown quote
+      trimmed = trimmed.replace(/^>\s*/, '');
+
       let speaker = 'Prof. Peter Kim';
       let avatar = '👑';
       let roleLabel = lang === 'en' ? 'Lead Chair' : '석좌교수';
       let badgeClass = 'text-amber-300 bg-amber-950/40 border-amber-500/30';
-      let content = line;
-      if (line.includes('Dr. Elena Vance:')) {
-        speaker = 'Dr. Elena Vance'; avatar = '🔬';
+      let content = trimmed;
+
+      if (trimmed.includes('Dr. Elena Vance') || trimmed.includes('엘레나')) {
+        speaker = 'Dr. Elena Vance';
+        avatar = '🔬';
         roleLabel = lang === 'en' ? 'Biophysics' : '수석연구원';
         badgeClass = 'text-emerald-300 bg-emerald-950/40 border-emerald-500/30';
-        content = line.replace(/.*Dr\. Elena Vance:\s*/, '');
-      } else if (line.includes('TA Marcus Brody:')) {
-        speaker = 'TA Marcus Brody'; avatar = '⚡';
+        content = trimmed.replace(/.*(?:Dr\.\s*Elena\s*Vance|엘레나\s*박사|Dr\.\s*Elena)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('TA Marcus Brody') || trimmed.includes('Marcus Brody') || trimmed.includes('마커스')) {
+        speaker = 'TA Marcus Brody';
+        avatar = '⚡';
         roleLabel = lang === 'en' ? 'Engineering' : '딥테크조교';
         badgeClass = 'text-cyan-300 bg-cyan-950/40 border-cyan-500/30';
-        content = line.replace(/.*TA Marcus Brody:\s*/, '');
-      } else if (line.includes('Prof. Peter Kim:')) {
-        content = line.replace(/.*Prof\. Peter Kim:\s*/, '');
+        content = trimmed.replace(/.*(?:TA\s*Marcus\s*Brody|Marcus\s*Brody|마커스\s*조교)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Sarah Jenkins') || trimmed.includes('Team 1')) {
+        speaker = 'Sarah Jenkins (Team 1)';
+        avatar = '⚡';
+        roleLabel = lang === 'en' ? 'Superconductor Lead' : '팀 1 발표자';
+        badgeClass = 'text-yellow-300 bg-yellow-950/40 border-yellow-500/30';
+        content = trimmed.replace(/.*(?:Sarah\s*Jenkins[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Dr. Aris Thorne') || trimmed.includes('Team 2')) {
+        speaker = 'Dr. Aris Thorne (Team 2)';
+        avatar = '🧬';
+        roleLabel = lang === 'en' ? 'Epigenetics Lead' : '팀 2 발표자';
+        badgeClass = 'text-rose-300 bg-rose-950/40 border-rose-500/30';
+        content = trimmed.replace(/.*(?:Dr\.\s*Aris\s*Thorne[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Maya Lin') || trimmed.includes('Team 3')) {
+        speaker = 'Maya Lin (Team 3)';
+        avatar = '🌍';
+        roleLabel = lang === 'en' ? 'Climate Systems Lead' : '팀 3 발표자';
+        badgeClass = 'text-teal-300 bg-teal-950/40 border-teal-500/30';
+        content = trimmed.replace(/.*(?:Maya\s*Lin[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Kenji Sato') || trimmed.includes('Team 4')) {
+        speaker = 'Kenji Sato (Team 4)';
+        avatar = '🧠';
+        roleLabel = lang === 'en' ? 'Neuro-Privacy Lead' : '팀 4 발표자';
+        badgeClass = 'text-indigo-300 bg-indigo-950/40 border-indigo-500/30';
+        content = trimmed.replace(/.*(?:Kenji\s*Sato[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Alex Rivera') || trimmed.includes('Team 5')) {
+        speaker = 'Alex Rivera (Team 5)';
+        avatar = '🚀';
+        roleLabel = lang === 'en' ? 'Mars Architecture Lead' : '팀 5 발표자';
+        badgeClass = 'text-orange-300 bg-orange-950/40 border-orange-500/30';
+        content = trimmed.replace(/.*(?:Alex\s*Rivera[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Chloe Bennett') || trimmed.includes('Team 6')) {
+        speaker = 'Chloe Bennett (Team 6)';
+        avatar = '🧪';
+        roleLabel = lang === 'en' ? 'Chemical Systems Lead' : '팀 6 발표자';
+        badgeClass = 'text-purple-300 bg-purple-950/40 border-purple-500/30';
+        content = trimmed.replace(/.*(?:Chloe\s*Bennett[^:：]*)\s*[:：]\s*/i, '');
+      } else if (trimmed.includes('Prof. Peter Kim') || trimmed.includes('김 피터') || trimmed.includes('피터 교수')) {
+        speaker = 'Prof. Peter Kim';
+        avatar = '👑';
+        roleLabel = lang === 'en' ? 'Lead Chair' : '석좌교수';
+        badgeClass = 'text-amber-300 bg-amber-950/40 border-amber-500/30';
+        content = trimmed.replace(/.*(?:Prof\.\s*Peter\s*Kim|김\s*피터\s*교수|피터\s*교수)\s*[:：]\s*/i, '');
       }
-      return { id: idx, speaker, avatar, roleLabel, badgeClass, content: content.trim() };
-    }).filter(item => item.content.length > 0);
+
+      // Remove any lingering bold wrapper on speech
+      content = content.replace(/^\*\*|\*\*$/g, '').trim();
+
+      return { id: idx, speaker, avatar, roleLabel, badgeClass, content };
+    }).filter(item => item && item.content && item.content.length > 0);
   };
 
   const scriptItems = parseScriptLines(rawScript);
@@ -403,15 +460,16 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                   <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
                     dangerouslySetInnerHTML={{ __html: mermaidSvg }} />
                 </div>
-              ) : currentSlide.mermaid ? (
+              ) : displayMermaid ? (
                 <div style={{
                   backgroundColor: '#0F172A', border: '1px solid rgba(255, 255, 255, 0.1)',
                   padding: '20px', borderRadius: '16px', marginBottom: '28px',
                   fontFamily: 'monospace', fontSize: '12px', color: '#CBD5E1', overflowX: 'auto'
                 }}>
-                  <pre>{currentSlide.mermaid}</pre>
+                  <pre>{displayMermaid}</pre>
                 </div>
               ) : null}
+
             </div>
           </div>
 
