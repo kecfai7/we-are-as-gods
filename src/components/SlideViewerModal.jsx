@@ -9,7 +9,11 @@ import mermaid from 'mermaid';
 import { renderLatexInText, renderFormulaBox } from '../utils/katexRenderer';
 
 export default function SlideViewerModal({ session, initialSlide = 1, onClose, lang }) {
+  const viewMode = typeof window !== 'undefined'
+    ? (new URLSearchParams(window.location.search).get('view') || 'standard')
+    : 'standard';
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialSlide - 1);
+
   const [mermaidSvg, setMermaidSvg] = useState('');
   const [isPresenterOpen, setIsPresenterOpen] = useState(false); // Oikos-style: default hidden, button to open
 
@@ -391,41 +395,62 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           background: 'linear-gradient(135deg, #0B132B, #0F172A, #090D16)'
         }}>
           {/* Slide content area */}
-          <div style={{ flex: 1, overflowY: 'auto', padding: '40px 48px 24px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ maxWidth: '960px', width: '100%' }}>
-              {/* Module badge + slide ID */}
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px' }}>
-                <span className="badge badge-purple" style={{ fontSize: '11px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.04em', padding: '4px 12px' }}>
-                  {getModuleLabel(currentSlide.moduleNumber)}
-                </span>
-                <span style={{ fontSize: '11px', color: '#64748B', fontFamily: 'monospace' }}>
-                  Slide ID: W{session.weekNumber}-S{String(currentSlide.slideNumber).padStart(2, '0')}
-                </span>
-              </div>
+          <div style={{
+            flex: 1, overflowY: 'auto',
+            padding: viewMode === 'focus_text' ? '32px 48px 20px' : (viewMode === 'focus_diagram' ? '24px 36px 16px' : '36px 48px 24px'),
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: viewMode === 'focus_diagram' ? 'center' : 'flex-start'
+          }}>
+            <div style={{
+              maxWidth: viewMode === 'focus_diagram' ? '1560px' : (viewMode === 'focus_text' ? '1480px' : '1400px'),
+              width: '100%'
+            }}>
+              {/* Module badge + slide ID (Hidden or compact in diagram focus) */}
+              {viewMode !== 'focus_diagram' && (
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+                  <span className="badge badge-purple" style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', padding: '4px 14px' }}>
+                    {getModuleLabel(currentSlide.moduleNumber)}
+                  </span>
+                  <span style={{ fontSize: '12px', color: '#64748B', fontFamily: 'monospace' }}>
+                    Slide ID: W{session.weekNumber}-S{String(currentSlide.slideNumber).padStart(2, '0')}
+                  </span>
+                </div>
+              )}
 
               {/* Slide Title */}
               <h1
                 style={{
-                  fontFamily: "'Outfit', sans-serif", fontSize: '28px', fontWeight: 800,
-                  color: '#FFFFFF', lineHeight: 1.3, marginBottom: '24px', letterSpacing: '-0.02em'
+                  fontFamily: "'Outfit', sans-serif",
+                  fontSize: viewMode === 'focus_text' ? '34px' : (viewMode === 'focus_diagram' ? '24px' : '30px'),
+                  fontWeight: 800,
+                  color: '#FFFFFF', lineHeight: 1.25,
+                  marginBottom: viewMode === 'focus_diagram' ? '14px' : '22px',
+                  letterSpacing: '-0.02em',
+                  textAlign: viewMode === 'focus_diagram' ? 'center' : 'left'
                 }}
                 dangerouslySetInnerHTML={{ __html: renderLatexInText(displayTitle) }}
               />
 
-              {/* Bullets */}
-              {displayBullets?.length > 0 && (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginBottom: '28px' }}>
+              {/* Bullets (Shown in standard and focus_text, hidden or compact in focus_diagram) */}
+              {viewMode !== 'focus_diagram' && displayBullets?.length > 0 && (
+                <div style={{
+                  display: 'flex', flexDirection: 'column',
+                  gap: viewMode === 'focus_text' ? '16px' : '12px',
+                  marginBottom: '24px'
+                }}>
                   {displayBullets.map((bullet, idx) => (
                     <div key={idx} style={{
-                      display: 'flex', alignItems: 'flex-start', gap: '12px',
-                      fontSize: '15px', color: '#CBD5E1', lineHeight: 1.6,
-                      backgroundColor: 'rgba(15, 23, 42, 0.8)', padding: '16px 20px',
-                      borderRadius: '14px', border: '1px solid rgba(255, 255, 255, 0.08)'
+                      display: 'flex', alignItems: 'flex-start', gap: '14px',
+                      fontSize: viewMode === 'focus_text' ? '18px' : '16px',
+                      color: '#E2E8F0', lineHeight: 1.6,
+                      backgroundColor: 'rgba(15, 23, 42, 0.85)',
+                      padding: viewMode === 'focus_text' ? '18px 24px' : '14px 20px',
+                      borderRadius: '14px', border: '1px solid rgba(255, 255, 255, 0.1)',
+                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)'
                     }}>
                       <span style={{
-                        width: '8px', height: '8px', borderRadius: '50%',
-                        backgroundColor: '#00F0FF', marginTop: '8px', flexShrink: 0,
-                        boxShadow: '0 0 8px #00F0FF'
+                        width: '9px', height: '9px', borderRadius: '50%',
+                        backgroundColor: '#00F0FF', marginTop: '9px', flexShrink: 0,
+                        boxShadow: '0 0 10px #00F0FF'
                       }} />
                       <span dangerouslySetInnerHTML={{
                         __html: renderLatexInText(bullet)
@@ -438,44 +463,53 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
               {/* Formula Block */}
               {currentSlide.formula && (
                 <div style={{
-                  backgroundColor: 'rgba(8, 47, 73, 0.4)', border: '1px solid rgba(0, 240, 255, 0.4)',
-                  padding: '20px', borderRadius: '16px', marginBottom: '28px',
-                  boxShadow: '0 0 25px rgba(0, 240, 255, 0.12)'
+                  backgroundColor: 'rgba(8, 47, 73, 0.45)', border: '1px solid rgba(0, 240, 255, 0.45)',
+                  padding: viewMode === 'focus_diagram' ? '28px 36px' : '20px 24px',
+                  borderRadius: '16px', marginBottom: '24px',
+                  boxShadow: '0 0 30px rgba(0, 240, 255, 0.15)'
                 }}>
-                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '10px' }}>
+                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '10px', textAlign: 'center' }}>
                     MATHEMATICAL MODEL
                   </div>
                   <div
-                    style={{ color: '#BAE6FD', fontSize: '18px', overflowX: 'auto', display: 'flex', justifyContent: 'center' }}
+                    style={{
+                      color: '#BAE6FD',
+                      fontSize: viewMode === 'focus_diagram' ? '22px' : '18px',
+                      overflowX: 'auto', display: 'flex', justifyContent: 'center'
+                    }}
                     dangerouslySetInnerHTML={{ __html: renderFormulaBox(currentSlide.formula) }}
                   />
                 </div>
               )}
 
-
               {/* Mermaid Diagram */}
               {mermaidSvg ? (
-                <div style={{
-                  backgroundColor: '#0D1322', border: '1px solid rgba(0, 240, 255, 0.3)',
-                  padding: '24px', borderRadius: '16px', marginBottom: '28px',
-                  boxShadow: '0 0 30px rgba(0, 240, 255, 0.15)',
-                  overflowX: 'auto', display: 'flex', justifyContent: 'center'
-                }}>
+                <div
+                  className={viewMode === 'focus_diagram' ? "focus-diagram-container" : ""}
+                  style={{
+                    backgroundColor: '#0D1322', border: '1px solid rgba(0, 240, 255, 0.35)',
+                    padding: viewMode === 'focus_diagram' ? '36px 48px' : '24px',
+                    borderRadius: '16px', marginBottom: '24px',
+                    boxShadow: '0 0 35px rgba(0, 240, 255, 0.18)',
+                    overflowX: 'auto', display: 'flex', justifyContent: 'center'
+                  }}>
                   <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}
                     dangerouslySetInnerHTML={{ __html: mermaidSvg }} />
                 </div>
               ) : displayMermaid ? (
+
                 <div style={{
                   backgroundColor: '#0F172A', border: '1px solid rgba(255, 255, 255, 0.1)',
-                  padding: '20px', borderRadius: '16px', marginBottom: '28px',
+                  padding: '20px', borderRadius: '16px', marginBottom: '24px',
                   fontFamily: 'monospace', fontSize: '12px', color: '#CBD5E1', overflowX: 'auto'
                 }}>
                   <pre>{displayMermaid}</pre>
                 </div>
               ) : null}
-
             </div>
           </div>
+
+
 
           {/* Bottom slider bar */}
           <div style={{

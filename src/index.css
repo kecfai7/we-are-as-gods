@@ -486,3 +486,36 @@ body {
   color: var(--accent-purple);
   border: 1px solid rgba(139, 92, 246, 0.3);
 }
+
+.focus-diagram-container {
+  width: 100% !important;
+  max-width: 1560px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  max-height: 78vh !important;
+  padding: 20px 32px !important;
+}
+
+.focus-diagram-container svg {
+  width: auto !important;
+  max-width: 100% !important;
+  max-height: 580px !important;
+  height: auto !important;
+}
+
+svg foreignObject,
+.focus-diagram-container foreignObject {
+  overflow: visible !important;
+}
+
+svg .label,
+.focus-diagram-container .label,
+.focus-diagram-container .nodeLabel {
+  overflow: visible !important;
+  line-height: 1.35 !important;
+}
+
+
+
+
