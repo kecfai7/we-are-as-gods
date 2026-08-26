@@ -196,54 +196,64 @@ def get_audio_duration_ms(audio_path):
     return 3000
 
 async def capture_slide_views(slide_num, page, session_id=1):
-    img_overview = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_overview.png")
-    img_text = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_text.png")
-    img_diagram = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_diagram.png")
+    img_p1 = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_p1.png")
+    img_p2 = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_p2.png")
+    img_single = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}.png")
     
-    # 1. Capture Overview View (Full Slide)
-    url_std = f"http://localhost:5177/?session={session_id}&slide={slide_num}&lang=en&view=standard"
-    await page.goto(url_std, wait_until="networkidle")
-    await asyncio.sleep(0.3)
+    url = f"http://localhost:5177/?session={session_id}&slide={slide_num}&lang=en"
+    await page.goto(url, wait_until="networkidle")
+    await asyncio.sleep(0.5)
+    
+    # Hide top header bar
     await page.evaluate("""() => {
         const header = document.querySelector('header');
         if (header) header.style.display = 'none';
     }""")
-    await page.screenshot(path=img_overview, full_page=False)
     
-    # Check if slide has diagram or formula
-    has_diagram = await page.evaluate("""() => {
+    # Check if slide has vertical scroll / overflow
+    metrics = await page.evaluate("""() => {
         const container = document.querySelector('main > div:first-child > div:first-child');
-        if (!container) return false;
-        return !!container.querySelector('div[style*="box-shadow"]') || !!container.querySelector('svg') || !!container.querySelector('table');
+        if (!container) return { hasScroll: false };
+        const hasScroll = container.scrollHeight > (container.clientHeight + 40);
+        return {
+            hasScroll: hasScroll,
+            scrollHeight: container.scrollHeight,
+            clientHeight: container.clientHeight
+        };
     }""")
     
-    # 2. Capture Text Focus View (Zoomed & Filling Frame)
-    url_text = f"http://localhost:5177/?session={session_id}&slide={slide_num}&lang=en&view=focus_text"
-    await page.goto(url_text, wait_until="networkidle")
-    await asyncio.sleep(0.3)
+    if not metrics.get("hasScroll", False):
+        # Single view is sufficient (all content fits on 1 screen)
+        await page.screenshot(path=img_single, full_page=False)
+        print(f"  📸 Captured Single 1080p slide view for Slide {slide_num:02d}")
+        return {"single": img_single}
+    
+    # Dual View needed for tall slide:
+    # 1. Capture Part 1: Top View (Title + All Bullets)
     await page.evaluate("""() => {
-        const header = document.querySelector('header');
-        if (header) header.style.display = 'none';
+        const container = document.querySelector('main > div:first-child > div:first-child');
+        if (container) container.scrollTop = 0;
     }""")
-    await page.screenshot(path=img_text, full_page=False)
+    await asyncio.sleep(0.3)
+    await page.screenshot(path=img_p1, full_page=False)
     
-    # 3. Capture Diagram Focus View if present (Zoomed & Centered)
-    views = {"overview": img_overview, "text": img_text}
-    if has_diagram:
-        url_diag = f"http://localhost:5177/?session={session_id}&slide={slide_num}&lang=en&view=focus_diagram"
-        await page.goto(url_diag, wait_until="networkidle")
-        await asyncio.sleep(0.3)
-        await page.evaluate("""() => {
-            const header = document.querySelector('header');
-            if (header) header.style.display = 'none';
-        }""")
-        await page.screenshot(path=img_diagram, full_page=False)
-        views["diagram"] = img_diagram
-        print(f"  📸 Captured 3-Stage Dynamic Views (Overview, Zoomed Text, Zoomed Diagram) for Slide {slide_num:02d}")
-    else:
-        print(f"  📸 Captured 2-Stage Dynamic Views (Overview, Zoomed Text) for Slide {slide_num:02d}")
-        
-    return views
+    # 2. Capture Part 2: Scrolled View (Diagram / Formula / Table centered at bottom)
+    await page.evaluate("""() => {
+        const container = document.querySelector('main > div:first-child > div:first-child');
+        if (container) {
+            const target = container.querySelector('.focus-diagram-container') || container.querySelector('svg') || container.querySelector('table');
+            if (target) {
+                target.scrollIntoView({ behavior: 'instant', block: 'center' });
+            } else {
+                container.scrollTop = container.scrollHeight;
+            }
+        }
+    }""")
+    await asyncio.sleep(0.4)
+    await page.screenshot(path=img_p2, full_page=False)
+    
+    print(f"  📸 Captured Dual 1080p Views (Part 1: Top & Part 2: Scrolled Bottom) for Slide {slide_num:02d}")
+    return {"p1": img_p1, "p2": img_p2}
 
 async def build_slide_video(slide_data, page=None, session_id=1):
     slide_num = slide_data.get("slideNumber", slide_data.get("num", 1))
@@ -362,69 +372,29 @@ async def build_slide_video(slide_data, page=None, session_id=1):
     if page:
         views = await capture_slide_views(slide_num, page, session_id)
     else:
-        img_single = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}_overview.png")
-        views = {"overview": img_single, "text": img_single}
+        img_single = os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}.png")
+        views = {"single": img_single}
 
     out_video_path = os.path.join(OUTPUT_DIR, f"Session{session_id}_Slide_{slide_num:02d}_DuoLecture.mp4")
     clean_srt_path = srt_path.replace("\\", "/").replace(":", "\\:")
     fonts_dir = os.path.expandvars(r"%LOCALAPPDATA%\Microsoft\Windows\Fonts").replace("\\", "/").replace(":", "\\:")
     subtitle_filter = f"subtitles='{clean_srt_path}':fontsdir='{fonts_dir}':force_style='FontSize=16,Fontname=Paperlogy 6 SemiBold,PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H80000000,BorderStyle=4,MarginV=26'"
 
-    # Time calculations for stages
-    # Stage 1: Turn 1 (Opening overview)
-    t1_end_sec = (turn_start_times_ms[1] / 1000.0) if len(turn_start_times_ms) > 1 else (total_audio_sec * 0.25)
-    dur_overview = t1_end_sec
+    if "p1" in views and "p2" in views:
+        # Dual-Stage: Top View during the first ~60% of dialogue -> Scrolled Bottom View in the latter ~40% of dialogue
+        target_split_idx = max(2, int(len(turns) * 0.60))
+        split_time_sec = (turn_start_times_ms[target_split_idx] / 1000.0) if target_split_idx < len(turn_start_times_ms) else (total_audio_sec * 0.60)
+        dur_p1 = split_time_sec
+        dur_p2 = total_audio_sec - dur_p1
+        
+        print(f"  🎬 Multi-Stage Video: Part 1 Top View ({dur_p1:.1f}s, Turns 1~{target_split_idx}) -> Part 2 Scrolled Bottom View ({dur_p2:.1f}s, Turns {target_split_idx+1}~{len(turns)})")
 
-    if "diagram" in views:
-        # 3-Stage: Overview (Turn 1) -> Zoomed Text (Turns 2~Split) -> Zoomed Diagram (Turns Split+1~N)
-        split_idx = max(2, min(len(turns) - 2, len(turns) // 2))
-        diagram_keywords = ["flowchart", "diagram", "table", "formula", "equation", "matrix", "mechanism", "look at", "examine", "below", "architecture"]
-        for idx, turn in enumerate(turns):
-            if idx >= 2 and any(k in turn["text"].lower() for k in diagram_keywords):
-                split_idx = idx
-                break
-        
-        t_split_sec = (turn_start_times_ms[split_idx] / 1000.0) if split_idx < len(turn_start_times_ms) else (total_audio_sec * 0.6)
-        dur_text = t_split_sec - dur_overview
-        dur_diagram = total_audio_sec - t_split_sec
-        
-        print(f"  🎬 3-Stage Dynamic Camera:")
-        print(f"     1. Overview ({dur_overview:.1f}s, Turn 1)")
-        print(f"     2. Zoomed Text Focus ({dur_text:.1f}s, Turns 2~{split_idx})")
-        print(f"     3. Zoomed Diagram Focus ({dur_diagram:.1f}s, Turns {split_idx+1}~{len(turns)})")
-        
-        filter_complex = f"[0:v][1:v][2:v]concat=n=3:v=1:a=0[vbase];[vbase]{subtitle_filter}[vout]"
-        cmd_encode = [
-            FFMPEG_EXE, "-y",
-            "-loop", "1", "-t", f"{dur_overview:.3f}", "-i", views["overview"],
-            "-loop", "1", "-t", f"{dur_text:.3f}", "-i", views["text"],
-            "-loop", "1", "-t", f"{dur_diagram:.3f}", "-i", views["diagram"],
-            "-i", merged_audio_path,
-            "-filter_complex", filter_complex,
-            "-map", "[vout]",
-            "-map", "3:a",
-            "-c:v", "libx264",
-            "-preset", "fast",
-            "-tune", "stillimage",
-            "-c:a", "aac",
-            "-b:a", "192k",
-            "-pix_fmt", "yuv420p",
-            "-t", f"{total_audio_sec:.3f}",
-            "-movflags", "+faststart",
-            out_video_path
-        ]
-    else:
-        # 2-Stage: Overview (Turn 1) -> Zoomed Text (Turns 2~N)
-        dur_text = total_audio_sec - dur_overview
-        print(f"  🎬 2-Stage Dynamic Camera:")
-        print(f"     1. Overview ({dur_overview:.1f}s, Turn 1)")
-        print(f"     2. Zoomed Text Focus ({dur_text:.1f}s, Turns 2~{len(turns)})")
         
         filter_complex = f"[0:v][1:v]concat=n=2:v=1:a=0[vbase];[vbase]{subtitle_filter}[vout]"
         cmd_encode = [
             FFMPEG_EXE, "-y",
-            "-loop", "1", "-t", f"{dur_overview:.3f}", "-i", views["overview"],
-            "-loop", "1", "-t", f"{dur_text:.3f}", "-i", views["text"],
+            "-loop", "1", "-t", f"{dur_p1:.3f}", "-i", views["p1"],
+            "-loop", "1", "-t", f"{dur_p2:.3f}", "-i", views["p2"],
             "-i", merged_audio_path,
             "-filter_complex", filter_complex,
             "-map", "[vout]",
@@ -439,9 +409,29 @@ async def build_slide_video(slide_data, page=None, session_id=1):
             "-movflags", "+faststart",
             out_video_path
         ]
+    else:
+        img_single = views.get("single", views.get("overview", os.path.join(SLIDES_IMG_DIR, f"session_{session_id}_slide_{slide_num:02d}.png")))
+        print(f"  🎬 Single 1080p Master View ({total_audio_sec:.1f}s)")
+        cmd_encode = [
+            FFMPEG_EXE, "-y",
+            "-loop", "1",
+            "-i", img_single,
+            "-i", merged_audio_path,
+            "-vf", subtitle_filter,
+            "-c:v", "libx264",
+            "-preset", "fast",
+            "-tune", "stillimage",
+            "-c:a", "aac",
+            "-b:a", "192k",
+            "-pix_fmt", "yuv420p",
+            "-t", f"{total_audio_sec:.3f}",
+            "-movflags", "+faststart",
+            out_video_path
+        ]
     
     print(f"  ⚡ Encoding 1080p MP4 with Burned-In Subtitles...")
     subprocess.run(cmd_encode, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
 
 
     
