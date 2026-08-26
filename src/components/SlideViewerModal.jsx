@@ -6,6 +6,7 @@ import {
   RotateCcw, Volume2, VolumeX, Type, Maximize
 } from 'lucide-react';
 import mermaid from 'mermaid';
+import { renderLatexInText, renderFormulaBox } from '../utils/katexRenderer';
 
 export default function SlideViewerModal({ session, initialSlide = 1, onClose, lang }) {
   const [currentSlideIndex, setCurrentSlideIndex] = useState(initialSlide - 1);
@@ -403,12 +404,13 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
               </div>
 
               {/* Slide Title */}
-              <h1 style={{
-                fontFamily: "'Outfit', sans-serif", fontSize: '28px', fontWeight: 800,
-                color: '#FFFFFF', lineHeight: 1.3, marginBottom: '24px', letterSpacing: '-0.02em'
-              }}>
-                {displayTitle}
-              </h1>
+              <h1
+                style={{
+                  fontFamily: "'Outfit', sans-serif", fontSize: '28px', fontWeight: 800,
+                  color: '#FFFFFF', lineHeight: 1.3, marginBottom: '24px', letterSpacing: '-0.02em'
+                }}
+                dangerouslySetInnerHTML={{ __html: renderLatexInText(displayTitle) }}
+              />
 
               {/* Bullets */}
               {displayBullets?.length > 0 && (
@@ -426,7 +428,7 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                         boxShadow: '0 0 8px #00F0FF'
                       }} />
                       <span dangerouslySetInnerHTML={{
-                        __html: bullet.replace(/\*\*(.*?)\*\*/g, '<strong style="color: #FFFFFF; font-weight: 700;">$1</strong>')
+                        __html: renderLatexInText(bullet)
                       }} />
                     </div>
                   ))}
@@ -440,14 +442,16 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                   padding: '20px', borderRadius: '16px', marginBottom: '28px',
                   boxShadow: '0 0 25px rgba(0, 240, 255, 0.12)'
                 }}>
-                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '6px' }}>
+                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '10px' }}>
                     MATHEMATICAL MODEL
                   </div>
-                  <div style={{ fontFamily: 'monospace', color: '#BAE6FD', fontSize: '16px', fontWeight: 700, overflowX: 'auto' }}>
-                    {currentSlide.formula}
-                  </div>
+                  <div
+                    style={{ color: '#BAE6FD', fontSize: '18px', overflowX: 'auto', display: 'flex', justifyContent: 'center' }}
+                    dangerouslySetInnerHTML={{ __html: renderFormulaBox(currentSlide.formula) }}
+                  />
                 </div>
               )}
+
 
               {/* Mermaid Diagram */}
               {mermaidSvg ? (

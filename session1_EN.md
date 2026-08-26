@@ -342,7 +342,7 @@ pie title Empirical Distribution of 83 Canonical Miracles
 
 ### Slide 13: Peter Diamandis’s Exponential Lens: Abundance by Design
 - **Core Axioms of Exponential Abundance:**
-  1. *Linear to Exponential:* Human perception computes additively ($1, 2, 3\dots 30 = 30$), whereas exponential drivers scale multiplicatively ($1, 2, 4\dots 2^{30} pprox 1,073,741,824$).
+  1. *Linear to Exponential:* Human perception computes additively ($1, 2, 3\dots 30 = 30$), whereas exponential drivers scale multiplicatively ($1, 2, 4\dots 2^{30} \approx 1,073,741,824$).
   2. *Scarcity is Contextual:* Scarcity is rarely a fundamental limit of universal atoms; it is a limitation of accessibility and technological efficiency.
   3. *The Conversion Engine:* Exponential technologies systematically transform scarce, expensive luxuries into ubiquitous, zero-marginal-cost public utilities.
 
@@ -420,7 +420,7 @@ graph TD
 - **Theological Precedent:** *Creatio ex nihilo* (Latin: creation out of utter nothingness).
 - **Mathematical Execution:** Reverse-time stochastic differential equations traversing continuous latent spaces ($\mathbb{R}^d$) to sample probability distributions $P(X|C)$.
 - **Mathematical Formulation:**
-  $$\mathcal{L}_{	ext{Diffusion}}(	heta) = \mathbb{E}_{t, x_0, \epsilon} \left[ \| \epsilon - \epsilon_	heta(x_t, t) \|^2 
+  $$\mathcal{L}_{\text{Diffusion}}(	heta) = \mathbb{E}_{t, x_0, \epsilon} \left[ \| \epsilon - \epsilon_	heta(x_t, t) \|^2 
 ight]$$
 
 ```mermaid
@@ -492,7 +492,7 @@ flowchart TD
 - **The Multiplicative Acceleration Dynamic:**
   - Exponential technologies do not advance along isolated linear corridors; they act as mutual catalysts, forming closed feedback loops of self-reinforcing acceleration.
 - **The Convergence Formulation:**
-  $$rac{d\mathcal{A}}{dt} = \kappa \cdot \left[ \mathcal{C}_{	ext{Compute}} 	imes \mathcal{M}_{	ext{Models}} 	imes \mathcal{D}_{	ext{Data}} 	imes \mathcal{E}_{	ext{Energy}} 
+  $$rac{d\mathcal{A}}{dt} = \kappa \cdot \left[ \mathcal{C}_{\text{Compute}} \times \mathcal{M}_{\text{Models}} \times \mathcal{D}_{\text{Data}} \times \mathcal{E}_{\text{Energy}} 
 ight]^{\gamma}$$
   where $\gamma > 1$ denotes the autocatalytic exponent.
 
@@ -511,10 +511,10 @@ ight]^{\gamma}$$
 
 ### Slide 20: The 181 Zettabyte Tsunami vs. The 120-Bit Cortical Funnel
 - **The Overwhelming Quantitative Mismatch:**
-  - Global Data Output in 2026: **181 Zettabytes ($1.81 	imes 10^{23}$ Bytes)**.
+  - Global Data Output in 2026: **181 Zettabytes ($1.81 \times 10^{23}$ Bytes)**.
   - Conscious Human Working-Memory Throughput: **50 to 120 bits/second** (Mihaly Csikszentmihalyi).
 - **The Ingestion Divergence:**
-  $$	ext{Cognitive Mismatch Ratio} = rac{1.81 	imes 10^{23} 	ext{ bytes/year}}{15 	ext{ bytes/second} 	imes 3.15 	imes 10^7 	ext{ seconds/year}} pprox 3.83 	imes 10^{14}$$
+  $$\text{Cognitive Mismatch Ratio} = rac{1.81 \times 10^{23} \text{ bytes/year}}{15 \text{ bytes/second} \times 3.15 \times 10^7 \text{ seconds/year}} \approx 3.83 \times 10^{14}$$
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -605,15 +605,11 @@ graph TD
 
 ### Slide 24: The Thermodynamics of Universal Democratization
 - **The Inevitable Trajectory of the 6Ds:**
-  - Digitized $
-ightarrow$ Deceptive $
-ightarrow$ Disruptive $
-ightarrow$ Dematerialized $
-ightarrow$ Demonetized $
-ightarrow$ **Democratized**.
+  - $\text{Digitized} \rightarrow \text{Deceptive} \rightarrow \text{Disruptive} \rightarrow \text{Dematerialized} \rightarrow \text{Demonetized} \rightarrow \textbf{Democratized}$.
 - **The Democratization Equation:**
-  $$\lim_{	ext{Marginal Cost} 	o 0} 	ext{Accessibility}(X) = 1.0 \quad (orall 	ext{ Humans})$$
+  $$\lim_{\text{Marginal Cost} \to 0} \text{Accessibility}(X) = 1.0 \quad (\forall \text{ Humans})$$
 - Historically, monarchs spent entire treasuries for personal physicians, private orchestras, and couriers. Today, a standard smartphone provides superior medical AI, every symphony ever recorded, and instant planetary messaging to billions.
+
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -676,8 +672,7 @@ flowchart LR
 ---
 
 ### Slide 27: Max Hodak’s Bio-Hybrid Interface Architecture
-- **Pioneer Profile:** Max Hodak (Co-founder & former President of Neuralink $
-ightarrow$ Founder & CEO of Science Corporation).
+- **Pioneer Profile:** Max Hodak (Co-founder & former President of Neuralink \rightarrow Founder & CEO of Science Corporation).
 - **Architectural Philosophy:** Avoid high-risk invasive craniotomies; utilize the **eye as the optimal high-bandwidth optical portal** directly into the human central nervous system.
 - **Surgical Profile:** 30-minute outpatient subretinal implantation with rapid post-operative recovery.
 
@@ -696,8 +691,8 @@ ightarrow$ Founder & CEO of Science Corporation).
 
 ### Slide 28: PRIMA Technical Specifications: 2mm Photovoltaic Array
 - **Physical Specifications:**
-  - *Dimensions:* $2	ext{mm} 	imes 2	ext{mm}$, Thickness: $30\mu	ext{m}$ (one-third the diameter of a human hair).
-  - *Electrode Density:* 378 autonomous photovoltaic pixels ($100\mu	ext{m}$ pitch).
+  - *Dimensions:* $2\text{mm} \times 2\text{mm}$, Thickness: $30\mu\text{m}$ (one-third the diameter of a human hair).
+  - *Electrode Density:* 378 autonomous photovoltaic pixels ($100\mu\text{m}$ pitch).
   - *Power & Telemetry:* **100% Batteryless and Wireless**; powered directly by incoming 880nm Near-Infrared (NIR) light pulses.
   - *Material Composition:* Platinum-iridium electrodes encapsulated in medical-grade biocompatible silicon.
 
@@ -916,8 +911,8 @@ graph TD
 ### Slide 38: Cultural Lag & The Deficit of Sacred Responsibility
 - **Sociological Foundation:** William F. Ogburn (1922) — *Cultural Lag Theory*.
 - **The Modern Asymmetry:**
-  - Physical Engineering Velocity: **Scaling Exponentially ($100	imes$)**
-  - Ethical, Institutional, and Governance Wisdom: **Scaling Linearly ($1	imes$)**
+  - Physical Engineering Velocity: **Scaling Exponentially ($100\times$)**
+  - Ethical, Institutional, and Governance Wisdom: **Scaling Linearly ($1\times$)**
 - **The Peril:** When godlike agency is wielded by institutions operating with medieval ethics and palaeolithic instincts, systemic catastrophe becomes inevitable.
 
 ```mermaid
@@ -945,12 +940,9 @@ flowchart TD
 - **The E.O. Wilson Formulation:**
   > *"The real problem of humanity is the following: we have Paleolithic emotions, medieval institutions, and godlike technology."* — Edward O. Wilson
 - **The Core Manifestations:**
-  - *Savannah Tribalism* $	imes$ *Algorithmic Feed Architecture* $
-ightarrow$ Hyper-polarized ideological warfare.
-  - *Caloric Scarcity Instinct* $	imes$ *Ultra-Processed Abundance* $
-ightarrow$ Global metabolic collapse.
-  - *In-Group Survival Bias* $	imes$ *Autonomous Weaponry* $
-ightarrow$ Asymmetric global instability.
+  - *Savannah Tribalism* $\times$ *Algorithmic Feed Architecture* \rightarrow Hyper-polarized ideological warfare.
+  - *Caloric Scarcity Instinct* $\times$ *Ultra-Processed Abundance* \rightarrow Global metabolic collapse.
+  - *In-Group Survival Bias* $\times$ *Autonomous Weaponry* \rightarrow Asymmetric global instability.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -966,7 +958,7 @@ ightarrow$ Asymmetric global instability.
 
 ### Slide 40: The Peril of Algorithmic Feudalism & Digital Theocracy
 - **The Centralization Threat:**
-  - The extreme capital and compute requirements for frontier foundation models ($>\$10	ext{B}$ per training cluster) threaten to concentrate planetary intelligence into the hands of 4–5 private monopolies.
+  - The extreme capital and compute requirements for frontier foundation models ($>\$10\text{B}$ per training cluster) threaten to concentrate planetary intelligence into the hands of 4–5 private monopolies.
   - The emergence of an **Algorithmic Theocracy**, where private corporations dictate the epistemic boundaries of acceptable thought for billions of humans.
 - **The Theurgic Counter-Strategy:** Open-source foundation models, decentralized compute architectures, and individual cognitive sovereignty.
 

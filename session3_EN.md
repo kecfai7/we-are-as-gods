@@ -27,9 +27,7 @@
   - [Slide 14: Steven Kotler’s Warning on the Cognitive Blindspot of Deception](#slide-14-steven-kotlers-warning-on-the-cognitive-blindspot-of-deception)
   - [Slide 15: The Master 6D Value-Shift Matrix](#slide-15-the-master-6d-value-shift-matrix)
 - [Module 3: Exponential Frameworks & Relational Mapping (Slides 16–25)](#module-3-exponential-frameworks--relational-mapping-slides-1625)
-  - [Slide 16: The Mathematics of the Deception Trap: $0.001 
-ightarrow 0.002 
-ightarrow 0.004$](#slide-16-the-mathematics-of-the-deception-trap-0001-rightarrow-0002-rightarrow-0004)
+  - [Slide 16: The Mathematics of the Deception Trap: $0.001  \rightarrow  0.002  \rightarrow  0.004$](#slide-16-the-mathematics-of-the-deception-trap-0001-rightarrow-0002-rightarrow-0004)
   - [Slide 17: The Inflection Intersection Point ($T^*$): Where Exponentials Sever Linear Projections](#slide-17-the-inflection-intersection-point-t-where-exponentials-sever-linear-projections)
   - [Slide 18: The Tragedy of Kodak: 1975 Steve Sasson 0.01MP CCD to Chapter 11](#slide-18-the-tragedy-of-kodak-1975-steve-sasson-001mp-ccd-to-chapter-11)
   - [Slide 19: Moore’s Law vs. Wright’s Law: Cumulative Production Compounding](#slide-19-moores-law-vs-wrights-law-cumulative-production-compounding)
@@ -37,8 +35,7 @@ ightarrow 0.004$](#slide-16-the-mathematics-of-the-deception-trap-0001-rightarro
   - [Slide 21: Metcalfe’s Law and the Exponential Acceleration Vector](#slide-21-metcalfes-law-and-the-exponential-acceleration-vector)
   - [Slide 22: The Thermodynamics of Bits Swallowing Atoms](#slide-22-the-thermodynamics-of-bits-swallowing-atoms)
   - [Slide 23: Zero Marginal Cost Economics: Jeremy Rifkin’s Post-Capitalist Horizon](#slide-23-zero-marginal-cost-economics-jeremy-rifkins-post-capitalist-horizon)
-  - [Slide 24: The Collapse of Barriers to Entry: $C_{	ext{entry}} 
-ightarrow 0$](#slide-24-the-collapse-of-barriers-to-entry-c_textentry-rightarrow-0)
+  - [Slide 24: The Collapse of Barriers to Entry: $C_{\text{entry}}  \rightarrow  0$](#slide-24-the-collapse-of-barriers-to-entry-c_textentry-rightarrow-0)
   - [Slide 25: The 6D Disruptive Opportunity Discovery Algorithm](#slide-25-the-6d-disruptive-opportunity-discovery-algorithm)
 - [Module 4: Global Empirical Verification & Hardware Specs (Slides 26–35)](#module-4-global-empirical-verification--hardware-specs-slides-2635)
   - [Slide 26: CASE 01: Digital Photography: Kodak Bankruptcy vs. Instagram $1B Exit](#slide-26-case-01-digital-photography-kodak-bankruptcy-vs-instagram-1b-exit)
@@ -87,7 +84,7 @@ flowchart LR
 > **Prof. Peter Kim:** Scholars, welcome to Session 3 of the Theurgicon. Over the past two weeks, we mapped the 83 canonical miracles and installed cognitive gyroscopes through Structure-Mapping. Today, we unpack the core analytical engine of exponential strategy: **Peter Diamandis’s 6Ds Framework**. Dr. Vance, why is the 6Ds model more than just a catchy Silicon Valley taxonomy? *(Turn 1)*  
 > **Dr. Elena Vance:** Because, Professor Kim, the 6Ds describe a fundamental thermodynamic and informational phase transition. Look at the six-stage chain on Slide 1: The moment any physical domain—whether it is photography, genetic code, money, or energy capture—is encoded into digital bits, it escapes the physical friction of Newtonian economics and obeys the compounding mathematics of information theory! *(Turn 2)*  
 > **TA Marcus Brody:** And the deadliest trap in modern business and civilization is Stage 2: **Deception**! When a technology doubles from $0.001$ to $0.002$, traditional Wall Street analysts and Fortune 500 CEOs laugh it off as an irrelevant, low-margin toy! *(Turn 3)*  
-> **Dr. Elena Vance:** And they keep laughing while it goes $0.004 	o 0.008 	o 0.016 \dots$ because it still looks like zero to their linear spreadsheets! *(Turn 4)*  
+> **Dr. Elena Vance:** And they keep laughing while it goes $0.004 \to 0.008 \to 0.016 \dots$ because it still looks like zero to their linear spreadsheets! *(Turn 4)*  
 > **TA Marcus Brody:** But twenty doublings later, it hits $1\%$, and just seven doublings after that, it hits **100% complete market dominance**! By the time it enters Stage 3—Disruption—the incumbent's multi-billion-dollar empire is liquidated in 18 months! *(Turn 5)*  
 > **Prof. Peter Kim:** That silent, exponential gestation is why we call this session *The Mathematics of Invisible Growth*. If you cannot perceive the technology while it is in the deceptive phase, you are already roadkill. *(Turn 6)*  
 > **TA Marcus Brody:** And once it disrupts, it dematerializes physical hardware into software, demonetizes the price to near-zero, and democratizes access to eight billion people! *(Turn 7)*  
@@ -126,12 +123,12 @@ flowchart TD
 ### Slide 03: The Great Atom-to-Bit Conversion: Information-Based Economics
 - **The Classical vs. Information Economic Divide:**
   - *Newtonian Atom Economics:* Governed by physical mass, thermodynamic friction, scarcity, diminishing returns, and non-zero marginal reproduction costs.
-  - *Shannon Bit Economics:* Governed by digital information, zero mass, non-rivalrous consumption, infinite scalability, and **Zero Marginal Cost ($	ext{MC} 	o 0$)**.
+  - *Shannon Bit Economics:* Governed by digital information, zero mass, non-rivalrous consumption, infinite scalability, and **Zero Marginal Cost ($\text{MC} \to 0$)**.
 - **The Phase Shift Axiom:** *"Once a domain converts from atoms to bits, its growth rate shifts from linear addition to exponential compounding."*
 
 | Economic Dimension | Atom-Based Economy (Physical Matter) | Bit-Based Economy (Digital Information) | Theurgic Implication |
 | :--- | :--- | :--- | :--- |
-| **Marginal Cost of Duplication** | Substantial (Raw Materials, Labor, Freight) | **Asymptotically Zero ($pprox \$0.00$)** | Price collapses, enabling universal access |
+| **Marginal Cost of Duplication** | Substantial (Raw Materials, Labor, Freight) | **Asymptotically Zero ($\approx \$0.00$)** | Price collapses, enabling universal access |
 | **Consumption Rivalry** | Rivalrous (If I eat an apple, you cannot) | **Non-Rivalrous (Infinite simultaneous use)** | Scarcity dissolves into shared abundance |
 | **Scaling Velocity** | Friction-Bound (Building physical factories) | **Instantaneous (Light-speed global routing)** | Disruptive saturation in months, not decades |
 
@@ -469,9 +466,7 @@ flowchart TD
 
 ## Module 3: Exponential Frameworks & Relational Mapping (Slides 16–25)
 
-### Slide 16: The Mathematics of the Deception Trap: $0.001 
-ightarrow 0.002 
-ightarrow 0.004$
+### Slide 16: The Mathematics of the Deception Trap: $0.001  \rightarrow  0.002  \rightarrow  0.004$
 - **Mathematical Formalization of Deception:**
   - Let $y(t) = y_0 \cdot 2^{t / 	au_d}$, where $	au_d$ is the doubling period.
   - For $y_0 = 10^{-6}$ (one part in a million):
@@ -487,7 +482,7 @@ ightarrow 0.004$
 > **Dr. Elena Vance:** Look at the formula: $y(t) = y_0 \cdot 2^{t / 	au_d}$. Assume a technology starts at one part in a million ($10^{-6}$). After one doubling, it is $0.000002$. After ten doublings, it has compounded by a thousand times, but its absolute market share is still only **$0.10\%$**! *(Turn 2)*  
 > **TA Marcus Brody:** Think about that! The engineers worked their hearts out for ten years, achieved a 1,000x improvement, and Wall Street reports: *"This technology only has 0.1% market share. It’s a total commercial flop!"* *(Turn 3)*  
 > **Dr. Elena Vance:** And after twenty doublings—two-thirds of the entire timeline ($66\%$)—it has only reached **$1.05\%$ market share**! To a linear observer, $1\%$ after twenty years feels like glacial, irrelevant progress. *(Turn 4)*  
-> **Prof. Peter Kim:** But look at what happens in the final third of the timeline: In just ten more doublings ($t = 20	au_d 	o 30	au_d$), it jumps from $1\%$ to **over 1,000x total market saturation**! *(Turn 5)*  
+> **Prof. Peter Kim:** But look at what happens in the final third of the timeline: In just ten more doublings ($t = 20	au_d \to 30	au_d$), it jumps from $1\%$ to **over 1,000x total market saturation**! *(Turn 5)*  
 > **TA Marcus Brody:** That is a **100,000% explosion** in the last 33% of the time! That is the mathematical trap! The technology spends two-thirds of its life looking like zero, and then takes over the world in the final third! *(Turn 6)*  
 > **Dr. Elena Vance:** If you wait until the technology hits $1\%$ to start building your defense, you only have ten doublings left before you are completely wiped out. *(Turn 7)*  
 > **Prof. Peter Kim:** And we can calculate the exact calendar date when this disruption occurs: The Inflection Intersection Point ($T^*$). *(Turn 8)*  
@@ -524,7 +519,7 @@ graph LR
 > **Dr. Elena Vance:** This equation calculates the exact point in time $T^*$ where the exponential challenger curve $E(t) = E_0 e^{kt}$ intersects and surpasses the linear incumbent trajectory $L(t) = L_0 + lpha t$. *(Turn 2)*  
 > **Prof. Peter Kim:** Look at the strategic rule of thumb at the bottom of the slide: Two doubling periods before intersection ($t = T^* - 2	au_d$), the exponential challenger is operating at **only 25% of the incumbent's performance**. *(Turn 3)*  
 > **TA Marcus Brody:** 25% looks inferior! A phone with 25% battery life, or an AI with 25% accuracy looks like a bad joke! Incumbents look at 25% and say: *"We have plenty of time; they are way behind us."* *(Turn 4)*  
-> **Dr. Elena Vance:** But because it is compounding exponentially, it only takes **two doubling cycles** to jump from $25\% 	o 50\% 	o 100\%$! If the doubling time is 12 months, the incumbent has exactly **24 months** between feeling comfortably superior and being completely driven out of business! *(Turn 5)*  
+> **Dr. Elena Vance:** But because it is compounding exponentially, it only takes **two doubling cycles** to jump from $25\% \to 50\% \to 100\%$! If the doubling time is 12 months, the incumbent has exactly **24 months** between feeling comfortably superior and being completely driven out of business! *(Turn 5)*  
 > **TA Marcus Brody:** Two years! In corporate governance, it takes two years just to hire a search committee and approve a restructuring plan! By the time the board finishes their off-site retreat, their market is gone! *(Turn 6)*  
 > **Prof. Peter Kim:** This equation proves that in an exponential world, the window for strategic response is measured in months, not decades. *(Turn 7)*  
 > **Dr. Elena Vance:** And no company illustrates this tragedy more vividly than Kodak. *(Turn 8)*  
@@ -535,7 +530,7 @@ graph LR
 
 ### Slide 18: The Tragedy of Kodak: 1975 Steve Sasson 0.01MP CCD to Chapter 11
 - **Historical Autopsy:**
-  - *1975:* Kodak engineer Steve Sasson invents the world's first digital camera ($0.01	ext{ MP}$, weight: $3.6	ext{ kg}$, cassette storage).
+  - *1975:* Kodak engineer Steve Sasson invents the world's first digital camera ($0.01\text{ MP}$, weight: $3.6\text{ kg}$, cassette storage).
   - *Management Response:* *"That's cute, Steve—just don't tell anyone about it."* (Fear of cannibalizing the high-margin chemical film business).
   - *1996:* Kodak reaches peak market valuation of **$31 Billion USD** (145,000 employees).
   - *2012 (January):* Kodak files for **Chapter 11 Bankruptcy** as digital photography hits universal saturation.
@@ -568,16 +563,16 @@ flowchart LR
 ### Slide 19: Moore’s Law vs. Wright’s Law: Cumulative Production Compounding
 - **Theoretical Comparison:**
   - *Moore’s Law (Time-Indexed):* Performance doubles as a function of **time** ($t$):
-    $$	ext{Cost}(t) = 	ext{Cost}_0 \cdot 2^{-t / 	au}$$
+    $$\text{Cost}(t) = \text{Cost}_0 \cdot 2^{-t / 	au}$$
   - *Wright’s Law (Production-Indexed):* Cost falls as a power-law function of **cumulative manufacturing volume** ($Y$):
-    $$	ext{Cost}(Y) = C_0 \cdot Y^{-\omega} \quad (	ext{Learning Rate } 	ext{LR} = 1 - 2^{-\omega})$$
+    $$\text{Cost}(Y) = C_0 \cdot Y^{-\omega} \quad (\text{Learning Rate } \text{LR} = 1 - 2^{-\omega})$$
 - **Empirical Superiority:** Wright’s Law accurately models technologies that require physical scale (Solar PV, Batteries, Cultured Meat, CubeSats), proving that **deployment volume directly drives cost deflation**.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **Prof. Peter Kim:** Slide 19 introduces a crucial distinction in exponential modeling: **Moore’s Law versus Wright’s Law**. Dr. Vance, why is Wright’s Law often superior to Moore’s Law for physical technologies? *(Turn 1)*  
 > **Dr. Elena Vance:** Moore’s Law is indexed to *time*—it assumes progress happens automatically every 18 months. But **Wright’s Law**, formulated by Theodore Wright in 1936, indexes cost reduction to **Cumulative Manufacturing Experience ($Y$)**! *(Turn 2)*  
-> **TA Marcus Brody:** Look at the equation: $	ext{Cost}(Y) = C_0 \cdot Y^{-\omega}$. Every time cumulative global production of a technology doubles, the unit cost falls by a fixed percentage (the learning rate $\omega$)! *(Turn 3)*  
+> **TA Marcus Brody:** Look at the equation: $\text{Cost}(Y) = C_0 \cdot Y^{-\omega}$. Every time cumulative global production of a technology doubles, the unit cost falls by a fixed percentage (the learning rate $\omega$)! *(Turn 3)*  
 > **Dr. Elena Vance:** In solar photovoltaics and lithium-ion batteries, the learning rate is roughly **20% to 28%**! That means every time we double the total number of solar panels or battery packs manufactured in history, the cost per watt or per kilowatt-hour drops by more than a quarter! *(Turn 4)*  
 > **Prof. Peter Kim:** This proves that cost reduction is not passive; it is an active engineering function of deployment volume. The faster you build, the faster the price collapses. *(Turn 5)*  
 > **TA Marcus Brody:** That’s why Elon Musk at Tesla or CATL in China build massive gigafactories! They aren't just building products; they are racing down Wright's Law learning curves to permanently demonetize their competitors! *(Turn 6)*  
@@ -590,20 +585,20 @@ flowchart LR
 
 ### Slide 20: Complex Matrix Convergence: Multi-6D Cross-Pollination
 - **Multi-Dimensional Convergence Dynamics:**
-  - Technological acceleration does not occur along isolated single-6D tracks; it operates as an interconnected $N 	imes N$ matrix where each stage in Domain $A$ unlocks downstream stages in Domains $B$, $C$, and $D$.
+  - Technological acceleration does not occur along isolated single-6D tracks; it operates as an interconnected $N \times N$ matrix where each stage in Domain $A$ unlocks downstream stages in Domains $B$, $C$, and $D$.
 - **The Convergence Matrix (2026):**
 
 | Primary 6D Driver | Secondary Catalyzed Domain | Cross-Pollination Mechanism | Civilizational Acceleration Factor |
 | :--- | :--- | :--- | :--- |
-| **Digitized AI Compute** | Synthetic Genomics | In silico AlphaFold molecular design | $100	imes$ faster enzyme discovery |
-| **Dematerialized Sensors**| Autonomous Robotics | Solid-state LiDAR on edge ASICs | $10	imes$ reduction in vehicle BOM cost |
+| **Digitized AI Compute** | Synthetic Genomics | In silico AlphaFold molecular design | $100\times$ faster enzyme discovery |
+| **Dematerialized Sensors**| Autonomous Robotics | Solid-state LiDAR on edge ASICs | $10\times$ reduction in vehicle BOM cost |
 | **Demonetized Solar PV** | Desalination & Clean Hydrogen | Sub-1.5¢/kWh clean electron inputs | Unlimited agricultural freshwater |
 | **Democratized Starlink** | Global Precision Agriculture | LEO low-latency telemetry to tractors | $30\%$ reduction in chemical fertilizer |
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **Prof. Peter Kim:** Look at the convergence matrix on Slide 20. We are no longer dealing with simple linear chains; we are analyzing multi-domain cross-pollination. Marcus, walk us through Row 1 and 2. *(Turn 1)*  
-> **TA Marcus Brody:** Row 1: **Digitized AI Compute catalyzes Synthetic Genomics**! By digitizing compute, DeepMind created AlphaFold, compressing 200 million protein structures from a million years of manual lab work into a few months! That is a **$100	imes$ acceleration** in biological enzyme discovery! *(Turn 2)*  
+> **TA Marcus Brody:** Row 1: **Digitized AI Compute catalyzes Synthetic Genomics**! By digitizing compute, DeepMind created AlphaFold, compressing 200 million protein structures from a million years of manual lab work into a few months! That is a **$100\times$ acceleration** in biological enzyme discovery! *(Turn 2)*  
 > **Dr. Elena Vance:** And look at Row 2: **Dematerialized Sensors catalyze Autonomous Robotics**! When mechanical spinning LiDARs costing $75,000 were dematerialized into solid-state microchips costing $250, autonomous vehicles became economically viable for mass commercial deployment! *(Turn 3)*  
 > **TA Marcus Brody:** Look at Row 3: **Demonetized Solar catalyzes Desalination**! When solar electricity hits 1.5 cents per kilowatt-hour, pumping seawater through reverse-osmosis membranes becomes so cheap you can turn coastal deserts into lush vertical farms! *(Turn 4)*  
 > **Prof. Peter Kim:** And Row 4: **Democratized LEO Satellites catalyze Global Precision Agriculture**, beaming real-time moisture telemetry to autonomous tractors in Africa, cutting fertilizer waste by 30%! *(Turn 5)*  
@@ -618,16 +613,16 @@ flowchart LR
 ### Slide 21: Metcalfe’s Law and the Exponential Acceleration Vector
 - **Mathematical Formulation:**
   - *Metcalfe’s Law (Robert Metcalfe, 1980):* The value of a telecommunications or computational network ($V$) is proportional to the square of the number of connected users/nodes ($N$):
-    $$V \propto N^2 - N pprox N^2 \quad (	ext{for large } N)$$
+    $$V \propto N^2 - N \approx N^2 \quad (\text{for large } N)$$
 - **The Multi-Agent Singularity:**
-  - When 8 billion humans, 100 billion IoT edge sensors, and 10 billion autonomous AI agents are interconnected across a sub-25ms global mesh, the systemic value and problem-solving velocity of civilization scales as $V \propto (1.18 	imes 10^{11})^2 pprox \mathbf{1.39 	imes 10^{22}}$ potential interactions.
+  - When 8 billion humans, 100 billion IoT edge sensors, and 10 billion autonomous AI agents are interconnected across a sub-25ms global mesh, the systemic value and problem-solving velocity of civilization scales as $V \propto (1.18 \times 10^{11})^2 \approx \mathbf{1.39 \times 10^{22}}$ potential interactions.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **Dr. Elena Vance:** Robert Metcalfe formulated **Metcalfe’s Law** in 1980: The value of any network ($V$) scales with the square of its connected nodes ($N^2$). Marcus, explain the mathematics of network scaling. *(Turn 1)*  
 > **TA Marcus Brody:** If a network has two phones, there is only one connection. If it has five phones, there are 10 connections. If it has 1,000 nodes, there are roughly **500,000 connections** ($N^2 / 2$)! The network value explodes quadratically! *(Turn 2)*  
 > **Prof. Peter Kim:** Now look at the Multi-Agent calculation on Slide 21: In 2026, we are not just connecting 8 billion human minds. We are interconnecting 8 billion humans, 100 billion IoT sensors, and 10 billion autonomous AI agents across a global LEO mesh! *(Turn 3)*  
-> **TA Marcus Brody:** That is **118 billion interconnected intelligent nodes**! When you square that, you get **$1.39 	imes 10^{22}$ potential synergistic interactions**! *(Turn 4)*  
+> **TA Marcus Brody:** That is **118 billion interconnected intelligent nodes**! When you square that, you get **$1.39 \times 10^{22}$ potential synergistic interactions**! *(Turn 4)*  
 > **Dr. Elena Vance:** That is an astronomical planetary cognitive mesh! A problem detected by an ocean sensor in the Pacific is processed by an AI cluster in Iceland, which triggers a drone launch in Chile in under 200 milliseconds! *(Turn 5)*  
 > **Prof. Peter Kim:** That is the literal physical realization of *Planetary Intelligence*. *(Turn 6)*  
 > **TA Marcus Brody:** And at the core of this planetary mesh is the thermodynamic substitution of bits for atoms! *(Turn 7)*  
@@ -640,18 +635,18 @@ flowchart LR
 ### Slide 22: The Thermodynamics of Bits Swallowing Atoms
 - **Landauer’s Principle & Information Physics:**
   - *Theoretical Minimum Energy to Erase 1 Bit (Rolf Landauer, 1961):*
-    $$E_{	ext{min}} = k_B T \ln 2 pprox 2.87 	imes 10^{-21} 	ext{ Joules at } 300	ext{ K}$$
+    $$E_{\text{min}} = k_B T \ln 2 \approx 2.87 \times 10^{-21} \text{ Joules at } 300\text{ K}$$
 - **The Physical Replacement Dynamic:**
-  - Manufacturing, transporting, and maintaining a 2,000kg physical steel automobile consumes $pprox 10^{11} 	ext{ Joules}$.
-  - Routing an autonomous ride-hail coordination algorithm through a cloud server consumes $pprox 10^3 	ext{ Joules}$ (**an $100,000,000	imes$ thermodynamic efficiency gain**).
+  - Manufacturing, transporting, and maintaining a 2,000kg physical steel automobile consumes $\approx 10^{11} \text{ Joules}$.
+  - Routing an autonomous ride-hail coordination algorithm through a cloud server consumes $\approx 10^3 \text{ Joules}$ (**an $100,000,000\times$ thermodynamic efficiency gain**).
 - **The Macro Inevitability:** Software and algorithms continuously replace physical mass and mechanical brute force because information processing is **eight orders of magnitude more thermodynamically efficient**.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **Prof. Peter Kim:** Slide 22 explains the fundamental physical reason why Marc Andreessen’s famous quote—*"Software is eating the world"*—is an inevitable law of thermodynamics. Dr. Vance, walk us through Landauer’s Principle. *(Turn 1)*  
-> **Dr. Elena Vance:** In 1961, physicist Rolf Landauer proved that manipulating a single bit of information requires a minimum theoretical energy of just $k_B T \ln 2$—roughly **$2.87 	imes 10^{-21}$ Joules**! Computing is virtually frictionless in the laws of physics! *(Turn 2)*  
+> **Dr. Elena Vance:** In 1961, physicist Rolf Landauer proved that manipulating a single bit of information requires a minimum theoretical energy of just $k_B T \ln 2$—roughly **$2.87 \times 10^{-21}$ Joules**! Computing is virtually frictionless in the laws of physics! *(Turn 2)*  
 > **TA Marcus Brody:** Now compare that to physical manufacturing in the second bullet point! Manufacturing a 2,000-kilogram steel car, shipping it across an ocean, and parking it in a driveway 95% of the time consumes **$10^{11}$ Joules** of raw energy! *(Turn 3)*  
-> **Dr. Elena Vance:** But using an autonomous ride-sharing algorithm to route an electric fleet—so one car serves ten people 24/7—consumes only **$10^3$ Joules** of cloud compute! That is an **eight-order-of-magnitude ($100,000,000	imes$) thermodynamic efficiency gain**! *(Turn 4)*  
+> **Dr. Elena Vance:** But using an autonomous ride-sharing algorithm to route an electric fleet—so one car serves ten people 24/7—consumes only **$10^3$ Joules** of cloud compute! That is an **eight-order-of-magnitude ($100,000,000\times$) thermodynamic efficiency gain**! *(Turn 4)*  
 > **Prof. Peter Kim:** In evolutionary biology, systems that accomplish the same function with eight orders of magnitude less energy always drive high-friction systems to total extinction. *(Turn 5)*  
 > **TA Marcus Brody:** Bits swallow atoms because bits are infinitely more energy-efficient! Software isn't just a business model; software is thermodynamic optimization! *(Turn 6)*  
 > **Dr. Elena Vance:** And this thermodynamic collapse of cost leads directly to Jeremy Rifkin’s Post-Capitalist Horizon. *(Turn 7)*  
@@ -664,7 +659,7 @@ flowchart LR
 ### Slide 23: Zero Marginal Cost Economics: Jeremy Rifkin’s Post-Capitalist Horizon
 - **Macroeconomic Benchmark:** Jeremy Rifkin (2014), *The Zero Marginal Cost Society*.
 - **The Core Paradox of Capitalism:**
-  - Capitalist competition drives relentless efficiency $	o$ Extreme efficiency reduces marginal costs to near-zero ($	ext{MC} 	o 0$) $	o$ When $	ext{MC} = 0$, profits evaporate, traditional markets fail, and goods transition into **Universal Collaborative Commons**.
+  - Capitalist competition drives relentless efficiency $	o$ Extreme efficiency reduces marginal costs to near-zero ($\text{MC} \to 0$) $	o$ When $\text{MC} = 0$, profits evaporate, traditional markets fail, and goods transition into **Universal Collaborative Commons**.
 - **The Post-Scarcity Shift:** Energy, communications, education, and healthcare increasingly operate outside traditional scarcity-based market mechanics.
 
 ```mermaid
@@ -692,19 +687,18 @@ flowchart TD
 
 ---
 
-### Slide 24: The Collapse of Barriers to Entry: $C_{	ext{entry}} 
-ightarrow 0$
+### Slide 24: The Collapse of Barriers to Entry: $C_{\text{entry}}  \rightarrow  0$
 - **The Asymmetric Power Shift:**
   - *Industrial Era (1950–2000):* Launching a global enterprise required **$50M to $500M in CapEx** (building physical factories, securing broadcast licenses, retail distribution networks).
   - *Theurgic Era (2026):* A team of 3 engineers with access to open-source foundation models, cloud compute, serverless APIs, and automated bio-foundries can deploy a global application for **<$1,000 in initial CapEx**.
 - **The Asymmetry Ratio:**
-  $$	ext{Capital Barrier Collapse} = rac{	ext{CapEx}_{1980}}{	ext{CapEx}_{2026}} pprox rac{\$100,000,000}{\$1,000} = \mathbf{100,000	imes 	ext{ Reduction}}$$
+  $$\text{Capital Barrier Collapse} = rac{\text{CapEx}_{1980}}{\text{CapEx}_{2026}} \approx rac{\$100,000,000}{\$1,000} = \mathbf{100,000\times \text{ Reduction}}$$
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
-> **Prof. Peter Kim:** Slide 24 details the greatest democratization of entrepreneurial agency in history: **The Collapse of Barriers to Entry ($C_{	ext{entry}} 	o 0$)**. Dr. Vance, quantify this historical shift. *(Turn 1)*  
+> **Prof. Peter Kim:** Slide 24 details the greatest democratization of entrepreneurial agency in history: **The Collapse of Barriers to Entry ($C_{\text{entry}} \to 0$)**. Dr. Vance, quantify this historical shift. *(Turn 1)*  
 > **Dr. Elena Vance:** In 1980, if you wanted to launch a national retail brand or software company, you needed **$50 million to $100 million dollars** upfront: you had to lease mainframe computers, build physical distribution warehouses, negotiate retail shelf space, and hire hundreds of staff. Capital was the supreme gatekeeper. *(Turn 2)*  
-> **TA Marcus Brody:** Today, two twenty-year-old college students with a laptop, an AWS credit, an open-source AI agent cluster, and a GitHub account can launch a globally scalable software application for **under $1,000 dollars**! That is a **$100,000	imes$ reduction in capital barriers**! *(Turn 3)*  
+> **TA Marcus Brody:** Today, two twenty-year-old college students with a laptop, an AWS credit, an open-source AI agent cluster, and a GitHub account can launch a globally scalable software application for **under $1,000 dollars**! That is a **$100,000\times$ reduction in capital barriers**! *(Turn 3)*  
 > **Prof. Peter Kim:** This means the moat around legacy corporate monopolies has been completely drained. Incumbents can no longer hide behind massive balance sheets; they can be disrupted from any dorm room or coffee shop on Earth. *(Turn 4)*  
 > **TA Marcus Brody:** A three-person startup using AI agents can now out-code, out-market, and out-iterate a legacy corporate division of 500 people! *(Turn 5)*  
 > **Dr. Elena Vance:** And this democratization of agency allows us to build an exact algorithm for discovering 6D disruptive opportunities! *(Turn 6)*  
@@ -751,7 +745,7 @@ flowchart TD
 
 ### Slide 26: CASE 01: Digital Photography: Kodak Bankruptcy vs. Instagram $1B Exit
 - **Empirical Industry Audit (1975–2012):**
-  - *1975:* First Digital Camera Prototype ($0.01	ext{ MP}$, weight: $3.6	ext{ kg}$, $23	ext{s}$ capture).
+  - *1975:* First Digital Camera Prototype ($0.01\text{ MP}$, weight: $3.6\text{ kg}$, $23\text{s}$ capture).
   - *1996:* Kodak Market Cap: **$31 Billion USD** (145,000 employees, 90% US film market share).
   - *2012 (Jan):* **Kodak Files Chapter 11 Bankruptcy**; zero market value for chemical patents.
   - *2012 (Apr):* **Instagram Acquired by Facebook for $1 Billion USD** (13 employees, 30 million active users, $0$ physical assets).
@@ -761,7 +755,7 @@ flowchart TD
 > 
 > **Prof. Peter Kim:** Module 4 opens with nine empirical case studies verifying the 6Ds across global industries. Case 1 is the definitive classic: **Kodak versus Instagram**. Dr. Vance, what is the quantitative lesson of this comparison on Slide 26? *(Turn 1)*  
 > **Dr. Elena Vance:** Look at the numbers side by side: In 1996, Kodak was worth **$31 Billion dollars** with 145,000 employees and physical factories across the globe. Exactly 16 years later, Kodak was bankrupt with zero value, while Instagram—with **13 employees and zero physical factories**—was acquired for **$1 Billion dollars**! *(Turn 2)*  
-> **TA Marcus Brody:** Think about employee leverage! Kodak needed **11,000 employees per billion dollars of value**; Instagram had **13 employees total**! That is an $850	imes$ increase in value density per human worker! *(Turn 3)*  
+> **TA Marcus Brody:** Think about employee leverage! Kodak needed **11,000 employees per billion dollars of value**; Instagram had **13 employees total**! That is an $850\times$ increase in value density per human worker! *(Turn 3)*  
 > **Prof. Peter Kim:** And why did that happen? Because Kodak was selling physical chemicals and paper; Instagram was routing digital bits across the cloud. *(Turn 4)*  
 > **TA Marcus Brody:** In 1996, taking 1,000 photos on vacation cost $500 in film and development. Today, people take 10,000 photos on vacation for **zero dollars** and share them with the entire world in half a second! *(Turn 5)*  
 > **Dr. Elena Vance:** The entire physical value chain of film photography was completely dematerialized into software algorithms and demonetized to absolute zero! *(Turn 6)*  
@@ -791,7 +785,7 @@ flowchart TD
 > **Dr. Elena Vance:** Look at the individual rows: A Cray-2 supercomputer cost $6.5 million in 1985 and consumed 200 kilowatts of power with liquid fluorocarbon cooling. Today, an iPhone or Android phone contains a 3-nanometer NPU that processes **over 35 Trillion Operations per Second (TOPS)** while drawing less than 5 watts of battery power! *(Turn 2)*  
 > **Prof. Peter Kim:** And look at the marine GPS navigation unit: $120,000 in 1985, requiring dedicated military hardware. Today, a microscopic GNSS silicon chip costing $1.50 gives every human pinpoint geographic positioning down to three centimeters! *(Turn 3)*  
 > **TA Marcus Brody:** Total 1985 hardware weight: **several tons** of silicon, steel, cathode-ray tubes, and copper wires! Total 2026 weight: **200 grams**! *(Turn 4)*  
-> **Dr. Elena Vance:** That is a **$10,000	imes$ dematerialization of physical mass** and a **$23,000	imes$ collapse in purchasing price**! *(Turn 5)*  
+> **Dr. Elena Vance:** That is a **$10,000\times$ dematerialization of physical mass** and a **$23,000\times$ collapse in purchasing price**! *(Turn 5)*  
 > **Prof. Peter Kim:** And once purchased, the marginal cost of updating the software, adding new AI capabilities, and accessing global knowledge is exactly **zero dollars**. *(Turn 6)*  
 > **TA Marcus Brody:** Every person on Earth carrying a smartphone is carrying a 1985 billionaire's computing bunker in their pocket! *(Turn 7)*  
 > **Dr. Elena Vance:** And this same 6D collapse is revolutionizing biological healthcare under the Carlson Curve. *(Turn 8)*  
@@ -807,7 +801,7 @@ flowchart TD
   - 2007 (Next-Gen Sequencing Inflection): **~$1,000,000 ($1M USD)**.
   - 2014 (Illumina HiSeq X Ten): **~$1,000 USD**.
   - 2026 (Ultima Genomics / Element AVITI): **<$100 USD** (approaching $10 / genome).
-- **The 6D Scaling Factor:** A **$30,000,000	imes$ ($30	ext{ Million-Fold}$) cost deflation** in 25 years, plunging **$3	imes 	ext{ to } 5	imes$ faster than classical Moore's Law**.
+- **The 6D Scaling Factor:** A **$30,000,000\times$ ($30\text{ Million-Fold}$) cost deflation** in 25 years, plunging **$3\times \text{ to } 5\times$ faster than classical Moore's Law**.
 
 ```mermaid
 flowchart LR
@@ -821,7 +815,7 @@ flowchart LR
 > 
 > **Dr. Elena Vance:** Case 3 presents the most rapid cost deflation curve in the history of science: **The Carlson Curve of DNA Sequencing**. Look at the numbers on Slide 28. *(Turn 1)*  
 > **TA Marcus Brody:** In 2001, sequencing the first human genome cost **$3 Billion dollars** across thirteen years of international effort! Today in 2026, high-throughput sequencers like Ultima Genomics sequence a full human genome for **under $100 dollars in 60 minutes**! *(Turn 2)*  
-> **Prof. Peter Kim:** That is a **30-million-fold cost reduction ($30,000,000	imes$)** in a single generation! For comparison, if automotive fuel efficiency had improved by 30 million times, you could drive a car from New York to Los Angeles on a single teaspoon of gasoline! *(Turn 3)*  
+> **Prof. Peter Kim:** That is a **30-million-fold cost reduction ($30,000,000\times$)** in a single generation! For comparison, if automotive fuel efficiency had improved by 30 million times, you could drive a car from New York to Los Angeles on a single teaspoon of gasoline! *(Turn 3)*  
 > **TA Marcus Brody:** And notice that DNA sequencing didn't just follow Moore's Law—it plunged **three to five times faster than Moore’s Law**! The curve went almost straight down! *(Turn 4)*  
 > **Dr. Elena Vance:** Why? Because sequencing digitized biology! We replaced manual gel electrophoresis with automated fluorescent optical imaging, microfluidic chips, and deep learning base-calling algorithms! *(Turn 5)*  
 > **Prof. Peter Kim:** And when genomic sequencing costs less than a routine blood test, medicine shifts from blind symptom management to precise preventative bio-design. *(Turn 6)*  
@@ -836,11 +830,11 @@ flowchart LR
 - **Empirical Metric Source:** BloombergNEF, Our World in Data, IRENA (1976–2026).
 - **Swanson’s Law Trajectory:**
   - 1976: **$106.00 per Watt** (Space satellite solar cells).
-  - 1990: **$10.00 per Watt** ($10.6	imes$ drop).
-  - 2010: **$2.00 per Watt** ($5	imes$ drop).
-  - 2020: **$0.20 per Watt** ($10	imes$ drop).
+  - 1990: **$10.00 per Watt** ($10.6\times$ drop).
+  - 2010: **$2.00 per Watt** ($5\times$ drop).
+  - 2020: **$0.20 per Watt** ($10\times$ drop).
   - 2026: **<$0.08 per Watt (Sub-8 Cents/W)**.
-- **The Total Deflation Factor:** A **99.92% drop in module cost** over 50 years, making utility-scale solar PV the cheapest electricity source in human history ($<1.5	ext{¢/kWh}$ in sunny latitudes).
+- **The Total Deflation Factor:** A **99.92% drop in module cost** over 50 years, making utility-scale solar PV the cheapest electricity source in human history ($<1.5\text{¢/kWh}$ in sunny latitudes).
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -861,8 +855,8 @@ flowchart LR
 - **Empirical Metric Source:** BloombergNEF Annual Battery Price Surveys (2010–2026).
 - **The Deflation Curve:**
   - 2010: **$1,200 / kWh** (EVs cost $100K+ with <100-mile range).
-  - 2015: **$380 / kWh** ($3.15	imes$ drop).
-  - 2020: **$137 / kWh** ($2.77	imes$ drop).
+  - 2015: **$380 / kWh** ($3.15\times$ drop).
+  - 2020: **$137 / kWh** ($2.77\times$ drop).
   - 2026: **<$90 / kWh (LFP cells approaching $55/kWh)**.
 - **The Market Inflection:** Crossing the **$100/kWh parity threshold** triggered the vertical S-curve where Electric Vehicles (EVs) achieved upfront purchase price parity with internal combustion engines (ICE).
 
@@ -888,7 +882,7 @@ flowchart LR
   - 2023 (GPT-4 Launch): **~$30.00 per Million Tokens**.
   - 2024 (GPT-4o / Claude 3.5 Sonnet): **~$3.00 to $5.00 per Million Tokens**.
   - 2026 (Frontier Distilled & Speculative Models): **<$0.10 per Million Tokens (Approaching Free)**.
-- **The 6D Scaling Velocity:** A **$600	imes 	ext{ Cost Deflation in 6 Years}$** ($99.83\%$ price drop), enabling millions of continuous multi-agent autonomous loops at negligible cost.
+- **The 6D Scaling Velocity:** A **$600\times \text{ Cost Deflation in 6 Years}$** ($99.83\%$ price drop), enabling millions of continuous multi-agent autonomous loops at negligible cost.
 
 ```mermaid
 flowchart LR
@@ -917,7 +911,7 @@ flowchart LR
 - **Empirical Metric Source:** Good Food Institute (GFI) & Mosa Meat Audits (2013–2026).
 - **The Cost Deflation Trajectory:**
   - 2013 (Mark Post's First Lab Burger): **$330,000 USD** (Hand-crafted in petri dishes using FBS).
-  - 2019: **$50.00 per Burger** ($6,600	imes$ drop via early bioreactors).
+  - 2019: **$50.00 per Burger** ($6,600\times$ drop via early bioreactors).
   - 2023: **$15.00 per Pound** (Upside Foods / GOOD Meat commercial approval).
   - 2026: **<$10.00 / kg (Approaching Conventional Beef Parity)**.
 - **Thermodynamic Conversion:** Cultured meat eliminates 95% of land use, 90% of water consumption, and 90% of greenhouse gas emissions per kilogram of protein produced.
@@ -941,8 +935,8 @@ flowchart LR
 - **Empirical Metric Source:** CSIS Aerospace Security Project & Planet Labs Audits (1980–2026).
 - **The Orbital Launch Cost Collapse:**
   - NASA Space Shuttle (1981–2011): **~$54,500 / kg to Low Earth Orbit (LEO)**.
-  - SpaceX Falcon 9 (2015–2022): **~$2,700 / kg to LEO** ($20	imes$ reduction).
-  - SpaceX Starship (2026 Full Reusability): **<$100 / kg to LEO** ($500	imes$ reduction).
+  - SpaceX Falcon 9 (2015–2022): **~$2,700 / kg to LEO** ($20\times$ reduction).
+  - SpaceX Starship (2026 Full Reusability): **<$100 / kg to LEO** ($500\times$ reduction).
 - **The CubeSat Dematerialization:** Planet Labs condensed a $500M school-bus-sized spy satellite into a 5kg "Dove" CubeSat costing <$100K, deploying 200+ satellites to image Earth's entire landmass daily.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
@@ -988,15 +982,15 @@ flowchart LR
 
 | Industry Sector | Digitization Year | Deception Exit Year ($T^*$) | Democratization Horizon | Total Cost Collapse Factor |
 | :--- | :--- | :--- | :--- | :--- |
-| **01. Digital Photography** | 1975 (Sasson CCD) | 2002 (Consumer Parity) | 2012 (Smartphone Ubiquity) | **$1,000	imes$ Mass Collapse, $100\%$ Dematerialized** |
-| **02. Personal Computing** | 1971 (Intel 4004) | 1995 (Windows 95) | 2010 (Global Mobile Web) | **$23,000	imes$ Purchasing Price Collapse ($7.1M 	o <\$300$)** |
-| **03. DNA Sequencing** | 2001 (Human Genome) | 2014 (HiSeq $1K) | 2026 (Sub-$100 Genome) | **$30,000,000	imes$ Deflation ($3B 	o <\$100$)** |
-| **04. Solar Energy** | 1976 (Satellite PV) | 2018 (Grid Parity) | 2026 (Cheapest KWh in History)| **$1,300	imes$ Deflation ($106/W 	o <\$0.08/W$)** |
-| **05. EV Battery Storage** | 1991 (Sony Li-ion) | 2020 ($137/kWh Knee) | 2026 (ICE Parity @ <$90/kWh) | **$20	imes$ Deflation ($1,200 	o <\$60/kWh$)** |
-| **06. AI Token Generation** | 2020 (GPT-3) | 2024 (Claude/GPT-4o) | 2026 (Sub-$0.10/M Tokens) | **$600	imes$ Deflation ($60 	o <\$0.10/M$)** |
-| **07. Cultured Meat** | 2013 (Mark Post) | 2023 (FDA Approval) | 2026 (Beef Parity @ <$10/kg) | **$33,000	imes$ Deflation ($330K 	o <\$10/kg$)** |
-| **08. Orbital Launch** | 1981 (Space Shuttle) | 2018 (Falcon 9 Re-use) | 2026 (Starship @ <$100/kg) | **$500	imes$ Deflation ($54K 	o <\$100/kg$)** |
-| **09. Global FinTech** | 2007 (M-Pesa Launch) | 2015 (Mobile Smart Pay) | 2026 (>85% Universal Inclusion)| **$100	imes$ Transaction Fee Demonetization** |
+| **01. Digital Photography** | 1975 (Sasson CCD) | 2002 (Consumer Parity) | 2012 (Smartphone Ubiquity) | **$1,000\times$ Mass Collapse, $100\%$ Dematerialized** |
+| **02. Personal Computing** | 1971 (Intel 4004) | 1995 (Windows 95) | 2010 (Global Mobile Web) | **$23,000\times$ Purchasing Price Collapse ($7.1M \to <\$300$)** |
+| **03. DNA Sequencing** | 2001 (Human Genome) | 2014 (HiSeq $1K) | 2026 (Sub-$100 Genome) | **$30,000,000\times$ Deflation ($3B \to <\$100$)** |
+| **04. Solar Energy** | 1976 (Satellite PV) | 2018 (Grid Parity) | 2026 (Cheapest KWh in History)| **$1,300\times$ Deflation ($106/W \to <\$0.08/W$)** |
+| **05. EV Battery Storage** | 1991 (Sony Li-ion) | 2020 ($137/kWh Knee) | 2026 (ICE Parity @ <$90/kWh) | **$20\times$ Deflation ($1,200 \to <\$60/kWh$)** |
+| **06. AI Token Generation** | 2020 (GPT-3) | 2024 (Claude/GPT-4o) | 2026 (Sub-$0.10/M Tokens) | **$600\times$ Deflation ($60 \to <\$0.10/M$)** |
+| **07. Cultured Meat** | 2013 (Mark Post) | 2023 (FDA Approval) | 2026 (Beef Parity @ <$10/kg) | **$33,000\times$ Deflation ($330K \to <\$10/kg$)** |
+| **08. Orbital Launch** | 1981 (Space Shuttle) | 2018 (Falcon 9 Re-use) | 2026 (Starship @ <$100/kg) | **$500\times$ Deflation ($54K \to <\$100/kg$)** |
+| **09. Global FinTech** | 2007 (M-Pesa Launch) | 2015 (Mobile Smart Pay) | 2026 (>85% Universal Inclusion)| **$100\times$ Transaction Fee Demonetization** |
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -1126,7 +1120,7 @@ graph LR
 ### Slide 40: The Dematerialization of Employment & The End of Labor-Value Theory
 - **The Collapse of the Classical Labor Contract:**
   - *Adam Smith & Karl Marx Axiom:* Economic value is fundamentally derived from human labor-time invested in transforming physical raw materials.
-  - *The 6D Liquidation:* When software agents, autonomous robotics, and bio-foundries perform physical and cognitive labor at $	ext{MC} 	o 0$, **human labor-time decouples completely from economic output**.
+  - *The 6D Liquidation:* When software agents, autonomous robotics, and bio-foundries perform physical and cognitive labor at $\text{MC} \to 0$, **human labor-time decouples completely from economic output**.
 - **The Civilizational Crisis:** In a society where income is tied strictly to holding a job, dematerializing employment without restructuring social dividends leads to catastrophic wealth concentration and widespread social despair.
 
 ```mermaid
@@ -1158,7 +1152,7 @@ flowchart TD
 ### Slide 41: Exponential Leadership: Developing Intuition for the Deception Phase
 - **The Leadership Protocol for 6D Mastery:**
   1. *Look for the Double, Not the Total:* Measure doubling rates ($	au_d$) and learning rates ($\omega$), ignoring current absolute market size.
-  2. *Build for the Inflection Knee ($T^*$):* Never architect products for current hardware constraints; design for the price-performance that will exist when your project ships in 3 years ($4	imes 	ext{ to } 8	imes$ cheaper/faster).
+  2. *Build for the Inflection Knee ($T^*$):* Never architect products for current hardware constraints; design for the price-performance that will exist when your project ships in 3 years ($4\times \text{ to } 8\times$ cheaper/faster).
   3. *Embrace Cannibalization:* Systematically launch internal "skunkworks" teams tasked with disrupting your own core revenue models before an outside startup does it for you.
   4. *Champion Open Democratization:* Build on open-source foundations to leverage Metcalfe’s Law and global collaborative commons.
 
@@ -1166,7 +1160,7 @@ flowchart TD
 > 
 > **Prof. Peter Kim:** Slide 41 presents our four-pillar executive protocol for **Exponential Leadership**. Marcus, walk us through Rule 1 and Rule 2. *(Turn 1)*  
 > **TA Marcus Brody:** Rule 1: **Look for the Double, Not the Total**! When evaluating a new technology, stop asking: *"How big is the market today?"* Ask: *"What is the doubling period ($	au_d$)?"* If it's doubling every 12 months, it will own the market regardless of how small it looks today! *(Turn 2)*  
-> **Dr. Elena Vance:** And Rule 2: **Build for the Inflection Knee ($T^*$)**! Novice engineers design products for today's GPU speeds, battery densities, and API costs. Exponential leaders design for the world that will exist three years from now—when compute is $8	imes$ cheaper and bandwidth is $10	imes$ faster! When their product launches, it hits the sweet spot of the curve! *(Turn 3)*  
+> **Dr. Elena Vance:** And Rule 2: **Build for the Inflection Knee ($T^*$)**! Novice engineers design products for today's GPU speeds, battery densities, and API costs. Exponential leaders design for the world that will exist three years from now—when compute is $8\times$ cheaper and bandwidth is $10\times$ faster! When their product launches, it hits the sweet spot of the curve! *(Turn 3)*  
 > **Prof. Peter Kim:** Look at Rule 3: **Embrace Cannibalization**. Steve Jobs famously said: *"If you don't cannibalize yourself, someone else will."* Apple launched the iPhone even though they knew it would completely destroy sales of the iPod—their most profitable product! *(Turn 4)*  
 > **TA Marcus Brody:** And Rule 4: **Champion Open Democratization**! When you open-source your base protocols, millions of developers worldwide build on top of you, creating unstoppable network effects under Metcalfe’s Law! *(Turn 5)*  
 > **Dr. Elena Vance:** These four rules are your operational shield against corporate obsolescence and your compass for moonshot innovation. *(Turn 6)*  
@@ -1179,7 +1173,7 @@ flowchart TD
 
 ### Slide 42: Synthesizing the "So What?": Riding the 6D Tsunami to Engineer Abundance
 - **The Master Synthesis Equation:**
-  $$	ext{Civilizational Abundance} = \int_{0}^{\infty} \left( \sum_{i=1}^{K} 	ext{6D}_i(	ext{Convergence}) 	imes 	ext{Democratization}(t) 
+  $$\text{Civilizational Abundance} = \int_{0}^{\infty} \left( \sum_{i=1}^{K} \text{6D}_i(\text{Convergence}) \times \text{Democratization}(t) 
 ight) dt$$
 - **The Final Verdict:** The 6Ds are the immutable evolutionary physics of information technology. By mastering the deception phase, calculating $T^*$, and proactively steering democratization, humanity transitions from the anxiety of scarcity into the sovereign stewardship of planetary abundance.
 
@@ -1261,7 +1255,7 @@ flowchart LR
 - **Next Session Preview (Session 04):**
   - **Topic:** *Value Density & The Liberation Ladder: How Exponential Technologies Dissolve Physical Constraints*
   - **Assigned Reading:** Peter H. Diamandis & Steven Kotler, *We Are as Gods* (2026), Chapter 3 (*Value Density*).
-  - **Core Analytical Focus:** Deconstructing how value density per kilogram scales by $10,000	imes$, the thermodynamic liberation of human labor, and the complete collapse of geographic and physical bottlenecks.
+  - **Core Analytical Focus:** Deconstructing how value density per kilogram scales by $10,000\times$, the thermodynamic liberation of human labor, and the complete collapse of geographic and physical bottlenecks.
 - **Closing Benediction:**
   - *"We are as gods... and we have mastered the mathematics of invisible abundance."*
 

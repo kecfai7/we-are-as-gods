@@ -94,14 +94,14 @@ flowchart LR
 ---
 
 ### Slide 02: The 181 Zettabyte Tsunami vs. The 120-Bit Biological Funnel
-- **Global Macro Metric:** 2026 Global Annual Data Generation: **181 Zettabytes ($1.81 	imes 10^{23}$ bytes)**.
+- **Global Macro Metric:** 2026 Global Annual Data Generation: **181 Zettabytes ($1.81 \times 10^{23}$ bytes)**.
 - **Neurobiological Bottleneck:** Human Conscious Processing Bandwidth: **50 to 120 bits per second** (Mihaly Csikszentmihalyi).
 - **The Core Paradox:** Infinitely expanding digital supply vs. rigidly constrained biological ingestion.
 
 | Metric Domain | Global Digital Datastream (2026) | Human Conscious Working Memory | Disparity Order of Magnitude |
 | :--- | :--- | :--- | :--- |
-| **Throughput per Second** | $pprox 5.74 	imes 10^{15}$ bits/sec ($5.74	ext{ Pb/s}$) | $pprox 50 	ext{ to } 120	ext{ bits/sec}$ | **$pprox 50,000,000,000,000 : 1$** ($50	ext{ Trillion} : 1$) |
-| **Annual Cumulative Ingestion** | $181	ext{ Zettabytes}$ | Maximum Lifetime Conscious Ingestion: $pprox 0.39	ext{ GB}$ | Asymptotically Zero ($pprox 0.00000000001\%$) |
+| **Throughput per Second** | $\approx 5.74 \times 10^{15}$ bits/sec ($5.74\text{ Pb/s}$) | $\approx 50 \text{ to } 120\text{ bits/sec}$ | **$\approx 50,000,000,000,000 : 1$** ($50\text{ Trillion} : 1$) |
+| **Annual Cumulative Ingestion** | $181\text{ Zettabytes}$ | Maximum Lifetime Conscious Ingestion: $\approx 0.39\text{ GB}$ | Asymptotically Zero ($\approx 0.00000000001\%$) |
 | **Psychological Consequence** | Exponential Saturation of Digital Channels | Severe Cortical Overheating & Dopamine Depletion | **Defensive Epistemic Retraction & Cynicism** |
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
@@ -121,10 +121,10 @@ flowchart LR
 
 ### Slide 03: The Savanna Brain at the Singularity Threshold: Evolutionary Mismatch
 - **Evolutionary Architecture:**
-  - *Pleistocene Context:* 200,000 years in band-level hunter-gatherer groups (Dunbar Number: $pprox 150$).
-  - *Local & Linear Dynamics:* Maximum travel speed: $15	ext{ km/day}$; communication limited to the speed of sound ($343	ext{ m/s}$) within acoustic line-of-sight.
+  - *Pleistocene Context:* 200,000 years in band-level hunter-gatherer groups (Dunbar Number: $\approx 150$).
+  - *Local & Linear Dynamics:* Maximum travel speed: $15\text{ km/day}$; communication limited to the speed of sound ($343\text{ m/s}$) within acoustic line-of-sight.
 - **The Singularity Threshold (2026):**
-  - Instantaneous global speed of light telecommunications ($300,000	ext{ km/s}$).
+  - Instantaneous global speed of light telecommunications ($300,000\text{ km/s}$).
   - Exponential doubling cycles measured in months rather than millennia.
 - **The Core Mismatch:** Running 21st-century planetary civilizational tools on Pleistocene hunter-gatherer firmware.
 
@@ -224,7 +224,7 @@ graph TD
 
 ### Slide 07: The Caloric Conservation Principle: The 20-Watt Biological Ceiling
 - **Thermodynamic Constraints of the Brain:**
-  - *Mass vs. Energy Consumption:* The human brain accounts for **~2% of total body mass**, but consumes **~20% to 25% of total basal metabolic energy** ($pprox 20	ext{ Watts}$).
+  - *Mass vs. Energy Consumption:* The human brain accounts for **~2% of total body mass**, but consumes **~20% to 25% of total basal metabolic energy** ($\approx 20\text{ Watts}$).
   - *Caloric Scarcity Imperative:* Evolution ruthlessly optimized brain architecture to **minimize glucose and oxygen consumption** by defaulting to automated, low-energy heuristic routines (Daniel Kahneman's *System 1*).
 - **The Exponential Consequence:** Actively computing non-linear, exponential phase shifts burns massive metabolic energy, triggering immediate physiological resistance, mental fatigue, and avoidance behaviors.
 
@@ -286,14 +286,14 @@ flowchart TD
 ### Slide 09: Karl Friston’s Free Energy Principle & Prediction Error Surges
 - **Theoretical Benchmark:** Karl Friston (2006, 2010), *The Free-Energy Principle: A Unified Brain Theory?*
 - **Mathematical Principle:** Biological self-organizing systems survive by minimizing **Variational Free Energy ($\mathcal{F}$)**, which acts as an upper bound on surprise (unexpected states):
-  $$\mathcal{F} = 	ext{Complexity} - 	ext{Accuracy} pprox \mathbb{E}_{q}[\ln q(s) - \ln p(s, o)]$$
-- **The Singularity Shock:** Hyper-exponential technological jumps maximize surprise ($\ln p(o) 	o -\infty$), causing an acute surge in variational free energy that biological neural networks struggle to minimize.
+  $$\mathcal{F} = \text{Complexity} - \text{Accuracy} \approx \mathbb{E}_{q}[\ln q(s) - \ln p(s, o)]$$
+- **The Singularity Shock:** Hyper-exponential technological jumps maximize surprise ($\ln p(o) \to -\infty$), causing an acute surge in variational free energy that biological neural networks struggle to minimize.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **Dr. Elena Vance:** Karl Friston’s **Free Energy Principle** on Slide 9 is considered one of the most profound unifying theories in theoretical neuroscience. Friston proved that all biological organisms exist solely by minimizing **Variational Free Energy ($\mathcal{F}$)**—which is mathematically equivalent to minimizing surprise and uncertainty! *(Turn 1)*  
 > **TA Marcus Brody:** In plain English: An organism survives by keeping its internal state organized and avoiding unexpected environments that could kill it! If a fish finds itself on dry land, its free energy spikes to maximum, and it dies unless it flops back into the water! *(Turn 2)*  
-> **Prof. Peter Kim:** Now look at the mathematical equation: $\mathcal{F} = 	ext{Complexity} - 	ext{Accuracy}$. When external technological complexity explodes by 100x while your internal model accuracy collapses, your variational free energy skyrockets! *(Turn 3)*  
+> **Prof. Peter Kim:** Now look at the mathematical equation: $\mathcal{F} = \text{Complexity} - \text{Accuracy}$. When external technological complexity explodes by 100x while your internal model accuracy collapses, your variational free energy skyrockets! *(Turn 3)*  
 > **TA Marcus Brody:** And what does the brain do when its free energy explodes? It has two choices according to Friston: Either update its internal mental models (which burns massive glucose and takes intense effort), or change the external world to fit its expectations! *(Turn 4)*  
 > **Dr. Elena Vance:** But an individual cannot stop global exponential AI or synthetic biology. So when people can’t change the technology and refuse to upgrade their internal models, they choose a third, pathological option: **Denial and Epistemic Retraction**! *(Turn 5)*  
 > **TA Marcus Brody:** They say: *"AI is just an overhyped autocomplete,"* or *"mRNA vaccines don't work,"* or *"Renewable energy is a scam!"* They literally invent delusions just to force their internal free energy back down! *(Turn 6)*  
@@ -306,10 +306,8 @@ flowchart TD
 
 ### Slide 10: The Evolutionary Negativity Bias: Amygdalar Survival Algorithms
 - **Evolutionary Asymmetry:**
-  - *Type I Error (False Positive):* Hearing a rustle in the grass, assuming it is a predator, and running away $
-ightarrow$ Cost: Minor wasted calories.
-  - *Type II Error (False Negative):* Hearing a rustle, assuming it is just the wind, when it is a predator $
-ightarrow$ Cost: **Death & Genetic Extinction**.
+  - *Type I Error (False Positive):* Hearing a rustle in the grass, assuming it is a predator, and running away \rightarrow Cost: Minor wasted calories.
+  - *Type II Error (False Negative):* Hearing a rustle, assuming it is just the wind, when it is a predator \rightarrow Cost: **Death & Genetic Extinction**.
 - **The Resulting Hardwiring:** The human brain is neurologically wired to prioritize negative, threatening information over positive or neutral data by a factor of **$3:1$ to $5:1$** (Baumeister et al., 2001).
 
 ```mermaid
@@ -339,10 +337,8 @@ graph LR
 
 ### Slide 11: Confirmation Bias & The Outrage Economy: Dopamine-Cortisol Loops
 - **The Algorithmic Exploitation Loop:**
-  1. *Negative Stimulus Ingestion:* Algorithmic feed serves high-threat headline $
-ightarrow$ Amygdalar arousal & Cortisol surge.
-  2. *Threat Confirmation Seeking:* Prefrontal cortex seeks cognitive closure $
-ightarrow$ Clicks, scrolls, and engages.
+  1. *Negative Stimulus Ingestion:* Algorithmic feed serves high-threat headline \rightarrow Amygdalar arousal & Cortisol surge.
+  2. *Threat Confirmation Seeking:* Prefrontal cortex seeks cognitive closure \rightarrow Clicks, scrolls, and engages.
   3. *Validation Dopamine Hit:* Finding tribal validation or confirmation of the threat provides a brief pulse of relief/dopamine.
   4. *Habituation & Escalation:* Baseline tolerance increases, requiring more extreme, catastrophizing content to trigger the same neurological feedback loop.
 
@@ -398,7 +394,7 @@ flowchart TD
 | Cognitive Dimension | Legacy Linear Mindset (Mind 1.0) | Exponential Theurgic Mindset (Mind 2.0) |
 | :--- | :--- | :--- |
 | **Resource Horizon** | Zero-Sum Scarcity (Fixed Pie, Hoarding) | Thermodynamic Abundance (Expanding Pie via Tech) |
-| **Trajectory Modeling** | Incremental Extrapolation ($+10\%$ YoY) | Multiplicative Compounding ($10	imes$ Shifts, S-Curves) |
+| **Trajectory Modeling** | Incremental Extrapolation ($+10\%$ YoY) | Multiplicative Compounding ($10\times$ Shifts, S-Curves) |
 | **Failure Tolerance** | Risk-Aversion, Stigmatization of Errors | Rapid Empirical Iteration, Fail-Forward Telemetry |
 | **Information Processing** | Data Consumption (120-bit Funnel Overload) | Relational Structure Mapping & Heuristic Filtering |
 | **Civilizational Agency** | Passive Consumer / Subject of Disruption | Active Theurgist / Architect of Moonshot Solutions |
@@ -407,7 +403,7 @@ flowchart TD
 > 
 > **Prof. Peter Kim:** Examine the comparative matrix on Slide 13. This table defines the shift from **Mind 1.0** to **Mind 2.0**. Marcus, walk us through the first two dimensions. *(Turn 1)*  
 > **TA Marcus Brody:** Look at Row 1: **Resource Horizon**. Mind 1.0 sees the world as a fixed pie of scarcity—if someone else gets rich or healthy, it means I lose out! Mind 2.0 understands thermodynamic abundance—technology takes inaccessible resources and liberates them for everyone! *(Turn 2)*  
-> **Dr. Elena Vance:** And look at Row 2: **Trajectory Modeling**. Mind 1.0 plans for 10% incremental improvements year-over-year. Mind 2.0 plans for $10	imes$ phase shifts, anticipating exponential inflection points before they become visible! *(Turn 3)*  
+> **Dr. Elena Vance:** And look at Row 2: **Trajectory Modeling**. Mind 1.0 plans for 10% incremental improvements year-over-year. Mind 2.0 plans for $10\times$ phase shifts, anticipating exponential inflection points before they become visible! *(Turn 3)*  
 > **TA Marcus Brody:** And look at Row 4: **Information Processing**. Mind 1.0 tries to read everything and burns out. Mind 2.0 uses Gentnerian Structure-Mapping to compress complex technical domains into high-leverage relational models! *(Turn 4)*  
 > **Prof. Peter Kim:** And finally, Row 5: **Civilizational Agency**. Mind 1.0 feels like a helpless victim buffeted by the winds of technological change. Mind 2.0 operates as an active Theurgist—taking conscious responsibility for steering these tools toward human flourishing. *(Turn 5)*  
 > **Dr. Elena Vance:** If you operate with Mind 1.0 in 2026, you are guaranteed to experience severe cognitive vertigo and economic obsolescence. Mind 2.0 is your only viable survival architecture. *(Turn 6)*  
@@ -441,13 +437,13 @@ flowchart TD
 
 ### Slide 15: Conscious Bandwidth vs. Information Input: The 50-Trillion-to-One Chasm
 - **Quantitative Macro Synthesis:**
-  $$	ext{Disparity Ratio} = rac{	ext{Global Datastream Rate (2026)}}{	ext{Human Conscious Processing Limit}} = rac{5.74 	imes 10^{15} 	ext{ bits/s}}{1.2 	imes 10^2 	ext{ bits/s}} pprox 4.78 	imes 10^{13}$$
+  $$\text{Disparity Ratio} = rac{\text{Global Datastream Rate (2026)}}{\text{Human Conscious Processing Limit}} = rac{5.74 \times 10^{15} \text{ bits/s}}{1.2 \times 10^2 \text{ bits/s}} \approx 4.78 \times 10^{13}$$
 - **The Master Axiom:** **"You cannot solve an exponential information problem with a linear ingestion strategy."**
 - **The Structural Mandate:** To survive and govern the Age of Abundance, human intelligence must transition from *Sensory Data Ingestion* to **Relational Structure Mapping**.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
-> **Prof. Peter Kim:** Slide 15 synthesizes the central neurobiological conclusion of Module 2. Look at that staggering disparity ratio: **$4.78 	imes 10^{13}$—nearly fifty trillion to one**. *(Turn 1)*  
+> **Prof. Peter Kim:** Slide 15 synthesizes the central neurobiological conclusion of Module 2. Look at that staggering disparity ratio: **$4.78 \times 10^{13}$—nearly fifty trillion to one**. *(Turn 1)*  
 > **TA Marcus Brody:** Let that sink in, scholars! For every single bit of information your conscious brain can process in a second, the planetary datastream generates **50 trillion bits**! *(Turn 2)*  
 > **Dr. Elena Vance:** Read the Master Axiom in the center of the slide aloud, Marcus: **"You cannot solve an exponential information problem with a linear ingestion strategy."** *(Turn 3)*  
 > **TA Marcus Brody:** It’s like trying to put out a blazing forest fire with a single eyedropper! Any strategy based on reading more newsletters, watching more tutorials, or working 18-hour days is mathematically doomed to failure! *(Turn 4)*  
@@ -502,12 +498,9 @@ graph TD
 
 ### Slide 17: Superficial Attributes vs. Deep Relational Invariants
 - **Gentnerian Typology:**
-  - *Mere Appearance:* Shared surface features, zero relational overlap (e.g., a round orange looks like a round basketball) $
-ightarrow$ **Zero Predictive Power**.
-  - *Literal Similarity:* Shared surface features AND shared relations (e.g., one Ford engine vs. another Ford engine) $
-ightarrow$ **Incremental / Local Transfer**.
-  - *True Analogy (Structure Mapping):* **Zero surface similarity**, but **High Relational Isomorphism** $
-ightarrow$ **Radical Cross-Domain Breakthroughs**.
+  - *Mere Appearance:* Shared surface features, zero relational overlap (e.g., a round orange looks like a round basketball) \rightarrow **Zero Predictive Power**.
+  - *Literal Similarity:* Shared surface features AND shared relations (e.g., one Ford engine vs. another Ford engine) \rightarrow **Incremental / Local Transfer**.
+  - *True Analogy (Structure Mapping):* **Zero surface similarity**, but **High Relational Isomorphism** \rightarrow **Radical Cross-Domain Breakthroughs**.
 
 | Mapping Classification | Surface Feature Overlap | Deep Relational Overlap | Cognitive & Predictive Utility |
 | :--- | :--- | :--- | :--- |
@@ -534,15 +527,15 @@ ightarrow$ **Radical Cross-Domain Breakthroughs**.
 - **The Core Law of Structure Mapping:**
   - *Gentner’s Systematicity Principle:* A predicate that belongs to a **deeply interconnected, hierarchical system of relations** is preferred in analogical mapping over an isolated, stand-alone relation.
   - *First-Order Relation:* $R(x, y)$ (e.g., $x$ hits $y$, $x$ is larger than $y$).
-  - *Higher-Order Relation:* $	ext{CAUSE}[R_1(x, y), R_2(z, w)]$ or $	ext{IMPLIES}[\dots]$ (e.g., *Pressure difference CAUSES fluid velocity to increase, which IMPLIES a drop in temperature*).
+  - *Higher-Order Relation:* $\text{CAUSE}[R_1(x, y), R_2(z, w)]$ or $\text{IMPLIES}[\dots]$ (e.g., *Pressure difference CAUSES fluid velocity to increase, which IMPLIES a drop in temperature*).
 - **Theurgic Application:** We do not map single isolated gadgets to single myths; we map entire **causal closed-loop ecosystems** of need, intervention, transformation, and governance.
 
 ```mermaid
 graph TD
     subgraph Higher-Order Relational Architecture
         H1["Higher-Order Predicate: CAUSES"]
-        H1 --> R1["First-Order Relation R1: <br/>Energy Extraction ($x 	o y$)"]
-        H1 --> R2["First-Order Relation R2: <br/>Systemic Homeostasis ($z 	o w$)"]
+        H1 --> R1["First-Order Relation R1: <br/>Energy Extraction ($x \to y$)"]
+        H1 --> R2["First-Order Relation R2: <br/>Systemic Homeostasis ($z \to w$)"]
         R1 --> Obj1["Low-Level Atoms / Nodes"]
         R2 --> Obj2["Low-Level Atoms / Nodes"]
     end
@@ -587,7 +580,7 @@ graph TD
 ### Slide 20: The Three-Step Algorithm for Mapping Mythic Archetypes to Tech
 - **The Operational 3-Step Structure-Mapping Protocol:**
   1. **Step 1: Structural Extraction of Base Archetype ($B$)**
-     - Identify the core existential human crisis (e.g., Blindness, Famine, Spatial Distance) and the higher-order transformational mechanics ($	ext{REMEDY}[\dots]$).
+     - Identify the core existential human crisis (e.g., Blindness, Famine, Spatial Distance) and the higher-order transformational mechanics ($\text{REMEDY}[\dots]$).
   2. **Step 2: Substrate Substitution into 2026 Hardware ($T$)**
      - Replace divine/magical agency with specific exponential technological drivers (e.g., NIR Photovoltaics, Bioreactors, LEO Satellite Meshes).
   3. **Step 3: Invariant Inversion & Second-Order Risk Mapping**
@@ -619,11 +612,11 @@ flowchart TD
 
 ### Slide 21: The Mathematical Trap of Local-Linear Thinking: $y = ax$
 - **Mathematical Formalization:**
-  - *Local-Linear Model:* $y(t) = a \cdot t + y_0 \quad (	ext{Constant rate of change } rac{dy}{dt} = a)$
+  - *Local-Linear Model:* $y(t) = a \cdot t + y_0 \quad (\text{Constant rate of change } rac{dy}{dt} = a)$
   - *The Tangent Trap:* Human intuition projects the immediate local derivative ($rac{dy}{dt}ig|_{t_0}$) indefinitely into the future as a straight tangent line.
 - **Why the Brain Defaults to $y = ax$:**
   - On the savannah, day-to-day changes in seasons, animal migrations, and human aging were strictly linear over short horizons.
-  - Linear models require only **1 arithmetic operation (addition)**, conserving maximum neural glucose ($<1	ext{ Joule}$).
+  - Linear models require only **1 arithmetic operation (addition)**, conserving maximum neural glucose ($<1\text{ Joule}$).
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
@@ -631,7 +624,7 @@ flowchart TD
 > **Dr. Elena Vance:** Because of the **Tangent Trap**! When human beings look at any trend, our brain calculates the local derivative at the present moment ($rac{dy}{dt}ig|_{t_0}$) and automatically projects it forward as a straight line forever! *(Turn 2)*  
 > **Prof. Peter Kim:** In calculus, a tangent line is only accurate for an infinitesimal distance $dt$. But the human brain tries to use that local tangent to forecast ten years into the future! *(Turn 3)*  
 > **TA Marcus Brody:** Look at Kodak in 1996! They invented the digital camera in 1975, but the early photos were a grainy $0.01$ megapixels. Kodak’s executives looked at it and said: *"Film is improving at 5% a year; digital is a blurry toy that only improved by $0.01$ megapixels this year. At this rate, digital won't catch film for a century!"* *(Turn 4)*  
-> **Dr. Elena Vance:** They assumed linear addition ($y = ax$)! They completely missed that digital sensors were doubling on an exponential curve ($0.01 	o 0.02 	o 0.04 	o 0.08 \dots 	o 12	ext{ Megapixels}$)! Within 15 years, digital eradicated film photography, and Kodak went bankrupt. *(Turn 5)*  
+> **Dr. Elena Vance:** They assumed linear addition ($y = ax$)! They completely missed that digital sensors were doubling on an exponential curve ($0.01 \to 0.02 \to 0.04 \to 0.08 \dots \to 12\text{ Megapixels}$)! Within 15 years, digital eradicated film photography, and Kodak went bankrupt. *(Turn 5)*  
 > **Prof. Peter Kim:** Linear thinking is the ultimate corporate and institutional blindfold. It feels safe, it feels intuitive, it conserves glucose—and it guarantees extinction. *(Turn 6)*  
 > **TA Marcus Brody:** So what is the actual mathematical formula of our reality? *(Turn 7)*  
 > **Dr. Elena Vance:** It is exponential velocity: $y = a(1+r)^t$! *(Turn 8)*  
@@ -642,16 +635,16 @@ flowchart TD
 
 ### Slide 22: The Mathematics of Exponential Velocity: $y = a(1+r)^t$
 - **Mathematical Formalization:**
-  - *Exponential Compounding:* $y(t) = y_0 (1 + r)^t = y_0 e^{kt} \quad (	ext{Rate of change } rac{dy}{dt} = k \cdot y(t))$
+  - *Exponential Compounding:* $y(t) = y_0 (1 + r)^t = y_0 e^{kt} \quad (\text{Rate of change } rac{dy}{dt} = k \cdot y(t))$
   - *Key Attribute:* The rate of growth is directly proportional to the current value, leading to **accelerating acceleration**.
 - **The Deceptive vs. Disruptive Inflection:**
-  - For small $t$, $e^{kt} pprox 1 + kt$ (the curve appears flat and deceptive, easily mistaken for linear).
+  - For small $t$, $e^{kt} \approx 1 + kt$ (the curve appears flat and deceptive, easily mistaken for linear).
   - Once the curve crosses the **Inflection Knee**, the trajectory goes nearly vertical, overwhelming all linear infrastructure.
 
 ```mermaid
 flowchart LR
-    A["Deceptive Phase ($t_0 	o t_{	ext{knee}}$)<br/>• Doublings are small ($0.001 	o 0.002 	o 0.004$)<br/>• Experts dismiss tech as 'useless toy'"] --> B["The Exponential Knee / Inflection Point"]
-    B --> C["Disruptive Phase ($t_{	ext{knee}} 	o \infty$)<br/>• Doublings become massive ($16 	o 32 	o 64 	o 128$)<br/>• Complete market & cultural disruption"]
+    A["Deceptive Phase ($t_0 \to t_{\text{knee}}$)<br/>• Doublings are small ($0.001 \to 0.002 \to 0.004$)<br/>• Experts dismiss tech as 'useless toy'"] --> B["The Exponential Knee / Inflection Point"]
+    B --> C["Disruptive Phase ($t_{\text{knee}} \to \infty$)<br/>• Doublings become massive ($16 \to 32 \to 64 \to 128$)<br/>• Complete market & cultural disruption"]
     style A fill:#4b5563,stroke:#374151,color:#fff
     style B fill:#eab308,stroke:#a16207,color:#000
     style C fill:#dc2626,stroke:#991b1b,color:#fff
@@ -661,8 +654,8 @@ flowchart LR
 > 
 > **Dr. Elena Vance:** Look at the differential equation on Slide 22: $rac{dy}{dt} = k \cdot y(t)$. In an exponential system, the speed of growth is directly proportional to how large the system already is! The bigger it gets, the faster it accelerates! *(Turn 1)*  
 > **TA Marcus Brody:** Look at the two phases in the flowchart: The **Deceptive Phase** and the **Disruptive Phase**! This is where everyone gets tricked! *(Turn 2)*  
-> **Prof. Peter Kim:** In the deceptive phase, doubling numbers look pathetic to human eyes: $0.001\% 	o 0.002\% 	o 0.004\% 	o 0.008\%$. To a linear business executive or politician, $0.008\%$ looks like zero! They dismiss it as an expensive, overhyped toy. *(Turn 3)*  
-> **TA Marcus Brody:** But seven doublings later, that $0.008\%$ hits $1\%$, and suddenly you are only seven doublings away from **100% complete market dominance**! ($1 	o 2 	o 4 	o 8 	o 16 	o 32 	o 64 	o 100\%$)! *(Turn 4)*  
+> **Prof. Peter Kim:** In the deceptive phase, doubling numbers look pathetic to human eyes: $0.001\% \to 0.002\% \to 0.004\% \to 0.008\%$. To a linear business executive or politician, $0.008\%$ looks like zero! They dismiss it as an expensive, overhyped toy. *(Turn 3)*  
+> **TA Marcus Brody:** But seven doublings later, that $0.008\%$ hits $1\%$, and suddenly you are only seven doublings away from **100% complete market dominance**! ($1 \to 2 \to 4 \to 8 \to 16 \to 32 \to 64 \to 100\%$)! *(Turn 4)*  
 > **Dr. Elena Vance:** By the time the technology crosses the "Inflection Knee" and becomes visible to traditional media, it is already too late for legacy institutions to adapt! The vertical curve steamrolls them! *(Turn 5)*  
 > **Prof. Peter Kim:** That is why Peter Diamandis calls the deceptive phase the most dangerous trap in business and policy. If you wait until the technology is obvious, you are already dead. *(Turn 6)*  
 > **TA Marcus Brody:** And Peter has the single greatest parable to illustrate this: The Parable of the 30 Steps! *(Turn 7)*  
@@ -674,19 +667,19 @@ flowchart LR
 
 ### Slide 23: The Parable of the 30 Steps: 30 Meters vs. 26 Trips Around Earth
 - **The Diamandis Thought Experiment:**
-  - *Linear Progression (30 Steps):* $1, 2, 3, 4 \dots 30 	ext{ meters} pprox \mathbf{30 	ext{ Meters}}$ (crossing a large lecture hall).
-  - *Exponential Progression (30 Doublings):* $1, 2, 4, 8, 16 \dots 2^{29} 	ext{ meters} = 536,870,912 	ext{ meters} pprox \mathbf{1,073,741,824 	ext{ Meters}} pprox \mathbf{1.07 	ext{ Million Kilometers}}$.
+  - *Linear Progression (30 Steps):* $1, 2, 3, 4 \dots 30 \text{ meters} \approx \mathbf{30 \text{ Meters}}$ (crossing a large lecture hall).
+  - *Exponential Progression (30 Doublings):* $1, 2, 4, 8, 16 \dots 2^{29} \text{ meters} = 536,870,912 \text{ meters} \approx \mathbf{1,073,741,824 \text{ Meters}} \approx \mathbf{1.07 \text{ Million Kilometers}}$.
 - **Physical Scale Comparison:**
-  - $1.07	ext{ Million km} pprox \mathbf{26.8 	ext{ Circumnavigations of Planet Earth}}$ (or traveling to the Moon and back, plus another one-way trip).
+  - $1.07\text{ Million km} \approx \mathbf{26.8 \text{ Circumnavigations of Planet Earth}}$ (or traveling to the Moon and back, plus another one-way trip).
 
 ```mermaid
 graph TD
     subgraph Linear Horizon (Human Intuition)
-        L["30 Linear Steps ($1	ext{m} + 1	ext{m} + \dots$)"] --> L_Out["30 Meters<br/>(Across the Seminar Room)"]
+        L["30 Linear Steps ($1\text{m} + 1\text{m} + \dots$)"] --> L_Out["30 Meters<br/>(Across the Seminar Room)"]
     end
     
     subgraph Exponential Horizon (Theurgic Reality)
-        E["30 Exponential Steps ($1	ext{m} 	imes 2 	imes 2 \dots$)"] --> E_Out["1,073,741,824 Meters<br/>(1.07 Million km • 26.8x Around Earth)"]
+        E["30 Exponential Steps ($1\text{m} \times 2 \times 2 \dots$)"] --> E_Out["1,073,741,824 Meters<br/>(1.07 Million km • 26.8x Around Earth)"]
     end
     
     style L_Out fill:#6b7280,stroke:#374151,color:#fff
@@ -766,9 +759,9 @@ flowchart TD
 - **Empirical Metric Source:** IDC Global DataSphere & Statista (2010–2026 Macro Audit).
 - **The Divergence Curve Data:**
   - 2010: **2 Zettabytes**
-  - 2015: **15.5 Zettabytes** ($7.75	imes$ growth)
-  - 2020: **64.2 Zettabytes** ($4.14	imes$ growth)
-  - 2026: **181 Zettabytes ($1.81 	imes 10^{23}$ Bytes)** ($2.82	imes$ growth).
+  - 2015: **15.5 Zettabytes** ($7.75\times$ growth)
+  - 2020: **64.2 Zettabytes** ($4.14\times$ growth)
+  - 2026: **181 Zettabytes ($1.81 \times 10^{23}$ Bytes)** ($2.82\times$ growth).
 - **Hardware Telemetry Drivers:** Global sensor arrays, 40,000 LEO satellites, 4K/8K multimodal synthetic video generation, and autonomous IoT nodes transmitting continuously.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
@@ -821,7 +814,7 @@ pie title Modern Media Sentiment Distribution (2026 Audit)
 - **Historical Case Benchmark:** The Initial Outbreak Phase of SARS-CoV-2 (January–March 2020).
 - **The Empirical Collision:**
   - *Public / Political Intuition:* *"There are only 100 cases in our country; why should we close schools or restrict travel for a few dozen patients?"* (Linear Tangent Thinking: $y = ax$).
-  - *Epidemiological Exponential Reality:* With a basic reproduction number $R_0 pprox 2.5$ and a doubling time of **3 days**, 100 cases became **100,000 cases in just 30 days** ($100 	imes 2^{10} = 102,400$).
+  - *Epidemiological Exponential Reality:* With a basic reproduction number $R_0 \approx 2.5$ and a doubling time of **3 days**, 100 cases became **100,000 cases in just 30 days** ($100 \times 2^{10} = 102,400$).
 - **Civilizational Lesson:** In an exponential emergency, acting when the threat is small feels like an overreaction; acting when the threat is obvious is far too late.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
@@ -843,13 +836,13 @@ pie title Modern Media Sentiment Distribution (2026 Audit)
 - **Empirical Benchmark:** Epoch AI & OpenAI Scaling Laws (1950–2026 Macro Compute Audit).
 - **The Historical Acceleration Phases:**
   - *Pre-Deep Learning Era (1952–2010):* Training compute doubled every **~20 months** (tracking classical Moore's Law).
-  - *Deep Learning Era (2010–2026):* Training compute for frontier foundation models doubled every **~3.4 to 4.0 months** ($10	imes 	ext{ per year}$).
-  - *Cumulative Scale Factor:* A **$100,000,000	imes$ ($10^8	imes$) expansion** in FLOPs deployed between AlexNet (2012) and 2026 Frontier Multimodal Models.
+  - *Deep Learning Era (2010–2026):* Training compute for frontier foundation models doubled every **~3.4 to 4.0 months** ($10\times \text{ per year}$).
+  - *Cumulative Scale Factor:* A **$100,000,000\times$ ($10^8\times$) expansion** in FLOPs deployed between AlexNet (2012) and 2026 Frontier Multimodal Models.
 
 ```mermaid
 flowchart LR
-    A["AlexNet (2012)<br/>$10^{15}$ FLOPs"] -->|Doubling every 3.4 Months| B["GPT-3 (2020)<br/>$3 	imes 10^{23}$ FLOPs"]
-    B -->|Massive Scaling Acceleration| C["Frontier Multimodal (2026)<br/>$>10^{27}$ FLOPs ($100M	imes$ Expansion)"]
+    A["AlexNet (2012)<br/>$10^{15}$ FLOPs"] -->|Doubling every 3.4 Months| B["GPT-3 (2020)<br/>$3 \times 10^{23}$ FLOPs"]
+    B -->|Massive Scaling Acceleration| C["Frontier Multimodal (2026)<br/>$>10^{27}$ FLOPs ($100M\times$ Expansion)"]
     style A fill:#4b5563,stroke:#374151,color:#fff
     style B fill:#2563eb,stroke:#1e40af,color:#fff
     style C fill:#dc2626,stroke:#991b1b,color:#fff
@@ -858,9 +851,9 @@ flowchart LR
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
 > **TA Marcus Brody:** Case 4 presents the most staggering compute scaling curve in human history! Look at Slide 29: For sixty years, AI compute tracked Moore's Law, doubling every 20 months. But from 2012 to 2026, frontier AI compute doubled every **3.4 months**! *(Turn 1)*  
-> **Dr. Elena Vance:** That is a **$10	imes$ increase per year**! Between AlexNet in 2012 ($10^{15}$ FLOPs) and 2026 frontier clusters ($>10^{27}$ FLOPs), training compute expanded by **over 100 million times ($10^8	imes$)**! *(Turn 2)*  
+> **Dr. Elena Vance:** That is a **$10\times$ increase per year**! Between AlexNet in 2012 ($10^{15}$ FLOPs) and 2026 frontier clusters ($>10^{27}$ FLOPs), training compute expanded by **over 100 million times ($10^8\times$)**! *(Turn 2)*  
 > **Prof. Peter Kim:** In human history, no physical infrastructure has ever scaled by eight orders of magnitude in fourteen years. If commercial aviation had scaled at that rate, a Boeing 747 would fly to Alpha Centauri in ten minutes for twenty-five cents! *(Turn 3)*  
-> **TA Marcus Brody:** And people still ask: *"Is AI hype going to pop like the dot-com bubble?"* When compute scales by $10^8	imes$ and algorithmic efficiency improves by $50	imes$, you aren't looking at a financial bubble—you are looking at a tectonic civilizational phase shift! *(Turn 4)*  
+> **TA Marcus Brody:** And people still ask: *"Is AI hype going to pop like the dot-com bubble?"* When compute scales by $10^8\times$ and algorithmic efficiency improves by $50\times$, you aren't looking at a financial bubble—you are looking at a tectonic civilizational phase shift! *(Turn 4)*  
 > **Dr. Elena Vance:** And this compute expansion is driving autonomous synthetic biology, drug discovery, and robotics, proving our autocatalytic convergence law from Module 3! *(Turn 5)*  
 > **Prof. Peter Kim:** But mainstream institutional forecasters continue to miss these curves year after year. *(Turn 6)*  
 > **TA Marcus Brody:** Look at the International Energy Agency’s solar predictions—the most hilarious forecasting failure in history! *(Turn 7)*  
@@ -906,7 +899,7 @@ flowchart LR
 > **Dr. Elena Vance:** Look at the Carlson Curve on Slide 31. In 2001, sequencing the first human genome cost **$100 million dollars** and took an international consortium thirteen years of work. *(Turn 1)*  
 > **TA Marcus Brody:** By 2007, it was $1 million. In 2014, Illumina dropped it to $1,000. And in 2026, next-gen sequencers sequence a complete high-depth human genome for **under $100 dollars in a few hours**! *(Turn 2)*  
 > **Prof. Peter Kim:** Notice that from 2008 to 2015, DNA sequencing did not just follow Moore’s Law—it plunged at **three to four times the speed of Moore’s Law**! Cost halved every five months! *(Turn 3)*  
-> **TA Marcus Brody:** That means sequencing your genome went from a $100M luxury reserved for heads of state to something cheaper than a pair of running shoes! That is a **one-million-fold cost reduction ($10^6	imes$)** in 25 years! *(Turn 4)*  
+> **TA Marcus Brody:** That means sequencing your genome went from a $100M luxury reserved for heads of state to something cheaper than a pair of running shoes! That is a **one-million-fold cost reduction ($10^6\times$)** in 25 years! *(Turn 4)*  
 > **Dr. Elena Vance:** When sequencing is that cheap, medicine shifts from reactive sick-care (waiting for symptoms to appear) to predictive, proactive genomic maintenance (intercepting cancer mutations years before a tumor forms). *(Turn 5)*  
 > **Prof. Peter Kim:** That is the thermodynamic democratization of life itself. *(Turn 6)*  
 > **TA Marcus Brody:** But what about expanding the human brain's own processing bandwidth? Can Brain-Computer Interfaces help us break the 120-bit limit? *(Turn 7)*  
@@ -965,7 +958,7 @@ flowchart LR
 ### Slide 34: CASE 09: Autonomous Drone Logistics Inflection Points (Zipline Telemetry)
 - **Empirical Flight Telemetry Audit (Zipline 2016–2026):**
   - 2016–2019 (Deceptive Phase): **~10,000 Commercial Deliveries** (slow regulatory hurdles, pilot calibration).
-  - 2020–2022 (Inflection Knee): **~250,000 Deliveries** ($25	imes$ surge during pandemic).
+  - 2020–2022 (Inflection Knee): **~250,000 Deliveries** ($25\times$ surge during pandemic).
   - 2023–2026 (Disruptive Phase): **>1,000,000 Commercial Deliveries** (expanding from Africa to US retail, Japan, and European healthcare).
 - **The Metric Verification:** Validating the exact transition from the flat deceptive baseline to vertical exponential scale in physical robotics.
 
@@ -989,12 +982,12 @@ flowchart LR
 
 | Case Domain | The Linear Trap (Mind 1.0 Assumption) | The Exponential Reality (Empirical S-Curve) | Civilizational Inflection / Theurgic Impact |
 | :--- | :--- | :--- | :--- |
-| **01. Global Data** | Linear storage expansion (+10% YoY) | **181 Zettabytes ($90	imes$ in 16 Years)** | Total collapse of human manual information parsing |
+| **01. Global Data** | Linear storage expansion (+10% YoY) | **181 Zettabytes ($90\times$ in 16 Years)** | Total collapse of human manual information parsing |
 | **02. Media Outrage** | Neutral news reporting as default | **>300% surge in anger/fear headlines** | Dopamine-cortisol addiction loops, epistemic polarization |
-| **03. COVID-19** | "Only 100 cases, no need to act" | **$100 	o 100,000$ cases in 30 days** | Demonstrating catastrophic danger of late intervention |
-| **04. AI Compute** | Doubling every 2 years (Moore's Law) | **Doubling every 3.4 months ($10^8	imes$)** | Autocatalytic Singularity threshold reached in 2026 |
+| **03. COVID-19** | "Only 100 cases, no need to act" | **$100 \to 100,000$ cases in 30 days** | Demonstrating catastrophic danger of late intervention |
+| **04. AI Compute** | Doubling every 2 years (Moore's Law) | **Doubling every 3.4 months ($10^8\times$)** | Autocatalytic Singularity threshold reached in 2026 |
 | **05. Solar PV** | Flat 2% linear growth (IEA forecasts) | **~30% annual compound growth (Swanson)** | Cheapest electricity in human history (<1.5¢/kWh) |
-| **06. DNA Sequencing**| Tracking standard semiconductor curves | **Plunged $10^6	imes$ ($100M 	o <\$100$)** | Transition from reactive treatment to proactive longevity |
+| **06. DNA Sequencing**| Tracking standard semiconductor curves | **Plunged $10^6\times$ ($100M \to <\$100$)** | Transition from reactive treatment to proactive longevity |
 | **07. BCI Interfaces**| Low-channel therapeutic toys | **1,024 to 4,096 electrode arrays** | Restoring motor/sensory autonomy to paralyzed patients |
 | **08. AI Diagnostics**| Human intuition always superior | **>99.2% sensitivity with AI synergy** | Eradication of fatal diagnostic misses in oncology |
 | **09. Drone Logistics**| Niche rural pilot project | **>1,000,000 commercial deliveries** | Total leapfrogging of terrestrial road infrastructure |
@@ -1101,13 +1094,13 @@ flowchart LR
 
 ### Slide 39: The Pacing Problem: Linear Democratic Governance vs. Exponential Tech
 - **Governance Asymmetry (Larry Downes, Gary Marchant):**
-  - *Exponential Innovation Velocity:* Technology advances exponentially ($10	imes 	ext{ every 12–24 months}$).
+  - *Exponential Innovation Velocity:* Technology advances exponentially ($10\times \text{ every 12–24 months}$).
   - *Legislative & Regulatory Velocity:* Democratic lawmaking proceeds at a linear, deliberative pace (**3 to 7 years per major statute**).
 - **The Governance Gap:** By the time a regulatory bill is debated, amended, and passed into law, the technological frontier has advanced through **2 to 3 doubling cycles**, rendering the regulation obsolete upon arrival.
 
 ```mermaid
 flowchart TD
-    A["Exponential Technology Curve<br/>(AI • Synthetic Bio • Autonomous Systems)"] -->|Doubling Every 12-24 Months| B["Frontier Reality in Year 5 ($16	imes$ to $32	imes$)"]
+    A["Exponential Technology Curve<br/>(AI • Synthetic Bio • Autonomous Systems)"] -->|Doubling Every 12-24 Months| B["Frontier Reality in Year 5 ($16\times$ to $32\times$)"]
     C["Democratic Legislative Process<br/>(Hearings • Amendments • Bureaucracy)"] -->|Linear Pace (5-7 Years)| D["Passed Law in Year 5 (Designed for Year 0 Reality)"]
     B & D --> E["The Massive Governance Void<br/>(Regulatory Inefficacy & Sovereign Instability)"]
     style B fill:#dc2626,stroke:#991b1b,color:#fff
@@ -1118,7 +1111,7 @@ flowchart TD
 > 
 > **Prof. Peter Kim:** Slide 39 outlines the greatest structural challenge facing modern statecraft: **The Pacing Problem**. Dr. Vance, explain why traditional democratic governance is failing to regulate exponential technology. *(Turn 1)*  
 > **Dr. Elena Vance:** It is a basic mathematical velocity mismatch. A democratic parliament or congress takes **3 to 7 years** to hold hearings, draft legislation, debate amendments, and pass a regulatory statute. That linear timeline worked fine in the 19th century when railroad steam engines evolved over decades. *(Turn 2)*  
-> **TA Marcus Brody:** But in 2026, technology advances on an exponential doubling cycle of 12 to 24 months! In seven years, a technology goes through **three to five doublings—scaling by $16	imes$ to $32	imes$**! *(Turn 3)*  
+> **TA Marcus Brody:** But in 2026, technology advances on an exponential doubling cycle of 12 to 24 months! In seven years, a technology goes through **three to five doublings—scaling by $16\times$ to $32\times$**! *(Turn 3)*  
 > **Dr. Elena Vance:** That means by the day the President or Prime Minister signs the law, the regulation is governing a technological reality that existed five years ago and has been completely superseded by new architectures! The law is obsolete on arrival! *(Turn 4)*  
 > **Prof. Peter Kim:** You cannot govern Mach 25 hypersonic technology with horse-and-buggy bureaucratic processes. *(Turn 5)*  
 > **TA Marcus Brody:** So what happens? Governments either panic and pass heavy-handed, clumsy bans that crush innovation, or they give up completely and let four tech monopolies govern themselves! *(Turn 6)*  
@@ -1174,7 +1167,7 @@ flowchart TD
 
 ### Slide 42: Synthesizing the "So What?": Conquering Vertigo through Structure Mapping
 - **The Master Civilizational Equation:**
-  $$	ext{Cognitive Mastery} = rac{	ext{Relational Structure Mapping} 	imes 	ext{First Principles Grounding}}{	ext{Savannah Amygdalar Negativity Bias}} 	imes 	ext{Flow State Bandwidth}$$
+  $$\text{Cognitive Mastery} = rac{\text{Relational Structure Mapping} \times \text{First Principles Grounding}}{\text{Savannah Amygdalar Negativity Bias}} \times \text{Flow State Bandwidth}$$
 - **The Final Verdict:** Cognitive Vertigo is the inevitable tax paid by linear minds attempting to process exponential reality. By mastering Structure Mapping, we convert temporal disorientation into theurgic velocity and clear-eyed civilizational stewardship.
 
 ```mermaid
@@ -1232,8 +1225,8 @@ flowchart LR
   - **Objective:** Select one highly complex, jargon-dense 2026 technological patent or frontier whitepaper (e.g., High-Temperature Superconductors, CRISPR-Cas12f Base Editing, Neuromorphic Photonic Chips).
   - **Execution Protocol (3 Steps):**
     1. *First-Principles Decomposition:* Extract fundamental physical variables (energy, throughput, latency, cost/unit).
-    2. *Relational Alignment (Gentner Mapping):* Map the system to a canonical historical/mythological base domain, identifying higher-order causal predicates ($	ext{CAUSE}[\dots]$).
-    3. *Civilizational Moonshot Design:* Architect a $10	imes$ application that solves an existential bottleneck, complete with second-order hazard safeguards.
+    2. *Relational Alignment (Gentner Mapping):* Map the system to a canonical historical/mythological base domain, identifying higher-order causal predicates ($\text{CAUSE}[\dots]$).
+    3. *Civilizational Moonshot Design:* Architect a $10\times$ application that solves an existential bottleneck, complete with second-order hazard safeguards.
 
 > **🎙️ 3-Presenter Authentic Tiki-Taka Script**
 > 
