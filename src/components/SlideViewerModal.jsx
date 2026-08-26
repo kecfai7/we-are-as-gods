@@ -397,59 +397,53 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
           {/* Slide content area */}
           <div style={{
             flex: 1, overflowY: 'auto',
-            padding: viewMode === 'focus_text' ? '32px 48px 20px' : (viewMode === 'focus_diagram' ? '24px 36px 16px' : '36px 48px 24px'),
-            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: viewMode === 'focus_diagram' ? 'center' : 'flex-start'
+            padding: '32px 56px 24px',
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-start'
           }}>
-            <div style={{
-              maxWidth: viewMode === 'focus_diagram' ? '1560px' : (viewMode === 'focus_text' ? '1480px' : '1400px'),
-              width: '100%'
-            }}>
-              {/* Module badge + slide ID (Hidden or compact in diagram focus) */}
-              {viewMode !== 'focus_diagram' && (
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
-                  <span className="badge badge-purple" style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', padding: '4px 14px' }}>
-                    {getModuleLabel(currentSlide.moduleNumber)}
-                  </span>
-                  <span style={{ fontSize: '12px', color: '#64748B', fontFamily: 'monospace' }}>
-                    Slide ID: W{session.weekNumber}-S{String(currentSlide.slideNumber).padStart(2, '0')}
-                  </span>
-                </div>
-              )}
+            <div style={{ maxWidth: '1520px', width: '100%' }}>
+              {/* Module badge + slide ID */}
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+                <span className="badge badge-purple" style={{ fontSize: '12px', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em', padding: '4px 14px' }}>
+                  {getModuleLabel(currentSlide.moduleNumber)}
+                </span>
+                <span style={{ fontSize: '12px', color: '#64748B', fontFamily: 'monospace' }}>
+                  Slide ID: W{session.weekNumber}-S{String(currentSlide.slideNumber).padStart(2, '0')}
+                </span>
+              </div>
 
               {/* Slide Title */}
               <h1
                 style={{
                   fontFamily: "'Outfit', sans-serif",
-                  fontSize: viewMode === 'focus_text' ? '34px' : (viewMode === 'focus_diagram' ? '24px' : '30px'),
+                  fontSize: '28px',
                   fontWeight: 800,
                   color: '#FFFFFF', lineHeight: 1.25,
-                  marginBottom: viewMode === 'focus_diagram' ? '14px' : '22px',
-                  letterSpacing: '-0.02em',
-                  textAlign: viewMode === 'focus_diagram' ? 'center' : 'left'
+                  marginBottom: '20px',
+                  letterSpacing: '-0.02em'
                 }}
                 dangerouslySetInnerHTML={{ __html: renderLatexInText(displayTitle) }}
               />
 
-              {/* Bullets (Shown in standard and focus_text, hidden or compact in focus_diagram) */}
-              {viewMode !== 'focus_diagram' && displayBullets?.length > 0 && (
+              {/* Bullets */}
+              {displayBullets?.length > 0 && (
                 <div style={{
                   display: 'flex', flexDirection: 'column',
-                  gap: viewMode === 'focus_text' ? '16px' : '12px',
-                  marginBottom: '24px'
+                  gap: '10px',
+                  marginBottom: '20px'
                 }}>
                   {displayBullets.map((bullet, idx) => (
                     <div key={idx} style={{
                       display: 'flex', alignItems: 'flex-start', gap: '14px',
-                      fontSize: viewMode === 'focus_text' ? '18px' : '16px',
-                      color: '#E2E8F0', lineHeight: 1.6,
+                      fontSize: '16px',
+                      color: '#E2E8F0', lineHeight: 1.55,
                       backgroundColor: 'rgba(15, 23, 42, 0.85)',
-                      padding: viewMode === 'focus_text' ? '18px 24px' : '14px 20px',
-                      borderRadius: '14px', border: '1px solid rgba(255, 255, 255, 0.1)',
-                      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)'
+                      padding: '12px 20px',
+                      borderRadius: '12px', border: '1px solid rgba(255, 255, 255, 0.08)',
+                      boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)'
                     }}>
                       <span style={{
-                        width: '9px', height: '9px', borderRadius: '50%',
-                        backgroundColor: '#00F0FF', marginTop: '9px', flexShrink: 0,
+                        width: '8px', height: '8px', borderRadius: '50%',
+                        backgroundColor: '#00F0FF', marginTop: '8px', flexShrink: 0,
                         boxShadow: '0 0 10px #00F0FF'
                       }} />
                       <span dangerouslySetInnerHTML={{
@@ -460,21 +454,60 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                 </div>
               )}
 
+              {/* Table Block */}
+              {currentSlide.table && currentSlide.table.headers && (
+                <div style={{
+                  width: '100%', overflowX: 'auto', marginBottom: '22px',
+                  backgroundColor: 'rgba(15, 23, 42, 0.9)',
+                  borderRadius: '14px', border: '1px solid rgba(0, 240, 255, 0.35)',
+                  boxShadow: '0 8px 30px rgba(0, 0, 0, 0.35)'
+                }}>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '15px' }}>
+                    <thead>
+                      <tr style={{ backgroundColor: 'rgba(8, 47, 73, 0.7)', borderBottom: '1px solid rgba(0, 240, 255, 0.4)' }}>
+                        {currentSlide.table.headers.map((h, i) => (
+                          <th key={i} style={{
+                            padding: '14px 20px', color: '#00F0FF', fontWeight: 700,
+                            fontFamily: "'Outfit', sans-serif", letterSpacing: '0.02em'
+                          }}
+                            dangerouslySetInnerHTML={{ __html: renderLatexInText(h) }}
+                          />
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {currentSlide.table.rows.map((row, ri) => (
+                        <tr key={ri} style={{
+                          borderBottom: ri < currentSlide.table.rows.length - 1 ? '1px solid rgba(255, 255, 255, 0.08)' : 'none',
+                          backgroundColor: ri % 2 === 1 ? 'rgba(255, 255, 255, 0.03)' : 'transparent'
+                        }}>
+                          {row.map((cell, ci) => (
+                            <td key={ci} style={{ padding: '12px 20px', color: '#E2E8F0', lineHeight: 1.5 }}
+                              dangerouslySetInnerHTML={{ __html: renderLatexInText(cell) }}
+                            />
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
               {/* Formula Block */}
               {currentSlide.formula && (
                 <div style={{
                   backgroundColor: 'rgba(8, 47, 73, 0.45)', border: '1px solid rgba(0, 240, 255, 0.45)',
-                  padding: viewMode === 'focus_diagram' ? '28px 36px' : '20px 24px',
-                  borderRadius: '16px', marginBottom: '24px',
+                  padding: '20px 28px',
+                  borderRadius: '16px', marginBottom: '22px',
                   boxShadow: '0 0 30px rgba(0, 240, 255, 0.15)'
                 }}>
-                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '10px', textAlign: 'center' }}>
+                  <div style={{ fontSize: '11px', fontFamily: 'monospace', textTransform: 'uppercase', color: '#00F0FF', fontWeight: 700, marginBottom: '8px', textAlign: 'center' }}>
                     MATHEMATICAL MODEL
                   </div>
                   <div
                     style={{
                       color: '#BAE6FD',
-                      fontSize: viewMode === 'focus_diagram' ? '22px' : '18px',
+                      fontSize: '20px',
                       overflowX: 'auto', display: 'flex', justifyContent: 'center'
                     }}
                     dangerouslySetInnerHTML={{ __html: renderFormulaBox(currentSlide.formula) }}
@@ -485,11 +518,11 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
               {/* Mermaid Diagram */}
               {mermaidSvg ? (
                 <div
-                  className={viewMode === 'focus_diagram' ? "focus-diagram-container" : ""}
+                  className="focus-diagram-container"
                   style={{
                     backgroundColor: '#0D1322', border: '1px solid rgba(0, 240, 255, 0.35)',
-                    padding: viewMode === 'focus_diagram' ? '36px 48px' : '24px',
-                    borderRadius: '16px', marginBottom: '24px',
+                    padding: '24px 36px',
+                    borderRadius: '16px', marginBottom: '22px',
                     boxShadow: '0 0 35px rgba(0, 240, 255, 0.18)',
                     overflowX: 'auto', display: 'flex', justifyContent: 'center'
                   }}>
@@ -497,10 +530,9 @@ export default function SlideViewerModal({ session, initialSlide = 1, onClose, l
                     dangerouslySetInnerHTML={{ __html: mermaidSvg }} />
                 </div>
               ) : displayMermaid ? (
-
                 <div style={{
                   backgroundColor: '#0F172A', border: '1px solid rgba(255, 255, 255, 0.1)',
-                  padding: '20px', borderRadius: '16px', marginBottom: '24px',
+                  padding: '20px', borderRadius: '16px', marginBottom: '22px',
                   fontFamily: 'monospace', fontSize: '12px', color: '#CBD5E1', overflowX: 'auto'
                 }}>
                   <pre>{displayMermaid}</pre>

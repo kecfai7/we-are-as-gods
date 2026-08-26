@@ -49,7 +49,29 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 1968년, 스튜어트 브랜드가 저 유명한 문장을 썼을 때 사람들은 히피의 과장된 수사라고 생각했습니다. 하지만 60년이 지난 지금, 이 문장은 가장 엄밀한 과학적 팩트가 되었습니다.\n**TA Marcus Brody:** 브랜드가 저 말을 썼을 때는 고작 개인이 카메라나 계산기를 사서 독립하자는 수준이었잖아요. 그런데 지금 우리가 다루는 건 행성 전체의 유전자를 재작성하고, 지구 궤도에 수만 개의 위성을 띄워 실시간으로 지구를 스캔하는 진짜 '신적 인프라'입니다.\n**Prof. Peter Kim:** 그렇습니다. 브랜드의 선언에서 가장 중요한 단어는 'Gods'가 아니라 **'Get good at it(그것에 능숙해져야 한다)'**입니다. 신이 되는 것은 이미 기정사실이며, 우리의 유일한 문제는 '우리가 그것을 능숙하고 지혜롭게 다룰 수 있는가'입니다.\n**Dr. Elena Vance:** 능숙해지지 못하면, 신의 힘을 가진 어린아이가 스스로를 파괴하는 비극이 발생하니까요.",
         "scriptEn": "**Dr. Elena Vance:** On Slide 2, we revisit the iconic opening line of the 1968 *Whole Earth Catalog* by Stewart Brand: *\"We are as gods and might as well get good at it.\"* Back then, academics dismissed it as California counter-cultural poetry. *(Turn 1)*\n**TA Marcus Brody:** But look at what Brand actually meant back in 1968, Elena! He was talking about buying hand tools, printing newsletters, and building geodesic domes so individuals wouldn't depend on giant bureaucracies or big auto companies. *(Turn 2)*\n**Prof. Peter Kim:** Spot on, Marcus. In 1968, \"being as gods\" meant personal autonomy and self-reliance. But look at the table on Slide 2 to see the massive shift. Today in 2026, getting good at being gods is no longer a lifestyle choice; it is a baseline requirement for species survival. *(Turn 3)*\n**TA Marcus Brody:** Because in 1968, if you built a bad cabin, it leaked rain on your head. In 2026, if you make a mistake with an autonomous AI weapons swarm or a synthetic gene drive, you trigger a global catastrophe! *(Turn 4)*\n**Dr. Elena Vance:** The stakes are entirely different. We have moved from typewriters and hand tools to 2mm photovoltaic eye chips, 45-ExaFLOP supercomputers, and sensor meshes capturing 181 zettabytes of data. The blast radius of our mistakes is now planetary. *(Turn 5)*\n**Prof. Peter Kim:** Notice the crucial phrase in Brand's maxim: **\"might as well get good at it.\"** The power is already here as an undeniable physical fact. Our only question is whether humanity possesses the maturity to survive its own creations. *(Turn 6)*\n**TA Marcus Brody:** So \"getting good at it\" means combining rock-solid engineering fail-safes with what we call *Moral Muscle* in human decision-making! *(Turn 7)*\n**Dr. Elena Vance:** Exactly. A child playing with a laser cannon is a disaster waiting to happen. We must grow up to match our toolkits. *(Turn 8)*\n**Prof. Peter Kim:** And that transition from passive biological organisms to conscious planetary stewards is what philosophy calls *Theogony*. Let's deconstruct that continuum on Slide 3. *(Turn 9)*",
         "title": "Stewart Brand’s 1968 Provocation Revisited",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Era",
+            "Stewart Brand’s Focus",
+            "Technological Substrate",
+            "Existential Mandate"
+          ],
+          "rows": [
+            [
+              "**1968**",
+              "Individual Autonomy & Decentralized Tools",
+              "Calculators, Typewriters, DIY Manuals",
+              "Liberating personal agency from bureaucratic state hegemony"
+            ],
+            [
+              "**2026**",
+              "Species-Level Apotheosis & Systemic Stability",
+              "2mm Photovoltaic Chips, Frontier AGI, Planetary Sensor Meshes",
+              "Defending against cognitive vertigo and civilizational collapse"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 3,
@@ -365,7 +387,88 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 표 하나가 인류 문명의 현주소를 웅변합니다. 10대 기적 중 단 하나도 현대 기술의 사정권을 벗어난 것이 없습니다.\n**TA Marcus Brody:** 저 표의 오른쪽 '잠재적 실존 리스크'를 보세요. 우리가 신의 힘을 얻는 대가로 치러야 할 청구서들이 빼곡히 적혀 있습니다.\n**Dr. Elena Vance:** 이것이 바로 우리가 단순한 공학자가 아니라, 문명사적 책임감을 가진 철학적 엔지니어가 되어야 하는 이유입니다.",
         "scriptEn": "**Prof. Peter Kim:** Look closely at Slide 15, scholars. This master matrix connects historical miracle archetypes, 2026 technological infrastructure, and their systemic existential risks. *(Turn 1)*\n**TA Marcus Brody:** Look at the symmetry across the columns: Creation via GenAI, Sustenance via Cellular Ag, Healing via PRIMA chips, and Resurrection via Epigenetic Reprogramming. OpenAI, DeepMind, Science Corp, and Altos Labs are building the tools of modern theurgy! *(Turn 2)*\n**Dr. Elena Vance:** But look at the rightmost column—the **Systemic Existential Hazard**. Every single godlike capability carries a corresponding existential invoice. *(Turn 3)*\n**TA Marcus Brody:** If you unlock Creation via GenAI, you risk Epistemic Collapse and deepfakes. If you unlock extreme Longevity, you risk Gerontocratic inequality where 150-year-old elites hoard wealth. If you unlock drone swarms, you risk global security instability! *(Turn 4)*\n**Prof. Peter Kim:** There is no free omnipotence. In physics, every action has an equal and opposite reaction; in technology, every superpower brings a civilizational test. *(Turn 5)*\n**Dr. Elena Vance:** This proves why engineering education without ethics is dangerous. Teaching students to build powerful chips without teaching them governance produces reckless sorcerer's apprentices. *(Turn 6)*\n**TA Marcus Brody:** Our mission in this seminar is to master both sides: the technical mechanics *and* the ethical safeguards! *(Turn 7)*\n**Prof. Peter Kim:** Let's move into Module 3 and examine the mathematical and cognitive frameworks that make this possible! *(Turn 8)*",
         "title": "The Grand Miracle-to-Tech Conversion Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Miracle Domain",
+            "Canonical Archetype",
+            "2026 Technological Substrate",
+            "Vanguard Institutional Drivers",
+            "Systemic Existential Hazard"
+          ],
+          "rows": [
+            [
+              "**Creation**",
+              "Genesis / Fiat Lux",
+              "Multimodal GenAI, Protein Diffusers",
+              "OpenAI, DeepMind, Anthropic",
+              "Epistemic Collapse, Synthetic Hallucination"
+            ],
+            [
+              "**Sustenance**",
+              "Manna / Multiplication",
+              "Cellular Ag, Precision Fermentation",
+              "Eat Just, AeroFarms, Upside Foods",
+              "Traditional Agrarian Collapse, Bioreactor Fragility"
+            ],
+            [
+              "**Nature**",
+              "Red Sea / Storm Control",
+              "SWRO Desalination, Solar Geoeng",
+              "IDE Technologies, Harvard SCoPEx",
+              "Geopolitical Weather Warfare, Ecosystem Rupture"
+            ],
+            [
+              "**Healing**",
+              "Siloam / Leprosy Cures",
+              "2mm PRIMA Chip, CRISPR-Casgevy",
+              "Science Corp, Vertex, CRISPR Ther.",
+              "Genetic Inequality, Neuro-prosthetic Monopolies"
+            ],
+            [
+              "**Resurrection**",
+              "Lazarus / Immortality",
+              "Epigenetic Reprogramming, ReGen",
+              "Retro Bio, Altos Labs, Calico",
+              "Demographic Calcification, Gerontocratic Tyranny"
+            ],
+            [
+              "**Protection**",
+              "Fiery Furnace / Shields",
+              "Autonomous Interceptors, AI Defense",
+              "Rafael, Palantir, Anduril",
+              "Hyper-Militarized Autonomous Escalation"
+            ],
+            [
+              "**Prophecy**",
+              "Joseph’s Seven-Year Dream",
+              "Global Digital Twins, Complex AI",
+              "ECMWF, Palantir AIP, Citadel",
+              "Algorithmic Determinism, Loss of Free Will"
+            ],
+            [
+              "**Language**",
+              "Pentecost Polyglossia",
+              "Sub-200ms Neural Speech Synthesis",
+              "Meta (Seamless), Google DeepMind",
+              "Total Eradication of Cognitive Privacy"
+            ],
+            [
+              "**Judgment**",
+              "Sodom Fire / Jericho",
+              "Autonomous Drone Swarms, Micro-HPM",
+              "Anduril, Skydio, Baykar",
+              "Algorithmic Liquidation, Loss of Human Chains"
+            ],
+            [
+              "**Victory**",
+              "David’s Sling vs. Goliath",
+              "Distributed FPV Precision Munitions",
+              "Defense Innovation Unit, Commercial Swarms",
+              "Asymmetric Destabilization of Nation-States"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -524,7 +627,31 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 슬라이드 22의 대조표를 주목하십시오. 하수 엔지니어는 표면적 특징에 매달립니다. \"이 칩은 몇 나노미터 공정이고 클록 스피드가 얼마인가?\" 하지만 Theurgicon의 리더는 관계 구조를 봅니다. \"이 기술이 어떤 인간적 결핍의 사슬을 끊어내는가?\"\n**TA Marcus Brody:** 맞아요! 스마트폰을 그냥 네모난 전자기기로 보면 잡스 사후의 폼팩터 변화만 따지게 되지만, 심층 구조로 보면 1980년대 억만장자도 못 누리던 100가지 도구를 케냐의 시골 소년에게 쥐어준 인류 역사상 가장 거대한 평등화 도구라는 걸 알게 되죠.\n**Prof. Peter Kim:** 심층 구조를 보는 눈, 그것이 바로 대학원생 여러분이 길러야 할 '구조 매핑 역량'입니다.",
         "scriptEn": "**Dr. Elena Vance:** Look at the comparison on Slide 22. A novice looks at surface attributes: *\"A smartphone is a 6-inch glass rectangle with a 120Hz display and a 48-megapixel camera.\"* That is shallow, attribute-level thinking. *(Turn 1)*\n**TA Marcus Brody:** But a Theurgicon scholar sees the deep relational structure: *\"A smartphone is an exponential dematerialization engine that condensed $7.1 million of 1985 hardware into a 200-gram pocket device, giving a student anywhere on Earth more access to knowledge than the President of the United States had 40 years ago!\"* *(Turn 2)*\n**Prof. Peter Kim:** Look at Zipline: A surface observer says: *\"It's just a styrofoam toy airplane.\"* A relational thinker sees: *\"It is an aerial logistics umbilical cord that bypasses nonexistent mountain roads to slash postpartum maternal mortality by 51%.\"* *(Turn 3)*\n**Dr. Elena Vance:** And look at PRIMA: Not *\"a 2mm silicon square,\"* but an optoelectronic bridge restoring existential human dignity and independence to elderly patients. *(Turn 4)*\n**TA Marcus Brody:** When you see systems relationally, your engineering priorities change! You stop building trivial spec upgrades and start architecting solutions for real human challenges! *(Turn 5)*\n**Prof. Peter Kim:** Relational isomorphism is your shield against superficial tech hype and your compass for meaningful innovation. *(Turn 6)*\n**TA Marcus Brody:** And we can take this further by using mythological archetypes as design filters on Slide 23! *(Turn 7)*\n**Dr. Elena Vance:** Let's examine Slide 23: Mythological Archetypes as High-Compression Cognitive Filters. *(Turn 8)*",
         "title": "Surface Attributes vs. Deep Relational Isomorphisms",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "System Under Analysis",
+            "Superficial Attribute Focus (Shallow)",
+            "Deep Relational Isomorphism (Theurgic)"
+          ],
+          "rows": [
+            [
+              "**Smartphone**",
+              "A rectangular glass slab running software apps",
+              "A dematerialization engine condensing $7.1M of physical infrastructure into a near-zero marginal cost universal utility"
+            ],
+            [
+              "**PRIMA Retinal Chip**",
+              "A 2mm silicon square embedded in the eye",
+              "An optoelectronic bridge bypassing destroyed biological transducers to restore existential connection and agency"
+            ],
+            [
+              "**Zipline Drone Mesh**",
+              "A small battery-powered RC airplane",
+              "An aerial supply pipeline bypassing nonexistent terrestrial infrastructure to slash maternal hemorrhaging mortality by 51%"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 23,
@@ -1130,7 +1257,35 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 슬라이드의 수치를 보십시오. 181 제타바이트입니다. 지구상의 모든 모래알 수보다 훨씬 많은 데이터가 매년 디지털 공간에 쏟아집니다. 그런데 칙센트미하이가 증명했듯, 인간이 '의식적으로' 처리할 수 있는 정보 대역폭은 초당 고작 50에서 120비트입니다. 우리가 상대방의 말 한마디를 온전히 이해하는 데만 60비트가 소모됩니다.\n**TA Marcus Brody:** 와... 50조 대 1이라니! 소방 호스로 쏟아지는 나이아가라 폭포수 밑에서 에스프레소 잔으로 물을 받아 마시려는 꼴이네요. 잔이 깨지는 게 당연합니다!\n**Prof. Peter Kim:** 그렇습니다. 인간의 뇌는 정보가 부족해서가 아니라, 너무 넘쳐나서 질식하고 있습니다. 필터가 없는 풍요는 지옥과 다름없습니다.",
         "scriptEn": "**Dr. Elena Vance:** Slide 2 lays out the most severe quantitative bottleneck in human biology. Look at the disparity ratio in the table: **50 Trillion to One ($50,000,000,000,000 : 1$)**! *(Turn 1)*\n**TA Marcus Brody:** Break down those numbers, Elena! Global data generation in 2026 is **181 Zettabytes**—that is $5.74$ Petabits per second surging across the planet! And human conscious working memory processes at most **120 bits per second**! *(Turn 2)*\n**Prof. Peter Kim:** Think about that lifetime calculation in the second row. If a human lives for 80 years, focusing with 100% conscious attention every waking second, their biological brain can only process approximately **0.39 Gigabytes** of raw conscious data in an entire lifetime! *(Turn 3)*\n**TA Marcus Brody:** Less than half a gigabyte in a lifetime?! A single 10-second TikTok video or a high-res photo has more data than a human brain can consciously process across eighty years of living! *(Turn 4)*\n**Dr. Elena Vance:** Exactly! That means your conscious mind ingests approximately $0.00000000001\\%$ of the annual planetary datastream. You are not just missing a few details; you are essentially blind to 99.999999999% of global information flow! *(Turn 5)*\n**TA Marcus Brody:** And what do people do? They try to force more data in! They open 40 tabs, listen to podcasts at 2.5x speed, skim Twitter threads, and end up with acute dopamine exhaustion, brain fog, and total cynicism! *(Turn 6)*\n**Prof. Peter Kim:** That is the third row: **Defensive Epistemic Retraction**. When the brain realizes it cannot possibly process the firehose, it shuts down, retreats into cynical apathy, or clings dogmatically to simplistic tribal narratives. *(Turn 7)*\n**Dr. Elena Vance:** The takeaway is undeniable: trying to consume raw data is cognitive suicide. You must move from *data hoarding* to *relational filtering*. *(Turn 8)*\n**TA Marcus Brody:** But why did evolution build us with such a tight 120-bit limit in the first place? *(Turn 9)*\n**Prof. Peter Kim:** Let’s examine our evolutionary operating system on Slide 3: The Savanna Brain at the Singularity Threshold. *(Turn 10)*",
         "title": "The 181 Zettabyte Tsunami vs. The 120-Bit Biological Funnel",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Metric Domain",
+            "Global Digital Datastream (2026)",
+            "Human Conscious Working Memory",
+            "Disparity Order of Magnitude"
+          ],
+          "rows": [
+            [
+              "**Throughput per Second**",
+              "$\\approx 5.74 \\times 10^{15}$ bits/sec ($5.74\\text{ Pb/s}$)",
+              "$\\approx 50 \\text{ to } 120\\text{ bits/sec}$",
+              "**$\\approx 50,000,000,000,000 : 1$** ($50\\text{ Trillion} : 1$)"
+            ],
+            [
+              "**Annual Cumulative Ingestion**",
+              "$181\\text{ Zettabytes}$",
+              "Maximum Lifetime Conscious Ingestion: $\\approx 0.39\\text{ GB}$",
+              "Asymptotically Zero ($\\approx 0.00000000001\\%$)"
+            ],
+            [
+              "**Psychological Consequence**",
+              "Exponential Saturation of Digital Channels",
+              "Severe Cortical Overheating & Dopamine Depletion",
+              "**Defensive Epistemic Retraction & Cynicism**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 3,
@@ -1379,7 +1534,41 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 피터 디아만디스가 강조하는 기하급수 마인드셋의 본질은 '희소성'에서 '풍요'로의 존재론적 전환입니다. 선형적 사고자는 자원이 한정되어 있으니 빼앗기지 않으려 방어벽을 쌓지만, 기하급수 사고자는 기술로 자원의 총량을 늘립니다.\n**TA Marcus Brody:** 옛날엔 고래 기름이 떨어지면 세상이 암흑이 될 거라고 걱정했지만, 석유와 전기가 나오면서 문제가 통째로 증발해버렸잖아요? 바로 그 차이입니다!\n**Dr. Elena Vance:** 마인드셋의 전환은 단순한 자기계발 구호가 아닙니다. 뇌의 신경가소성(Neuroplasticity)을 기하급수적 환경에 동기화시키는 구조적 재배선입니다.",
         "scriptEn": "**Prof. Peter Kim:** Examine the comparative matrix on Slide 13. This table defines the shift from **Mind 1.0** to **Mind 2.0**. Marcus, walk us through the first two dimensions. *(Turn 1)*\n**TA Marcus Brody:** Look at Row 1: **Resource Horizon**. Mind 1.0 sees the world as a fixed pie of scarcity—if someone else gets rich or healthy, it means I lose out! Mind 2.0 understands thermodynamic abundance—technology takes inaccessible resources and liberates them for everyone! *(Turn 2)*\n**Dr. Elena Vance:** And look at Row 2: **Trajectory Modeling**. Mind 1.0 plans for 10% incremental improvements year-over-year. Mind 2.0 plans for $10\\times$ phase shifts, anticipating exponential inflection points before they become visible! *(Turn 3)*\n**TA Marcus Brody:** And look at Row 4: **Information Processing**. Mind 1.0 tries to read everything and burns out. Mind 2.0 uses Gentnerian Structure-Mapping to compress complex technical domains into high-leverage relational models! *(Turn 4)*\n**Prof. Peter Kim:** And finally, Row 5: **Civilizational Agency**. Mind 1.0 feels like a helpless victim buffeted by the winds of technological change. Mind 2.0 operates as an active Theurgist—taking conscious responsibility for steering these tools toward human flourishing. *(Turn 5)*\n**Dr. Elena Vance:** If you operate with Mind 1.0 in 2026, you are guaranteed to experience severe cognitive vertigo and economic obsolescence. Mind 2.0 is your only viable survival architecture. *(Turn 6)*\n**TA Marcus Brody:** But what happens if you stay stuck in Mind 1.0? You hit the physiological wall of Analysis Paralysis! *(Turn 7)*\n**Prof. Peter Kim:** Let’s examine the biology of burnout on Slide 14. *(Turn 8)*\n**Dr. Elena Vance:** Turn to Slide 14: Analysis Paralysis & Cognitive Overload. *(Turn 9)*\n**TA Marcus Brody:** Let’s look at the physiology of mental gridlock! *(Turn 10)*",
         "title": "Peter Diamandis’s Exponential Mindset Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Cognitive Dimension",
+            "Legacy Linear Mindset (Mind 1.0)",
+            "Exponential Theurgic Mindset (Mind 2.0)"
+          ],
+          "rows": [
+            [
+              "**Resource Horizon**",
+              "Zero-Sum Scarcity (Fixed Pie, Hoarding)",
+              "Thermodynamic Abundance (Expanding Pie via Tech)"
+            ],
+            [
+              "**Trajectory Modeling**",
+              "Incremental Extrapolation ($+10\\%$ YoY)",
+              "Multiplicative Compounding ($10\\times$ Shifts, S-Curves)"
+            ],
+            [
+              "**Failure Tolerance**",
+              "Risk-Aversion, Stigmatization of Errors",
+              "Rapid Empirical Iteration, Fail-Forward Telemetry"
+            ],
+            [
+              "**Information Processing**",
+              "Data Consumption (120-bit Funnel Overload)",
+              "Relational Structure Mapping & Heuristic Filtering"
+            ],
+            [
+              "**Civilizational Agency**",
+              "Passive Consumer / Subject of Disruption",
+              "Active Theurgist / Architect of Moonshot Solutions"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 14,
@@ -1465,7 +1654,35 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 많은 사람들이 생성형 AI를 볼 때 \"사람처럼 말을 주고받는다\"는 표면적 특징에만 주목합니다. 그러니 \"거짓말을 하네, 말귀를 못 알아듣네\" 하면서 실망하죠. 하지만 관계 구조를 보는 전문가는 \"비정형 데이터의 압축 및 잠재 공간(Latent Space) 벡터 탐색 엔진\"이라는 심층 구조를 봅니다.\n**TA Marcus Brody:** 겉포장지에 속지 않고 알맹이 기계를 보는 거네요! 넷플릭스를 비디오 대여점의 연장으로 본 사람들은 망했지만, '디지털 스트리밍 대역폭의 탈물질화'로 본 사람들은 거대한 부를 쌓았습니다.\n**Prof. Peter Kim:** 바로 그겁니다. 표면을 보면 혼란스럽지만, 구조를 보면 미래가 보입니다.",
         "scriptEn": "**TA Marcus Brody:** Look at the three-tier classification on Slide 17. Most people spend their entire lives trapped in the first row: **Mere Appearance**! *(Turn 1)*\n**Dr. Elena Vance:** Exactly, Marcus. If an AI startup has a sleek website, cool purple gradients, and buzzwords like \"autonomous quantum intelligence,\" novices think: *\"Wow, this looks like Apple, so it must be worth $10 billion!\"* That is pure Mere Appearance—high surface resemblance, zero structural substance, zero predictive power! *(Turn 2)*\n**Prof. Peter Kim:** And look at Row 2: **Literal Similarity**. Comparing an Nvidia H100 GPU to an H200 GPU is useful for incremental hardware procurement, but it never generates a radical conceptual breakthrough. *(Turn 3)*\n**TA Marcus Brody:** But look at Row 3: **True Analogy (Theurgic Structure Mapping)**! Low or zero surface resemblance, but massive deep relational isomorphism! That is where the Nobel Prizes and multi-billion-dollar moonshots are born! *(Turn 4)*\n**Dr. Elena Vance:** When Keller Rinaudo mapped the miracle of manna falling from heaven to autonomous fixed-wing drones dropping blood bags over Rwanda, there was zero surface similarity. A biblical text has zero wings, zero electric catapults, and zero GPS chips. But the relational structure—bypassing terrestrial geographic barriers to deliver life-saving sustenance from above—was identical! *(Turn 5)*\n**Prof. Peter Kim:** That relational leap created Zipline. When you master True Analogy, you can look across biology, mythology, physics, and software to synthesize radical solutions that no linear domain specialist could ever conceive. *(Turn 6)*\n**TA Marcus Brody:** And Gentner gave us an exact mathematical principle that governs how deep analogies work: The Systematicity Principle! *(Turn 7)*\n**Dr. Elena Vance:** Let’s examine how higher-order relations create unstoppable predictive power. *(Turn 8)*\n**Prof. Peter Kim:** Turn to Slide 18: The Systematicity Principle. *(Turn 9)*\n**TA Marcus Brody:** Let’s look at higher-order relational logic! *(Turn 10)*",
         "title": "Superficial Attributes vs. Deep Relational Invariants",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Mapping Classification",
+            "Surface Feature Overlap",
+            "Deep Relational Overlap",
+            "Cognitive & Predictive Utility"
+          ],
+          "rows": [
+            [
+              "**Mere Appearance**",
+              "High (Visual/Linguistic)",
+              "Low / Zero",
+              "Shallow confusion, misleading heuristics, zero insight"
+            ],
+            [
+              "**Literal Similarity**",
+              "High",
+              "High",
+              "Routine incremental engineering, low breakthrough potential"
+            ],
+            [
+              "**True Analogy (Theurgic)**",
+              "**Zero / Low**",
+              "**High / Structural**",
+              "**Radical paradigm shifts, 10x learning compression, Moonshot discovery**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 18,
@@ -1892,7 +2109,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스가 보여주는 것은 단일 기술의 발전이 아닙니다. 이 모든 곡선들이 '동시에' 수렴하며 서로가 서로를 가속시키는 문명사적 대폭발입니다.\n**Dr. Elena Vance:** 데이터는 AI를 키우고, AI는 유전자와 배터리를 설계하며, 배터리는 드론을 띄웁니다. 이것이 바로 '기하급수적 수렴(Exponential Convergence)'입니다.\n**TA Marcus Brody:** 이 거대한 쓰나미 앞에서 선형적 잣대를 들이대는 것은 자살행위나 다름없네요!",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 35, scholars. This is your master empirical scoreboard. Nine separate technological domains, and in every single one, linear human intuition failed catastrophically while exponential curves dominated physical reality. *(Turn 1)*\n**TA Marcus Brody:** Look at the middle column versus the left column! Every legacy institution that relied on the left column—from Kodak and Blockbuster to traditional energy forecasters—got completely steamrolled! *(Turn 2)*\n**Dr. Elena Vance:** And every enterprise that aligned with the middle column—from DeepMind and Illumina to Zipline and Neuralink—unlocked billions of dollars of value and solved civilizational bottlenecks! *(Turn 3)*\n**Prof. Peter Kim:** This table is your empirical proof: **Exponential growth is not an opinion; it is the fundamental mathematical law of information-enabled technologies.** *(Turn 4)*\n**TA Marcus Brody:** If you bet on linear models in 2026, you will lose 100% of the time! *(Turn 5)*\n**Dr. Elena Vance:** But commanding these exponential curves brings us face to face with the psychological abyss. *(Turn 6)*\n**Prof. Peter Kim:** When human beings realize how immense this power is, they experience profound existential dread. *(Turn 7)*\n**TA Marcus Brody:** What Rudolf Otto called \"Holy Terror\"! *(Turn 8)*\n**Dr. Elena Vance:** Let us cross into Module 5 and confront the existential paradoxes of modern theurgy! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Empirical Verification Matrix: Linear Traps vs. Exponential Reality",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Domain",
+            "The Linear Trap (Mind 1.0 Assumption)",
+            "The Exponential Reality (Empirical S-Curve)",
+            "Civilizational Inflection / Theurgic Impact"
+          ],
+          "rows": [
+            [
+              "**01. Global Data**",
+              "Linear storage expansion (+10% YoY)",
+              "**181 Zettabytes ($90\\times$ in 16 Years)**",
+              "Total collapse of human manual information parsing"
+            ],
+            [
+              "**02. Media Outrage**",
+              "Neutral news reporting as default",
+              "**>300% surge in anger/fear headlines**",
+              "Dopamine-cortisol addiction loops, epistemic polarization"
+            ],
+            [
+              "**03. COVID-19**",
+              "\"Only 100 cases, no need to act\"",
+              "**$100 \\to 100,000$ cases in 30 days**",
+              "Demonstrating catastrophic danger of late intervention"
+            ],
+            [
+              "**04. AI Compute**",
+              "Doubling every 2 years (Moore's Law)",
+              "**Doubling every 3.4 months ($10^8\\times$)**",
+              "Autocatalytic Singularity threshold reached in 2026"
+            ],
+            [
+              "**05. Solar PV**",
+              "Flat 2% linear growth (IEA forecasts)",
+              "**~30% annual compound growth (Swanson)**",
+              "Cheapest electricity in human history (<1.5¢/kWh)"
+            ],
+            [
+              "**06. DNA Sequencing**",
+              "Tracking standard semiconductor curves",
+              "**Plunged $10^6\\times$ ($100M \\to <\\$100$)**",
+              "Transition from reactive treatment to proactive longevity"
+            ],
+            [
+              "**07. BCI Interfaces**",
+              "Low-channel therapeutic toys",
+              "**1,024 to 4,096 electrode arrays**",
+              "Restoring motor/sensory autonomy to paralyzed patients"
+            ],
+            [
+              "**08. AI Diagnostics**",
+              "Human intuition always superior",
+              "**>99.2% sensitivity with AI synergy**",
+              "Eradication of fatal diagnostic misses in oncology"
+            ],
+            [
+              "**09. Drone Logistics**",
+              "Niche rural pilot project",
+              "**>1,000,000 commercial deliveries**",
+              "Total leapfrogging of terrestrial road infrastructure"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -2191,7 +2472,35 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 네그로폰테 교수가 일찍이 말했듯, \"원자(Atom)에서 비트(Bit)로의 이행\"은 단순한 기술의 교체가 아니라 물질세계의 규칙 자체를 바꾸는 사건입니다.\n**Dr. Elena Vance:** 원자는 복사할 때마다 물리적 비용과 시간이 들지만, 비트는 복제 한계 비용이 정확히 '0'입니다. 빛의 속도로 전 세계 80억 명에게 배포할 수 있죠.\n**TA Marcus Brody:** 어떤 산업이든 '정보 기반 기술'의 영역으로 편입되는 순간, 그 산업의 기존 지배자들은 카운트다운에 들어가는 겁니다!",
         "scriptEn": "**Prof. Peter Kim:** Slide 3 presents the great thermodynamic divide of modern civilization: **Atom-Based Newtonian Economics versus Bit-Based Shannon Economics**. Dr. Vance, why is this table the most important economic lesson of our era? *(Turn 1)*\n**Dr. Elena Vance:** For 10,000 years, all economics was based on physical atoms—iron, wheat, land, and oil. Atoms have mass, require physical labor to extract, and obey conservation of matter: If I eat an apple, you cannot eat that same apple. Scarcity was an immutable law of physics. *(Turn 2)*\n**TA Marcus Brody:** But look at the right column: **Bits**! Bits have zero physical mass, travel at the speed of light, and are completely non-rivalrous! If I send you an AI model, an MP3 audio track, or a DNA sequence file, I still have it, you have it, and we can copy it to four billion other people for the cost of a few milliwatts of electricity! *(Turn 3)*\n**Prof. Peter Kim:** Read the Phase Shift Axiom in the center of the slide: **\"Once a domain converts from physical atoms to digital bits, its growth rate shifts permanently from linear addition to exponential compounding.\"** *(Turn 4)*\n**TA Marcus Brody:** Look at what happened to encyclopedias! In 1990, Britannica was 32 leather-bound volumes costing $2,000 and weighing 120 pounds. The moment information digitized into Wikipedia, 30 million articles became accessible to every human on Earth for zero dollars! *(Turn 5)*\n**Dr. Elena Vance:** And today, we are doing that exact same conversion to biology via CRISPR and AI protein design, to energy via solar photovoltaics, and to money via blockchain and algorithmic finance! *(Turn 6)*\n**Prof. Peter Kim:** When you digitize a domain, you liberate it from the physical prison of scarcity. *(Turn 7)*\n**TA Marcus Brody:** But why is this growth completely invisible to people during the early stages? *(Turn 8)*\n**Dr. Elena Vance:** That is the core existential inquest of Session 3. *(Turn 9)*\n**Prof. Peter Kim:** Turn to Slide 4: Why Disruptive Growth Is Invisible Until It’s Too Late. *(Turn 10)*",
         "title": "The Great Atom-to-Bit Conversion: Information-Based Economics",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Economic Dimension",
+            "Atom-Based Economy (Physical Matter)",
+            "Bit-Based Economy (Digital Information)",
+            "Theurgic Implication"
+          ],
+          "rows": [
+            [
+              "**Marginal Cost of Duplication**",
+              "Substantial (Raw Materials, Labor, Freight)",
+              "**Asymptotically Zero ($\\approx \\$0.00$)**",
+              "Price collapses, enabling universal access"
+            ],
+            [
+              "**Consumption Rivalry**",
+              "Rivalrous (If I eat an apple, you cannot)",
+              "**Non-Rivalrous (Infinite simultaneous use)**",
+              "Scarcity dissolves into shared abundance"
+            ],
+            [
+              "**Scaling Velocity**",
+              "Friction-Bound (Building physical factories)",
+              "**Instantaneous (Light-speed global routing)**",
+              "Disruptive saturation in months, not decades"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 4,
@@ -2462,7 +2771,60 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 요약표는 향후 여러분이 어떤 신기술 벤처를 분석하든 평생 사용할 수 있는 나침반입니다. 현재 기술이 6D 중 어느 단계에 머물러 있는지를 정확히 진단하는 것이 전략의 시작입니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 기만 단계의 수학적 공식을 제대로 털어보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Examine Slide 15 carefully, scholars. This master matrix is your operational compass for navigating exponential transformation. Marcus, summarize the progression across the rows. *(Turn 1)*\n**TA Marcus Brody:** Look at the journey: In Stage 1, atoms become bits. In Stage 2, it hides under the radar while incumbents laugh. In Stage 3, it liquidates legacy markets. In Stage 4, physical hardware evaporates into code. In Stage 5, price collapses to zero. And in Stage 6, eight billion humans gain universal access! *(Turn 2)*\n**Dr. Elena Vance:** Look at the \"Vanguard 2026 Empirical Example\" column: Today, **Quantum Computing and Nuclear Fusion** are sitting right in the middle of **Stage 2: Deception**! People are mocking them because logical qubits and fusion net gain look expensive and clunky! *(Turn 3)*\n**TA Marcus Brody:** And in ten years, quantum and fusion will cross the knee into Disruption and Dematerialization, and everyone who mocked them today will be in complete shock! *(Turn 4)*\n**Prof. Peter Kim:** Look at **Autonomous Robotaxis and AI Code Synthesis**: they have just crossed into **Stage 3: Disruption**, overturning traditional automotive and software industries in real time. *(Turn 5)*\n**Dr. Elena Vance:** And look at **Global Starlink and Free LLMs**: they are actively completing **Stage 6: Democratization**, turning satellite communications and superintelligence into universal public air. *(Turn 6)*\n**TA Marcus Brody:** When you look at the world through this matrix, the future stops being a random mystery—it becomes a predictable sequence of phase shifts! *(Turn 7)*\n**Prof. Peter Kim:** Now let us examine the hard mathematics of how to calculate these curves in Module 3. *(Turn 8)*\n**Dr. Elena Vance:** Let’s dive into the Deception Trap calculus on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Relational Mapping! *(Turn 10)*",
         "title": "The Master 6D Value-Shift Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "6D Stage",
+            "Substrate State",
+            "Economic Characteristic",
+            "Human Cognitive Reaction",
+            "Vanguard 2026 Empirical Example"
+          ],
+          "rows": [
+            [
+              "**1. Digitization**",
+              "Physical Atoms $\\to$ Binary Bits",
+              "Escape from physical friction",
+              "Curiosity / Skepticism",
+              "CRISPR GenBank Sequences, Digital Twins"
+            ],
+            [
+              "**2. Deception**",
+              "Sub-Radar Compounding",
+              "Minuscule absolute metrics",
+              "Dismissal / The Ridicule Reflex",
+              "Quantum Compute (Logical Qubits), Fusion Net Gain"
+            ],
+            [
+              "**3. Disruption**",
+              "Price-Performance Inversion",
+              "$10\\times$ Cheaper / Faster / Better",
+              "Shock / Cognitive Vertigo",
+              "Autonomous EV Robotaxis, AI Code Synthesis"
+            ],
+            [
+              "**4. Dematerialization**",
+              "Hardware $\\to$ Software",
+              "Physical mass collapses to 0",
+              "Amazement / Unconscious Habituation",
+              "Smartphone Sensor Suite, Cloud Bio-Foundries"
+            ],
+            [
+              "**5. Demonetization**",
+              "Price Collapses ($\\text{MC} \\to \\$0$)",
+              "Traditional revenue models evaporate",
+              "Panic (GDP Metric Crisis)",
+              "Zero-Cost Digital Voice, Free Frontier LLMs"
+            ],
+            [
+              "**6. Democratization**",
+              "Universal Global Access",
+              "Post-scarcity baseline ($8\\text{B}$ humans)",
+              "Liberation / Moral Stewardship",
+              "Universal BCI Medical Diagnostics, Global Starlink"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -2583,7 +2945,41 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 6D가 단일 트랙으로 달릴 때도 파괴적이었는데, 지금은 5개의 6D 트랙이 서로를 끌어당기며 회오리를 치고 있습니다.\n**Dr. Elena Vance:** AlphaFold가 단백질을 풀고, 그 단백질로 새로운 차세대 배터리 전해질을 만들고, 그 배터리로 휴머노이드 로봇을 구동하는 세상입니다.\n**TA Marcus Brody:** 단일 기술만 보던 사람들은 이 복합 수렴의 속도에 완전히 넋을 잃게 될 겁니다!",
         "scriptEn": "**Prof. Peter Kim:** Look at the convergence matrix on Slide 20. We are no longer dealing with simple linear chains; we are analyzing multi-domain cross-pollination. Marcus, walk us through Row 1 and 2. *(Turn 1)*\n**TA Marcus Brody:** Row 1: **Digitized AI Compute catalyzes Synthetic Genomics**! By digitizing compute, DeepMind created AlphaFold, compressing 200 million protein structures from a million years of manual lab work into a few months! That is a **$100\\times$ acceleration** in biological enzyme discovery! *(Turn 2)*\n**Dr. Elena Vance:** And look at Row 2: **Dematerialized Sensors catalyze Autonomous Robotics**! When mechanical spinning LiDARs costing $75,000 were dematerialized into solid-state microchips costing $250, autonomous vehicles became economically viable for mass commercial deployment! *(Turn 3)*\n**TA Marcus Brody:** Look at Row 3: **Demonetized Solar catalyzes Desalination**! When solar electricity hits 1.5 cents per kilowatt-hour, pumping seawater through reverse-osmosis membranes becomes so cheap you can turn coastal deserts into lush vertical farms! *(Turn 4)*\n**Prof. Peter Kim:** And Row 4: **Democratized LEO Satellites catalyze Global Precision Agriculture**, beaming real-time moisture telemetry to autonomous tractors in Africa, cutting fertilizer waste by 30%! *(Turn 5)*\n**Dr. Elena Vance:** Every row in this matrix represents a multi-billion-dollar post-scarcity transition unlocked by cross-disciplinary 6D convergence. *(Turn 6)*\n**TA Marcus Brody:** And when these systems connect across global networks, Metcalfe’s Law kicks in to add another layer of exponential power! *(Turn 7)*\n**Prof. Peter Kim:** Let’s examine Metcalfe’s Law on Slide 21. *(Turn 8)*\n**Dr. Elena Vance:** Turn to Slide 21: Metcalfe’s Law and the Exponential Acceleration Vector. *(Turn 9)*\n**TA Marcus Brody:** Let’s see network value scale at $N^2$! *(Turn 10)*",
         "title": "Complex Matrix Convergence: Multi-6D Cross-Pollination",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Primary 6D Driver",
+            "Secondary Catalyzed Domain",
+            "Cross-Pollination Mechanism",
+            "Civilizational Acceleration Factor"
+          ],
+          "rows": [
+            [
+              "**Digitized AI Compute**",
+              "Synthetic Genomics",
+              "In silico AlphaFold molecular design",
+              "$100\\times$ faster enzyme discovery"
+            ],
+            [
+              "**Dematerialized Sensors**",
+              "Autonomous Robotics",
+              "Solid-state LiDAR on edge ASICs",
+              "$10\\times$ reduction in vehicle BOM cost"
+            ],
+            [
+              "**Demonetized Solar PV**",
+              "Desalination & Clean Hydrogen",
+              "Sub-1.5¢/kWh clean electron inputs",
+              "Unlimited agricultural freshwater"
+            ],
+            [
+              "**Democratized Starlink**",
+              "Global Precision Agriculture",
+              "LEO low-latency telemetry to tractors",
+              "$30\\%$ reduction in chemical fertilizer"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 21,
@@ -2740,7 +3136,59 @@ export const sessionsList = [
         "scriptKo": "**TA Marcus Brody:** 1980년대에 크레이(Cray) 슈퍼컴퓨터 한 대가 500만 달러였고, 방송용 캠코더가 수만 달러였습니다. 그 모든 장비를 트럭에 싣고 다녀야 했는데, 지금은 스마트폰 하나가 그 트럭 10대보다 훨씬 뛰어난 성능을 무료 앱으로 제공합니다!\n**Dr. Elena Vance:** 710만 달러의 가치가 0달러로 탈화폐화되고 180그램으로 탈물질화된 것입니다.\n**Prof. Peter Kim:** 이것이 바로 기술이 인류에게 선사한 거대한 보이지 않는 배당금입니다.",
         "scriptEn": "**TA Marcus Brody:** Look at the audit table on Slide 27! In 1985, if you wanted the functionality of your current phone, you had to spend **$7.1 million dollars** in physical hardware! *(Turn 1)*\n**Dr. Elena Vance:** Look at the individual rows: A Cray-2 supercomputer cost $6.5 million in 1985 and consumed 200 kilowatts of power with liquid fluorocarbon cooling. Today, an iPhone or Android phone contains a 3-nanometer NPU that processes **over 35 Trillion Operations per Second (TOPS)** while drawing less than 5 watts of battery power! *(Turn 2)*\n**Prof. Peter Kim:** And look at the marine GPS navigation unit: $120,000 in 1985, requiring dedicated military hardware. Today, a microscopic GNSS silicon chip costing $1.50 gives every human pinpoint geographic positioning down to three centimeters! *(Turn 3)*\n**TA Marcus Brody:** Total 1985 hardware weight: **several tons** of silicon, steel, cathode-ray tubes, and copper wires! Total 2026 weight: **200 grams**! *(Turn 4)*\n**Dr. Elena Vance:** That is a **$10,000\\times$ dematerialization of physical mass** and a **$23,000\\times$ collapse in purchasing price**! *(Turn 5)*\n**Prof. Peter Kim:** And once purchased, the marginal cost of updating the software, adding new AI capabilities, and accessing global knowledge is exactly **zero dollars**. *(Turn 6)*\n**TA Marcus Brody:** Every person on Earth carrying a smartphone is carrying a 1985 billionaire's computing bunker in their pocket! *(Turn 7)*\n**Dr. Elena Vance:** And this same 6D collapse is revolutionizing biological healthcare under the Carlson Curve. *(Turn 8)*\n**Prof. Peter Kim:** Let’s examine Case 3 on Slide 28: Next-Gen Genomic Sequencing. *(Turn 9)*\n**TA Marcus Brody:** Turn to Slide 28: $3 Billion to $100 in Genomics! *(Turn 10)*",
         "title": "CASE 02: The $7.1M Hardware Dematerialization into the Modern Smartphone",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "1985 Standalone Physical Hardware",
+            "1985 Unit Cost (USD)",
+            "2026 Digital Smartphone Equivalent",
+            "2026 Marginal Cost"
+          ],
+          "rows": [
+            [
+              "**Broadcast Video Camera & Recorder**",
+              "$2,500",
+              "4K 60fps HDR Digital Video Sensor",
+              "$0.00 (Software App)"
+            ],
+            [
+              "**Marine GPS Navigation Unit**",
+              "$120,000",
+              "Multi-Constellation GNSS / GPS Chip",
+              "$0.00 (Google/Apple Maps)"
+            ],
+            [
+              "**30-Volume Encyclopedia Britannica**",
+              "$2,000",
+              "Wikipedia / Frontier AI Multimodal LLM",
+              "$0.00 (Instant Search)"
+            ],
+            [
+              "**Dedicated Audio Recording Studio**",
+              "$50,000",
+              "GarageBand / Digital Audio Workstation",
+              "$0.00 (Mobile DAW)"
+            ],
+            [
+              "**Enterprise Video Conferencing Suite**",
+              "$250,000",
+              "Zoom / FaceTime / Google Meet",
+              "$0.00 (Free HD Video)"
+            ],
+            [
+              "**Cray-2 Supercomputing Cluster**",
+              "$6,500,000+",
+              "3nm Neural Processing Unit (NPU)",
+              "$0.00 (On-Device Compute)"
+            ],
+            [
+              "**TOTAL HARDWARE VALUE:**",
+              "**~$7,100,000 USD**",
+              "**Dematerialized into 200g Smartphone**",
+              "**<$300 Device Cost**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 28,
@@ -2942,7 +3390,81 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 매트릭스가 오늘 강의의 백미입니다. 이미 민주화가 끝난 1번 영역에서는 거대한 기회가 없습니다. 진정한 $100B 벤처와 XPRIZE의 무대는 지금 기만 단계의 끝자락(2~3D)에서 웅크리고 있는 3번 영역입니다!\n**TA Marcus Brody:** 양자 컴퓨팅, 배양육, BCI... 여기가 바로 다음 10년을 뒤흔들 화약고입니다!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 35. This master registry is your empirical proof of the 6Ds. Nine multi-trillion-dollar industries, and every single one followed the exact same six-stage metamorphic pathway. *(Turn 1)*\n**TA Marcus Brody:** Look at the rightmost column—**Total Cost Collapse Factor**! In genomics: a **30-million-fold collapse**! In cultured meat: a **33,000-fold collapse**! In personal computing: a **23,000-fold collapse**! This is not incremental economic progress; this is the thermodynamic rewriting of human reality! *(Turn 2)*\n**Dr. Elena Vance:** And look at the \"Deception Exit Year ($T^*$)\" column: On average, a technology spends **10 to 25 years** in the deceptive phase before crossing the knee! Once it crosses $T^*$, democratization happens in just **5 to 8 years**! *(Turn 3)*\n**Prof. Peter Kim:** If you understand this timeline, you never get surprised by the future. You can look at any technology today, locate where it sits on this timeline, and predict its disruption date with mathematical confidence. *(Turn 4)*\n**TA Marcus Brody:** But when traditional industries and governments get hit by this 6D tsunami, it creates massive existential paradoxes! *(Turn 5)*\n**Dr. Elena Vance:** What happens to employment, GDP metrics, and regulatory oversight when prices collapse to zero? *(Turn 6)*\n**Prof. Peter Kim:** Let us cross into Module 5 and confront the existential paradoxes of the 6D revolution. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine the dark side of the 6Ds on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Master 6D Industry Timeline & Deception Exit Registry",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Industry Sector",
+            "Digitization Year",
+            "Deception Exit Year ($T^*$)",
+            "Democratization Horizon",
+            "Total Cost Collapse Factor"
+          ],
+          "rows": [
+            [
+              "**01. Digital Photography**",
+              "1975 (Sasson CCD)",
+              "2002 (Consumer Parity)",
+              "2012 (Smartphone Ubiquity)",
+              "**$1,000\\times$ Mass Collapse, $100\\%$ Dematerialized**"
+            ],
+            [
+              "**02. Personal Computing**",
+              "1971 (Intel 4004)",
+              "1995 (Windows 95)",
+              "2010 (Global Mobile Web)",
+              "**$23,000\\times$ Purchasing Price Collapse ($7.1M \\to <\\$300$)**"
+            ],
+            [
+              "**03. DNA Sequencing**",
+              "2001 (Human Genome)",
+              "2014 (HiSeq $1K)",
+              "2026 (Sub-$100 Genome)",
+              "**$30,000,000\\times$ Deflation ($3B \\to <\\$100$)**"
+            ],
+            [
+              "**04. Solar Energy**",
+              "1976 (Satellite PV)",
+              "2018 (Grid Parity)",
+              "2026 (Cheapest KWh in History)",
+              "**$1,300\\times$ Deflation ($106/W \\to <\\$0.08/W$)**"
+            ],
+            [
+              "**05. EV Battery Storage**",
+              "1991 (Sony Li-ion)",
+              "2020 ($137/kWh Knee)",
+              "2026 (ICE Parity @ <$90/kWh)",
+              "**$20\\times$ Deflation ($1,200 \\to <\\$60/kWh$)**"
+            ],
+            [
+              "**06. AI Token Generation**",
+              "2020 (GPT-3)",
+              "2024 (Claude/GPT-4o)",
+              "2026 (Sub-$0.10/M Tokens)",
+              "**$600\\times$ Deflation ($60 \\to <\\$0.10/M$)**"
+            ],
+            [
+              "**07. Cultured Meat**",
+              "2013 (Mark Post)",
+              "2023 (FDA Approval)",
+              "2026 (Beef Parity @ <$10/kg)",
+              "**$33,000\\times$ Deflation ($330K \\to <\\$10/kg$)**"
+            ],
+            [
+              "**08. Orbital Launch**",
+              "1981 (Space Shuttle)",
+              "2018 (Falcon 9 Re-use)",
+              "2026 (Starship @ <$100/kg)",
+              "**$500\\times$ Deflation ($54K \\to <\\$100/kg$)**"
+            ],
+            [
+              "**09. Global FinTech**",
+              "2007 (M-Pesa Launch)",
+              "2015 (Mobile Smart Pay)",
+              "2026 (>85% Universal Inclusion)",
+              "**$100\\times$ Transaction Fee Demonetization**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -3350,7 +3872,65 @@ export const sessionsList = [
         "scriptKo": "**TA Marcus Brody:** 30개 항목을 낱낱이 뜯어보면 더 충격적입니다. 1980년대에 백만장자도 집에 다 들여놓지 못했던 수십억 원어치 장비들이 지금은 전철 안에서 중고등학생 손바닥 위에 들려 있습니다!\n**Dr. Elena Vance:** 710만 달러의 물리적 비용이 1,000달러 미만으로 탈화폐화되었고, 트럭 한 대 분량의 금속과 플라스틱이 180그램으로 탈물질화되었습니다.\n**Prof. Peter Kim:** 이 기적을 매일 주머니에 넣고 다니면서도 인류는 스스로가 얼마나 부유해졌는지를 잊고 살아갑니다.",
         "scriptEn": "**TA Marcus Brody:** Slide 8 contains our comprehensive forensic breakdown! Look at the bottom row: In 1985, if you wanted the functionality of your current smartphone, you needed **over 4.5 TONS of physical machinery costing over $7 million dollars**! *(Turn 1)*\n**Dr. Elena Vance:** Look at the individual line items: A Nagra reel-to-reel audio recorder ($12,000), a PictureTel video conferencing room ($285,000), a Magellan marine GPS unit ($145,000), and a 6.6-million-dollar Cray-2 supercomputer! *(Turn 2)*\n**Prof. Peter Kim:** In 1985, only military command bunkers, heads of state, and top Fortune 10 research laboratories could afford to assemble this room of equipment. *(Turn 3)*\n**TA Marcus Brody:** Today, an 187-gram smartphone that costs under $300 has **superior camera resolution, faster compute, lower audio noise, and instant zero-latency video** compared to that entire 4.5-ton room of hardware! *(Turn 4)*\n**Dr. Elena Vance:** That is a **$24,000\\times$ collapse in physical mass** and a **$23,500\\times$ reduction in consumer price**! *(Turn 5)*\n**Prof. Peter Kim:** And consider the ecological footprint: We didn't build thousands of warehouses, mine tons of rare metals, or burn barrels of oil for each user. We compressed all 4.5 tons of utility into lines of digital code running on sand-derived silicon! *(Turn 6)*\n**TA Marcus Brody:** That is the ultimate proof that Value Density frees humanity from physical resource constraints! *(Turn 7)*\n**Dr. Elena Vance:** And this same principle applies to monetizing the invisible electromagnetic spectrum. *(Turn 8)*\n**Prof. Peter Kim:** Let’s examine Slide 9: The Domain of Photons and Electrons. *(Turn 9)*\n**TA Marcus Brody:** Turn to Slide 9: Monetizing the Invisible Spectrum! *(Turn 10)*",
         "title": "Itemized Forensic Accounting of the $7.1M Smartphone Miracle",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Hardware Utility Domain",
+            "1985 Standalone Physical Hardware",
+            "1985 Inflation-Adjusted Cost",
+            "2026 Dematerialized App Form"
+          ],
+          "rows": [
+            [
+              "**High-Resolution Color Camera**",
+              "Leica M6 / Nikon SLR + Lenses",
+              "$3,500 USD",
+              "48MP Triple-Lens Optical Sensor"
+            ],
+            [
+              "**Mobile Audio Studio & Player**",
+              "Sony Walkman Pro + Studio Rig",
+              "$5,200 USD",
+              "Apple Music / Spotify / Mobile DAW"
+            ],
+            [
+              "**Marine & Terrestrial GPS Unit**",
+              "Magellan Marine NAV 1000",
+              "$145,000 USD",
+              "Embedded Multi-GNSS Satellite Receiver"
+            ],
+            [
+              "**Enterprise Video Teleconference**",
+              "PictureTel Dedicated Fiber Suite",
+              "$285,000 USD",
+              "Zoom / FaceTime 4K Encrypted Video"
+            ],
+            [
+              "**Global Real-Time Encyclopedia**",
+              "32-Volume Leather Britannica + Updates",
+              "$4,500 USD",
+              "Wikipedia / Perplexity Pro Search"
+            ],
+            [
+              "**High-Precision Audio Recorder**",
+              "Nagra IV-S Reel-to-Reel Tape Recorder",
+              "$12,000 USD",
+              "On-Device Neural Voice Memo Transcriber"
+            ],
+            [
+              "**Supercomputing Mainframe**",
+              "Cray-2 Liquid-Cooled 8-Vector Supercomputer",
+              "$6,600,000 USD",
+              "3nm Apple A19 / Snapdragon NPU Core"
+            ],
+            [
+              "**TOTAL ITEMIZE AUDIT:**",
+              "**Mass: ~4,500 kg (Over 4.5 Tons)**",
+              "**Total Cost: ~$7,055,200 USD**",
+              "**Weight: 187 grams • Price: <$300**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 9,
@@ -3501,7 +4081,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 사다리가 2026년 오늘날 Level 4에서 일제히 수렴하고 있습니다. 과거 어떤 문명도 경험해보지 못한 전방위적 가치 밀도의 대폭발입니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 역사 속 결정적인 사다리 마일스톤들을 하나씩 해체해 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 15, scholars. This is your master civilizational scoreboard. Five major technological axes across 5,000 years of human struggle. Marcus, summarize the staggering multipliers. *(Turn 1)*\n**TA Marcus Brody:** Look at Row 1 (Energy): A **21-million-fold increase** in energy density from firewood to fusion! Look at Row 3 (Communications): A **250-trillion-fold explosion** from runner messengers to 250 Terabit fiber optics! *(Turn 2)*\n**Dr. Elena Vance:** And look at Row 5 (Compute): From the ancient abacus doing one operation per second to 2026 AI megaclusters executing **over $10^{27}$ Floating Point Operations ($10^{27}\\times$)**—an **Octillion-fold leap in cognitive power**! *(Turn 3)*\n**Prof. Peter Kim:** Across every single domain, humanity climbed the exact same Liberation Ladder: stripping away physical mass and compounding information velocity. *(Turn 4)*\n**TA Marcus Brody:** And every time we climbed a rung, a historical scarcity that terrorized our ancestors for centuries was permanently wiped off the face of the Earth! *(Turn 5)*\n**Dr. Elena Vance:** That is the profound historical momentum carrying us into the Singularity. *(Turn 6)*\n**Prof. Peter Kim:** Now let us examine each of the eight foundational milestones of this ladder in Module 3. *(Turn 7)*\n**TA Marcus Brody:** Let’s journey through 5,000 years of revolutionary breakthroughs! *(Turn 8)*\n**Dr. Elena Vance:** Turn to Slide 16: Milestone 1: Mesopotamian Irrigation! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Relational Mapping! *(Turn 10)*",
         "title": "The Grand 5-Axis Historical Technology Ladder Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Civilizational Axis",
+            "Rung 1: Ancient Baseline (3000 BCE)",
+            "Rung 2: Industrial Era (1900 CE)",
+            "Rung 3: Theurgic 2026 Reality",
+            "Total Value Density Compound Factor"
+          ],
+          "rows": [
+            [
+              "**1. Energy**",
+              "Firewood ($16\\text{ MJ/kg}$)",
+              "Coal & Oil ($30\\text{--}44\\text{ MJ/kg}$)",
+              "**Solar PV & Nuclear Fusion ($340\\text{M MJ/kg}$)**",
+              "**$\\approx 21,000,000\\times \\text{ Increase}$**"
+            ],
+            [
+              "**2. Agriculture**",
+              "Manual Hoe / Irrigation ($1\\text{x}$)",
+              "Synthetic Fertilizer ($4\\text{x}$)",
+              "**Precision Fermentation / Vertical ($390\\text{x}$)**",
+              "**$\\approx 390\\times \\text{ Yield / 95\\% Less Land}$**"
+            ],
+            [
+              "**3. Comms**",
+              "Runner Messenger ($0.001\\text{ b/s}$)",
+              "Copper Telegraph ($0.05\\text{ b/s}$)",
+              "**Transatlantic Terabit Fiber / LEO ($250\\text{ Tb/s}$)**",
+              "**$\\approx 250,000,000,000,000\\times \\text{ ($250\\text{T}\\times$)}$**"
+            ],
+            [
+              "**4. Medicine**",
+              "Herbal Salves / Trepanation",
+              "Chemical Pharmaceuticals",
+              "**CRISPR Base Editing / 2mm PRIMA Chip**",
+              "**Eradication of Incurable Blindness/Illness**"
+            ],
+            [
+              "**5. Compute**",
+              "Abacus / Counting Stones ($1\\text{ OPS}$)",
+              "Mechanical Babbage ($10\\text{ OPS}$)",
+              "**Frontier 3nm AI Megaclusters ($>10^{27}\\text{ FLOPs}$)**",
+              "**$\\approx 10^{27}\\times \\text{ (Octillion-Fold Leap)}$**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -3979,7 +4605,88 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 대조표는 인류 문명이 어디로 가고 있는지를 명확히 보여줍니다. 모든 지표가 하나의 방향, 즉 **'극단적인 가치 밀도의 압축을 통한 무한한 해방'**을 가리키고 있습니다.\n**Dr. Elena Vance:** 물질은 사라지고, 오직 가치와 지능만이 남는 탈물질화의 완성입니다.",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 35, scholars. Ten global domains. Ten impossible physical bottlenecks solved by the Liberation Ladder. Marcus, look at the multipliers in that table! *(Turn 1)*\n**TA Marcus Brody:** Energy: $21\\text{ Million}\\times$! Compute: $10^{18}\\times$! Communications: $250\\text{ Trillion}\\times$! Food: 99% land eliminated! Space: $500\\times$ cost collapse! This is absolute empirical proof that scarcity is dying across every sector of civilization! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix represents a massive, non-linear victory over physical mass and thermodynamic friction. *(Turn 3)*\n**Prof. Peter Kim:** But as physical abundance becomes universal, civilization faces radical new existential dilemmas. *(Turn 4)*\n**TA Marcus Brody:** What happens to property rights, jobs, and social purpose when products have zero marginal cost? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us confront the frontier of post-scarcity philosophy on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The End of Ownership on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Value Density Transformation Matrix Across 10 Global Domains",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Global Domain",
+            "Historical Scarcity Baseline",
+            "Theurgic 2026 Abundance Metric",
+            "Value Density Multiplier",
+            "Primary Rung / Driver"
+          ],
+          "rows": [
+            [
+              "**01. Energy**",
+              "High-carbon firewood/coal",
+              "**Utility Solar PV (<1.5¢/kWh)**",
+              "**$21,000,000\\times$ Energy Density**",
+              "Perovskite Tandem / Fission"
+            ],
+            [
+              "**02. Water**",
+              "Scarce freshwater wells",
+              "**SWRO Solar Desalination**",
+              "**Unlimited Seawater Harvest**",
+              "Reverse-Osmosis Membranes"
+            ],
+            [
+              "**03. Food**",
+              "45% Earth land for cattle",
+              "**Precision Fermentation / AeroFarms**",
+              "**$390\\times$ Yield / 99% Land Drop**",
+              "Synthetic Cellular Bio / LEDs"
+            ],
+            [
+              "**04. Health**",
+              "Symptom-based hospital care",
+              "**Sub-$100 Genome / PRIMA Chip**",
+              "**Eradication of Genetic Defects**",
+              "CRISPR-Cas12 / BCI Implants"
+            ],
+            [
+              "**05. Compute**",
+              "30-ton ENIAC (5,000 OPS)",
+              "**3nm 100B-Transistor NPU / Qubits**",
+              "**$10^{18}\\times$ Compute Density**",
+              "2nm GAA Lithography / QPU"
+            ],
+            [
+              "**06. Space**",
+              "$54,500/kg (Space Shuttle)",
+              "**<$100/kg (Starship Reusable)**",
+              "**$500\\times$ Launch Cost Collapse**",
+              "Full Stainless-Steel Re-use"
+            ],
+            [
+              "**07. Comms**",
+              "0.001 b/s (Runner Messengers)",
+              "**250 Tbps Undersea Fiber / Starlink**",
+              "**$250\\text{ Trillion}\\times$ Throughput**",
+              "Optical Lasers / LEO Satellites"
+            ],
+            [
+              "**08. Knowledge**",
+              "Monastic Vellum Bibles ($20K)",
+              "**Wikipedia / Free Frontier LLMs**",
+              "**$M \\to 0$, $D_v \\to \\infty$**",
+              "Digital Information / GPT"
+            ],
+            [
+              "**09. Finance**",
+              "Physical Bank Branches / Cash",
+              "**M-Pesa / Layer-2 Crypto Pay**",
+              "**$100\\times$ Fee Demonetization**",
+              "Decentralized Digital Ledgers"
+            ],
+            [
+              "**10. Industry**",
+              "100,000-part rocket assembly",
+              "**Relativity 3D Stargate (<1K parts)**",
+              "**$100\\times$ Part Reduction**",
+              "AI Additive Manufacturing"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -4267,7 +4974,36 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 맹목적 낙관주의는 게으른 자의 도피처입니다. 반면 데이터 기반 낙관주의는 가장 엄밀한 회의주의자가 데이터를 낱낱이 검증한 끝에 도달하는 필연적인 결론입니다.\n**TA Marcus Brody:** \"우리가 긍정적으로 생각하면 우주가 도와준다\"는 건 사이비지만, \"태양광 모듈 가격이 100달러에서 8센트로 떨어졌으니 에너지 풍요가 온다\"는 건 물리학이자 수학이잖아요!\n**Prof. Peter Kim:** 훌륭한 정리입니다. 데이터 기반 낙관주의는 미래를 수동적으로 기다리는 것이 아니라, 적극적으로 엔지니어링하는 신념 체계입니다.",
         "scriptEn": "**Prof. Peter Kim:** Slide 2 establishes the foundational epistemological inequality of Phase 2: **The Progress Index ($\\mathcal{P} > 1.0$)**. Dr. Vance, unpack the mathematical formula. *(Turn 1)*\n**Dr. Elena Vance:** Look at the ratio: Progress ($\\mathcal{P}$) is defined as the **Velocity of Technological Problem-Solving ($\\mathcal{V}_{\\text{solve}}$)** divided by the **Velocity of Emergent Systemic Crises ($\\mathcal{V}_{\\text{crisis}}$)**. As long as our engineering velocity exceeds the crisis velocity ($\\mathcal{P} > 1.0$), human civilization expands toward abundance! *(Turn 2)*\n**TA Marcus Brody:** Look at the comparison table! **Blind Optimism** is passive wishful thinking—it says *\"Don't worry, things will just magically work out!\"* It’s useless! But **Data-Driven Optimism** is an active engineering discipline grounded in hard 200-year historical curves of plummeting child mortality, rising literacy, and collapsing energy costs! *(Turn 3)*\n**Prof. Peter Kim:** When a crisis strikes—like a maternal hemorrhage in Rwanda or salt intrusion in Vietnam—a blind optimist prays, while a data-driven optimist builds an autonomous drone or an IoT irrigation sensor! *(Turn 4)*\n**TA Marcus Brody:** We don't rely on political speeches or vague hope; we rely on **hard telemetry**! Milligrams of blood delivered in 15 minutes, tons of rice harvested per hectare, and cents per kilowatt-hour! *(Turn 5)*\n**Dr. Elena Vance:** Data-driven optimism is simply recognizing that human agency armed with exponential tools solves problems faster than nature creates them. *(Turn 6)*\n**Prof. Peter Kim:** But why does the general public believe the world is getting worse? *(Turn 7)*\n**TA Marcus Brody:** Because of the Headline Delusion! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine the Headline Delusion on Slide 3. *(Turn 9)*\n**Prof. Peter Kim:** Turn to Slide 3: The Headline Delusion vs. The Underlying Progress Vector. *(Turn 10)*",
         "title": "Blind Optimism vs. Data-Driven Optimism: The Empirical Inequality",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Dimension",
+            "Blind Optimism (Wishful Thinking)",
+            "Data-Driven Optimism (Theurgicon Axiom)"
+          ],
+          "rows": [
+            [
+              "**Epistemic Basis**",
+              "Emotional sentiment (\"Things will somehow work out\")",
+              "200-year historical curves of child mortality, energy cost, and literacy"
+            ],
+            [
+              "**Response to Crisis**",
+              "Denial, avoidance, and passive waiting",
+              "First-principles decomposition and high-leverage engineering deployment"
+            ],
+            [
+              "**Operational Metric**",
+              "Vague hope and political rhetoric",
+              "Hard telemetry: mortality rate reduction, crop yield/hectare, kWh price"
+            ],
+            [
+              "**View of Technology**",
+              "Magic wand or dangerous distraction",
+              "Physical and informational lever scaling human agency to post-scarcity"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 3,
@@ -4563,7 +5299,41 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 4대 축이 바로 Theurgicon이 정의하는 '현실적 기적'의 평가 기준입니다. 시간 지연 소멸, 사망률 급감, 낭비 제로화, 그리고 경제적 자립입니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 Zipline과 스마트 센서의 속살을 엔지니어링 관점에서 뜯어보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Examine Slide 15 carefully, scholars. These four pillars form your operational armor as exponential leaders. Marcus, walk us through Pillars 1 and 2. *(Turn 1)*\n**TA Marcus Brody:** Pillar 1: **Empirical Rigor**! We track 100-year logarithmic curves instead of 24-hour doom headlines! Pillar 2: **Asymmetric Leverage**! We give small engineering teams AI and robotics so 30 people can solve national logistical challenges! *(Turn 2)*\n**Dr. Elena Vance:** And Pillar 3: **Infrastructure Leapfrogging**! We bypass multi-billion-dollar legacy copper wires and asphalt roads, jumping straight to satellite broadband, mobile money, and autonomous air corridors, eliminating 90% of CapEx costs! *(Turn 3)*\n**Prof. Peter Kim:** And look at Pillar 4: **Market-Driven Sustainability**. We do not build fragile charities that collapse the moment philanthropic donor money dries up; we build deep-tech companies with profitable, robust unit economics that governments pay for because it saves them millions of dollars! *(Turn 4)*\n**TA Marcus Brody:** When saving human lives is also the most profitable, cost-effective business model, the solution scales infinitely across the entire planet! *(Turn 5)*\n**Dr. Elena Vance:** That is the four-pillar engine of sustainable abundance. *(Turn 6)*\n**Prof. Peter Kim:** Now let us examine the detailed systems engineering behind Zipline, the Mekong IoT mesh, and aeroponics in Module 3. *(Turn 7)*\n**TA Marcus Brody:** Let’s dive into the hardware and physics of electric catapults and autonomous flight! *(Turn 8)*\n**Dr. Elena Vance:** Turn to Slide 16: Zipline Autonomous Aircraft Architecture! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Systems Engineering! *(Turn 10)*",
         "title": "The Four Pillars of the Data-Driven Optimism Framework",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Pillar",
+            "Operational Definition",
+            "Field Verification Anchor",
+            "Civilizational Impact"
+          ],
+          "rows": [
+            [
+              "**1. Empirical Rigor**",
+              "Tracking 50-to-200 year logarithmic curves over daily headlines",
+              "UN HDI, World Bank Findex, Our World in Data",
+              "Inoculation against media cynicism"
+            ],
+            [
+              "**2. Asymmetric Leverage**",
+              "Empowering small engineering teams with exponential tools",
+              "Zipline (30 engineers automating Rwanda)",
+              "Decentralized global problem-solving"
+            ],
+            [
+              "**3. Infrastructure Leapfrogging**",
+              "Bypassing high-capex analog stages directly to 3D/digital meshes",
+              "M-Pesa (Mobile Pay) & Starlink (LEO Mesh)",
+              "$90\\%$ CapEx capital reduction"
+            ],
+            [
+              "**4. Market-Driven Sustainability**",
+              "Building profitable unit economics rather than relying on donor aid",
+              "Zipline per-delivery government contracts",
+              "Self-sustaining, infinite scalability"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -4583,7 +5353,51 @@ export const sessionsList = [
         "scriptKo": "**TA Marcus Brody:** Zipline P1의 스펙을 보십시오. 시속 110km로 날아갑니다. 비가 오든 강풍이 불든 르완다의 산맥을 시속 110km로 돌파해서 15분 만에 목표 지점에 도달합니다.\n**Dr. Elena Vance:** 특히 P2는 혁신적입니다. 드론 본체는 하늘 100미터 상공에 조용히 떠 있고, '드로이드(Droid)'라는 소형 화물 캡슐만 와이어로 스르륵 내려서 고객의 현관문 앞 테이블 위에 30cm 오차로 사뿐히 내려놓고 올라갑니다.\n**Prof. Peter Kim:** 소음과 추락 위험을 원천 차단한 천재적인 항공 역학 설계입니다.",
         "scriptEn": "**Prof. Peter Kim:** Module 3 opens with the hard systems engineering of Zipline. Dr. Vance, walk us through the hardware specifications comparing Platform 1 and Platform 2 on Slide 16. *(Turn 1)*\n**Dr. Elena Vance:** Look at **Platform 1**: It is a custom carbon-fiber fixed-wing aircraft with a 3.3-meter wingspan, weighing just 20 kilograms. It cruises at **110 km/h** with a **160-kilometer round-trip range**, carrying 1.8 kilograms of payload—which holds three units of whole blood or 30 vaccine vials! *(Turn 2)*\n**TA Marcus Brody:** And look at **Platform 2** on the right! That is their ultra-quiet urban delivery system! It flies autonomously at 100 meters, hovers over a customer's patio or driveway, and lowers a motorized acoustic **Droid** down a tether to place a package on a table with millimeter precision, all in total silence! *(Turn 3)*\n**Prof. Peter Kim:** Notice the propulsion architecture: 100% electric brushless motors powered by high-density lithium-ion battery packs. Zero carbon emissions, zero aviation fuel, and negligible thermal noise signature. *(Turn 4)*\n**TA Marcus Brody:** And look at the avionics: Dual redundant inertial measurement units (IMUs), real-time kinematic (RTK) satellite navigation, and ADS-B transponders that automatically coordinate with national military and civil aviation radar! *(Turn 5)*\n**Dr. Elena Vance:** This is not a hobbyist drone; this is a commercial-grade autonomous regional airliner compressed into a 20kg airframe. *(Turn 6)*\n**Prof. Peter Kim:** And how does a 20kg fixed-wing plane take off and land without a 2-kilometer concrete runway? *(Turn 7)*\n**TA Marcus Brody:** That brings us to the electric catapult and the SkyHook arrest system on Slide 17! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine the launch and recovery physics on Slide 17! *(Turn 9)*\n**Prof. Peter Kim:** Turn to Slide 17. *(Turn 10)*",
         "title": "Zipline Autonomous Aircraft Architecture (Platform 1 & Platform 2)",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Engineering Dimension",
+            "Platform 1 (Long-Range Fixed-Wing)",
+            "Platform 2 (Urban / Precision \"Droid\")"
+          ],
+          "rows": [
+            [
+              "**Airframe Configuration**",
+              "Carbon-fiber fixed-wing monoplane",
+              "Hybrid fixed-wing + tethered acoustic droid"
+            ],
+            [
+              "**Wingspan / Mass**",
+              "$3.3\\text{m}$ Wingspan • $20.0\\text{ kg}$ MTOW",
+              "$3.0\\text{m}$ Wingspan • $25.0\\text{ kg}$ MTOW"
+            ],
+            [
+              "**Propulsion & Battery**",
+              "Dual rear electric brushless motors (Li-ion)",
+              "Distributed electric VTOL + forward push"
+            ],
+            [
+              "**Cruise Speed & Range**",
+              "**$110\\text{ km/h}$** ($30.5\\text{ m/s}$) • **$160\\text{ km}$ Round-Trip**",
+              "**$115\\text{ km/h}$** • **$40\\text{ km}$ Radius**"
+            ],
+            [
+              "**Payload Capacity**",
+              "**$1.8\\text{ kg}$** (3 units of blood / 30 vials)",
+              "**$3.6\\text{ kg}$** ($8\\text{ lbs}$ packages)"
+            ],
+            [
+              "**Delivery Mechanism**",
+              "Aerodynamic biodegradable paper parachute drop",
+              "Acoustic tethered droid descending from 100m"
+            ],
+            [
+              "**Navigation & Avionics**",
+              "Real-time RTK GPS, redundant IMUs, ADS-B",
+              "Spatial AI acoustic perception, millimeter radar"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 17,
@@ -4754,7 +5568,41 @@ export const sessionsList = [
         "scriptKo": "**TA Marcus Brody:** 50억 달러 vs 600만 달러! 1,000분의 1도 안 되는 비용으로 똑같은(아니 훨씬 빠른) 물류 인프라를 깔았습니다. 가난한 개발도상국이 왜 드론에 열광하는지 답이 나오죠!\n**Prof. Peter Kim:** 이것이 바로 기하급수 기술이 제공하는 '사다리의 경제학'입니다.",
         "scriptEn": "**Prof. Peter Kim:** Slide 23 presents the macroeconomic triumph of the developing world: **90% CapEx Capital Elimination**. Dr. Vance, walk us through this audit table. *(Turn 1)*\n**Dr. Elena Vance:** Look at the comparison across the four major infrastructure sectors: In telecommunications, the West spent hundreds of billions trenching copper wires to every home. The Global South bypassed copper completely, adopting mobile cellular and Starlink satellite meshes for **95% less CapEx**! *(Turn 2)*\n**TA Marcus Brody:** Look at banking: The West spent billions building marble bank branches and ATMs on every street corner. Africa adopted M-Pesa mobile money on 2G phones, cutting CapEx by **over 98%**! *(Turn 3)*\n**Prof. Peter Kim:** Look at medical logistics: Instead of building $20 billion in asphalt highways, Rwanda built autonomous drone flight corridors with Zipline for **90% less capital**! *(Turn 4)*\n**TA Marcus Brody:** And in electricity, rural villages are skipping multi-billion-dollar coal power plants and massive high-voltage transmission towers, installing rooftop solar panels and lithium battery microgrids right now! *(Turn 5)*\n**Dr. Elena Vance:** The developing world is building the clean, modular, decentralized 21st-century infrastructure while the West is stuck maintaining crumbling 20th-century analog legacy systems! *(Turn 6)*\n**Prof. Peter Kim:** The lack of legacy infrastructure is no longer a curse; it is a clean sheet of paper for exponential innovation. *(Turn 7)*\n**TA Marcus Brody:** And when autonomous robotics meets edge AI, this leapfrogging accelerates even faster! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine the convergence vector on Slide 24. *(Turn 9)*\n**Prof. Peter Kim:** Turn to Slide 24: Autonomous Robotics Meets Edge AI. *(Turn 10)*",
         "title": "The Macroeconomics of Leapfrogging: 90% Capex Capital Elimination",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Sector",
+            "Legacy Western Analog CapEx Cost",
+            "Developing World 6D Leapfrog Equivalent",
+            "CapEx Savings Factor"
+          ],
+          "rows": [
+            [
+              "**Telecommunications**",
+              "$100B+ (Trenching copper wires/poles)",
+              "**LEO Satellite Mesh (Starlink) + Cellular IoT**",
+              "**>95% CapEx Reduction**"
+            ],
+            [
+              "**Financial Banking**",
+              "$50B+ (Brick-and-mortar branches/ATMs)",
+              "**Mobile Money SIM Toolkit (M-Pesa)**",
+              "**>98% CapEx Reduction**"
+            ],
+            [
+              "**Medical Logistics**",
+              "$20B+ (Highways, refrigerated vans)",
+              "**Autonomous Drone Corridors (Zipline)**",
+              "**>90% CapEx Reduction**"
+            ],
+            [
+              "**Grid Electricity**",
+              "$80B+ (Centralized coal/gas + towers)",
+              "**Rooftop Solar PV + Modular Batteries**",
+              "**>85% CapEx Reduction**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 24,
@@ -5036,7 +5884,81 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 매트릭스의 모든 칸은 추상적 이론이 아닙니다. 실제 현장에서 피와 땀으로 검증된 '데이터의 성채'입니다.\n**Dr. Elena Vance:** 이 데이터를 보고도 비관론을 고집하는 것은 지적 오만이자 현실 부정입니다.",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 35, cohorts. This is your master scoreboard of Data-Driven Optimism. Nine global case studies. Millions of lives saved. Billions of dollars in capital unlocked. Marcus, look at the evidence across this matrix! *(Turn 1)*\n**TA Marcus Brody:** Rwanda: 15-minute blood delivery and 51% drop in maternal deaths! Ghana: 60% reduction in vaccine waste! Zipline: One million flights and 75 million kilometers! Vietnam: 45% income jump for rice farmers! India: 7 million farms scored by satellite AI! This is not theory—this is verified planetary reality! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix proves that exponential technology is solving real-world, life-and-death challenges in the most resource-constrained regions on Earth right now. *(Turn 3)*\n**Prof. Peter Kim:** But as developing nations adopt these technologies, it creates profound political, economic, and philosophical questions. *(Turn 4)*\n**TA Marcus Brody:** Why are developing countries moving faster than the West? Why does deep tech succeed where traditional charity fails? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the Leapfrogging Paradox on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Leapfrogging Paradox on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Global Empirical Verification Matrix: Developing World Leapfrogging",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Geographic Proving Ground",
+            "Core Technological Mechanism",
+            "Verified Empirical Metric",
+            "Quantified Humanitarian Impact"
+          ],
+          "rows": [
+            [
+              "**01. Rwanda Blood Logistics**",
+              "Rwanda (National)",
+              "Autonomous Electric Drones (Zipline)",
+              "**$243\\text{m} \\to 15.4\\text{m}$ ($93.7\\%$ drop)**",
+              "$>75\\%$ of rural blood delivered"
+            ],
+            [
+              "**02. Maternal Mortality Drop**",
+              "Rwanda & Ghana",
+              "Rapid Golden-Hour Whole Blood Transfusion",
+              "**$51\\%$ drop in PPH maternal deaths**",
+              "$>5,000$ mothers' lives saved"
+            ],
+            [
+              "**03. Ghana Vaccine Logistics**",
+              "Ghana (National)",
+              "Centralized Solar Cryo + On-Demand Flights",
+              "**$60\\%$ drop in vaccine spoilage**",
+              "$\\$35\\text{M}$ annual savings, 2.5M doses"
+            ],
+            [
+              "**04. Global Flight Telemetry**",
+              "4 Continents",
+              "Fixed-Wing Autonomous Mesh",
+              "**$>1,000,000$ commercial flights**",
+              "$75\\text{M+ km flown (100x Moon)}$"
+            ],
+            [
+              "**05. Mekong Delta Rice**",
+              "Vietnam (Mekong Delta)",
+              "Solar IoT EC Sensors + ML Tidal Sluice",
+              "**$+45\\%$ farmer net income, $-35\\%$ fert.**",
+              "Salinity crop mortality $<1.5\\%$"
+            ],
+            [
+              "**06. AeroFarms Vertical**",
+              "Urban Metros (USA/UAE)",
+              "Aeroponic $40\\mu\\text{m}$ Mist + Targeted LEDs",
+              "**$390\\times$ spatial yield, $95\\%$ less water**",
+              "Complete local freight dematerialization"
+            ],
+            [
+              "**07. CropIn Satellite AI**",
+              "India (7M Farms)",
+              "Sentinel-2 Multispectral AI Scoring",
+              "**$+300\\%$ smallholder loan approvals**",
+              "$\\$40\\%$ reduction in crop loss"
+            ],
+            [
+              "**08. Bangladesh Arsenic Grid**",
+              "Bangladesh (Rural)",
+              "Smart Water Kiosks + Spectrophotometry",
+              "**$>85\\%$ drop in arsenic biomarkers**",
+              "Clean water for $<0.2\\text{¢/Liter}$"
+            ],
+            [
+              "**09. Zipline Platform 2**",
+              "USA / Japan / Rwanda",
+              "Acoustic Tethered Droid eVTOL",
+              "**$<10\\text{-minute delivery @ } <\\$1.00$**",
+              "$10\\times$ cheaper than gig cars"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -5558,7 +6480,47 @@ export const sessionsList = [
         "scriptKo": "**Dr. Elena Vance:** 그래프의 14 지점을 보십시오. $10^{14}$, 즉 100조입니다. 인간 뇌의 전체 시냅스 수입니다. 2026년 현재 프론티어 MoE 모델들은 파라미터 수에서 인간 대뇌 신피질의 물리적 연결 수를 완벽하게 따라잡았습니다.\n**TA Marcus Brody:** 연결 수만 같아진 게 아니라, 기계는 24시간 내내 빛의 속도로 작동하니 실제 연산량은 인간 뇌의 수억 배에 달하죠!",
         "scriptEn": "**Prof. Peter Kim:** Slide 13 presents our rigorous biophysical audit: **The Human Biological Brain versus Frontier AI Megaclusters**. Dr. Vance, walk us through the crossover parameters. *(Turn 1)*\n**Dr. Elena Vance:** Look at Row 1: The human cerebral cortex contains approximately **100 Trillion synapses ($10^{14}$)**. Frontier AI models in 2026 have officially crossed the 10-to-100 trillion parameter threshold, achieving structural parity in parameter capacity! *(Turn 2)*\n**TA Marcus Brody:** But look at Row 2 (Signal Speed): Biological neurons fire at 100 meters per second; silicon circuits fire at **300,000 kilometers per second—a 3-million-fold velocity advantage**! *(Turn 3)*\n**Dr. Elena Vance:** And look at Row 4 (Ingestion Rate): A human reads text at 50 bits per second (roughly 250 words a minute). A frontier AI cluster ingests multimodal data at **over one quadrillion ($10^{15}$) bits per second—a twenty-trillion-fold ingestion advantage**! *(Turn 4)*\n**Prof. Peter Kim:** But look at Row 3 (Operating Power Budget): The human brain runs on just **20 Watts of biological glucose**! An AI cluster requires **100 Megawatts to 1 Gigawatt of nuclear electricity**! The human brain is fifty million times more thermodynamically energy-efficient! *(Turn 5)*\n**TA Marcus Brody:** That proves biology is the master of thermodynamic efficiency, while silicon is the master of raw computational scale and speed! *(Turn 6)*\n**Dr. Elena Vance:** And as compute scales, the cost of generating inference tokens is collapsing at lightning speed. *(Turn 7)*\n**Prof. Peter Kim:** Let’s examine the velocity of token demonetization on Slide 14. *(Turn 8)*\n**TA Marcus Brody:** Turn to Slide 14: Inference Token Costs Plunging 99.9%! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 14. *(Turn 10)*",
         "title": "The 100-Trillion Synapse Crossover: Biological Wetware vs. Artificial Frontier Models",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Parameter",
+            "Human Biological Brain (Wetware)",
+            "Frontier AI Megacluster (2026)",
+            "Theurgic Advantage Factor"
+          ],
+          "rows": [
+            [
+              "**Active Parameters / Synapses**",
+              "$\\approx 100\\text{ Trillion Synapses}$ ($10^{14}$)",
+              "**$>10\\text{ to } 100\\text{ Trillion Parameters}$**",
+              "**Parity & Rapid Overtaking**"
+            ],
+            [
+              "**Signal Propagation Speed**",
+              "$\\approx 1\\text{ to } 100\\text{ m/s}$ (Axonal Conduction)",
+              "**$300,000\\text{ km/s}$ (Speed of Light)**",
+              "**$3,000,000\\times \\text{ ($3\\text{M}\\times$ Speed Gain)}$**"
+            ],
+            [
+              "**Operating Power Budget**",
+              "$\\approx 20\\text{ Watts}$ (Metabolic Glucose)",
+              "**$100\\text{ MW to } 1\\text{ GW}$ (SMR Nuclear)**",
+              "Human brain $50,000,000\\times$ more energy-efficient"
+            ],
+            [
+              "**Information Ingestion Rate**",
+              "$50\\text{ bits/second}$ (Conscious Reading)",
+              "**$>10^{15}\\text{ bits/second}$ (Multimodal Ingestion)**",
+              "**$20,000,000,000,000\\times \\text{ ($20\\text{T}\\times$ Gain)}$**"
+            ],
+            [
+              "**Weight Modification Precision**",
+              "Slow neurochemical LTP (Hours/Days)",
+              "FP8/FP16 Gradient Descent (Nanoseconds)",
+              "Instantaneous Planetary Weight Sync"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 14,
@@ -5603,7 +6565,47 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 우리는 지금 Level 3(추론 AGI)의 완성점에 서서 Level 4(자율 과학자 AI)의 문을 열고 있습니다.\n**Dr. Elena Vance:** Level 4부터는 AI가 인간의 지시 없이도 스스로 가설을 세우고, 논문을 쓰고, 실험을 설계합니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 이 거대한 지능을 지탱하는 '거대 연산의 물리학'을 파헤쳐 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Examine Slide 15 carefully, scholars. This five-level taxonomy charts our exact position on the evolutionary ladder of machine intelligence. Marcus, where are we today in 2026? *(Turn 1)*\n**TA Marcus Brody:** Look at the progression: Level 1 was basic Chatbots in 2022. Level 2 was **Reasoners** like OpenAI o1 and DeepSeek-R1 doing chain-of-thought mathematical proofs. Today in 2026, we are actively operating at **Level 3: Autonomous Agents** and crossing directly into **Level 4: Innovators**! *(Turn 2)*\n**Dr. Elena Vance:** Look at Level 4 on the chart: AI systems like **AlphaFold 3 and \"The AI Scientist\"** are not just answering questions; they are generating novel scientific hypotheses, designing synthetic biological experiments, and writing complete peer-reviewed academic papers autonomously! *(Turn 3)*\n**Prof. Peter Kim:** And on the horizon sits **Level 5: Organizations**—where swarms of autonomous AI agents manage global logistics, capital allocation, and scientific discovery with minimal human intervention. *(Turn 4)*\n**TA Marcus Brody:** We are crossing from AI as an assistive tool to AI as an autonomous scientific colleague and economic operator! *(Turn 5)*\n**Dr. Elena Vance:** That is why mastering the mathematical scaling laws of compute is essential for every Theurgist. *(Turn 6)*\n**Prof. Peter Kim:** Now let us examine the hard mathematical physics of compute scaling in Module 3. *(Turn 7)*\n**TA Marcus Brody:** Let’s dive into Kaplan and Chinchilla Scaling Laws on Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Turn to Slide 16: Mathematical Formulation of Neural Scaling Laws! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Compute Scaling Laws! *(Turn 10)*",
         "title": "The Five Evolutionary Stages of Machine Intelligence",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Stage",
+            "Classification",
+            "Defining Capabilities",
+            "Vanguard 2026 Milestone"
+          ],
+          "rows": [
+            [
+              "**Level 1**",
+              "**Chatbots / Conversational AI**",
+              "Natural language dialogue, summarization, fluent prose",
+              "ChatGPT (2022), Claude 2"
+            ],
+            [
+              "**Level 2**",
+              "**Reasoners / System 2 Thinking**",
+              "Chain-of-thought, mathematical Olympiad proofs, code debugging",
+              "OpenAI o1/o3, DeepSeek-R1 (2024–2025)"
+            ],
+            [
+              "**Level 3**",
+              "**Autonomous Agents**",
+              "Multi-day tool execution, web browsing, independent goal completion",
+              "AutoGPT, Devin, Claude Computer Use (2025–2026)"
+            ],
+            [
+              "**Level 4**",
+              "**Innovators / Scientific Creators**",
+              "Proposing novel scientific hypotheses, designing wet-lab trials",
+              "AlphaFold 3, \"The AI Scientist\" (2026)"
+            ],
+            [
+              "**Level 5**",
+              "**Organizations / Full Superintelligence**",
+              "Autonomous coordination of entire multi-billion-dollar global firms",
+              "Emerging Autonomous Synthetic Enterprises"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -6071,7 +7073,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 매트릭스는 지능 폭발이 단순한 기술 트렌드가 아니라 문명 전체의 생산 함수를 근본적으로 다시 쓴 '경제학적 빅뱅'임을 입증합니다.\n**Dr. Elena Vance:** 하지만 이 압도적인 권능의 이면에는 인류가 한 번도 마주해보지 못한 거대한 실존적 위협이 도사리고 있습니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 35. Nine global sectors. Every single one experiencing a historic double-digit acceleration in productivity, latency reduction, and capital creation. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the table: McKinsey: $4.4T a year! PwC: $15.7 Trillion GDP by 2030! Software development: 55% faster! Drug discovery: 5 years compressed to 12 months! Weather forecasting: 60 seconds! Legal contracts: 26 seconds! Scientific papers: $15 each! This is absolute empirical proof of the intelligence explosion! *(Turn 2)*\n**Dr. Elena Vance:** The marginal cost of cognitive execution is collapsing to zero across every professional discipline simultaneously. *(Turn 3)*\n**Prof. Peter Kim:** But this staggering power brings civilization face-to-face with profound existential perils. *(Turn 4)*\n**TA Marcus Brody:** What happens to white-collar jobs? What about the compute oligopoly? What did Geoffrey Hinton mean when he said he regretted his life's work? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us confront the dark side of superintelligence on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine Geoffrey Hinton’s Warning on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Macroeconomic & Compute Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Domain / Sector",
+            "Verified Empirical Metric",
+            "Quantified Productivity Acceleration",
+            "Macroeconomic Value Creation"
+          ],
+          "rows": [
+            [
+              "**01. Enterprise GenAI**",
+              "McKinsey Survey across 63 Use Cases",
+              "**$+20\\%\\text{ to } +45\\%$ Productivity**",
+              "**$2.6\\text{T to } \\$4.4\\text{T / Year}$**"
+            ],
+            [
+              "**02. Global GDP Expansion**",
+              "PwC 2030 Macro-Audit",
+              "**$+14.5\\%\\text{ (US) to } +26.1\\%\\text{ (China)}$**",
+              "**$15.7\\text{ Trillion Global GDP}$**"
+            ],
+            [
+              "**03. Software Engineering**",
+              "GitHub Copilot RCT ($N=95$)",
+              "**$55.8\\%\\text{ faster task completion}$**",
+              "**$2\\times \\text{ developer output}$**"
+            ],
+            [
+              "**04. Drug Discovery**",
+              "AlphaFold 3 / Isomorphic Labs",
+              "**Preclinical cycle: $5\\text{ yrs} \\to <12\\text{ mos}$**",
+              "**$5\\times \\text{ R&D time collapse}$**"
+            ],
+            [
+              "**05. Weather Physics**",
+              "Google GraphCast GNN",
+              "**$<60\\text{s runtime (90.3% superior)}$**",
+              "**$1,000\\times \\text{ energy savings}$**"
+            ],
+            [
+              "**06. Scientific Research**",
+              "\"The AI Scientist\" (Sakana/Oxford)",
+              "**End-to-End Paper drafted for <$15.00**",
+              "**$100\\times \\text{ hypothesis velocity}$**"
+            ],
+            [
+              "**07. Legal Intelligence**",
+              "LawGeex Contract Review Trial",
+              "**$92\\text{ min} \\to 26\\text{ sec (94% accuracy)}$**",
+              "**$99.5\\%\\text{ latency reduction}$**"
+            ],
+            [
+              "**08. Quantitative Finance**",
+              "Citadel / BloombergGPT",
+              "**$<10\\text{ms multimodal trade execution}$**",
+              "**Zero market pricing friction**"
+            ],
+            [
+              "**09. Compute Hardware**",
+              "Nvidia Blackwell NVL72 Megaclusters",
+              "**$25\\times \\text{ energy efficiency gain}$**",
+              "**$>20\\text{ ZettaFLOPs @ 1.5GW}$**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -6647,7 +7713,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 축이 동시에 맞물려 돌아가며 인체의 모든 고장을 방어하는 거대한 면역 방패를 형성하고 있습니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 PRIMA 칩과 BCI의 전극 물리학을 현미경으로 들여다보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 15, scholars. Five master pillars. Five impossible biological frontiers conquered by engineering. Marcus, walk us through the five rows. *(Turn 1)*\n**TA Marcus Brody:** Pillar 1: PRIMA photovoltaic silicon restoring sight to the blind! Pillar 2: Altos Labs and pulsed Yamanaka factors resetting cellular age! Pillar 3: eGenesis 69-edit pig kidneys eliminating transplant waitlists forever! Pillar 4: 3D bioprinting patient-matched tissues! And Pillar 5: Neuralink giving paralyzed patients instant mind-control over computers! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix represents an ancient biological tragedy transformed into a routine, scalable medical engineering procedure. *(Turn 3)*\n**Prof. Peter Kim:** Biological decay is no longer an immutable destiny; biological decay is an engineering problem with five distinct solutions. *(Turn 4)*\n**TA Marcus Brody:** And we can dive deep into the biophysics and circuits of these systems in Module 3! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the 378-photodiode biophysics of the PRIMA chip on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Systems Engineering! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s look at the biophysics on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Pillar Regenerative & Bio-Hybrid Technology Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Pillar",
+            "Biological Target",
+            "Primary Engineering Mechanism",
+            "Vanguard 2026 Benchmark",
+            "Human Liberation Outcome"
+          ],
+          "rows": [
+            [
+              "**1. Bio-Hybrid Implants**",
+              "Sensory Neural Degeneration",
+              "Photovoltaic subretinal silicon (PRIMA) & BCI",
+              "Science Corp PRIMA Phase 3 Trial",
+              "**Restoration of vision to the blind**"
+            ],
+            [
+              "**2. Epigenetic Rejuvenation**",
+              "Cellular Epigenetic Noise",
+              "Pulsed Yamanaka OSK factors in AAV vectors",
+              "Altos Labs / Retro Biosciences",
+              "**Epigenetic age reset without tumors**"
+            ],
+            [
+              "**3. Xenotransplantation**",
+              "End-Stage Organ Failure",
+              "69-gene multiplex CRISPR edited porcine organs",
+              "eGenesis Human Kidney Transplants",
+              "**Infinite supply of donor organs ($0 wait)**"
+            ],
+            [
+              "**4. 3D Bioprinting**",
+              "Microvascular Tissue Deficits",
+              "Microfluidic stereolithography of autologous iPSC",
+              "Organovo / United Therapeutics",
+              "**Patient-matched zero-rejection tissues**"
+            ],
+            [
+              "**5. Cortical Neural BCI**",
+              "Motor & Cognitive Paralysis",
+              "Flexible thin-film micro-electrodes (1,024ch)",
+              "Neuralink N1 Telepathy Implant",
+              "**Direct mind-control of digital universe**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -7116,7 +8228,81 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 인간의 육체가 더 이상 자연적 쇠락의 노예가 아니라, 공학적으로 유지보수 가능한 '신성한 성전'으로 거듭났음을 선언합니다.\n**Dr. Elena Vance:** 하지만 이 압도적인 축복 뒤에 도사린 철학적 역설을 우리는 회피할 수 없습니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 35. Nine empirical breakthroughs. Nine clinical validations proving that human biological decay is being systematically conquered. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the table: PRIMA: Blind patients reading text! Neuralink: Quadriplegics playing games at 8 bits per second! Synchron: BCI through a neck vein with zero brain surgery! eGenesis: Gene-edited pig kidneys making urine on the operating table! Intellia: In vivo CRISPR curing genetic disease in a 2-hour IV drip! And a $38 Trillion annual longevity dividend! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix is a published, peer-reviewed clinical milestone achieved between 2021 and 2026. *(Turn 3)*\n**Prof. Peter Kim:** But when human beings can live to 120 and replace their organs with silicon and animal hybrids, it creates profound existential, ethical, and societal paradoxes. *(Turn 4)*\n**TA Marcus Brody:** What happens to retirement and pensions? Will the rich live forever while the poor die young? Can someone hack your brain through a BCI? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the Dissolution of Mortality on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Dissolution of Mortality! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Bio-Hybrid & Regenerative Clinical Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Therapeutic Target",
+            "Core Engineering Platform",
+            "Verified Clinical Outcome",
+            "Quantified Human Impact"
+          ],
+          "rows": [
+            [
+              "**01. PRIMA Retinal Chip**",
+              "Geographic Atrophy AMD",
+              "2mm Subretinal Photovoltaic Silicon",
+              "**$+23\\text{ ETDRS Letters (4.6 Lines)}$**",
+              "$84\\%$ blind patients reading text"
+            ],
+            [
+              "**02. Global AMD Burden**",
+              "170M Blind Individuals",
+              "Smart NIR Laser Glasses + Photodiodes",
+              "**$>170\\text{M addressable cohort}$**",
+              "Slashes $\\$411\\text{B}$ global blindness drain"
+            ],
+            [
+              "**03. Neuralink N1 Trial**",
+              "C4 Quadriplegia",
+              "1,024-Channel Cortical Polyimide Threads",
+              "**$>8.0\\text{ BPS cursor control}$**",
+              "Mind-control gaming & digital autonomy"
+            ],
+            [
+              "**04. Synchron Stentrode**",
+              "ALS & Severe Paralysis",
+              "Endovascular Jugular Stent BCI",
+              "**$100\\%\\text{ surgical safety (0 SAEs)}$**",
+              "iPad navigation via neck vein insertion"
+            ],
+            [
+              "**05. Altos / Retro Bio**",
+              "Mammalian Cellular Age",
+              "Pulsed Yamanaka OSK Factors",
+              "**$+30\\%\\text{ murine lifespan extension}$**",
+              "$\\$3.2\\text{B}$ private capital deployed"
+            ],
+            [
+              "**06. eGenesis Pig Kidney**",
+              "End-Stage Renal Disease",
+              "CRISPR 69-Gene Multiplex Xenotransplant",
+              "**Immediate urine production on table**",
+              "Eliminates 100K US kidney waitlist"
+            ],
+            [
+              "**07. Intellia In Vivo**",
+              "ATTR Amyloidosis",
+              "Systemic LNP-CRISPR IV Infusion",
+              "**$>90\\%\\text{ serum TTR knockdown}$**",
+              "Permanent in vivo genetic cure"
+            ],
+            [
+              "**08. ReGen Valley**",
+              "Regulatory Delay",
+              "Common-Law Medical Sandbox (Próspera)",
+              "**Trials approved in $<6\\text{ months}$**",
+              "$5\\times \\text{ to } 10\\times$ clinical acceleration"
+            ],
+            [
+              "**09. Longevity Dividend**",
+              "Global Economic Vitality",
+              "Mathematical Healthspan Model",
+              "**$\\$38\\text{ Trillion / Year (1-Yr Gain)}$**",
+              "$\\$367\\text{T cumulative value for 10-Yr}$"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -7692,7 +8878,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 도메인이 바로 Planet GPT를 구성하는 5대 감각 기관이자 실행 팔다리입니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 유전자 드라이브와 Planet GPT의 수학적 알고리즘을 파헤쳐 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 15. Five planetary engineering domains. Five massive global levers to restore and elevate the living Earth. Marcus, walk us through the five rows! *(Turn 1)*\n**TA Marcus Brody:** Domain 1: Colossal resurrecting mammoths to lock down 1,500 Gigatons of Arctic permafrost! Domain 2: Living Carbon trees capturing carbon 50% faster! Domain 3: Pivot Bio microbes eliminating chemical fertilizer on 5 million acres! Domain 4: CRISPR gene drives wiping out malaria mosquitoes! And Domain 5: Planet Labs scanning the whole Earth every day to feed Planet GPT! *(Turn 2)*\n**Dr. Elena Vance:** Every row represents a scalable, engineered solution to a planetary environmental crisis that was previously considered insurmountable. *(Turn 3)*\n**Prof. Peter Kim:** We have moved from lamenting ecological decline to systematically engineering global ecological abundance. *(Turn 4)*\n**TA Marcus Brody:** And we can dive deep into the mathematical biophysics and telemetry equations in Module 3! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine Gene Drives and Non-Mendelian inheritance on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Biosphere Systems Engineering! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s see gene drives override Mendelian genetics! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Domain Planetary Engineering & Synthetic Biology Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Domain",
+            "Biosphere Target",
+            "Core Synthetic / Telemetry Vector",
+            "Vanguard 2026 Benchmark",
+            "Planetary Transformation Metric"
+          ],
+          "rows": [
+            [
+              "**1. De-Extinction**",
+              "Megafauna Keystone Restorations",
+              "CRISPR Multiplex Editing of Asian Elephants",
+              "Colossal Biosciences Mammoth Calves",
+              "**$1,500\\text{ Gt}$ Arctic permafrost locked**"
+            ],
+            [
+              "**2. Climate Homeostasis**",
+              "Atmospheric $\\text{CO}_2$ / Methane",
+              "Engineered Poplar Trees & High-RuBisCO Algae",
+              "Living Carbon / LanzaTech Foundries",
+              "**$>50\\%\\text{ faster biological carbon uptake}$**"
+            ],
+            [
+              "**3. Agrotech Dematerial.**",
+              "Synthetic Chemical Fertilizer",
+              "Gene-Edited Nitrogen-Fixing Microbes",
+              "Pivot Bio PROVEN on 5M+ Acres",
+              "**$-20\\%\\text{ US synthetic nitrogen fertilizer}$**"
+            ],
+            [
+              "**4. Vector Eradication**",
+              "Mosquito-Borne Pandemics",
+              "CRISPR Cas9 Homing Gene Drives",
+              "Target Malaria Burkina Faso Enclosures",
+              "**$>95\\%\\text{ Anopheles vector suppression}$**"
+            ],
+            [
+              "**5. Orbital Telemetry**",
+              "Global Biosphere Nervous System",
+              "200+ Daily 3m CubeSats & 4,000 Argo Floats",
+              "Planet Labs & Planet GPT Real-Time Mesh",
+              "**Zero-latency planetary anomaly detection**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -8145,7 +9377,81 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이것으로 Phase 2의 모든 현장 실증이 완벽하게 증명되었습니다. 인류는 드론을 날렸고, 지능을 폭발시켰으며, 맹인을 눈뜨게 했고, 행성을 프로그래밍하고 있습니다.\n**Dr. Elena Vance:** 하지만 이 모든 거대한 풍요의 이면에 숨어있는 '풍요의 역설'과 '독성 부산물'의 경고를 직시해야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Look at Slide 35, scholars. Nine empirical pillars spanning the cryosphere, oceans, forests, atmosphere, and agrosphere. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at this matrix: Colossal making elephant stem cells! Planet Labs scanning the whole Earth every day! Argo measuring the deep ocean! Living Carbon trees growing 53% faster! Target Malaria collapsing vector mosquitoes by 95%! Pivot Bio replacing fertilizer on 5 million acres! eDNA mapping 1,000 species per liter! Stratospheric cooling for $10B! And FAST-PETase dissolving plastic in 24 hours! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix represents an active, operational engineering platform rewriting the rules of planetary ecology. *(Turn 3)*\n**Prof. Peter Kim:** But when humanity gains the power to resurrect extinct species, edit wild populations, and adjust global climate, we must confront profound existential perils. *(Turn 4)*\n**TA Marcus Brody:** What if a gene drive goes rogue? What if a desktop bio-printer prints a dangerous virus? Who gives anyone permission to cool the planet? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us confront the \"Playing God\" Dilemma on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine Human Hubris Before the Genetic Code of Life! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Biosphere Engineering & Planetary Telemetry Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Planetary Sphere",
+            "Core Engineering Vector",
+            "Verified Empirical Metric",
+            "Quantified Ecological Impact"
+          ],
+          "rows": [
+            [
+              "**01. Colossal Mammoth**",
+              "Cryosphere / Tundra",
+              "60+ Multiplex CRISPR in Elephant iPSCs",
+              "**First Elephant iPSCs Generated**",
+              "$1,500\\text{ Gt}$ permafrost carbon locked"
+            ],
+            [
+              "**02. Planet Labs Constell.**",
+              "Space / Landmass",
+              "200+ Daily 3m Low-Earth CubeSats",
+              "**$150\\text{M km}^2$ scanned every 24h**",
+              "Amazon illegal logging flagged in $<4\\text{h}$"
+            ],
+            [
+              "**03. Argo Ocean Array**",
+              "Deep Hydrosphere",
+              "4,000 Autonomous Profiling Floats",
+              "**Profiles to $2,000\\text{m}$ every 10 days**",
+              "Measures $>90\\%$ planetary excess heat"
+            ],
+            [
+              "**04. Living Carbon Trees**",
+              "Terrestrial Forests",
+              "Synthetic Photorespiratory Bypass",
+              "**$+53\\%\\text{ faster biomass & carbon uptake}$**",
+              "5M+ trees deployed on coal mine land"
+            ],
+            [
+              "**05. Target Malaria**",
+              "Tropical Biosphere",
+              "CRISPR Doublesex (*dsx*) Gene Drive",
+              "**$>95\\%\\text{ population collapse in 8 gens}$**",
+              "Stops malaria transmission without DDT"
+            ],
+            [
+              "**06. Pivot Bio PROVEN**",
+              "Agrosphere / Soil",
+              "Gene-Edited Nitrogen-Fixing Microbes",
+              "**Replaced 32,000 tons chemical fertilizer**",
+              "Slashes 225k tons $\\text{CO}_2\\text{e}$ on 5M acres"
+            ],
+            [
+              "**07. Ocean eDNA Mapping**",
+              "Marine Sanctuaries",
+              "Metagenomic Amplicon PCR Barcoding",
+              "**1,000+ species sequenced from 1L water**",
+              "Dynamic real-time marine protected zones"
+            ],
+            [
+              "**08. Stratospheric SAI**",
+              "Atmosphere / Climate",
+              "High-Altitude Aerosol Dispersion ($20\\text{km}$)",
+              "**$-1.0^\\circ\\text{C}$ cooling for $<\\$10\\text{B/yr}$**",
+              "Instant global climate emergency brake"
+            ],
+            [
+              "**09. FAST-PETase Enzyme**",
+              "Material Circularity",
+              "Generative AI Protein Engineering",
+              "**Plastic digested in $<24\\text{h}$ @ $50^\\circ\\text{C}$**",
+              "100% circular closed-loop plastic reuse"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -8724,7 +10030,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 물, 공기, 음식, 심지어 어머니의 젖줄까지... 인류의 모든 생명 유지 경로가 나노 침투의 통로가 되었습니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 이 침투가 일어나는 분자 물리학 수식을 검증해 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 15 carefully. Five master vectors of physical infiltration. Every vital organ system in human biology compromised by synthetic industrial chemicals. Marcus, summarize the matrix! *(Turn 1)*\n**TA Marcus Brody:** Look at the rows: Vector 1: Nanoplastics breaching the Blood-Brain Barrier, filling 0.5% of brain weight! Vector 2: Microplastics in artery plaque causing 4.5x higher stroke risk! Vector 3: Phthalates and BPA hijacking hormone receptors, collapsing sperm counts by 51%! Vector 4: PFAS destroying liver and kidneys! And Vector 5: 100% plastic contamination across newborn placentas! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix is supported by audited, peer-reviewed clinical studies published in *NEJM*, *The Lancet*, and *Nature Medicine* between 2022 and 2026. *(Turn 3)*\n**Prof. Peter Kim:** This is not a distant environmental problem; this is an urgent physical emergency inside our own bodies. *(Turn 4)*\n**TA Marcus Brody:** And we can dive deep into the biophysical thermodynamics and clearance math in Module 3! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the 485 kJ/mol bond energy of PFAS on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Biophysical Toxicology! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s look at the thermodynamics on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Vector Physical Infiltration & Target Organ Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Infiltration Vector",
+            "Primary Chemical Agent",
+            "Target Biological Tissue",
+            "Verified Clinical Pathology",
+            "Human Health Impact"
+          ],
+          "rows": [
+            [
+              "**1. Neurological**",
+              "Nanoplastics ($<100\\text{nm}$)",
+              "Cerebral Cortex & Hippocampus",
+              "Blood-Brain Barrier breach via ApoE corona",
+              "**0.5% brain weight is plastic; Dementia surge**"
+            ],
+            [
+              "**2. Cardiovascular**",
+              "Microplastics ($>1\\mu\\text{m}$)",
+              "Coronary & Carotid Artery Plaque",
+              "Plaque destabilization & micro-emboli",
+              "**$4.5\\times$ higher risk of stroke & heart attack**"
+            ],
+            [
+              "**3. Endocrine / Reprod.**",
+              "Phthalates, BPA, PFAS",
+              "Testes, Ovaries, Thyroid Receptor",
+              "Nuclear hormone receptor hijacking (EDCs)",
+              "**$51.6\\%$ drop in global sperm counts**"
+            ],
+            [
+              "**4. Hepatorenal**",
+              "Long-Chain PFAS (PFOA/PFOS)",
+              "Liver Hepatocytes & Renal Tubules",
+              "Peroxisome proliferator activation (PPAR$\\alpha$)",
+              "**Chronic kidney disease & liver adenomas**"
+            ],
+            [
+              "**5. Transgenerational**",
+              "Nanoplastics & GenX PFAS",
+              "Placental Syncytiotrophoblast",
+              "Fetal circulation crossing & meconium accumulation",
+              "**100% newborn pre-pollution rate**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -9175,7 +10527,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 물질적 풍요가 인간의 생물학적 육체를 벼랑 끝으로 몰고 갔음을 보여주는 차가운 성적표입니다.\n**Dr. Elena Vance:** 우리는 이 독성 부채를 청산하지 않고는 단 한 걸음도 미래로 나아갈 수 없습니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 35. Nine empirical pillars. The hard physical evidence of the greatest toxic challenge facing human civilization. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the numbers: 0.5% of brain weight is plastic! 240,000 nanoplastics per liter of water! 100% placenta contamination! 98% of Americans with PFAS in their blood! 51% sperm collapse! 4.5x higher stroke risk in artery plaque! Everest and Arctic ice polluted! But on the other side: SCWO destroys 99.999% of PFAS in 30 seconds, and deep-tech remediation delivers a 32-to-1 economic return! *(Turn 2)*\n**Dr. Elena Vance:** The diagnosis is severe, but the engineering cure is fully proven and ready to scale. *(Turn 3)*\n**Prof. Peter Kim:** But why did civilization allow this chemical infiltration to happen in the first place? *(Turn 4)*\n**TA Marcus Brody:** What did chemical companies know, and when did they know it? What about the *Dark Waters* scandal? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the \"Invisible Plastic Prison\" on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Invisible Plastic Prison on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Toxicological & Remediation Global Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Infiltration / Remediation Domain",
+            "Verified Empirical Metric",
+            "Quantified Clinical / Ecological Impact"
+          ],
+          "rows": [
+            [
+              "**01. Brain Autopsies**",
+              "Cerebral Cortex",
+              "**$4,800\\mu\\text{g/g}$ (0.5% dry brain weight)**",
+              "$10\\times$ higher plastic in dementia brains"
+            ],
+            [
+              "**02. Bottled Water**",
+              "Ingestion Vector",
+              "**$240,000\\text{ particles/Liter (SRS)}$**",
+              "$>175\\text{M nanoplastics}$ ingested / person / yr"
+            ],
+            [
+              "**03. Placenta & Meconium**",
+              "Transgenerational",
+              "**$100\\%\\text{ contamination rate}$**",
+              "$10\\text{–}20\\times$ higher plastic in infant meconium"
+            ],
+            [
+              "**04. US CDC NHANES**",
+              "Circulatory Serum",
+              "**$>98\\%\\text{ of US population positive}$**",
+              "Serum PFAS linked to immune & cancer risks"
+            ],
+            [
+              "**05. Reproductive Crash**",
+              "Endocrine / Male Fertility",
+              "**$51.6\\%\\text{ drop in sperm counts (45 yrs)}$**",
+              "Declining $>2.64\\%/\\text{yr}$; sub-fertile by 2045"
+            ],
+            [
+              "**06. NEJM Artery Plaque**",
+              "Cardiovascular System",
+              "**$58.4\\%\\text{ plaque plastic prevalence}$**",
+              "**$4.53\\times \\text{ higher risk of heart attack & stroke}$**"
+            ],
+            [
+              "**07. Cryosphere Everest**",
+              "Planetary Extremes",
+              "**$8,440\\text{m snow & } 12\\text{k particles/L ice}$**",
+              "Zero unpolluted wilderness left on Earth"
+            ],
+            [
+              "**08. Battelle SCWO**",
+              "Industrial Remediation",
+              "**$>99.999\\%\\text{ PFAS destruction in } <30\\text{s}$**",
+              "Complete mineralization into harmless $\\text{F}^-$ salts"
+            ],
+            [
+              "**09. Macro Liability**",
+              "Global Economic Health",
+              "**$\\$16\\text{ Trillion annual liability drag}$**",
+              "$32:1\\text{ ROI}$ for deep-tech remediation CapEx"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -9755,7 +11171,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 경로가 도미노처럼 얽히며 현대인의 신체를 내부로부터 무너뜨리고 있습니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 인슐린 저항성의 수학 공식과 GLP-1의 약리학적 작동 원리를 파헤쳐 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 15. Five distinct physiological pathways through which ultra-processed caloric abundance dismantles human health. Marcus, walk us through the five rows! *(Turn 1)*\n**TA Marcus Brody:** Pathway 1: Glycemic spikes causing insulin resistance and Type 2 diabetes! Pathway 2: High-fructose corn syrup turning directly into toxic liver fat (MASLD)! Pathway 3: Leptin resistance blinding the brain's fullness sensor! Pathway 4: Food emulsifiers destroying gut lining, leaking bacterial toxins into the blood! And Pathway 5: The Bliss Point burning out dopamine receptors! *(Turn 2)*\n**Dr. Elena Vance:** Every row represents a verified molecular pathway published in *Cell Metabolism*, *Nature Medicine*, and *The Lancet*. *(Turn 3)*\n**Prof. Peter Kim:** This is a multi-front assault on human physiology. *(Turn 4)*\n**TA Marcus Brody:** But in Module 3, we master the biochemistry and the GLP-1 pharmacological counter-offensive to defeat it! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine Insulin Resistance and the HOMA-IR equation on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Systems Biochemistry! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s look at the biochemistry on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Pathway Metabolic Breakdown Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Metabolic Pathway",
+            "Primary Trigger Agent",
+            "Target Organ / Tissue",
+            "Core Pathological Mechanism",
+            "Clinical Disease Endpoint"
+          ],
+          "rows": [
+            [
+              "**1. Glycemic Hyperinsulinemia**",
+              "Refined Flours & Sucrose",
+              "Pancreatic $\\beta$-Cells & Muscle",
+              "GLUT4 receptor internalization & downregulation",
+              "**Type 2 Diabetes & Macrovascular Plaque**"
+            ],
+            [
+              "**2. Hepatic Lipogenesis**",
+              "High-Fructose Corn Syrup",
+              "Liver Hepatocytes",
+              "Bypass of PFK enzyme $\\to$ De Novo Lipogenesis",
+              "**MASLD / Fatty Liver & Cirrhosis**"
+            ],
+            [
+              "**3. Hypothalamic Leptin Block**",
+              "High Triglycerides & UPFs",
+              "Arcuate Nucleus (LepRb)",
+              "Blood-Brain Barrier transport inhibition",
+              "**Chronic Uncontrollable Hyperphagia**"
+            ],
+            [
+              "**4. Endotoxemic Gut Leak**",
+              "Industrial Emulsifiers & Polysorbates",
+              "Intestinal Epithelial Mucosa",
+              "Zonulin upregulation & tight junction lysis",
+              "**Systemic Chronic Low-Grade Inflammation**"
+            ],
+            [
+              "**5. Neuro-Dopaminergic Hijack**",
+              "Bliss Point (Sugar+Fat+Salt)",
+              "Nucleus Accumbens / Striatum",
+              "$D_2$ receptor downregulation & tolerance",
+              "**Compulsive Food Addiction & Binging**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -10222,7 +11684,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 우리가 먹는 음식이 우리의 생물학적 생존을 위협하는 지경에 이르렀음을 명백히 보여줍니다.\n**Dr. Elena Vance:** 이제 우리는 이 비극 이면에 도사린 철학적 질문과 사회적 역설을 마주해야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 35. Nine empirical pillars spanning the global epidemiology, pharmacology, wearable telemetry, and public policy of the metabolic crisis. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the reality: 1 Billion obese humans! 537 Million diabetics! $2.0 Trillion economic drag! 1 in 5 kids with fatty liver! 10% more UPF causes 12% more heart attacks! But on the solution side: GLP-1 drugs cut cardiac death by 20%, CGMs cut glucose spikes by 43%, 16:8 fasting cuts insulin by 40% for free, and sugar taxes remove 45 million kg of sugar! *(Turn 2)*\n**Dr. Elena Vance:** We have the full spectrum of solutions—from behavioral fasting, to wearable sensors, to peptide pharmacology, to public policy. *(Turn 3)*\n**Prof. Peter Kim:** But when a society becomes dependent on lifelong injections to stay thin, what new existential paradoxes arise? *(Turn 4)*\n**TA Marcus Brody:** Who gets access to $1,000/month GLP-1 pens? What about food deserts? What about Alzheimer’s as Type 3 Diabetes? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the Tragedy of the Thrifty Gene on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Tragedy of the Thrifty Gene! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Metabolic Health & Pharmacological Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Target Domain",
+            "Verified Empirical Metric",
+            "Quantified Health / Economic Impact"
+          ],
+          "rows": [
+            [
+              "**01. WHO Obesity Audit**",
+              "Global Population",
+              "**$1.038\\text{ Billion obese humans}$**",
+              "$1\\text{ in } 8$ adults; childhood obesity quadrupled"
+            ],
+            [
+              "**02. IDF Diabetes Atlas**",
+              "Diabesity Surge",
+              "**$537\\text{M (2021)} \\to 783\\text{M (2045)}$**",
+              "$44\\%\\text{ (240M)}$ undiagnosed & untreated"
+            ],
+            [
+              "**03. Macro Liability**",
+              "Economic Health Drag",
+              "**$\\$2.0\\text{T (2020)} \\to \\$4.32\\text{T (2035)}$**",
+              "Consumes $>12\\%$ of national healthcare budgets"
+            ],
+            [
+              "**04. Novo Nordisk GLP-1**",
+              "Pharmacological Reset",
+              "**Novo Cap (\\$570B) > Denmark GDP**",
+              "**$-20\\%\\text{ MACE cardiovascular deaths (SELECT)}$**"
+            ],
+            [
+              "**05. BMJ UPF Mortality**",
+              "Nutritional Epi",
+              "**$+10\\%\\text{ UPF} \\to +12\\%\\text{ CVD mortality}$**",
+              "$+21\\%$ all-cause death & $+48\\%$ anxiety risk"
+            ],
+            [
+              "**06. Pediatric MASLD**",
+              "Pediatric Liver",
+              "**$20\\%\\text{ (1 in 5 US children) MASLD}$**",
+              "Severe NASH fibrosis in 12-year-olds from HFCS"
+            ],
+            [
+              "**07. CGM AI Nutrition**",
+              "Continuous Telemetry",
+              "**$-43\\%\\text{ postprandial glucose spikes}$**",
+              "Normalizes HOMA-IR in 12 weeks via bio-data"
+            ],
+            [
+              "**08. 16:8 Fasting**",
+              "Cellular Autophagy",
+              "**$-40\\%\\text{ fasting insulin & } +30\\%\\text{ autophagy}$**",
+              "Zero-cost MASLD reversal and insulin reset"
+            ],
+            [
+              "**09. Sugar Levies**",
+              "Sovereign Policy",
+              "**$-15\\%\\text{ soda calorie intake nationwide}$**",
+              "45M kg sugar removed annually from UK diet"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -10797,7 +12323,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 엔진이 결합된 시스템이 바로 현대 인류의 뇌를 장악하고 있는 보이지 않는 매트릭스입니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 이 분노 전파의 수학적 수식 모델을 검증해 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, examine Slide 15 carefully. Five master engines of cognitive hijacking. Every major vulnerability in our evolutionary biology exploited by modern digital algorithms. Marcus, walk us through the five rows! *(Turn 1)*\n**TA Marcus Brody:** Engine 1: Negativity bias hijacked by clickbait doomscrolling! Engine 2: Confirmation bias locking us into filter bubbles! Engine 3: Intermittent reward turning our phones into slot machines! Engine 4: Tribal morality weaponized into Holy Terror! And Engine 5: The 120-bit bandwidth bottleneck collapsing deep work and flow! *(Turn 2)*\n**Dr. Elena Vance:** Every row in this matrix represents an intersection between millions of years of evolutionary neuroscience and billions of dollars of Big Tech algorithmic optimization. *(Turn 3)*\n**Prof. Peter Kim:** This is a systemic infiltration of human consciousness. *(Turn 4)*\n**TA Marcus Brody:** But in Module 3, we master the mathematical informatics and the neuro-defense protocols to break free! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the mathematical formulation of the Bias Cascade on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Mathematical Neuro-Informatics! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s look at the mathematics on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Engine Cognitive Hijacking Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Cognitive Engine",
+            "Evolutionary Origin",
+            "Modern Algorithmic Exploitation",
+            "Neurological Target",
+            "Societal / Individual Impact"
+          ],
+          "rows": [
+            [
+              "**1. Negativity Bias**",
+              "Predator evasion in Pleistocene",
+              "Clickbait outrage & doomscrolling",
+              "Fast Thalamo-Amygdala pathway",
+              "**Chronic anxiety & doom paralysis**"
+            ],
+            [
+              "**2. Confirmation Bias**",
+              "In-group tribal survival",
+              "Hermetically sealed filter bubbles",
+              "Reward anticipation in striatum",
+              "**Epistemic echo chambers & fact denial**"
+            ],
+            [
+              "**3. Intermittent Reward**",
+              "Foraging uncertainty",
+              "Pull-to-refresh & infinite scroll",
+              "Dopaminergic burst in nucleus accumbens",
+              "**Casino-like smartphone addiction**"
+            ],
+            [
+              "**4. Tribal Morality**",
+              "Defense against rival hominids",
+              "Partisan out-group shaming & dogpiling",
+              "Oxytocin + Ventromedial PFC",
+              "**Hyper-polarization & \"Holy Terror\"**"
+            ],
+            [
+              "**5. Bandwidth Bottleneck**",
+              "120-bit sensory working memory",
+              "Push notifications & 181ZB data flood",
+              "dlPFC working-memory saturation",
+              "**Destruction of flow states & deep focus**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -11269,7 +12841,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 인간의 영혼과 인지가 알고리즘의 노예로 전락했음을 보여주는 가장 아픈 기록입니다.\n**Dr. Elena Vance:** 이제 우리는 Phase 3를 매듭짓고, 이 3중 침투를 극복할 해답을 찾아야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 35. Nine empirical pillars. The definitive audited record of how algorithmic technology hijacked human consciousness, and how we can take it back. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the numbers: False news spreading 6x faster! Partisan hatred up 200%! Teen self-harm up 188%! 200 Million people trapped in QAnon! Attention spans down to 8 seconds! Real-world riots in DC and Myanmar! Facebook weighting anger 5x! But on the recovery side: A 7-day detox cuts cortisol by 40%, and a $30B Cognitive Security industry is building cryptographic truth! *(Turn 2)*\n**Dr. Elena Vance:** The diagnosis of epistemic collapse is severe, but our capacity for cognitive defense and biological reset is proven. *(Turn 3)*\n**Prof. Peter Kim:** But this brings us to the deepest philosophical paradoxes of our era. *(Turn 4)*\n**TA Marcus Brody:** What happens to democracy when nobody agrees on basic facts? Does free will even exist against a million GPUs? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the Death of the Democratic Agora on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Death of the Democratic Agora! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Cognitive Hijacking & Neuro-Sociological Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Target Cognitive Domain",
+            "Verified Empirical Metric",
+            "Quantified Societal / Neurological Impact"
+          ],
+          "rows": [
+            [
+              "**01. MIT False News**",
+              "Information Velocity",
+              "**False news spreads $6\\times \\text{ faster}$**",
+              "Reaches $20\\text{ hops}$ deep; driven 100% by humans"
+            ],
+            [
+              "**02. Polarization Index**",
+              "Democratic Health",
+              "**$+200\\%\\text{ surge in partisan animosity}$**",
+              "$>75\\%$ view opponents as evil; legislative freeze"
+            ],
+            [
+              "**03. Haidt Teen Crisis**",
+              "Adolescent Mental Health",
+              "**Depression $+145\\%$ & Self-harm $+188\\%$**",
+              "Direct post-2012 smartphone adoption inflection"
+            ],
+            [
+              "**04. QAnon Psychosis**",
+              "Mass Delusion",
+              "**$>200\\text{ Million adherents globally}$**",
+              "Clinical conspiratorial delusion without drugs"
+            ],
+            [
+              "**05. Attention Collapse**",
+              "Cognitive Processing",
+              "**$12\\text{s (2000)} \\to 8.25\\text{s (2026)}$**",
+              "Screen switch every 47s; 55% drop in book reading"
+            ],
+            [
+              "**06. Capitol / Myanmar**",
+              "Kinetic Offline Spillover",
+              "**Capitol stormed & UN Rohingya finding**",
+              "Cyber-outrage transmuting into physical violence"
+            ],
+            [
+              "**07. Frances Haugen Leak**",
+              "Algorithmic Incentive",
+              "**\"Angry 😡\" weighted $5\\times \\text{ over Likes}$**",
+              "Corporate profit prioritized over epistemic safety"
+            ],
+            [
+              "**08. Digital Detox Trial**",
+              "Biological Recovery",
+              "**$-40\\%\\text{ cortisol & } +28\\%\\text{ wellbeing}$**",
+              "Rapid 7-day neuroplastic recovery of $D_2$ receptors"
+            ],
+            [
+              "**09. CogSec Market**",
+              "Technological Defense",
+              "**$\\$30\\text{ Billion market by 2028 (C2PA)}$**",
+              "Cryptographic verification of digital truth in $<50\\text{ms}$"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -11853,7 +13489,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 인지 능력을 갖춘 사람을 우리는 '마인드 2.0 인간'이라 부릅니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 몰입의 신경화학 수식과 뇌파 물리학을 파헤쳐 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, behold Slide 15. The five pillars of the **Mind 2.0 Superhuman Cognitive Operating System**. Marcus, summarize the matrix! *(Turn 1)*\n**TA Marcus Brody:** Look at the pillars: Pillar 1: Ruthless Discernment saving 4 hours a day! Pillar 2: Exponential Mindsets delivering 10x moonshot leverage! Pillar 3: Transient Hypofrontality silencing your inner critic! Pillar 4: Lateral Synthesis boosting creativity by 430%! And Pillar 5: Neuro-chemical flow boosting productivity by 500%! *(Turn 2)*\n**Dr. Elena Vance:** Every row represents a validated neuro-biological architecture that transforms how human beings think, innovate, and lead. *(Turn 3)*\n**Prof. Peter Kim:** You are no longer constrained by the linear limitations of Mind 1.0. *(Turn 4)*\n**TA Marcus Brody:** And in Module 3, we master the exact neuro-chemistry, brain waves, and mathematical formulas to trigger this state on demand! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the 4-Stage Flow Cycle on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Neuro-Chemical Engineering! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Struggle $\\to$ Release $\\to$ Flow $\\to$ Recovery! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Pillar Mind 2.0 Cognitive Architecture Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Cognitive Pillar",
+            "Foundational Theory",
+            "Primary Neuro-Biological Mechanism",
+            "Peak Performance Dividend",
+            "Civilizational Superpower"
+          ],
+          "rows": [
+            [
+              "**1. Ruthless Discernment**",
+              "Signal-to-Noise Physics",
+              "Low-pass input noise filtration ($H(f)$)",
+              "**Saves $>4\\text{ hours/day}$ of working memory**",
+              "Immunity to digital outrage manipulation"
+            ],
+            [
+              "**2. Exponential Mindsets**",
+              "Diamandis 5 Mindsets",
+              "Frontal cortical reframing (Abundance/10x)",
+              "**$10\\times \\text{ moonshot strategic leverage}$**",
+              "Bold, non-linear visionary leadership"
+            ],
+            [
+              "**3. Transient Hypofrontality**",
+              "Dietrich / Kotler Flow",
+              "dlPFC & DMN deactivation",
+              "**Inner critic silenced & fear extinguished**",
+              "Absolute presence & hyper-execution"
+            ],
+            [
+              "**4. Lateral Synthesis**",
+              "De Bono Lateral Thinking",
+              "Cross-domain tensor pattern matching",
+              "**$+430\\%\\text{ creative problem-solving}$**",
+              "Breakthrough cross-industry invention"
+            ],
+            [
+              "**5. Neuro-Chemical Flow**",
+              "Ohsumi / Csikszentmihalyi",
+              "5-Neurotransmitter cascade (DA, NE, AEA)",
+              "**$+500\\%\\text{ executive productivity boost}$**",
+              "5 days of work completed in 1 day"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -12306,7 +13988,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 인간이 자신의 뇌를 '마인드 2.0'으로 업그레이드했을 때 도달할 수 있는 무한한 가능성을 증명합니다.\n**Dr. Elena Vance:** 이제 우리는 이 인지적 도약이 던지는 사회적·철학적 함의를 고찰해야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 35. Nine empirical pillars. The definitive audited record of how Mind 2.0 and flow transform human capability, creativity, and economic value. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the numbers: 500% executive productivity at McKinsey! 58% instant lateral insight at Sydney! 230% faster learning at DARPA! Over $100 Billion created at Google X! 22x higher polymathy in Nobel winners! 80% burnout drop across 500,000 workers! 4x higher startup success at Stanford! 22 engineered flow triggers at Red Bull! And a 300% salary premium in the global economy! *(Turn 2)*\n**Dr. Elena Vance:** The science of peak performance is validated across neuroscience, military training, Fortune 500 corporations, and global labor economics. *(Turn 3)*\n**Prof. Peter Kim:** But this brings us to the profound existential paradoxes of human consciousness. *(Turn 4)*\n**TA Marcus Brody:** When AI gives us all the answers, what does it mean to ask great questions? How do we unlearn industrial habits? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore Asking Great Questions on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s see the highest art of human consciousness! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Mind 2.0 & Flow-State Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Target Cognitive Domain",
+            "Verified Empirical Metric",
+            "Quantified Real-World Impact"
+          ],
+          "rows": [
+            [
+              "**01. McKinsey 10-Yr**",
+              "Executive Productivity",
+              "**$+500\\%\\text{ burst productivity}$**",
+              "$20\\%$ flow time doubles entire company output"
+            ],
+            [
+              "**02. Sydney tDCS**",
+              "Lateral Problem-Solving",
+              "**$58\\%\\text{ solved vs } 0\\%\\text{ control}$**",
+              "Proves lateral insight is an active switchable circuit"
+            ],
+            [
+              "**03. DARPA Sniper**",
+              "Skill Acquisition Speed",
+              "**Learning time cut by $-230\\%$**",
+              "Alpha/Theta ($7.8\\text{Hz}$) neuro-feedback acceleration"
+            ],
+            [
+              "**04. Google X (20%)**",
+              "Moonshot Value Creation",
+              "**$> \\$100\\text{ Billion in enterprise value}$**",
+              "Incubated Gmail, AdSense, Maps, and Waymo"
+            ],
+            [
+              "**05. Nature Polymath**",
+              "Scientific Breakthrough",
+              "**$22\\times \\text{ higher artistic polymathy}$**",
+              "Cross-domain metaphors drive Nobel discoveries"
+            ],
+            [
+              "**06. Flow Genome**",
+              "Psychological Resilience",
+              "**$-80\\%\\text{ burnout \\& } 3\\times \\text{ grit}$**",
+              "500,000-user global dataset across 130 nations"
+            ],
+            [
+              "**07. Stanford d.school**",
+              "Entrepreneurial Success",
+              "**$4\\times \\text{ higher venture survival}$**",
+              "Fearless rapid prototyping out-performs MBAs"
+            ],
+            [
+              "**08. Red Bull Lab**",
+              "Environmental Triggers",
+              "**Mapped 22 environmental triggers**",
+              "Forced flow on demand in high-stakes environments"
+            ],
+            [
+              "**09. WEF Labor Audit**",
+              "Economic Market Value",
+              "**$+300\\%\\text{ salary premium}$**",
+              "Lateral Mind 2.0 architects out-earning linear roles"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -12887,7 +14633,53 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 5대 스택이 차례로 쌓이며 인간의 뇌는 물리적 두개골의 감옥을 영구히 탈출하고 있습니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 스파이크 정렬과 무음성 디코딩의 물리학 수식을 검증해 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, behold Slide 15. The grand five-tier evolutionary matrix of the human mind. Marcus, summarize the progression across the tiers! *(Turn 1)*\n**TA Marcus Brody:** Look at the trajectory: Tier 1: Primate speech trapped at 50 bits/s! Tier 2: Consumer EEG headbands at 100 bits/s! Tier 3: Neuralink 1,024 electrodes at 50 kbps! Tier 4: Science Corp optogenetics at 10 Mbps! And Tier 5: The Planetary BrainNet operating at **over 1 Gigabit per second—unlocking the Noosphere and Scalable Compassion**! *(Turn 2)*\n**Dr. Elena Vance:** Every row represents a leap in bandwidth, spatial resolution, and the expansion of human empathy. *(Turn 3)*\n**Prof. Peter Kim:** We are climbing the ladder to cosmic consciousness. *(Turn 4)*\n**TA Marcus Brody:** And in Module 3, we master the spike sorting mathematics, Shannon formulas, and neuro-encryption to build this architecture! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the Neuralink N1 Spike Sorting Algorithms on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Neuro-Informatics! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s see the real-time neural decoding on Slide 16! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 5-Tier Cyborg Mind Evolution Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Evolutionary Tier",
+            "Primary Interface Technology",
+            "Channel Bandwidth & Resolution",
+            "Information Transfer Speed",
+            "Consciousness State & Societal Paradigm"
+          ],
+          "rows": [
+            [
+              "**Tier 1: Primate Biology**",
+              "Vocal Cords & Fingers",
+              "$1\\text{ channel (acoustic/tactile)}$",
+              "**$30\\text{ to } 50\\text{ bits/s}$**",
+              "Isolated biological ego; high miscommunication"
+            ],
+            [
+              "**Tier 2: Consumer EEG**",
+              "Scalp Electrodes (Muse)",
+              "$4\\text{ to } 8\\text{ channels (microvolts)}$",
+              "**$\\approx 100\\text{ bits/s}$**",
+              "Closed-loop stress reduction & focus coaching"
+            ],
+            [
+              "**Tier 3: Invasive Micro-Threads**",
+              "Neuralink N1 (1,024 electrodes)",
+              "$1,024\\text{ channels (single neurons)}$",
+              "**$10\\text{ to } 50\\text{ kbps}$**",
+              "Direct thought control of computers & robotics"
+            ],
+            [
+              "**Tier 4: Photonic Bio-Hybrids**",
+              "Science Corp (Optogenetics)",
+              "$>16,000\\text{ optical pixels}$",
+              "**$1\\text{ to } 10\\text{ Mbps}$**",
+              "High-definition sensory restoration & visual streaming"
+            ],
+            [
+              "**Tier 5: Planetary BrainNet**",
+              "Neocortical Cloud Coupling",
+              "$>1,000,000\\text{ virtual channels}$",
+              "**$>1\\text{ Gbps (Gigabit Telepathy)}$**",
+              "**The Noosphere: Scalable Compassion & Super-Mind**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -13349,7 +15141,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 인간과 기계의 융합이 더 이상 SF 소설이 아니라 현실의 헌법과 병원에서 작동하고 있음을 증명합니다.\n**Dr. Elena Vance:** 이제 우리는 이 초연결 의식이 초래할 철학적 파맥을 짚어보아야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 35. Nine empirical pillars. The definitive audited record of how the Cyborg Mind and Brain-Computer Interfaces are transforming medicine, computing, and human connection. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the milestones: Meta typing 150 words per minute silently! Noland Arbaugh playing chess at 8.0 BPS with Neuralink! 3-person telepathic Tetris at UW! 70% stress reduction across 1 million Muse users! 70,000 conscious states mapped at Mindstate! Stentrode controlling Apple Vision Pro! Reconstructing movies from brain scans at 85% accuracy at Berkeley! A $40 Billion market by 2030! And Chile passing constitutional Neuro-Rights! *(Turn 2)*\n**Dr. Elena Vance:** The neurotech singularity is no longer theoretical; it is clinically functioning in human patients and scaling globally. *(Turn 3)*\n**Prof. Peter Kim:** But this brings us to the deepest existential paradoxes of human identity and privacy. *(Turn 4)*\n**TA Marcus Brody:** Where does my mind end and the AI cloud begin? What happens to privacy when computers can read thoughts? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore the Dissolution of Ego Boundaries on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine Where Does My Mind End and the AI Begin! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Cyborg Mind & Neuro-Interface Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Target Neuro-Technology",
+            "Verified Empirical Metric",
+            "Quantified Real-World Impact"
+          ],
+          "rows": [
+            [
+              "**01. Meta Silent Speech**",
+              "Non-Invasive EMG",
+              "**$>75\\%\\text{ accuracy @ } 150\\text{ WPM}$**",
+              "Hands-free, voice-free telepathic typing"
+            ],
+            [
+              "**02. Neuralink Human**",
+              "Invasive Micro-Threads",
+              "**$8.0\\text{ bits/s cursor control}$**",
+              "Quadriplegic plays 8h chess/Civ VI via thought"
+            ],
+            [
+              "**03. UW BrainNet**",
+              "Brain-to-Brain Interface",
+              "**$81.25\\%\\text{ 3-person task accuracy}$**",
+              "Multi-person direct telepathic Tetris collaboration"
+            ],
+            [
+              "**04. Muse EEG Data**",
+              "Consumer Closed-Loop",
+              "**$-70\\%\\text{ chronic stress reduction}$**",
+              "1-million-user global dataset; 10x mindfulness speed"
+            ],
+            [
+              "**05. Mindstate Atlas**",
+              "Molecular Neuro-AI",
+              "**$70,000\\text{ conscious states mapped}$**",
+              "Precision non-hallucinogenic psychiatric reboot"
+            ],
+            [
+              "**06. Synchron Vision Pro**",
+              "Endovascular Stentrode",
+              "**$100\\%\\text{ wireless thought control}$**",
+              "Paralyzed patients navigate Apple spatial computing"
+            ],
+            [
+              "**07. UC Berkeley fMRI**",
+              "Generative Visual Decoding",
+              "**$85\\%\\text{ semantic video accuracy}$**",
+              "Reconstructing thoughts, dreams & memories to video"
+            ],
+            [
+              "**08. Neurotech Market**",
+              "Macroeconomic Scaling",
+              "**$\\$40\\text{ Billion projected by 2030}$**",
+              "CAGR $+16.5\\%$; $>\\$6.5\\text{B}$ venture capital influx"
+            ],
+            [
+              "**09. Chile Neuro-Rights**",
+              "Constitutional Law",
+              "**World-first Article 19 amendment**",
+              "Legal protection of mental privacy & brain data"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -13936,7 +15792,46 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 우리는 지금 인류 문명의 시계가 Phase C를 지나 Phase D로 진입하고 있는 것은 아닌지 냉정하게 자문해야 합니다.\n**TA Marcus Brody:** 이제 3번째 모듈로 넘어가서 이 멸종의 수학적 모델과 뇌 신경회로 이론을 검증해 보시죠!",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 15. The master four-phase architecture of **Universe 25**. Marcus, summarize the four rows! *(Turn 1)*\n**TA Marcus Brody:** Look at the four phases: Phase A: Establishing territories! Phase B: 55-day population doublings! Phase C: Role saturation, random violence, and maternal abandonment! And Phase D: \"The Beautiful Ones,\" total asexuality, birth rates dropping to ZERO, and 100% extinction on Day 1780! *(Turn 2)*\n**Dr. Elena Vance:** Every row represents a validated ethological warning showing how infinite material abundance without challenge inevitably collapses into social suicide. *(Turn 3)*\n**Prof. Peter Kim:** This is the biological cliff humanity must actively navigate. *(Turn 4)*\n**TA Marcus Brody:** And in Module 3, we master the systems ethology, SEEKING circuits, and mathematical equations to engineer our escape! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the Population Dynamics Model on Slide 16! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 3: Exponential Frameworks & Systems Ethology! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 16! *(Turn 8)*\n**Dr. Elena Vance:** Let’s see the mathematical collapse equations! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 16. *(Turn 10)*",
         "title": "The Grand 4-Phase Collapse Architecture Matrix of Universe 25",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Phase & Timeline",
+            "Population Count",
+            "Primary Social & Behavioral Characteristics",
+            "Neurological / Biological Drivers",
+            "Civilizational Lesson for Humanity"
+          ],
+          "rows": [
+            [
+              "**Phase A: Day 0–104**",
+              "$8 \\to 20\\text{ mice}$",
+              "Territory establishment; healthy mating; active exploration",
+              "Normal Pleistocene SEEKING & exploration circuits",
+              "Active purpose and exploration drive health"
+            ],
+            [
+              "**Phase B: Day 104–315**",
+              "$20 \\to 620\\text{ mice}$",
+              "Exponential 55-day doublings; thriving social roles",
+              "High anticipatory dopamine; maternal nurturing",
+              "Abundance accelerates growth when purpose exists"
+            ],
+            [
+              "**Phase C: Day 315–560**",
+              "$620 \\to 2,200\\text{ mice}$",
+              "Role saturation; outcast catatonic males; violent tail biting",
+              "Lack of social function; maternal pup abandonment",
+              "**Unearned comfort breeds factional psychopathy**"
+            ],
+            [
+              "**Phase D: Day 560–1780**",
+              "$2,200 \\to 0\\text{ (Extinct)}$",
+              "\"The Beautiful Ones\"; asexuality; 0 births; total extinction",
+              "**The First Death: Mesolimbic dopamine shutdown**",
+              "**Without a moonshot challenge, civilizations die**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 16,
@@ -14408,7 +16303,71 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이 종합 매트릭스는 완벽한 풍요가 인류에게 던지는 마지막 실존적 경고장을 보여줍니다.\n**Dr. Elena Vance:** 우리는 이 멸종의 함정을 피하기 위한 문명적 출항 계획을 세워야 합니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 35. Nine empirical pillars. The definitive audited record of how effortless comfort threatens human civilization, and how heroic purpose restores vitality. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the numbers: South Korea’s 0.72 birth rate! 10 Million global Hikikomori! GPS shrinking the hippocampus by 15%! UBI cash leading to 18% more gaming drift! Gen Z romance down 40%! AI homework dropping critical logic by 35%! But on the solution side: Astronaut eustress keeping brains young, and a $50 Billion Purpose Economy proving humanity craves heroic challenge! *(Turn 2)*\n**Dr. Elena Vance:** The diagnosis of the Paradise Paradox is undeniable, but the remedy of purpose and constructive friction is proven. *(Turn 3)*\n**Prof. Peter Kim:** But this brings us to the deepest existential paradoxes of our entire course. *(Turn 4)*\n**TA Marcus Brody:** Does the soul self-destruct without obstacles? What is the secret of the Star Trek civilization? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Paradoxes & The \"So What?\" Layer. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore Does the Soul Self-Destruct Without Obstacles on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine The Paradox of Scarcity on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Paradoxes & The \"So What?\" Layer! *(Turn 10)*",
         "title": "Grand Paradise Paradox & Anthropological Verification Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Case Study",
+            "Target Social / Biological Domain",
+            "Verified Empirical Metric",
+            "Quantified Real-World Impact"
+          ],
+          "rows": [
+            [
+              "**01. Korea Fertility**",
+              "Demographic Reproduction",
+              "**$\\text{TFR } = 0.72\\text{ (Seoul: } 0.55\\text{)}$**",
+              "$87\\%$ population collapse across two generations"
+            ],
+            [
+              "**02. Global Hikikomori**",
+              "Social Engagement",
+              "**$>10\\text{ Million isolated individuals}$**",
+              "Complete withdrawal into rooms; modern \"Beautiful Ones\""
+            ],
+            [
+              "**03. London Taxi / GPS**",
+              "Brain Anatomy / Plasticity",
+              "**$-15\\%\\text{ hippocampal volume shrinkage}$**",
+              "Unassisted mental effort expands brain grey matter $+15\\%$"
+            ],
+            [
+              "**04. UBI Pilots**",
+              "Economic Leisure Behavior",
+              "**$+18\\%\\text{ gaming / existential drift}$**",
+              "Unearned money without purpose breeds apathy"
+            ],
+            [
+              "**05. Gen Z Intimacy**",
+              "Biological Courtship",
+              "**$>63\\%\\text{ single; sex down } -40\\%$**",
+              "Courtship replaced by AI chatbots & screens"
+            ],
+            [
+              "**06. AI Homework**",
+              "Cognitive Synthesis",
+              "**$-35\\%\\text{ first-principles logic drop}$**",
+              "Cognitive offloading paralyzes critical thinking"
+            ],
+            [
+              "**07. Polar / Astronaut**",
+              "Biological Vitality",
+              "**High BDNF & zero behavioral sinking**",
+              "\"Eustress\" and heroic missions protect the brain"
+            ],
+            [
+              "**08. VR Metaverse**",
+              "Somatosensory Attachment",
+              "**$>90\\%\\text{ physical community severance}$**",
+              "Dissociative derealization & retreat into digital cage"
+            ],
+            [
+              "**09. Purpose Economy**",
+              "Macroeconomic Meaning",
+              "**$\\$50\\text{ Billion market by 2028}$**",
+              "CAGR $+22\\%$; high demand for voluntary struggle"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
@@ -14949,7 +16908,46 @@ export const sessionsList = [
         "scriptKo": "**TA Marcus Brody:** 정부 과제는 서류 쓰느라 반년 다 보내고 실패하면 감사원 조사받지만, XPRIZE는 차고에 박힌 20살 괴짜가 프로토타입만 성공시키면 1초 만에 1조 원을 꽂아줍니다!",
         "scriptEn": "**TA Marcus Brody:** Look at the head-to-head comparison on Slide 13! This is **Bureaucratic Government R&D Paralysis versus Private Exponential Moonshots**! Elena, summarize the key contrasts! *(Turn 1)*\n**Dr. Elena Vance:** Look at row 1: Government grants pay 100% upfront for effort, even if the project fails completely. The XPRIZE model **pays ONLY when the target is 100% achieved and independently verified**! *(Turn 2)*\n**TA Marcus Brody:** Look at row 5: Government grants have zero capital leverage ($1:1). An XPRIZE purse produces **10x to 50x in private capital leverage**! And look at row 3: Instead of a closed club of tenured professors, an open prize invites thousands of hungry young engineers from all around the world! *(Turn 3)*\n**Prof. Peter Kim:** Speed, capital efficiency, risk tolerance, and open democratization. The incentive prize model wins on every single metric. *(Turn 4)*\n**TA Marcus Brody:** It is the fastest vehicle for human progress ever built! *(Turn 5)*\n**Dr. Elena Vance:** And it is the ultimate vaccine against Universe 25 on Slide 14. *(Turn 6)*\n**Prof. Peter Kim:** Let’s examine The Ultimate Vaccine on Slide 14. *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 14: Planetary-Scale Giga-XPRIZEs! *(Turn 8)*\n**Dr. Elena Vance:** Let’s see how moonshots cure existential boredom on Slide 14! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 14. *(Turn 10)*",
         "title": "Bureaucratic Government R&D Paralysis vs. Private Exponential Moonshots",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Dimension",
+            "Bureaucratic Government Grant Model (NIH / DOE)",
+            "Private Exponential Moonshot / XPRIZE Model"
+          ],
+          "rows": [
+            [
+              "**Capital Disbursement**",
+              "Pays 100% upfront regardless of success or failure",
+              "**Pays ONLY upon 100% verified target completion**"
+            ],
+            [
+              "**Risk Tolerance**",
+              "Zero-risk; rejects unconventional or radical proposals",
+              "**Encourages high-risk, radical, paradigm-shifting bets**"
+            ],
+            [
+              "**Participant Base**",
+              "Closed network of elite university incumbents",
+              "**Open to global garage mavericks, startups & students**"
+            ],
+            [
+              "**Speed / Agility**",
+              "$5\\text{–}10\\text{ years}$ of peer-review grant cycles",
+              "**Rapid 2–5 year high-velocity milestone sprints**"
+            ],
+            [
+              "**Capital Efficiency**",
+              "$1 : 1\\text{ (Zero capital leverage)}$",
+              "**$1 : 10\\text{ to }1 : 50\\text{ private capital multiplier}$**"
+            ],
+            [
+              "**Outcome Ownership**",
+              "Buried in academic journals; slow commercialization",
+              "**Rapid venture spin-outs & instant global scaling**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 14,
@@ -15214,7 +17212,59 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 이것이 바로 인류 문명을 다음 1,000년으로 이끌 '1,000억 달러 기가 엑스프라이즈 마스터 아키텍처'입니다.\n**TA Marcus Brody:** 이제 수강생 6개 팀의 피 튀기는 최종 발표를 시작하겠습니다!",
         "scriptEn": "**Prof. Peter Kim:** Cohorts, look at Slide 25. This is our master balance sheet: **The $100 Billion Giga-XPRIZE Capital Allocation Blueprint**. Marcus, summarize the six allocations! *(Turn 1)*\n**TA Marcus Brody:** Look at the table: Team 1 receives a $15B purse for the Superconducting Grid! Team 2 receives a $20B purse for 50-Year Biological Age Reversal! Team 3 receives $15B for Direct Air Carbon Mineralization! Team 4 receives $15B for the BCI Telepathic Mesh! Team 5 receives $20B for the 10,000-Person Mars Settlement! And Team 6 receives $15B for the SCWO PFAS Eradication Grid! *(Turn 2)*\n**Dr. Elena Vance:** Exactly $100 Billion deployed across six transformative pillars, unlocking over $100 Trillion in civilizational wealth by 2036! *(Turn 3)*\n**Prof. Peter Kim:** And now, the moment has arrived. The six student teams will take the stage to defend their proposals before our venture jury. *(Turn 4)*\n**TA Marcus Brody:** Get ready for Module 4! Six teams, six moonshots! *(Turn 5)*\n**Dr. Elena Vance:** Let’s examine the Capstone Defense Rubric on Slide 26! *(Turn 6)*\n**Prof. Peter Kim:** Proceed to Module 4: Student Cohort $100B Giga-XPRIZE Presentations & Defense! *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 26! *(Turn 8)*\n**Dr. Elena Vance:** Let the capstone defense begin on Slide 26! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Slide 26. *(Turn 10)*",
         "title": "The $100 Billion Giga-XPRIZE Master Architectural Blueprint",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Purse Allocation",
+            "Grand Challenge Domain",
+            "Target Milestone Metric",
+            "Target Completion Timeline"
+          ],
+          "rows": [
+            [
+              "**$\\$15.0\\text{ Billion Purse}$**",
+              "**Team 1: Superconducting Clean Grid**",
+              "$0\\text{ resistance @ } 298\\text{K, } 1\\text{ atm; } 100\\text{km}$ line",
+              "$2026\\text{–}2031\\text{ (5 Years)}$"
+            ],
+            [
+              "**$\\$20.0\\text{ Billion Purse}$**",
+              "**Team 2: 50-Year Biological Age Reversal**",
+              "Rejuvenate human biomarkers $80 \\to 30\\text{ yrs}$",
+              "$2026\\text{–}2033\\text{ (7 Years)}$"
+            ],
+            [
+              "**$\\$15.0\\text{ Billion Purse}$**",
+              "**Team 3: Direct Air Carbon Mineralization**",
+              "$1\\text{ Gigaton/yr sequestration @ } <\\$30/\\text{ton}$",
+              "$2026\\text{–}2031\\text{ (5 Years)}$"
+            ],
+            [
+              "**$\\$15.0\\text{ Billion Purse}$**",
+              "**Team 4: Ultra-Secure BCI Telepathic Mesh**",
+              "$10\\text{ Mbps multi-user telepathy with ZKP}$",
+              "$2026\\text{–}2030\\text{ (4 Years)}$"
+            ],
+            [
+              "**$\\$20.0\\text{ Billion Purse}$**",
+              "**Team 5: 10,000-Person Mars Settlement**",
+              "$100\\%\\text{ closed-loop life support on Mars}$",
+              "$2026\\text{–}2036\\text{ (10 Years)}$"
+            ],
+            [
+              "**$\\$15.0\\text{ Billion Purse}$**",
+              "**Team 6: SCWO PFAS & Nanoplastic Grid**",
+              "$100\\%\\text{ destruction of PFAS @ } <\\$0.01/\\text{m}^3$",
+              "$2026\\text{–}2029\\text{ (3 Years)}$"
+            ],
+            [
+              "**$\\$100.0\\text{ Billion TOTAL}$**",
+              "**6 Planetary Moonshot Teams**",
+              "**$\\mathcal{I}_{\\text{ROI}} \\ge 100\\times \\implies \\$100\\text{ Trillion Wealth}$**",
+              "**$2026\\text{–}2036\\text{ Decade}$**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 26,
@@ -15390,7 +17440,67 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 모든 팀이 90점을 훌쩍 넘는 압도적인 제1원리 공학 기획서를 제시했습니다. 전 세계 어느 벤처캐피털에 내놓아도 즉시 수천억 원의 투자가 쏟아질 명작들입니다.",
         "scriptEn": "**Prof. Peter Kim:** Cohorts, look at Slide 33. The audited scoring ledger from our faculty and venture jury. All six teams scored above 95 out of 100! Marcus, summarize the results! *(Turn 1)*\n**TA Marcus Brody:** Look at the composite scores: Team 1 scores 96 for Superconductors! Team 2 scores 98 and wins the **Highest ROI Award** for 50-Year Age Reversal! Team 3 scores 97 for Carbon Mineralization! Team 4 scores 96 and wins the **Ethical Shield Prize** for BCI Neuro-Privacy! Team 5 scores 99 and takes the **Grand Capstone Laureate** for Mars Biosphere 3.0! And Team 6 scores 97 for PFAS Eradication! *(Turn 2)*\n**Dr. Elena Vance:** Every proposal demonstrated impeccable technical feasibility, robust incentive design, and profound ethical stewardship. *(Turn 3)*\n**Prof. Peter Kim:** An extraordinary showcase of theurgic systems engineering. *(Turn 4)*\n**TA Marcus Brody:** And we examine the comparative capital leverage on Slide 34! *(Turn 5)*\n**Dr. Elena Vance:** Let’s see the capital multiplier analysis on Slide 34! *(Turn 6)*\n**Prof. Peter Kim:** Let’s examine Comparative Leverage on Slide 34. *(Turn 7)*\n**TA Marcus Brody:** Turn to Slide 34! *(Turn 8)*\n**Prof. Peter Kim:** Proceed to Slide 34. *(Turn 10)*",
         "title": "Faculty & Venture Jury Real-Time Scoring & Investment Ledger",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Team & Moonshot Domain",
+            "Audacity & Feasibility (25p)",
+            "Incentive Leverage (25p)",
+            "Auditing & Governance (25p)",
+            "Civilizational ROI (25p)",
+            "Total Composite Score"
+          ],
+          "rows": [
+            [
+              "**Team 1: Superconducting Grid**",
+              "24 / 25",
+              "24 / 25",
+              "24 / 25",
+              "24 / 25",
+              "**96 / 100 (Unanimous Pass)**"
+            ],
+            [
+              "**Team 2: 50-Yr Age Reversal**",
+              "25 / 25",
+              "24 / 25",
+              "24 / 25",
+              "25 / 25",
+              "**98 / 100 (Highest ROI Award)**"
+            ],
+            [
+              "**Team 3: Carbon Mineralization**",
+              "24 / 25",
+              "24 / 25",
+              "25 / 25",
+              "24 / 25",
+              "**97 / 100 (Unanimous Pass)**"
+            ],
+            [
+              "**Team 4: BCI Telepathy Mesh**",
+              "23 / 25",
+              "24 / 25",
+              "25 / 25",
+              "24 / 25",
+              "**96 / 100 (Ethical Shield Prize)**"
+            ],
+            [
+              "**Team 5: Mars Settlement**",
+              "25 / 25",
+              "25 / 25",
+              "24 / 25",
+              "25 / 25",
+              "**99 / 100 (Grand Capstone Laureate)**"
+            ],
+            [
+              "**Team 6: SCWO PFAS Grid**",
+              "24 / 25",
+              "24 / 25",
+              "24 / 25",
+              "25 / 25",
+              "**97 / 100 (Unanimous Pass)**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 34,
@@ -15431,7 +17541,67 @@ export const sessionsList = [
         "scriptKo": "**Prof. Peter Kim:** 총 1,000억 달러의 상금이 민간에서 **3조 4,500억 달러(약 4,600조 원)**의 R&D 투자를 유도합니다. 이것이 문명을 바꾸는 지렛대입니다.",
         "scriptEn": "**Prof. Peter Kim:** Scholars, look at Slide 35. The grand capital allocation matrix of EXPO-701. $100 Billion allocated across six extraordinary moonshots. Marcus, summarize the scoreboard! *(Turn 1)*\n**TA Marcus Brody:** Look at the master ledger: $15B for Superconductors! $20B for 50-Year Age Reversal! $15B for Carbon Mineralization! $15B for BCI Telepathy! $20B for the Mars Settlement! And $15B for the SCWO PFAS Grid! Over $100 Trillion in permanent civilizational wealth unlocked! *(Turn 2)*\n**Dr. Elena Vance:** The technical defenses are complete, the capital is disbursed, and the future is underway. *(Turn 3)*\n**Prof. Peter Kim:** But as we reach the summit of our technological power, we must pause to rediscover what makes us human. *(Turn 4)*\n**TA Marcus Brody:** What is the secret of Analog Warmth? What does it mean to sing shoulder-to-shoulder? *(Turn 5)*\n**Dr. Elena Vance:** That brings us to Module 5: Existential Synthesis, Analog Warmth & The Theurgicon Charter. *(Turn 6)*\n**Prof. Peter Kim:** Let us explore Authentic Humanism on Slide 36. *(Turn 7)*\n**TA Marcus Brody:** Turn to Module 5 on Slide 36! *(Turn 8)*\n**Dr. Elena Vance:** Let’s examine Discovering Authentic Humanism on Slide 36! *(Turn 9)*\n**Prof. Peter Kim:** Proceed to Module 5: Existential Synthesis, Analog Warmth & The Theurgicon Charter! *(Turn 10)*",
         "title": "Grand 6-Team Giga-XPRIZE Evaluation & Capital Allocation Matrix",
-        "mermaidEn": null
+        "mermaidEn": null,
+        "table": {
+          "headers": [
+            "Team Name & Moonshot Title",
+            "Purse Allocated",
+            "Target Milestone Deadline",
+            "Audited Jury Score",
+            "Civilizational Wealth Created"
+          ],
+          "rows": [
+            [
+              "**Team 1: Superconducting Grid**",
+              "**$\\$15.0\\text{B Purse}$**",
+              "$2026\\text{–}2031\\text{ (5 Years)}$",
+              "**$96 / 100$**",
+              "$\\$15\\text{ Trillion}$ (Lossless Energy)"
+            ],
+            [
+              "**Team 2: 50-Yr Age Reversal**",
+              "**$\\$20.0\\text{B Purse}$**",
+              "$2026\\text{–}2033\\text{ (7 Years)}$",
+              "**$98 / 100$**",
+              "$\\$50\\text{ Trillion}$ (Longevity Dividend)"
+            ],
+            [
+              "**Team 3: Carbon Mineralization**",
+              "**$\\$15.0\\text{B Purse}$**",
+              "$2026\\text{–}2031\\text{ (5 Years)}$",
+              "**$97 / 100$**",
+              "$\\$10\\text{ Trillion}$ (Climate Security)"
+            ],
+            [
+              "**Team 4: BCI Telepathy Mesh**",
+              "**$\\$15.0\\text{B Purse}$**",
+              "$2026\\text{–}2030\\text{ (4 Years)}$",
+              "**$96 / 100$**",
+              "$\\$10\\text{ Trillion}$ (Noosphere Empathy)"
+            ],
+            [
+              "**Team 5: Mars Settlement**",
+              "**$\\$20.0\\text{B Purse}$**",
+              "$2026\\text{–}2036\\text{ (10 Years)}$",
+              "**$99 / 100$**",
+              "$\\infty\\text{ (Extinction Immunity)}$"
+            ],
+            [
+              "**Team 6: SCWO PFAS Grid**",
+              "**$\\$15.0\\text{B Purse}$**",
+              "$2026\\text{–}2029\\text{ (3 Years)}$",
+              "**$97 / 100$**",
+              "$\\$15\\text{ Trillion}$ (Biosphere Health)"
+            ],
+            [
+              "**GRAND TOTALS**",
+              "**$\\$100.0\\text{B ALLOCATED}$**",
+              "**$2026\\text{–}2036\\text{ DECADE}$**",
+              "**$97.2 / 100\\text{ AVG}$**",
+              "**$>\\$100\\text{ TRILLION TOTAL WEALTH}$**"
+            ]
+          ]
+        }
       },
       {
         "slideNumber": 36,
